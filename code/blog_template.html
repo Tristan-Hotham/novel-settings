@@ -1,0 +1,122 @@
+<!-- wp:paragraph -->
+<p><em>Wikidata records the real places where {{source.novels|int}} novels are set. I put every one of them on a map. Fiction loves three cities, rarely travels far from home, and leaves most of the world almost unwritten. And in one small country, a few volunteers have mapped literature down to the street.</em></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://maps.tristanhotham.com/novel-settings/">Explore the interactive map</a></div>
+<!-- /wp:button -->
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://doi.org/10.5281/zenodo.23872997">Read the paper</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:paragraph -->
+<p>Every novel happens somewhere. Dickens has his London, Balzac his Paris, Raymond Chandler his Los Angeles. Wikidata, the free database that sits behind Wikipedia, records these places with a property called narrative location, and because each place has coordinates, the settings of literature can be drawn on a map. I downloaded every literary work in Wikidata with at least one real setting: {{source.works|int}} works, {{source.novels|int}} of them novels, set in {{source.places|int}} distinct places in {{n_countries|int}} countries.</p>
+<!-- /wp:paragraph -->
+
+{{IMG|b_map.png|World map of the settings of {{source.novels|int}} novels, drawn as red circles sized by the number of novels. The largest circles are London ({{spot.London.n|int}}), New York ({{spot.New York City.n|int}}) and Paris ({{spot.Paris.n|int}}), with smaller ones in Los Angeles, San Francisco and Pittsburgh. Europe is a dense cluster, shown enlarged in an inset. Asia, Africa and South America have only scattered small circles: Tokyo {{spot.Tokyo.n|int}}, Buenos Aires {{spot.Buenos Aires.n|int}}, Cairo {{spot.Cairo.n|int}}, Mumbai {{spot.Mumbai.n|int}}, Lagos {{spot.Lagos.n|int}}|Where {{source.novels|int}} novels in Wikidata are set. Circle area shows the number of novels; rings are wider areas such as states and islands.}}
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Three cities</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Three cities tower over the rest. {{spot.London.n|int}} novels are set at least partly in London, {{spot.New York City.n|int}} in New York and {{spot.Paris.n|int}} in Paris; between them they appear in {{city_top3_pct|int}}% of all the novels on the map. Count plays, short stories and poems too, and Paris takes first place with {{spot.Paris.all|int}} works. Then comes a long drop to Los Angeles ({{spot.Los Angeles.n|int}}), San Francisco ({{spot.San Francisco.n|int}}), Rome ({{spot.Rome.n|int}}) and Madrid ({{spot.Madrid.n|int}}).</p>
+<!-- /wp:paragraph -->
+
+{{IMG|b_cities.png|Bar chart of the twenty city areas with the most novels: London {{spot.London.n|int}}, New York City {{spot.New York City.n|int}}, Paris {{spot.Paris.n|int}}, Los Angeles {{spot.Los Angeles.n|int}}, San Francisco {{spot.San Francisco.n|int}}, Rome {{spot.Rome.n|int}}, Madrid {{spot.Madrid.n|int}}, Pittsburgh {{spot.Pittsburgh.n|int}}, Chicago {{spot.Chicago.n|int}} and Boston {{spot.Boston.n|int}}, with outlines showing all literary works, largest for Paris at {{spot.Paris.all|int}}|The cities with the most novels set in them (bars) and all literary works (outlines).}}
+
+<!-- wp:paragraph -->
+<p>Prolific writers shape the list. Benito Pérez Galdós accounts for {{author_facts.Benito Pérez Galdós.top_city_n|int}} of Madrid's novels, Rex Stout's Nero Wolfe for {{author_facts.Rex Stout.top_city_n|int}} of New York's and Georges Simenon's Maigret for {{author_facts.Georges Simenon.top_city_n|int}} of Paris's. And then there is Pittsburgh, eighth in the world with {{spot.Pittsburgh.n|int}} novels, ahead of Chicago. Pittsburgh is not the literary capital of America; its novels are simply unusually well catalogued. Mumbai, a city of about {{spot.Mumbai.pop_m|int}} million people, has {{spot.Mumbai.n|int}}.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Paris, then London, then New York</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The three have taken turns at the top. Among novels first published between 1830 and 1849, the age of Balzac and Hugo, {{trio20.0.Paris_pct|int}}% of those with a mapped place are set in Paris. London had caught up by 1900 and led between the wars. From 1950 to 1989 New York led, with {{trio20.6.New York_pct|int}}% of the novels published in the 1950s and 1960s. Since 1990 London has been back in front, while Paris has slipped to about {{trio20.8.Paris_pct|int}}%.</p>
+<!-- /wp:paragraph -->
+
+{{IMG|b_trio.png|Line chart of the share of novels set in London, Paris and New York by twenty-year period of publication. Paris starts at {{trio20.0.Paris_pct|int}}% in 1830 to 1849 and falls to about {{trio20.8.Paris_pct|int}}% after 1990. London rises to lead from 1910 to 1949 and again after 1990. New York rises from near zero in the nineteenth century to lead from 1950 to 1989, peaking at {{trio20.6.New York_pct|int}}%|Share of novels with a mapped place that are set in each city, by period of first publication.}}
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Write what you know</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>For {{home.n|int}} novels Wikidata knows where an author was born and the country of a setting. {{home.home_pct|int}}% are set entirely in the country where their author was born. Measured from the author's birthplace to each mapped place, the median distance is just {{home.median_km|int}} km, and a quarter of all settings lie within 50 km of where the author was born.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The great travellers stand out. Ngaio Marsh, born in Christchurch, New Zealand, set {{author_facts.Ngaio Marsh.top_country_n|int}} of her {{author_facts.Ngaio Marsh.novels|int}} mapped detective novels in Britain: {{farthest.0.title|raw}}, set in {{farthest.0.place|raw}}, is {{farthest.0.km|int}} km from her birthplace, the longest journey on the map. P. L. Travers, born in Australia, set all {{author_facts.P L Travers.novels|int}} of her Mary Poppins books in London. Birthplace is not nationality, though: writers born in what is now Ukraine top the list of those who set their books abroad ({{home_country.UKR.abroad_pct|int}}%), because Joseph Roth, Irène Némirovsky and Giorgio Scerbanenco were born there and wrote about Austria, France and Italy.</p>
+<!-- /wp:paragraph -->
+
+{{IMG|b_home.png|Two charts. Left, a histogram of the distance from authors' birthplaces to the settings of their novels on a log scale, with a median of {{home.median_km|int}} km and peaks at under a few km and at a few hundred km. Right, bars of the share of novels set at least partly abroad by author's country of birth, from Ukraine {{home_country.UKR.abroad_pct|int}}% and Belgium {{home_country.BEL.abroad_pct|int}}% at the top to the United States {{home_country.USA.abroad_pct|int}}% and Italy {{home_country.ITA.abroad_pct|int}}% near the bottom|How far from home novels are set (left), and who goes abroad, by the author's country of birth (right).}}
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Crime in Paris, science fiction in San Francisco</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Crime and mystery is the biggest genre with real settings, {{genres.Crime and mystery.n|int}} novels, and its capital is Paris ({{crime_top.0.1|int}}, many of them Maigret's), ahead of London ({{crime_top.1.1|int}}) and New York ({{crime_top.2.1|int}}). Science fiction that uses real places goes mostly to New York and London, but it is {{genres.Science fiction.lift.0.2|f1}} times as likely as the average novel to be set in San Francisco. Fantasy belongs to London. And {{offworld.moon_works|int}} works in Wikidata are set at least partly on the Moon.</p>
+<!-- /wp:paragraph -->
+
+{{IMG|b_genres.png|Six small bar charts of the favourite cities of each genre. Crime and mystery: Paris {{genres.Crime and mystery.cities.0.1|int}}, London {{genres.Crime and mystery.cities.1.1|int}}, New York {{genres.Crime and mystery.cities.2.1|int}}. Science fiction: New York {{genres.Science fiction.cities.0.1|int}}, London {{genres.Science fiction.cities.1.1|int}}, San Francisco {{genres.Science fiction.cities.2.1|int}}. Fantasy: London {{genres.Fantasy.cities.0.1|int}}. Historical, horror, and children's and young adult fiction are also led by London, Paris or New York|The favourite cities of each genre.}}
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">The unwritten world</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>{{continents.Europe.novels_pct|int}}% of the mapped novels are set at least partly in Europe, home to {{continents.Europe.pop_pct|int}}% of the world's people, and {{continents.North America.novels_pct|int}}% in North America. Asia, with {{continents.Asia.pop_pct|int}}% of humanity, has {{continents.Asia.novels_pct|int}}%; Africa, with {{continents.Africa.pop_pct|int}}%, has {{continents.Africa.novels_pct|int}}%. China has {{country.CHN.n|int}} mapped novels and India {{country.IND.n|int}}; the United Kingdom has {{country.GBR.n|int}}. That says less about where fiction is written than about what has been catalogued, in English, by Wikidata's mostly European and North American volunteers.</p>
+<!-- /wp:paragraph -->
+
+{{IMG|b_conts.png|Paired bar chart for six continents comparing the share of novels set there with the share of world population. Europe {{continents.Europe.novels_pct|int}}% of novels against {{continents.Europe.pop_pct|int}}% of people; North America {{continents.North America.novels_pct|int}}% against {{continents.North America.pop_pct|int}}%; Asia {{continents.Asia.novels_pct|int}}% against {{continents.Asia.pop_pct|int}}%; Africa {{continents.Africa.novels_pct|int}}% against {{continents.Africa.pop_pct|int}}%|Where novels are set, against where people live.}}
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Why Denmark glows</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Zoom into the map and Denmark lights up. It has {{bias.DNK.places|int}} distinct setting places, {{bias.DNK.places_pct|int}}% of every place in the data and more than the United States, despite having {{bias.DNK.pop_pct|f2}}% of the world's people. China and India together have {{bias.dnk_vs.chn_ind_places|int}}. Works in Danish list an average of {{bias_lang.6.per_work|f1}} settings each, down to individual Copenhagen streets, against {{bias_lang.0.per_work|f1}} for works in English; one Danish novel lists {{danish.top_work_places|int}}. Serbia is a second case, with {{bias.SRB.places|int}} places, mostly from Serbian works published before 1930. These are the work of dedicated volunteers adding the settings of their national literatures, and they are a reminder that a map like this measures the attention of the people who build the database as much as literature itself.</p>
+<!-- /wp:paragraph -->
+
+{{IMG|b_bias.png|Bar chart of distinct setting places by country for all literary works. Denmark leads with {{bias.DNK.places|int}} places and {{bias.DNK.pop_pct|f2}}% of world population, ahead of the United States with {{bias.USA.places|int}} places and {{bias.USA.pop_pct|f2}}%, then Germany, France, Italy, the United Kingdom and Spain. Serbia, eighth with {{bias.SRB.places|int}} places, is highlighted with Denmark|Distinct setting places in each country, with its share of world population.}}
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">How I did this</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>I queried Wikidata with QLever for every literary work with a narrative location that has coordinates, then added each work's genre, form, language, authors and their birthplaces, and each place's type and country. A novel is anything Wikidata gives the form novel or novella, or that belongs to a class with "novel" in its name, except the tales of the Decameron and the Odyssey. Places are grouped into cities, sites, wider areas and whole countries by their Wikidata classes, and every place within 25 km of a big city counts for that city. Home means the present-day country of the author's birthplace. All of it describes what Wikidata records, not all of literature, and the paper sets out the caveats.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://maps.tristanhotham.com/novel-settings/">Explore the interactive map</a></div>
+<!-- /wp:button -->
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://doi.org/10.5281/zenodo.23872997">Read the paper</a></div>
+<!-- /wp:button -->
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://github.com/Tristan-Hotham/novel-settings">Data and code</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Notes and sources</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li><a href="https://www.wikidata.org/">Wikidata</a>, CC0: narrative locations, coordinates, authors, birthplaces, publication dates, genres and forms of literary works, queried with QLever in 2026.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><a href="https://www.naturalearthdata.com/">Natural Earth</a> country outlines, populations and populated places (public domain).</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>I wrote the text, with drafting and editing assistance from Claude (Anthropic), which also helped prepare the analysis code. I reviewed and checked all text and results.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->

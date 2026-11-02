@@ -1,0 +1,2788 @@
+kind,name,lon,lat,novels,works
+city,Paris,2.331,48.869,422,877
+city,New York City,-73.982,40.752,510,813
+city,London,-0.119,51.502,549,786
+area,California,-120.0,37.0,215,252
+city,Madrid,-3.685,40.402,104,240
+city,Rome,12.481,41.898,126,212
+city,Los Angeles,-118.182,33.992,140,179
+city,San Francisco,-122.417,37.769,136,173
+area,New York,-75.0,43.0,140,151
+city,Copenhagen,12.562,55.681,33,108
+city,Pittsburgh,-80.002,40.432,98,103
+city,Naples,14.243,40.842,49,94
+area,Florida,-81.632,28.133,83,91
+city,Chicago,-87.752,41.832,65,85
+city,Venice,12.335,45.439,44,81
+city,Berlin,13.4,52.524,45,81
+city,Boston,-71.072,42.332,60,80
+city,Milan,9.203,45.472,50,76
+area,Great Britain,-2.417,53.833,41,66
+city,Vienna,16.365,48.202,37,64
+city,Florence,11.25,43.78,19,62
+city,Istanbul,29.008,41.107,25,57
+area,New Jersey,-74.5,40.0,48,55
+city,Athens,23.731,37.985,12,53
+city,Moscow,37.614,55.754,22,50
+city,Dublin,-6.251,53.335,34,50
+area,Sussex,-0.141,50.947,48,50
+area,Yorkshire,-1.083,53.958,47,48
+city,Saint Petersburg,30.314,59.941,22,44
+city,Buenos Aires,-58.399,-34.601,28,43
+city,Belgrade,20.466,44.821,25,43
+city,Tokyo,139.749,35.687,24,43
+city,Toulouse,1.448,43.622,39,42
+city,Barcelona,2.181,41.385,35,41
+city,Jerusalem,35.207,31.778,13,40
+area,Texas,-100.0,31.0,31,40
+area,Q23148,-4.9,50.3,30,37
+city,Lyon,4.828,45.772,13,34
+area,Sicily,14.017,37.6,17,33
+city,Hong Kong,114.159,22.278,18,31
+area,Kent,0.73,51.19,26,31
+area,Alaska,-150.0,64.0,9,30
+city,New Orleans,-90.042,29.997,12,30
+city,Amsterdam,4.915,52.352,20,30
+city,Turin,7.668,45.072,28,29
+city,Edinburgh,-3.219,55.948,24,28
+city,Seville,-5.98,37.405,16,27
+area,Devon,-3.8,50.7,26,27
+city,Baghdad,44.392,33.341,1,27
+area,Kantō region,139.783,36.167,0,26
+city,Prague,14.464,50.085,14,26
+area,Massachusetts,-71.8,42.3,19,25
+city,Seattle,-122.342,47.572,19,25
+city,Detroit,-83.037,42.315,22,25
+area,Colorado,-105.5,39.0,5,24
+city,"Washington, D.C.",-77.011,38.901,14,24
+city,Bologna,11.34,44.5,11,24
+city,Marseille,5.373,43.292,6,24
+city,Brussels,4.331,50.835,5,23
+city,Toronto,-79.422,43.702,15,23
+area,Wisconsin,-89.5,44.5,15,22
+city,Hamburg,9.998,53.552,12,22
+city,Appalachian Mountains,-79.0,38.0,17,20
+city,Munich,11.573,48.132,13,20
+city,Cairo,31.248,30.052,12,20
+city,Reading,-0.98,51.47,19,19
+city,Seoul,126.998,37.568,6,19
+city,Baltimore,-76.622,39.302,16,19
+city,Mexico City,-99.133,19.444,14,18
+city,Lisbon,-9.147,38.725,10,18
+city,Toledo,-4.033,39.867,7,18
+city,Aachen,6.084,50.776,1,18
+city,Oslo,10.748,59.919,11,17
+city,San Sebastián,-1.98,43.32,10,17
+city,Cambridge,0.122,52.208,16,17
+city,Brighton,-0.17,50.83,14,17
+area,Essex,0.583,51.75,15,16
+city,Helsinki,24.932,60.178,11,16
+area,Sardinia,9.0,40.0,13,16
+city,Palermo,13.348,38.127,13,16
+city,Sankt Andreasberg,10.518,51.711,0,15
+city,Warsaw,20.998,52.252,7,15
+area,Maine,-69.0,45.5,10,15
+area,Pennsylvania,-77.5,41.0,7,15
+city,Belfast,-5.96,54.6,12,15
+city,Liverpool,-2.92,53.418,13,15
+city,Alexandria,29.948,31.202,4,15
+city,Kyoto,135.748,35.032,3,14
+city,Cologne,6.948,50.932,10,14
+area,Provence,6.0,44.0,10,14
+city,Stockholm,18.095,59.353,7,14
+city,Lima,-77.052,-12.046,9,14
+city,Genoa,8.93,44.41,3,14
+city,Troy,26.239,39.958,3,14
+area,North Carolina,-80.0,35.5,14,14
+area,Arizona,-111.657,34.287,7,13
+area,Tuscany,11.2,43.45,7,13
+city,Santiago,-70.669,-33.448,6,13
+area,New England,-70.306,44.206,9,13
+area,Amazon rainforest,-60.03,-3.16,0,13
+city,Miami,-80.226,25.79,9,13
+city,Thebes,23.317,38.324,0,13
+city,Zurich,8.548,47.382,8,13
+city,Beijing,116.386,39.931,7,13
+city,Bari,16.873,41.114,13,13
+city,Strasbourg,7.75,48.58,0,13
+city,Oxford,-1.258,51.752,8,12
+area,Santander Department,-73.45,6.667,1,12
+city,Algiers,3.049,36.765,3,12
+city,Shrewsbury,-2.754,52.708,6,12
+city,Cape Town,18.433,-33.918,4,12
+city,Guayaquil,-79.922,-2.218,11,12
+area,Normandy,-0.437,49.122,1,12
+area,Kansas,-98.0,38.5,8,12
+city,Montreal,-73.585,45.502,5,11
+city,Bristol,-2.583,51.45,9,11
+city,St. Louis,-90.242,38.637,8,11
+city,Northampton,-72.58,42.12,0,11
+area,Quebec,-72.0,52.0,5,11
+city,Jakarta,106.827,-6.172,8,11
+area,South Dakota,-100.0,44.5,9,11
+city,Cádiz,-6.225,36.535,5,11
+area,Britannia,-0.59,52.33,8,10
+area,Ireland,-7.921,53.351,4,10
+area,Yukon,-135.053,60.721,2,10
+area,Basque Country,-1.936,42.883,2,10
+area,Siberia,105.0,60.0,6,10
+area,Nebraska,-100.0,41.5,9,10
+city,Galicia,-7.9,42.8,7,10
+city,Pyrenees,0.6,42.7,1,10
+city,Quito,-78.502,-0.213,9,10
+city,Bilbao,-2.93,43.25,4,10
+area,Washington,-120.5,47.5,4,10
+city,Cleveland,-81.697,41.472,8,10
+city,Dunav (Gjlian),21.559,42.274,3,10
+area,Flanders,4.5,51.0,2,9
+city,Pest,19.081,47.502,3,9
+city,Gran Canaria,-15.43,28.1,8,9
+city,Shanghai,121.435,31.218,4,9
+city,Kolkata,88.33,22.58,7,9
+city,Manchester,-2.25,53.502,5,9
+city,Niš,21.9,43.33,8,9
+city,Kamakura,139.602,35.431,2,9
+area,Michigan,-85.58,44.34,4,9
+city,Sydney,151.183,-33.918,4,9
+area,Tennessee,-86.0,36.0,9,9
+city,Tel Aviv,34.768,32.082,4,9
+city,Rio de Janeiro,-43.227,-22.923,7,9
+area,Kosovo,21.0,42.5,7,9
+city,Siena,11.331,43.318,1,8
+city,Delhi,77.228,28.672,3,8
+city,Havana,-82.366,23.134,8,8
+city,Santiago de Compostela,-8.533,42.883,4,8
+city,Singapore,103.8,1.3,3,8
+city,Carthage,10.18,36.803,2,8
+city,Lausanne,6.65,46.53,3,8
+city,Valencia,-0.402,39.487,4,8
+city,Giridih,86.311,24.181,0,8
+city,Dresden,13.75,51.05,2,8
+city,Ferrara,11.617,44.839,4,8
+area,Veneto,11.85,45.733,7,8
+area,Friuli Venezia Giulia,13.117,46.1,4,8
+area,Kerala,76.3,10.0,0,8
+area,Ohio,-82.5,40.5,5,8
+city,Zagreb,16.0,45.8,3,8
+area,Antioquia,-75.567,6.683,2,8
+area,Caldas Department,-75.35,5.283,0,8
+area,Cambridgeshire,0.0,52.35,7,8
+area,Montana,-110.0,47.0,3,8
+area,New Mexico,-106.0,34.0,6,8
+area,Illinois,-89.25,40.0,4,8
+city,São Paulo,-46.627,-23.557,5,8
+area,Prince Edward Island,-63.2,46.4,2,8
+area,Connecticut,-72.7,41.6,7,8
+city,Atlanta,-84.402,33.832,6,8
+city,Sheffield,-1.5,53.367,5,7
+city,Dubrovnik,18.108,42.64,4,7
+area,Normandy,-0.35,49.183,1,7
+city,Santa Barbara,-119.714,34.426,7,7
+city,Auschwitz,19.178,50.036,2,7
+city,Witten,7.45,51.53,2,7
+city,Rhodes,27.92,36.17,0,7
+city,Birmingham,-1.922,52.477,6,7
+city,Reykjavík,-21.935,64.147,5,7
+area,Alabama,-86.7,32.7,4,7
+area,Mississippi,-90.0,33.0,5,7
+area,Mississippi River,-89.251,29.154,1,7
+city,Philadelphia,-75.172,40.002,4,7
+area,Tibet,91.1,29.65,0,7
+city,Mumbai,72.855,19.019,4,7
+city,Frankfurt,8.675,50.1,1,7
+area,West Berlin,13.28,52.5,6,7
+area,Oklahoma,-98.0,35.5,4,7
+area,Louisiana,-92.0,31.0,0,7
+city,Boulder,-105.293,40.019,7,7
+area,New Hampshire,-71.5,44.0,7,7
+city,Kruševac,21.327,43.583,6,7
+city,Hiroshima,132.441,34.39,0,7
+city,Himalayas,84.0,29.0,3,7
+city,Tehran,51.422,35.674,3,7
+city,Damascus,36.298,33.502,1,7
+city,Leipzig,12.41,51.335,2,7
+city,Osaka,135.458,34.752,1,7
+city,Heidelberg,8.7,49.42,4,7
+city,Sremski Karlovci,19.933,45.2,6,7
+area,Bohemia,14.333,49.833,3,7
+area,Klondike,-139.375,64.052,1,7
+city,Thebes,32.65,25.7,1,6
+area,South Carolina,-81.0,34.0,5,6
+city,Vranje,21.897,42.554,2,6
+city,Monaco,7.42,43.731,3,6
+city,Rochester,0.72,51.55,3,6
+city,Corinth,22.927,37.939,1,6
+city,Houston,-95.342,29.822,5,6
+city,Granada,-3.585,37.165,1,6
+city,Padua,11.873,45.408,1,6
+area,Vermont,-72.7,44.0,4,6
+area,Cyprus,33.0,35.0,0,6
+city,Bonn,7.08,50.72,5,6
+city,Bordeaux,-0.597,44.852,1,6
+city,Kraków,19.958,50.062,4,6
+city,Verona,10.99,45.44,1,6
+area,Missouri,-92.5,38.5,5,6
+city,Nice,7.263,43.717,2,6
+city,Kragujevac,20.917,44.01,4,6
+city,Minneapolis,-93.254,44.982,4,6
+city,Thessaloniki,22.883,40.698,4,6
+area,Crete,24.893,35.31,2,6
+city,Tangier,-5.833,35.747,4,6
+area,Bahia,-41.69,-12.52,5,6
+city,Salvador,-38.482,-12.968,5,6
+city,Sarajevo,18.383,43.85,3,6
+city,Leeds,-1.582,53.832,3,6
+area,Ontario,-85.0,50.0,3,6
+area,Northern Italy,10.5,45.5,2,6
+area,Brittany,-3.0,48.0,1,6
+area,Southern United States,-89.5,33.9,3,6
+city,Henrietta,-81.045,38.908,6,6
+area,Bačka,19.333,46.0,4,6
+area,Lombardy,9.95,45.65,3,6
+city,Lagos,3.39,6.445,3,6
+area,Galapagos Islands,-90.55,-0.667,5,6
+city,Harz,10.633,51.75,0,5
+city,Burgos,-3.7,42.341,0,5
+city,Memphis,31.19,30.01,1,5
+city,Calais,1.856,50.947,1,5
+city,Glasgow,-4.253,55.876,4,5
+city,Las Vegas,-115.222,36.212,4,5
+city,Grenoble,5.72,45.18,2,5
+city,Marina di Cecina,10.494,43.3,5,5
+city,Montevideo,-56.173,-34.856,2,5
+city,Kyiv,30.515,50.435,1,5
+city,Monterey,-121.895,36.6,4,5
+city,Mogadishu,45.365,2.069,5,5
+city,Bucaramanga,-73.128,7.132,0,5
+area,Hispaniola,-71.0,19.0,0,5
+city,Brescia,10.22,45.539,5,5
+area,Dorset,-2.333,50.833,3,5
+area,Long Island,-73.233,40.789,3,5
+city,Düsseldorf,6.78,51.22,3,5
+city,Volterra,10.867,43.4,5,5
+area,Nevada,-117.0,39.0,4,5
+city,Bern,7.467,46.917,3,5
+city,Lierna,9.08,45.81,3,5
+area,Wyoming,-107.5,43.0,2,5
+city,Vatican City,12.453,41.904,2,5
+city,Catania,15.08,37.5,5,5
+city,Avignon,4.808,43.949,2,5
+city,Coventry,-1.5,52.42,3,5
+city,Denver,-104.986,39.741,5,5
+city,Šabac,19.694,44.756,2,5
+area,Bavaria,11.386,49.079,1,5
+city,Beirut,35.508,33.874,3,5
+city,Syracuse,15.287,37.069,0,5
+city,Q518663,10.9,47.817,5,5
+city,The Hague,4.27,52.08,0,5
+city,Whitby,-0.621,54.486,5,5
+city,Wrocław,17.03,51.11,5,5
+area,Alsace,7.5,48.5,2,5
+city,Trieste,13.77,45.65,3,5
+area,Istria,13.9,45.2,3,5
+area,Lake Como,9.267,46.0,3,5
+city,Ourense,-7.864,42.336,5,5
+city,Antwerp,4.413,51.222,2,5
+area,Iowa,-93.0,42.0,4,5
+area,Minnesota,-94.0,46.0,4,5
+city,Bogotá,-74.085,4.598,3,5
+city,Pamplona,-1.65,42.82,2,5
+city,Cartagena,-0.984,37.602,5,5
+city,Prizren,20.74,42.23,5,5
+area,Puebla,-97.888,19.004,0,5
+city,Pyongyang,125.753,39.021,2,5
+city,Bangkok,100.515,13.752,3,5
+city,Vancouver,-123.124,49.275,4,5
+city,Edirne,26.574,41.673,5,5
+area,Corsica,9.083,42.15,0,5
+city,Salamanca,-5.664,40.965,3,5
+city,Weimar,11.329,50.981,2,5
+area,Virginia,-79.0,37.5,4,5
+area,Sahara,12.612,23.08,4,5
+area,Connecticut River,-71.2,45.238,0,4
+city,Aalborg,9.917,57.05,3,4
+city,Husum,9.051,54.477,1,4
+area,South Australia,135.0,-30.0,1,4
+city,Colombo,79.861,6.927,2,4
+city,Córdoba,-4.77,37.88,2,4
+city,Dallas,-96.842,32.822,4,4
+area,Transylvania,23.583,46.767,4,4
+area,Okinawa Prefecture,127.681,26.212,0,4
+city,Hangzhou,120.168,30.252,0,4
+area,Nantucket,-70.091,41.277,3,4
+city,Exeter,-3.527,50.726,3,4
+area,West Indies,-79.033,21.983,1,4
+city,Geneva,6.14,46.21,2,4
+area,Hawaii,-158.0,21.5,3,4
+city,Odesa,30.708,46.492,0,4
+area,South Tyrol,11.333,46.5,3,4
+city,Providence,-71.417,41.823,1,4
+city,Quebec City,-71.246,46.84,3,4
+city,Ravenna,12.202,44.416,3,4
+area,Maryland,-76.7,39.0,2,4
+city,Salzburg,13.045,47.8,2,4
+city,San Diego,-117.182,32.822,3,4
+area,Abruzzo,13.833,42.217,2,4
+area,North Dakota,-100.5,47.5,3,4
+city,Skagen,10.588,57.722,1,4
+city,Skopje,21.433,42.0,2,4
+city,Babylon,44.422,32.472,1,4
+area,Burgundy,4.5,47.0,2,4
+area,Judaea,34.9,32.5,2,4
+city,Čačak,20.35,43.891,2,4
+city,Zaragoza,-0.89,41.65,2,4
+city,York,-1.083,53.95,4,4
+city,Mainz,8.25,50.08,0,4
+city,Tours,0.688,47.393,1,4
+city,Vitoria-Gasteiz,-2.673,42.847,3,4
+city,Užice,19.85,43.85,3,4
+city,Vilnius,25.317,54.683,2,4
+city,Viborg,9.4,56.45,1,4
+city,Valjevo,19.887,44.271,1,4
+city,Valladolid,-4.75,41.65,2,4
+city,Sofia,23.315,42.685,1,4
+area,Western Australia,121.0,-26.0,0,4
+city,Kansas City,-94.606,39.109,3,4
+city,Kushinagar,83.889,26.74,0,4
+city,Kuusamo,29.183,65.967,4,4
+area,Arabian Peninsula,46.0,23.0,1,4
+area,Province of North Carolina,-83.0,35.75,4,4
+area,Bedfordshire,-0.417,52.083,4,4
+area,South Italy,15.895,40.81,1,4
+area,Isle of Arran,-5.238,55.578,0,4
+area,Nova Scotia,-63.0,45.0,0,4
+area,Manitoba,-97.0,55.0,3,4
+area,Caucasus,44.5,42.75,1,4
+city,Novi Sad,19.832,45.264,3,4
+city,Mannheim,8.47,49.5,0,4
+area,Lanzarote,-13.635,29.035,4,4
+city,Melbourne,144.973,-37.818,3,4
+area,Galicia,24.014,49.83,1,4
+area,Tibet Autonomous Region,86.94,31.706,0,4
+area,Jægersborg Dyrehave,12.568,55.784,1,4
+area,Banat,20.9,45.7,3,4
+city,Münster,7.62,51.97,0,4
+city,Nantes,-1.59,47.21,2,4
+city,New Haven,-72.9,41.33,4,4
+area,Kentucky,-85.0,37.5,2,4
+city,Newcastle upon Tyne,-1.602,55.002,3,4
+city,Norfolk,0.95,52.672,3,4
+city,Manizales,-75.52,5.06,0,4
+city,Alcalá de Henares,-3.364,40.482,3,4
+city,Busan,129.008,35.097,3,4
+city,Bratislava,17.117,48.15,2,4
+city,Carpathians,25.5,47.0,4,4
+area,Mallorca,2.983,39.617,3,4
+city,Cardiff,-3.225,51.5,2,4
+area,Oregon,-120.575,43.936,4,4
+city,Berkeley,-122.271,37.874,2,4
+city,Amiens,2.298,49.892,1,4
+city,Nuremberg,11.08,49.45,1,3
+city,Jelgava,23.724,56.652,2,3
+city,Montpellier,3.87,43.61,1,3
+city,Pistoia,10.917,43.933,1,3
+city,Oban,-5.473,56.41,0,3
+area,Funen,10.356,55.35,2,3
+city,Pisa,10.4,43.717,2,3
+city,Rouen,1.08,49.43,0,3
+city,Wetzlar,8.5,50.567,0,3
+city,Cartagena,-75.516,10.402,2,3
+area,Alberta,-115.0,54.5,1,3
+city,Pirot,22.585,43.152,3,3
+area,Lake Orta,8.396,45.81,2,3
+area,Germania,11.1,50.9,0,3
+area,Volga,47.898,45.695,0,3
+city,Odense,10.383,55.4,2,3
+area,Lemnos,25.25,39.917,0,3
+city,Semarang,110.418,-6.965,2,3
+area,Danube,29.743,45.222,2,3
+area,Donbas,37.8,48.0,2,3
+area,Tahiti,-149.467,-17.667,0,3
+area,Northwest Territories,-121.0,67.0,3,3
+city,Barèges,0.065,42.897,0,3
+area,La Alcarria,-2.873,40.307,1,3
+city,Catskill Mountains,-74.25,42.25,1,3
+area,Arkansas,-92.2,34.8,2,3
+area,Amazon basin,-60.0,-3.0,1,3
+area,Romagna,12.125,44.177,3,3
+city,Linz,14.289,48.319,0,3
+city,Kagoshima,130.561,31.586,1,3
+city,Dijon,5.042,47.323,2,3
+area,East Texas,-94.917,31.867,3,3
+area,Province of Ferrara,11.633,44.845,3,3
+city,Barbados,-59.553,13.17,0,3
+city,Suffolk,1.0,52.2,1,3
+area,Sichuan,103.0,30.0,0,3
+area,British Columbia,-124.5,54.5,2,3
+city,Johannesburg,28.028,-26.168,0,3
+city,Piura,-80.63,-5.21,0,3
+city,Mostar,17.808,43.344,1,3
+city,Bagnères-de-Luchon,0.594,42.791,1,3
+city,Jersey,-2.11,49.19,0,3
+area,Nubia,32.256,18.951,0,3
+city,Surabaya,112.749,-7.247,2,3
+city,Orléans,1.904,47.902,1,3
+city,Volgograd,44.498,48.712,2,3
+area,Skiathos,23.457,39.169,1,3
+city,Memphis,-90.002,35.122,1,3
+city,Pavia,9.155,45.185,0,3
+city,Girona,2.817,41.983,2,3
+city,Helsingør,12.611,56.036,2,3
+area,Borneo,114.0,-1.0,0,3
+city,Pau,-0.37,43.301,1,3
+city,Cannes,7.021,43.553,2,3
+city,Erfurt,11.029,50.978,2,3
+area,French Guiana,-53.0,4.0,0,3
+city,Hanover,9.717,52.367,1,3
+area,Sicily,14.267,37.567,0,3
+area,Lyngby Lake,12.483,55.774,2,3
+area,Emilia-Romagna,11.0,44.75,3,3
+city,Green Gables,-63.385,46.492,0,3
+city,Sevastopol,33.465,44.6,0,3
+area,Newfoundland,-56.125,48.542,1,3
+area,La Mancha,-3.015,39.401,2,3
+city,Saumur,-0.078,47.259,2,3
+city,Baden-Baden,8.241,48.762,2,3
+city,Loreley,7.729,50.139,1,3
+city,Sparta,22.431,37.074,1,3
+city,Farsø,9.34,56.772,0,3
+city,Aunsbjerg,9.416,56.321,0,3
+city,Palm Springs,-116.533,33.777,0,3
+city,Ilhéus,-39.049,-14.789,1,3
+area,Cuba,-79.0,22.0,1,3
+area,Piedmont,7.917,45.25,2,3
+area,Bali,115.0,-8.5,1,3
+city,Milwaukee,-87.922,43.055,2,3
+city,Messina,15.55,38.2,1,3
+city,Albany,-73.82,42.67,1,3
+city,Beverly,-70.883,42.522,0,3
+city,Zrenjanin,20.386,45.378,2,3
+city,Lyme Regis,-2.935,50.725,2,3
+city,Eatonville,-81.382,28.512,2,3
+area,Nile,32.505,15.64,1,3
+city,Lönneberga,15.722,57.55,0,3
+city,Smederevo,20.929,44.663,2,3
+city,Peja,20.288,42.659,2,3
+area,Istanbul Province,28.976,41.012,3,3
+area,Dalmatia,16.219,43.813,1,3
+area,Naxos Island,25.467,37.083,0,3
+city,Kobe,135.17,34.68,1,3
+city,Leskovac,21.946,42.998,1,3
+area,Southwestern United States,-111.2,37.0,2,3
+area,Calabria,16.5,39.0,1,3
+city,Chongqing,106.593,29.567,1,3
+city,Tbilisi,44.789,41.727,0,3
+area,Rhineland,6.861,50.277,1,3
+city,Cincinnati,-84.509,39.084,3,3
+city,Buffalo,-78.882,42.882,1,3
+area,Georgia,-83.5,33.0,3,3
+city,Château du Nideck,7.283,48.58,0,3
+city,Cottingley,-1.75,53.8,1,3
+city,Aarhus,10.21,56.156,2,3
+city,Alps,8.615,46.578,0,3
+area,Languedoc,3.167,43.667,0,3
+city,Cévennes,3.739,44.426,0,3
+city,Le Havre,0.108,49.494,2,3
+city,Compiègne,2.822,49.414,0,3
+area,Indiana,-86.217,39.933,3,3
+area,Patagonia,-68.906,-41.81,3,3
+city,Nagasaki,129.885,32.765,0,3
+area,Srem District,19.617,44.983,2,3
+area,Assam,93.0,26.0,3,3
+city,Pyatigorsk,43.05,44.033,2,3
+city,Kuala Lumpur,101.698,3.169,0,3
+area,Neris,23.872,54.9,0,3
+area,Arabian Desert,42.368,18.267,0,3
+area,Fanø,8.41,55.414,0,3
+area,Auvergne,3.3,45.7,1,3
+city,Charleston,-79.992,32.792,2,3
+area,Dartmoor,-4.0,50.567,1,3
+city,Concord,-71.538,43.207,3,3
+city,University of Oxford,-1.255,51.755,1,3
+area,Goa,74.043,15.402,0,3
+city,Alençon,0.092,48.43,2,3
+city,Rennes,-1.681,48.114,0,3
+city,Kawasaki,139.705,35.53,2,3
+city,La Rochelle,-1.151,46.159,2,3
+city,Pointe-Noire,11.88,-4.77,3,3
+area,Campania,14.95,40.75,3,3
+area,Himmerland,9.8,56.85,1,3
+city,Trabzon,39.72,40.98,0,3
+city,Antioch,36.15,36.2,0,3
+city,Davos,9.84,46.809,2,3
+city,Pristina,21.166,42.667,3,3
+city,Newark,-74.17,40.7,3,3
+city,Pécs,18.233,46.071,2,2
+city,Brisbane,153.033,-27.453,1,2
+city,Potsdam,13.059,52.401,0,2
+area,East Indies,103.0,1.0,0,2
+city,Lviv,24.03,49.835,1,2
+area,Romandy,6.15,46.2,0,2
+area,Idaho,-114.0,45.0,1,2
+city,Macau,113.538,22.19,0,2
+area,Yoshiwara,139.796,35.724,1,2
+city,Mapleton,-80.667,43.75,2,2
+city,Lübeck,10.686,53.87,2,2
+city,British Hong Kong,114.183,22.307,1,2
+city,Hilo,-155.086,19.706,2,2
+area,Sumatra,101.271,-0.299,2,2
+area,Upper Austria,14.0,48.2,2,2
+city,Brno,16.61,49.2,1,2
+city,Palmyra,38.267,34.56,0,2
+city,San Antonio,-98.509,29.489,0,2
+area,Maremma,11.478,42.416,2,2
+area,Amager,12.617,55.617,1,2
+city,Zamora,-5.756,41.503,1,2
+area,Hebrides,-7.0,58.0,2,2
+city,Perpignan,2.895,42.697,1,2
+city,Ho Chi Minh City,106.693,10.782,2,2
+area,Karelian Isthmus,29.9,60.5,2,2
+city,Canary Islands,-15.75,28.0,0,2
+city,Bukittinggi,100.361,-0.303,1,2
+area,Southwestern Ontario,-81.0,43.5,0,2
+city,Amarna,30.906,27.662,0,2
+city,Ataka no Seki,136.418,36.419,0,2
+area,Hudson Valley,-73.961,41.921,0,2
+city,Prokuplje,21.586,43.234,1,2
+area,Lorraine,6.487,48.6,1,2
+city,Managua,-86.27,12.155,0,2
+area,French Riviera,6.665,43.32,2,2
+area,Spitsbergen,16.0,78.75,0,2
+city,Pune,73.848,18.532,1,2
+city,Lahore,74.348,31.562,0,2
+area,Southern California,-117.0,34.0,2,2
+city,Yalta,34.155,44.499,2,2
+city,Besançon,6.021,47.242,2,2
+city,Sasamón,-4.042,42.418,0,2
+city,Bogor,106.748,-6.568,1,2
+city,A Coruña,-8.42,43.33,0,2
+city,La Barre,6.18,47.405,2,2
+city,Buchenwald concentration camp,11.249,51.021,0,2
+area,Dakota Territory,-104.0,46.0,1,2
+area,Hokkaidō,142.792,43.461,0,2
+area,Styria,15.167,47.25,2,2
+city,Herning,8.977,56.136,0,2
+city,Stanford,-122.313,37.557,1,2
+area,Coppermine River,-111.123,64.578,0,2
+city,Sancerre,2.839,47.331,1,2
+area,Yap,138.117,9.533,0,2
+city,Würzburg,9.929,49.794,0,2
+city,Mantua,10.791,45.156,0,2
+area,New Guinea,140.0,-5.0,0,2
+city,Požarevac,21.19,44.62,1,2
+city,Atlantic City,-74.425,39.362,2,2
+city,Ōme,139.326,35.658,1,2
+city,Salinas,-121.656,36.678,2,2
+area,Phthia,22.533,38.9,1,2
+area,île Saint-Louis,2.356,48.852,2,2
+area,Ceará,-39.3,-5.2,2,2
+city,Gothenburg,12.0,57.75,2,2
+area,Svalbard,15.864,78.157,2,2
+city,Kiel,10.13,54.33,2,2
+city,Kigali,30.059,-1.952,2,2
+city,Alicante,-0.484,38.351,1,2
+area,Jutland,9.201,55.63,0,2
+city,Prayagraj,81.838,25.457,2,2
+city,Kikinda,20.459,45.824,1,2
+city,Łódź,19.449,51.777,2,2
+area,Swabia,10.0,48.4,0,2
+city,Guardialfiera,14.793,41.804,2,2
+area,upstate New York,-76.0,43.0,1,2
+city,Gqeberha,25.598,-33.968,0,2
+city,İzmir,27.15,38.438,1,2
+area,Hadong County,127.749,35.069,1,2
+city,Đunis,21.507,43.584,1,2
+area,North Yorkshire,-1.35,54.1,2,2
+city,Shimonoseki,130.82,33.87,1,2
+area,Lancashire,-2.6,53.8,1,2
+city,Rotterdam,4.478,51.922,0,2
+city,Auxerre,3.567,47.797,1,2
+city,Jelica,20.36,43.794,2,2
+city,Biograd,18.156,43.2,1,2
+city,Lille,3.078,50.652,1,2
+city,Richmond,-77.452,37.552,1,2
+area,Holland,4.667,52.25,0,2
+city,Riga,24.1,56.95,2,2
+area,East Prussia,20.51,54.71,1,2
+city,Austin,-97.745,30.269,0,2
+city,Bruges,3.224,51.209,2,2
+city,Ringkøbing,8.25,56.083,1,2
+area,Maharashtra,75.714,19.751,2,2
+city,Gyeongju,129.372,36.021,1,2
+city,Limerick,-8.624,52.665,1,2
+city,Kačer,19.75,43.817,1,2
+area,San Francisco Bay,-122.237,37.655,2,2
+city,Kharkiv,36.248,50.002,1,2
+area,Çukurova,35.483,36.867,2,2
+city,Kabul,69.181,34.519,1,2
+area,Farsø Parish,9.34,56.77,0,2
+area,Hampshire,-1.308,51.058,2,2
+area,Caledonia,-4.052,56.594,0,2
+city,León,-86.879,12.435,2,2
+city,Indianapolis,-86.172,39.752,1,2
+area,Northern Ontario,-86.0,50.0,0,2
+area,Camargue,4.5,43.533,1,2
+city,Lovosice,14.051,50.515,0,2
+city,Luanda,13.232,-8.836,2,2
+city,Auckland,174.763,-36.848,0,2
+area,Corfu,19.87,39.6,0,2
+city,Q189901,22.729,37.633,0,2
+city,Port Said,32.29,31.26,1,2
+city,Brunswick,10.521,52.269,0,2
+city,Hvalpsund,9.196,56.7,1,2
+city,Q12329860,10.45,55.371,0,2
+city,Brocken,10.616,51.799,0,2
+city,Humlebæk,12.533,55.96,0,2
+city,Salamina,-75.488,5.408,0,2
+area,New South Wales,147.0,-32.0,0,2
+city,Perugia,12.389,43.112,0,2
+city,Horserød camp,12.493,56.045,0,2
+city,Lucerne,8.28,47.05,0,2
+city,Amalfi,14.77,40.68,1,2
+area,Upper Harz,10.367,51.817,0,2
+area,Salinas Valley,-121.792,36.765,2,2
+area,Alentejo region,-7.9,38.567,0,2
+area,North Rhine-Westphalia,7.55,51.467,0,2
+city,Rangkasbitung,106.25,-6.367,2,2
+city,"Rudnik, Gornji Milanovac",20.499,44.141,0,2
+city,Knoxville,-83.92,35.97,2,2
+city,Elefsina,23.7,37.95,0,2
+city,Ithaca,20.667,38.417,1,2
+city,Koblenz,7.6,50.35,0,2
+area,Patmos,26.542,37.325,1,2
+city,Isfahan,51.698,32.702,0,2
+area,Nišava District,21.9,43.3,2,2
+area,Scottish Highlands,-4.71,57.12,0,2
+area,Wachau,15.434,48.364,0,2
+area,Transvaal Province,30.0,-25.0,0,2
+city,Rüdesheim am Rhein,7.923,49.979,0,2
+area,Brandenburg,13.06,52.395,2,2
+city,Pic d'Anie,-0.721,42.944,0,2
+area,Jeju Island,126.55,33.38,0,2
+city,Ingolstadt,11.425,48.763,0,2
+area,Gallipoli,26.45,40.35,1,2
+area,Masuria,21.086,53.583,2,2
+city,Digne-les-Bains,6.236,44.093,1,2
+city,Surrey,-0.45,51.25,1,2
+city,Mount Everest,86.925,27.988,0,2
+city,Nuoro,9.328,40.32,2,2
+city,Des Moines,-93.62,41.58,0,2
+area,Friuli,13.0,46.166,2,2
+city,Arromanches-les-Bains,-0.623,49.339,1,2
+city,Delphi,22.502,38.482,0,2
+city,Mount Lebanon,36.116,34.301,0,2
+city,Caucasus Mountains,45.0,42.5,0,2
+city,Winchester,-1.4,50.9,1,2
+city,Novillas,-1.395,41.934,2,2
+city,Mozgovo,21.664,43.657,1,2
+city,Mtsensk,36.567,53.283,1,2
+city,Anti-Lebanon mountains,36.5,34.0,0,2
+area,Aegean Region,29.0,38.0,2,2
+area,Manchuria,125.0,45.0,0,2
+city,Cauterets,-0.114,42.889,0,2
+city,Cetinje,18.925,42.389,2,2
+city,Dakar,-17.475,14.718,1,2
+city,Murcia,-1.13,37.98,1,2
+city,Tacna,-70.25,-18.0,1,2
+area,Rhode Island,-71.5,41.7,1,2
+city,Bamberg,10.892,49.892,2,2
+city,Mitrovica,20.867,42.883,2,2
+city,Modena,10.926,44.646,2,2
+city,Bochum,7.017,51.45,1,2
+city,Ephesus,27.341,37.94,0,2
+city,Viareggio,10.251,43.867,2,2
+area,Orinoco River,-60.5,8.56,2,2
+city,Ocaña,-3.497,39.957,0,2
+city,Veracruz,-96.16,19.177,1,2
+city,St. Gallen,9.377,47.423,0,2
+city,St. Pete Beach,-82.679,27.771,0,2
+city,Vannes,-2.762,47.655,1,2
+city,Venice Beach,-118.475,33.986,1,2
+city,Brasília,-47.918,-15.781,1,2
+area,Little Belt,9.833,55.183,2,2
+area,Beirut Governorate,35.5,33.883,2,2
+area,Louisiana,-100.0,40.0,1,2
+city,Oakland,-122.221,37.769,2,2
+area,Kherson Oblast,34.0,46.5,0,2
+city,Krefeld,6.75,51.43,1,2
+city,Nîmes,4.36,43.838,1,2
+city,Catalonia,1.567,41.85,0,2
+area,Montafon,9.9,47.08,2,2
+city,Stuttgart,9.2,48.78,1,2
+city,Bandung,107.568,-6.948,1,2
+city,Norrköping,16.149,58.579,1,2
+area,Franconia,10.865,49.816,0,2
+area,Kamchatka Peninsula,160.0,57.0,0,2
+city,Aarhus University,10.201,56.171,0,2
+city,Nanjing,118.778,32.052,0,2
+city,Thisted,8.69,56.954,0,2
+city,Clausthal,10.333,51.804,0,2
+city,Clausthal-Zellerfeld,10.336,51.805,0,2
+city,Ardennes,5.667,50.25,0,2
+city,Tripoli,13.18,32.892,0,2
+area,Northern France,1.78,49.951,1,2
+area,Picardy,2.833,49.5,0,2
+city,Adelaide,138.598,-34.933,0,2
+city,Aden,45.009,12.78,2,2
+city,Adirondack Mountains,-73.924,44.112,1,2
+city,Tonga,-174.81,-20.588,0,2
+city,Charlotte,-80.832,35.207,2,2
+city,Agra,78.013,27.172,1,2
+city,Newport,-71.312,41.492,2,2
+city,Argos,22.721,37.631,0,2
+city,Topola,20.676,44.252,1,2
+city,Aix-en-Provence,5.446,43.528,0,2
+city,Toyohashi,137.392,34.769,1,2
+area,Loire,4.219,44.842,1,2
+area,Tyrol,11.0,47.0,0,2
+city,Muskoka District Municipality,-79.333,45.167,1,2
+city,Mycenae,22.756,37.731,0,2
+city,Mytilene,26.554,39.105,0,2
+city,Málaga,-4.42,36.72,1,2
+city,Taranto,17.243,40.471,1,2
+city,Tønder,8.864,54.943,0,2
+area,Quindío Department,-75.672,4.533,0,2
+city,North Pole,0.0,90.0,1,2
+area,Sado Island,138.398,38.068,0,2
+city,Chambéry,5.921,45.566,0,2
+city,Norrland,18.0,63.0,0,2
+city,Tuscumbia,-87.703,34.731,0,2
+city,Cork,-8.473,51.9,0,2
+area,Eastern Germany,13.47,52.521,1,2
+city,Tenerife,-16.606,28.269,2,2
+area,The Fens,-0.231,52.488,2,2
+city,Basque Country,-2.75,43.0,1,2
+area,Gipuzkoa,-2.167,43.167,2,2
+city,Concarneau,-3.919,47.875,2,2
+area,Jaén Province,-3.5,38.0,2,2
+city,Nafplio,22.8,37.566,0,2
+city,Tula,37.63,54.2,1,2
+area,Porquerolles,6.217,43.0,1,2
+area,Forest of Dean,-2.54,51.79,1,2
+city,Vordingborg,11.91,55.008,1,2
+area,Wallachia,26.1,44.43,1,2
+city,Messene,22.0,37.05,0,2
+city,Gavarnie,-0.009,42.732,0,2
+city,Vnukovo,37.28,55.6,0,2
+city,Garbenheim,8.528,50.566,0,2
+city,Vlaška,21.351,43.987,1,2
+city,Gamonal,-3.668,42.356,0,2
+area,Florida Keys,-81.583,24.667,0,2
+city,Galați,28.046,45.456,1,2
+city,Foulum,9.583,56.497,0,2
+city,Fécamp,0.379,49.758,1,2
+city,Fukuoka,130.408,33.597,1,2
+city,Fruška Gora,19.711,45.151,1,2
+city,Višegrad,19.293,43.782,1,2
+city,Brest,-4.486,48.391,0,2
+area,Chuvashia,47.096,55.459,0,2
+city,Vittoriale degli italiani,10.567,45.623,0,2
+city,Bremen,8.8,53.08,1,2
+area,Zaragoza Province,-1.0,41.583,1,2
+area,Lesbos,26.28,39.21,1,2
+area,Saitama Prefecture,139.649,35.857,0,2
+city,Meung-sur-Loire,1.698,47.829,2,2
+city,Guadalajara,-103.332,20.672,0,2
+city,Bermuda,-64.74,32.32,1,2
+city,Grosseto,11.109,42.772,2,2
+city,Pajala,23.367,67.212,2,2
+city,Amman,35.931,31.952,1,2
+area,Sonora,-110.95,29.833,2,2
+city,Grenaa,10.876,56.413,0,2
+area,Malabar Coast,76.25,10.0,0,2
+city,Baku,49.86,40.397,0,2
+city,Wartburg,10.306,50.966,1,2
+area,Savoie,6.333,45.583,0,2
+city,Grand Banks of Newfoundland,-50.989,45.237,2,2
+city,Ottawa,-75.702,45.419,0,2
+area,Castile,-3.817,42.35,2,2
+city,Medellín,-75.577,6.277,0,2
+city,Otaru,140.994,43.191,0,2
+area,Marquesas Islands,-139.6,-8.9,1,2
+city,Sierra Morena,-3.83,38.37,1,2
+city,Meiringen,8.187,46.727,0,2
+city,Ancient Corinth,22.879,37.906,0,2
+city,Ostend,2.919,51.226,1,2
+city,Bergamo,9.67,45.695,0,2
+area,Korean Peninsula,127.0,37.5,1,2
+city,Fontainebleau,2.702,48.409,0,2
+city,Villandiego,-4.026,42.368,0,2
+city,Forks,-124.385,47.951,2,2
+area,South Ostrobothnia,22.5,62.75,1,2
+city,Cape Trafalgar,-6.033,36.183,1,2
+area,Neman,21.249,55.337,0,2
+city,Farsø Church,9.339,56.774,0,2
+city,Soria,-2.467,41.767,0,2
+area,Kainuu,28.0,64.5,1,2
+city,Sokolac,18.798,43.937,1,2
+area,Sandžak,19.775,43.163,2,2
+city,South Pole,0.0,-90.0,2,2
+area,Thessaly,22.2,39.6,0,2
+area,Asia Minor,34.0,39.0,0,2
+city,Veliky Novgorod,31.276,58.521,1,2
+city,Sonoma,-122.458,38.292,1,2
+area,Miljacka,18.291,43.869,2,2
+city,Aulis,23.593,38.433,0,1
+city,Auschwitz II-Birkenau concentration camp,19.175,50.037,1,1
+city,Asmild Abbey,9.425,56.447,1,1
+city,Augsburg,10.9,48.35,1,1
+area,Napa Valley AVA,-122.35,38.387,0,1
+area,Western United States,-113.0,40.0,1,1
+area,Oklahoma Panhandle,-101.5,36.75,1,1
+area,West India,74.15,19.0,1,1
+area,Plymouth Colony,-70.662,41.958,0,1
+city,Arles,4.629,43.677,1,1
+area,Hodh Ech Chargui,-7.26,16.612,0,1
+area,Ljusnan,15.317,62.0,1,1
+area,Marselisborg Forests,10.233,56.1,0,1
+area,Lake Motosu,138.586,35.464,1,1
+city,Armavir,44.033,40.082,0,1
+area,Colorado River,-105.826,40.472,0,1
+city,"Aventicum, Roman city - Avenches, medieval-modern city",7.049,46.88,0,1
+area,Thuringia,11.0,51.0,0,1
+area,Jalisco,-103.346,20.676,1,1
+area,Canton of Uri,8.617,46.783,0,1
+area,Rajasthan,73.839,26.573,0,1
+city,Assmannshausen,7.867,49.988,0,1
+city,Asunción,-57.643,-25.294,0,1
+area,Syrmia,19.288,45.17,0,1
+city,Avnø Danish Air Force Base,11.77,55.088,0,1
+area,Lomellina,8.867,45.317,1,1
+area,South European Russia,43.0,45.4,1,1
+area,Mindanao,125.0,7.5,0,1
+area,Salar de Atacama,-68.267,-23.417,1,1
+city,Asserbo,11.987,56.007,1,1
+area,Hautes-Pyrénées,0.068,43.233,0,1
+area,Tagus River,-9.014,38.852,0,1
+area,Western Canada,-115.0,55.0,1,1
+area,Gunungkidul,110.6,-7.965,0,1
+area,Lika,15.242,44.747,0,1
+area,Maine-et-Loire,-0.6,47.45,0,1
+area,Shenandoah Valley,-78.85,38.5,1,1
+area,Reunion island,55.55,-21.133,1,1
+area,Oahu,-157.965,21.485,0,1
+area,Hoste Island,-69.0,-55.25,1,1
+area,Pacific Northwest,-120.322,45.829,0,1
+area,Turkestan,67.956,39.366,1,1
+area,Illinois River,-124.066,42.55,0,1
+area,Île-de-France,2.317,48.85,1,1
+area,Nagano Prefecture,138.181,36.651,1,1
+city,Aschaffenburg,9.149,49.974,0,1
+area,Penglai District,120.733,37.817,1,1
+area,Tissø,11.292,55.576,0,1
+city,Arras,2.78,50.289,0,1
+area,Syunik (historic province),46.25,39.25,1,1
+area,Kiillinnguyaq,-107.0,68.5,0,1
+area,Sagån,16.762,60.02,1,1
+area,Q13862,123.0,10.417,0,1
+area,Yamanashi Prefecture,138.568,35.664,1,1
+area,Canadian Prairies,-106.0,50.0,1,1
+area,Iberian Peninsula,-4.239,40.24,0,1
+area,San Domino Island,15.483,42.117,0,1
+area,Vendée,-1.427,46.671,0,1
+area,Canton of Zurich,8.656,47.413,0,1
+area,Jammerbugt,9.555,57.32,0,1
+area,Tiber,12.233,41.741,0,1
+area,Society Islands,-151.4,-16.85,1,1
+area,Auvergne,3.087,45.78,0,1
+city,Arvaikheer,102.757,46.269,0,1
+area,Ise Bay,136.75,34.75,1,1
+area,Pilbara,119.0,-21.0,0,1
+area,Canton of Lucerne,8.117,47.083,0,1
+area,Kandestederne,10.39,57.661,0,1
+city,Auschwitz III Monowitz concentration camp,19.291,50.031,1,1
+city,Arzamas,43.8,55.383,1,1
+area,Don,38.278,54.012,1,1
+city,Ateca,-1.793,41.331,1,1
+area,Crowdy Marsh,-4.612,50.62,0,1
+area,Rhodesia,28.167,-15.667,0,1
+area,Taranaki Region,174.133,-39.3,1,1
+area,Canton of Thurgau,9.067,47.583,0,1
+area,Karnataka,76.0,15.0,0,1
+city,Armenia,-75.681,4.534,0,1
+area,Taklamakan,82.2,38.9,0,1
+area,Bering Strait,-168.977,65.75,0,1
+city,Atlantic Forest,-39.25,-16.5,0,1
+city,Asheville,-82.552,35.596,1,1
+area,Klarälven,13.498,59.389,1,1
+city,Arpajon,2.248,48.59,1,1
+area,Samaria,35.19,32.275,0,1
+area,Arcadia,22.2,37.6,0,1
+area,Kurdistan Province,46.967,35.728,1,1
+area,South London,-0.1,51.45,0,1
+area,Aosta Valley,7.367,45.717,1,1
+city,Pontevedra,-8.73,42.22,1,1
+city,Vigevano,8.867,45.317,1,1
+city,Vienna Woods,15.912,48.087,0,1
+city,Vidin,22.874,43.989,0,1
+city,Victoria,-123.35,48.433,0,1
+city,Vichy,3.426,46.127,1,1
+city,Vicenza,11.55,45.55,1,1
+city,Bandar Lampung,105.268,-5.428,0,1
+city,Vesterø Havn,10.925,57.295,0,1
+city,Vestermarie,14.823,55.106,1,1
+city,Vestergade,10.383,55.395,0,1
+city,Vester Allé,9.791,56.633,0,1
+city,Banjarmasin,114.58,-3.33,1,1
+city,Vernon,1.485,49.092,1,1
+city,Verdun,5.383,49.16,1,1
+city,Östersund,14.636,63.179,1,1
+city,Venice,-118.459,33.991,0,1
+city,Velling,8.312,56.052,0,1
+city,Velletri,12.783,41.667,0,1
+city,Veliko Gradište,21.517,44.75,1,1
+city,Veles,21.775,41.715,1,1
+city,Velebit,15.233,44.533,1,1
+city,Vejle,9.533,55.708,0,1
+city,Vejlegade,10.192,56.145,0,1
+city,Vejlby,10.812,56.383,1,1
+city,Vejer de la Frontera,-5.963,36.252,1,1
+city,Vedersø,8.204,56.235,0,1
+city,Veazie,-68.705,44.839,0,1
+city,Banegårdsgade,10.149,55.971,0,1
+city,Varna,27.895,43.216,1,1
+city,Varde,8.481,55.62,1,1
+city,Venčac,21.099,43.448,0,1
+city,Walheim,9.153,49.012,0,1
+city,Walenstadt,9.315,47.123,0,1
+city,Waldersbach,7.214,48.414,0,1
+city,Hirogawa,135.168,34.223,0,1
+city,Waco,-97.147,31.549,0,1
+city,Vöcklabruck,13.656,48.009,0,1
+city,Västra Vemmenhög,13.471,55.426,1,1
+city,Västerås,16.542,59.617,1,1
+city,Vrå station,9.942,57.355,0,1
+city,Vrmdža,21.819,43.708,1,1
+city,Vreta Abbey,15.518,58.482,1,1
+city,Balkány,21.857,47.769,1,1
+city,Vrads,9.451,56.041,0,1
+city,Vouvray,0.799,47.412,1,1
+city,Ballantrae,-5.005,55.1,1,1
+city,Villa Opicina,13.789,45.688,1,1
+city,Villacidro,8.742,39.458,1,1
+city,Villeneuve,6.925,46.396,0,1
+city,Ballum,8.65,55.07,1,1
+city,Vincennes,-87.516,38.678,1,1
+city,Vindblæs,9.348,56.928,0,1
+city,Vinstrup,10.181,56.612,0,1
+city,Visby,18.307,57.629,1,1
+city,Vojkovci,20.517,44.183,0,1
+city,Vis,16.152,43.042,0,1
+city,Ballen,10.637,55.816,0,1
+city,Vittskövle Castle,14.133,55.855,1,1
+city,Vizzini,14.75,37.167,1,1
+city,Vladimirci,19.783,44.617,0,1
+city,Vlasotince,22.133,42.967,0,1
+city,Vodice,15.779,43.751,1,1
+city,Vognsild,9.424,56.759,0,1
+city,Viscos,-0.044,42.91,1,1
+city,Tykocin Castle,22.771,53.213,1,1
+city,Tversted,10.188,57.583,0,1
+city,Tuscaloosa,-87.535,33.207,0,1
+city,Turkestan–Siberia Railway,77.992,44.623,1,1
+city,Tunja,-73.361,5.54,0,1
+city,Basra,47.812,30.515,0,1
+city,Tullahoma,-86.209,35.362,0,1
+city,Tuktoyaktuk,-133.031,69.443,0,1
+city,Tsuchiura,140.204,36.078,0,1
+city,Trubarevo,21.484,43.609,1,1
+city,Trstenica,20.117,44.558,1,1
+city,Bassano del Grappa,11.734,45.767,0,1
+city,Trondheim,10.4,63.44,1,1
+city,Tromsø,18.956,69.652,0,1
+city,Troldhaugen,5.329,60.32,0,1
+city,Varadin,21.488,42.847,1,1
+city,Troezen,23.357,37.503,0,1
+city,Battle of Bailén,-3.8,38.1,1,1
+city,Trgovište Municipality,22.083,42.364,1,1
+city,Treviño,-4.727,43.123,1,1
+city,Treviso,12.246,45.666,1,1
+city,Trento,11.117,46.067,1,1
+city,Treis-Karden,7.302,50.178,0,1
+city,Travnik,17.667,44.225,1,1
+city,Travemünde,10.869,53.961,1,1
+city,Trautskirchen,10.583,49.45,0,1
+city,Traunstein,12.643,47.868,0,1
+city,Trappeto,13.033,38.067,0,1
+city,Trachis,22.435,38.79,0,1
+city,Toyama,137.23,36.7,0,1
+city,Battle of Pollentia,7.85,44.7,0,1
+city,Troia,-8.903,38.491,1,1
+city,Valognes,-1.469,49.509,0,1
+city,Bardenas Reales,-1.5,42.19,0,1
+city,Barisan Mountains,102.25,-3.0,1,1
+city,Barrancabermeja,-73.855,7.065,0,1
+city,Valence,4.891,44.932,1,1
+city,Valdivia,-73.246,-39.814,0,1
+city,Vaishali,85.126,25.987,0,1
+city,Vadstena Abbey,14.891,58.451,1,1
+city,Vadodara,73.178,22.312,0,1
+city,Uvac,19.971,43.289,0,1
+city,Utrecht,5.12,52.1,0,1
+city,Usui Pass Railway Heritage Park,138.734,36.336,0,1
+city,Urmia,45.0,37.53,0,1
+city,Urk,5.599,52.663,1,1
+city,Urkiola Natural Park,-2.667,43.117,0,1
+city,Tykocin,22.783,53.2,1,1
+city,Tyre,35.2,33.267,0,1
+city,Tétouan,-5.376,35.57,1,1
+city,Tübingen,9.056,48.52,1,1
+city,Třebíč,15.882,49.215,1,1
+city,Udine,13.233,46.067,0,1
+city,Zuunmod,106.915,47.919,0,1
+city,Ulanove,34.308,51.758,1,1
+city,Urbino,12.637,43.725,1,1
+city,Ulmen,6.98,50.209,0,1
+city,Ulm,9.991,48.399,0,1
+city,Ulvåsa,15.15,58.554,1,1
+city,Ulyanovsk,48.41,54.33,1,1
+city,University of Cambridge,0.113,52.205,1,1
+city,University of Virginia,-78.503,38.036,0,1
+city,Uppsala,17.639,59.85,1,1
+city,Urbasa mountain range,-2.084,42.822,0,1
+city,Ulcinj,19.206,41.924,1,1
+area,South China,111.0,22.6,1,1
+area,Hokkaido,141.347,43.064,0,1
+area,Campobello Island,-66.931,44.89,0,1
+area,Mevaseret Zion,35.155,31.804,0,1
+area,Båven,16.938,59.017,1,1
+area,Tangerang,106.49,-6.2,1,1
+area,Lebak,106.217,-6.65,1,1
+city,Aylesbury,-0.812,51.817,0,1
+city,Azpeitia,-2.265,43.182,0,1
+city,Štitarac,22.313,43.557,0,1
+city,Šarengrad,19.28,45.233,1,1
+city,Bacharach,7.769,50.061,0,1
+city,Śrem,17.015,52.089,1,1
+city,Bad Hersfeld,9.707,50.868,1,1
+city,Ōiso-juku,139.315,35.309,0,1
+city,Walnut Grove,-95.469,44.224,1,1
+city,Čenej,19.798,45.367,1,1
+city,Bad Kreuznach,7.867,49.847,0,1
+city,Čajetina,19.717,43.75,0,1
+city,Ćuprija,21.369,43.923,1,1
+city,Ústí nad Labem,14.042,50.659,0,1
+city,Úbeda,-3.372,38.012,1,1
+city,Østrup,9.474,56.749,0,1
+city,Øksnebjerg,10.002,55.269,1,1
+city,Övedskloster Castle,13.636,55.686,1,1
+area,Sava,20.45,44.832,1,1
+city,Örebro,15.197,59.267,1,1
+city,Île-aux-Moines,-2.845,47.597,0,1
+city,Ågerup,12.159,55.693,0,1
+city,Älvkarleby,17.45,60.567,1,1
+city,Ávila,-4.696,40.654,1,1
+city,Ōboke Station,133.767,33.877,0,1
+area,Southeastern United States,-85.3,35.0,1,1
+area,New York Harbor,-74.046,40.668,0,1
+area,Moscow Governorate,37.618,55.752,0,1
+area,Coasts of the Basque Country,-1.952,43.33,0,1
+area,Northeast Region,-38.95,-8.764,0,1
+area,Southern England,-1.5,51.333,1,1
+area,Lawrence Berkeley National Laboratory,-122.249,37.876,0,1
+area,Italian Riviera,8.463,44.301,1,1
+area,Humboldt County,-123.8,40.8,0,1
+area,Douro (DOC),-7.799,41.102,0,1
+area,Lituya Bay,-137.573,58.637,0,1
+area,Santiago,-23.625,15.078,0,1
+area,Marin County,-122.74,38.04,1,1
+area,San Mateo County,-122.36,37.44,1,1
+area,Monterey County,-121.31,36.24,1,1
+area,Dalkey,-6.11,53.275,0,1
+area,Old Castile,-3.696,42.343,0,1
+area,Pomerania,18.153,54.294,1,1
+area,Los Angeles County,-118.25,34.05,0,1
+area,Landsberg am Lech District,10.95,48.02,0,1
+area,Bukovina,26.0,48.0,1,1
+area,Awa Province,140.017,35.175,1,1
+area,Shimōsa Province,140.334,35.766,1,1
+area,Yosa district,135.111,35.511,0,1
+area,Kazusa Province,140.117,35.306,1,1
+area,Val di Zoldo,12.238,46.289,1,1
+area,Grigna,9.388,45.953,0,1
+area,Blora,111.383,-7.067,0,1
+area,Edøya,8.154,63.297,0,1
+area,Izu Ōshima,139.399,34.739,0,1
+area,Arlington County,-77.108,38.88,0,1
+area,Isle of Skye,-6.3,57.35,1,1
+area,Kōzuke Province,138.998,36.517,1,1
+city,Yonago,133.331,35.428,0,1
+city,"Badovinci, Bogatić",19.372,44.786,1,1
+city,Yoho National Park,-116.487,51.395,0,1
+city,Yenegoa,6.264,4.925,1,1
+city,Yasodharapura,103.867,13.412,0,1
+city,Yaoundé,11.515,3.869,0,1
+city,Longjing,129.513,42.882,1,1
+city,Yangon,96.165,16.785,1,1
+city,Xanten,6.454,51.662,0,1
+city,Wuppertal,7.17,51.25,0,1
+city,Bagan,94.86,21.172,1,1
+city,Wolfsburg,10.787,52.423,1,1
+city,Wolfenbüttel,10.537,52.162,0,1
+city,Winnipeg,-97.166,49.883,1,1
+city,Baggesvogn,10.146,57.506,0,1
+city,Q61271312,-97.473,25.284,1,1
+city,Wankham,13.726,47.996,1,1
+city,Warburg station,9.164,51.493,1,1
+city,Ware,-0.029,51.817,1,1
+city,Waringin,108.291,-6.753,1,1
+city,Bala,-79.617,45.017,1,1
+city,Weilburg,8.25,50.483,0,1
+city,Bakersfield,-119.02,35.37,1,1
+city,Williston,-103.628,48.156,0,1
+city,Welch,-81.579,37.437,0,1
+city,Welland,-79.233,42.983,1,1
+city,Wellfleet,-70.031,41.931,0,1
+city,Palm Beach,-80.124,26.745,1,1
+city,Westerham,0.07,51.271,1,1
+city,Whitehorse,-135.056,60.717,0,1
+city,Bagnères-de-Bigorre,0.15,43.064,0,1
+city,Wilberforce,-83.88,39.716,0,1
+city,Weißenfels,11.967,51.2,1,1
+city,Q5770495,-3.983,42.395,0,1
+city,Bad Langensalza,10.647,51.108,1,1
+city,Q45899824,10.502,51.713,0,1
+city,Q34092,14.907,36.785,1,1
+city,Q250984,13.624,47.712,0,1
+city,Q21996643,9.482,56.692,0,1
+city,Q21781597,14.711,55.096,1,1
+city,Q21669725,34.505,53.825,0,1
+city,Q21518213,9.12,55.943,0,1
+city,Q21240366,9.139,55.943,0,1
+city,Q16324603,12.407,55.267,0,1
+city,Q136087640,12.218,49.467,0,1
+city,Q12313468,9.87,57.031,1,1
+city,Bad Liebenwerda,13.4,51.517,0,1
+city,Zvíkov Castle,14.192,49.439,0,1
+city,Yosemite National Park,-119.537,37.742,0,1
+city,Yuzawa,138.817,36.934,1,1
+city,Zadar,15.227,44.114,1,1
+city,Zagazig,31.517,30.583,0,1
+city,Zagorica,20.736,44.308,0,1
+city,Bad Tennstedt,10.837,51.154,1,1
+city,Zagros Mountains,47.0,33.667,1,1
+city,Zagórze Śląskie,16.4,50.75,1,1
+city,Zlot,21.985,44.01,0,1
+city,Zakynthos,20.9,37.783,0,1
+city,Zalamea de la Serena,-5.657,38.65,0,1
+city,Zalduondo,-2.347,42.886,0,1
+city,Zapatoca,-73.268,6.815,0,1
+city,Bad Schwartau,10.697,53.919,1,1
+city,Zaskavičy,26.603,54.398,0,1
+city,Zein-o-Din Caravanserai,54.707,31.412,1,1
+city,Zelengrad,15.731,44.139,1,1
+city,Zaječar,22.285,43.904,0,1
+area,Morgan County,-83.26,37.92,1,1
+area,Seongju County,128.286,35.918,0,1
+area,Monroe County,-87.37,31.571,1,1
+area,Ryssberget,14.6,56.074,1,1
+area,Lyckebyån,15.65,56.189,1,1
+area,Scott County,-84.58,38.3,1,1
+area,Loch Ness,-4.45,57.3,0,1
+area,Westmoreland County,-79.47,40.31,1,1
+area,Susquehanna County,-75.801,41.821,0,1
+area,Prudhoe Bay,-148.362,70.336,0,1
+area,Isla de los Estados,-64.25,-54.783,1,1
+area,Bhagalpur district,86.917,25.0,1,1
+area,Ohio River,-80.017,40.443,0,1
+area,Door County,-87.01,45.02,0,1
+area,Socotra,53.92,12.51,1,1
+area,Principality of Zeta,19.5,42.07,1,1
+area,Clayton County,-84.36,33.54,1,1
+area,Keijō,126.977,37.577,1,1
+area,Shaanxi,109.3,35.6,1,1
+area,Low Countries,5.0,52.0,1,1
+area,Utah,-111.5,39.5,1,1
+area,Tavastia,24.566,62.17,0,1
+area,White Ruthenia,27.912,53.565,1,1
+area,Elba,10.275,42.78,1,1
+area,La Pampa Province,-64.283,-36.617,1,1
+area,Entre Ríos Province,-59.3,-32.1,0,1
+area,Buenos Aires Province,-60.0,-37.0,1,1
+area,Vojvodina,19.85,45.25,0,1
+area,Uzynada,53.644,39.542,1,1
+area,Galilee,35.3,33.0,0,1
+area,Moravia,17.0,49.5,0,1
+area,Chenango County,-75.62,42.5,0,1
+area,Rhine,4.093,51.981,0,1
+area,Deli Serdang,98.85,3.55,0,1
+area,Q573336,6.402,49.815,0,1
+area,Uusimaa,24.5,60.25,1,1
+area,Bashkortostan,56.267,54.467,0,1
+area,Lapland,26.0,67.0,0,1
+area,Vium Parish,9.375,56.329,0,1
+area,Wayne County,-77.05,43.28,0,1
+area,Pinega,41.901,64.134,1,1
+area,Great Bear Lake,-121.0,66.0,0,1
+area,Gulf Coast of the United States,-90.0,30.0,0,1
+area,Huesca Province,-0.167,42.167,1,1
+area,Lake Tanganyika,29.5,-6.1,1,1
+area,Province of Alicante,-0.5,38.5,0,1
+area,Hen Ogledd,-2.3,54.6,0,1
+area,Pamlico County,-76.67,35.15,1,1
+area,New Hanover County,-77.86,34.18,0,1
+area,Charleston Lake,-76.0,44.533,0,1
+area,Ganges,90.9,22.0,0,1
+area,Windsor County,-72.533,43.558,0,1
+area,Androscoggin River,-69.878,43.951,1,1
+area,Anatolia,35.0,39.0,0,1
+area,Chechnya,45.717,43.4,1,1
+area,Coös County,-71.34,44.614,1,1
+area,Eckernförde Bay,9.945,54.478,1,1
+area,Menorca,4.083,39.967,0,1
+area,Downstate Illinois,-89.0,40.0,0,1
+area,Ontong Java Atoll,159.367,-5.317,0,1
+area,Westchester County,-73.775,41.15,1,1
+area,Yangtze River,91.182,33.429,0,1
+area,Windham County,-71.99,41.83,1,1
+area,Izu Peninsula,138.925,34.864,1,1
+area,Korea Strait,129.797,34.599,0,1
+area,Midlands,-1.5,52.7,1,1
+area,Tigris,47.442,31.004,0,1
+area,Central Java,110.0,-7.5,1,1
+area,Val di Elsa,11.15,43.467,1,1
+area,Banten,106.25,-6.5,1,1
+area,Ljuboviđa,19.5,44.156,1,1
+area,The Thumb,-83.032,43.624,1,1
+area,Spokane Indian Reservation,-118.046,47.928,0,1
+area,Hodh El Gharbi,-9.616,16.663,0,1
+area,Hirsholm,10.624,57.485,1,1
+area,Tasmania,147.0,-42.0,1,1
+area,Mackenzie River,-135.022,69.198,0,1
+area,Yngaren,16.587,58.851,1,1
+area,Dordogne,0.667,45.0,1,1
+area,Esmeraldas Province,-79.15,0.733,1,1
+area,Yunnan,102.709,25.049,1,1
+area,Swiss Plateau,7.367,47.117,0,1
+area,Biloxi River,-88.979,30.421,1,1
+area,Bernese Alps,7.694,46.425,0,1
+area,Périgord,0.717,45.183,0,1
+area,Alssund,9.759,54.939,1,1
+area,Northern Territory,133.0,-20.0,0,1
+area,Aveyron,2.7,44.25,0,1
+city,37th parallel south,0.0,-37.0,1,1
+area,Antigua,-61.8,17.085,0,1
+area,Alpes-Maritimes,7.167,43.833,1,1
+area,Levač,21.085,43.868,1,1
+area,Lüneburg Heath,9.94,53.169,1,1
+area,Mali–Mauritania border,-4.832,24.997,0,1
+area,Forêt de Rennes,-1.57,48.19,1,1
+area,Scharhörn,8.441,53.962,1,1
+area,Gloucester County,-76.52,37.4,0,1
+area,Anyue County,105.333,30.101,0,1
+area,Kashmir,76.0,34.5,0,1
+area,Versilia,10.247,43.936,1,1
+area,Lower Austria,15.75,48.333,1,1
+area,Maranhão,-45.6,-6.183,0,1
+area,Ista,36.302,53.538,0,1
+area,Siberian Federal District,83.0,55.0,1,1
+area,Emden,7.206,53.367,0,1
+area,Greenland,-40.0,72.0,0,1
+area,Kurdistan,43.55,37.559,0,1
+area,Canton of Valais,7.5,46.275,0,1
+area,Antalya Province,30.933,37.182,1,1
+area,Tagant,-11.433,18.555,0,1
+area,northern French coal mining region,3.546,50.462,1,1
+area,United States National Institutes of Health,-77.102,38.998,0,1
+area,Bosporus Strait,29.08,41.12,1,1
+area,Vize,27.765,41.574,0,1
+area,Adrar,-13.054,20.518,0,1
+area,West Bank,35.35,32.0,1,1
+area,Victoria,144.281,-36.854,0,1
+area,Carnia,12.774,46.394,1,1
+area,West Java,107.5,-6.75,1,1
+area,Iceland,-18.0,65.0,0,1
+area,Piney Woods,-94.0,32.0,0,1
+area,Caatinga,-39.434,-7.613,0,1
+area,Amazon River,-50.089,0.708,0,1
+area,Stevns Peninsula,12.389,55.312,0,1
+area,Limfjord,9.075,56.943,0,1
+area,Labrador,-62.0,54.0,1,1
+area,British Isles,-4.0,54.0,1,1
+area,Bay of Bengal,88.0,15.0,0,1
+area,Vorarlberg,9.9,47.3,1,1
+area,Java,109.418,-7.312,0,1
+area,Ourense,-7.5,42.167,1,1
+area,Biscay,-2.932,43.262,0,1
+area,Kharkhorin,102.824,47.193,0,1
+area,"Fontao, Vila de Cruces",-8.226,42.762,1,1
+area,Costa Blanca,-0.408,38.354,1,1
+area,Musashi Province,139.409,35.806,1,1
+area,Central and Eastern Europe,20.0,50.0,1,1
+area,Botany Bay,151.183,-33.983,1,1
+area,Bogø,12.033,54.933,0,1
+area,Miho no Matsubara,138.523,34.995,0,1
+area,Indian Territory,-98.0,36.0,1,1
+area,Idaho panhandle,-116.0,47.0,0,1
+area,Westphalia,8.0,52.0,0,1
+area,Bigorre,0.074,43.233,0,1
+area,Tiris Zemmour,-9.0,24.0,0,1
+area,Coconino County,-111.5,35.7,0,1
+area,Novaya Zemlya,56.349,73.952,0,1
+area,San Luis Potosí,-100.43,22.603,0,1
+area,Thy,8.467,56.883,0,1
+area,Turtle Mountain Indian Reservation,-99.784,48.85,1,1
+area,Kalmar Strait,16.449,56.732,1,1
+area,Crimea,34.0,45.0,0,1
+area,Barbagia,9.2,40.0,1,1
+area,Sakhalin,143.0,50.5,0,1
+area,Barranco District,-77.017,-12.142,1,1
+area,Alnön,17.467,62.4,1,1
+area,Eurasian Steppe,70.5,48.7,0,1
+area,Bornholm,14.917,55.125,1,1
+area,Baffin Island,-70.0,68.0,0,1
+area,Stockholm archipelago,18.733,59.383,1,1
+area,Jezreel Valley,35.242,32.596,1,1
+area,Western North Carolina,-82.36,35.88,1,1
+city,Alba de Tormes,-5.516,40.825,0,1
+city,Albany,117.881,-35.023,1,1
+city,Akureyri,-18.088,65.684,0,1
+city,Ajmer,74.64,26.45,0,1
+city,Aix-les-Bains,5.915,45.689,1,1
+city,Ainielle,-0.24,42.57,1,1
+city,Ain al-Hilweh,35.378,33.544,0,1
+city,Ahmedabad,72.578,23.032,1,1
+city,Agrigento,13.575,37.312,1,1
+city,Agloe,-74.906,41.966,1,1
+city,Aggius,9.064,40.929,1,1
+city,Addis Ababa,38.698,9.035,1,1
+city,Accrington,-2.364,53.753,0,1
+city,Abidjan,-4.042,5.322,0,1
+city,Abbasid Samarra,43.802,34.362,0,1
+area,Pontevedra Province,-8.633,42.433,1,1
+area,Connemara,-9.75,53.5,0,1
+area,Isle of Wight,-1.3,50.7,0,1
+area,Chiba Prefecture,140.123,35.604,0,1
+area,Nørre Lyndelse Parish,10.396,55.304,0,1
+area,French Basque Country,-1.35,43.322,0,1
+area,Enoshima,139.481,35.299,0,1
+area,Tamaulipas,-98.563,24.287,0,1
+city,Abadan,48.28,30.331,1,1
+city,Aalestrup Station,9.495,56.695,1,1
+city,Aalestrup,9.499,56.693,0,1
+city,Aarhus Arrest,10.201,56.154,0,1
+city,Aarhus City Hall,10.203,56.152,0,1
+city,"Aarhus Universitetshospital, Skejby",10.172,56.192,1,1
+city,Aarhus University School of Engineering,10.2,56.144,0,1
+area,Kai Province,138.629,35.679,1,1
+city,Aars,9.513,56.803,0,1
+city,Aalestrup Church,9.499,56.693,0,1
+area,Dardanelles,26.4,40.2,0,1
+area,Southern Norway,7.8,58.6,0,1
+area,Isle of Lewis,-6.6,58.2,1,1
+area,Cádiz Province,-5.75,36.5,1,1
+area,Ostrobothnia,27.633,65.517,0,1
+area,Kosinj,15.277,44.736,1,1
+area,Lake Garda,10.667,45.633,1,1
+area,Q640303,4.117,50.783,0,1
+area,Lake Geneva,6.55,46.45,0,1
+area,Comminges,0.57,43.02,0,1
+area,Bergslagen,15.75,59.833,1,1
+area,Comoros Islands,44.25,-12.2,0,1
+area,Homolje,21.747,44.234,0,1
+area,Mysia,28.5,40.0,0,1
+area,Sápmi,18.517,67.9,1,1
+area,West Lampung,104.193,-5.149,1,1
+area,Baja California,-115.117,29.95,1,1
+area,Maestrazgo,-1.109,40.176,0,1
+area,Bourbonnais,3.33,46.57,1,1
+area,Orange County,-117.78,33.67,0,1
+area,New Britain,150.6,-5.75,0,1
+area,New Mexico Territory,-105.0,35.0,1,1
+area,Khandesh,75.0,21.0,1,1
+area,Cilicia,35.12,36.985,0,1
+area,Veracruz,-96.056,19.839,1,1
+area,Yucatán,-89.6,21.0,1,1
+area,State of Mexico,-99.631,19.354,1,1
+area,Iona,-6.41,56.33,1,1
+area,Sperrental,10.507,51.715,0,1
+area,Mangareva,-134.967,-23.099,0,1
+area,Hiroshima Prefecture,132.46,34.396,0,1
+area,Graham Land,-63.5,-66.0,0,1
+area,Alaska Peninsula,-157.5,57.167,1,1
+area,Southern Maryland,-76.8,38.467,1,1
+area,Southern Australia,142.394,-31.407,1,1
+area,Snoqualmie National Forest,-121.5,47.5,0,1
+area,Yozgat Province,35.269,39.669,1,1
+area,Volhynia,25.323,50.739,0,1
+area,RMS Queen Mary,-118.19,33.753,0,1
+area,Louisiana,-100.0,40.0,1,1
+area,Koufonisi,26.14,34.939,1,1
+area,Bavarian Alps,11.77,47.64,0,1
+area,Gudenå,10.217,56.483,0,1
+area,Assaba,-11.399,16.623,0,1
+area,Falster,11.967,54.8,0,1
+area,Salento,18.0,40.333,1,1
+area,Great Lakes,-84.0,45.75,0,1
+area,Mediterranean Basin,18.0,35.0,0,1
+area,Cáceres Province,-6.0,39.667,0,1
+area,Alpujarras,-3.333,36.933,1,1
+area,Álava,-2.75,42.833,1,1
+area,Arizona Territory,-111.09,34.05,0,1
+area,Labourd,-1.45,43.4,1,1
+area,Devon,-3.818,50.753,1,1
+area,Slavonia,17.917,45.45,1,1
+area,Læsø,11.0,57.26,0,1
+area,Volta Region,0.5,6.5,1,1
+area,Middle Belt,6.34,9.58,1,1
+area,Vido,19.925,39.642,0,1
+area,Navarre,-1.65,42.817,0,1
+area,Zeeland,3.75,51.567,0,1
+area,Cholsan County,124.643,39.749,1,1
+area,North Zealand,12.35,55.95,0,1
+area,Northern New Mexico,-106.0,36.217,0,1
+area,Zanzibar Archipelago,39.545,-5.643,0,1
+area,Farø,11.991,54.95,0,1
+area,Scania,13.617,55.8,0,1
+area,Tåkern,14.8,58.35,1,1
+area,Fallingbostel,9.697,52.868,1,1
+area,Palamu district,84.07,24.03,0,1
+area,County Donegal,-8.0,54.92,0,1
+area,Northern England,-2.3,55.0,1,1
+area,Cephalonia,20.552,38.265,0,1
+area,Turopolje,16.15,45.65,1,1
+city,Battle of Salamanca,-5.625,40.889,1,1
+area,Chiloé Archipelago,-73.95,-42.6,1,1
+area,Zanzibar Islands,39.3,-5.9,1,1
+area,Arctic Circle,0.0,66.562,1,1
+area,Firth of Tay,-3.0,56.44,0,1
+area,Chamberí,-3.697,40.433,1,1
+area,Tauria,34.093,45.311,0,1
+area,Faiyum Governorate,30.746,29.363,1,1
+area,Pontine Marshes,12.9,41.467,1,1
+area,Bessarabia,29.0,46.833,0,1
+area,Old World,44.307,25.509,1,1
+area,Helmand Province,64.0,31.0,0,1
+area,Capri,14.233,40.55,1,1
+city,An-Nusayriyah Mountains,36.1,35.25,1,1
+city,Ancient Abdera,24.973,40.934,0,1
+area,canton of Cabourg,-0.213,49.244,1,1
+area,Luhansk Oblast,39.02,48.92,0,1
+city,Ancona,13.517,43.617,1,1
+area,East Thrace,27.367,41.154,0,1
+area,Red Hills Region,-84.0,30.611,0,1
+area,Kharkiv Oblast,36.43,49.59,0,1
+area,Mayotte,45.138,-12.843,1,1
+area,Sarawak,113.0,2.5,1,1
+city,Ur,46.268,31.043,0,1
+area,Malta,14.45,35.9,0,1
+area,Carolasee,13.763,51.033,0,1
+area,Hawaiian Islands,-156.15,20.75,1,1
+area,Karelia,33.0,63.817,0,1
+city,Altusried,10.217,47.8,1,1
+area,île de la Jatte,2.269,48.896,0,1
+area,Aberdeenshire,-2.123,57.151,1,1
+area,Herzegovina,17.815,43.477,0,1
+area,Vardar,20.837,41.764,1,1
+area,Quercy,1.633,44.267,1,1
+area,Paraíba Valley,-45.15,-22.75,1,1
+area,Bengkulu,102.284,-3.821,1,1
+area,Kedah,100.363,6.128,1,1
+city,Altötting,12.678,48.227,1,1
+area,Cape Breton Island,-60.771,46.187,1,1
+area,Richelieu River,-73.12,46.047,0,1
+area,Nissum Fjord,8.176,56.357,0,1
+city,Ambt Montfort,5.95,51.117,0,1
+area,Lilla Karlsö,18.063,57.313,1,1
+area,Dobruja,28.333,44.45,1,1
+city,Ambon,128.2,-3.717,1,1
+area,Tuamotus,-141.76,-18.75,0,1
+area,Mojave Desert,-115.475,35.008,0,1
+area,Fezzan,13.425,26.333,0,1
+area,Mälaren,17.2,59.5,1,1
+area,County Wexford,-6.667,52.5,1,1
+area,County Tipperary,-7.833,52.667,1,1
+area,Roman Britain,-0.57,52.22,0,1
+area,Malacca,102.251,2.2,1,1
+area,Antarctic Peninsula,-66.0,-69.0,0,1
+city,Alvastra Abbey,14.654,58.296,1,1
+area,Malay Peninsula,100.0,7.0,0,1
+area,Zeelandic Flanders,3.817,51.333,0,1
+city,Annapurna,83.82,28.596,0,1
+city,Annecy,6.129,45.899,0,1
+city,Antakya,36.161,36.203,0,1
+city,Antananarivo,47.515,-18.915,0,1
+area,Kagoshima Prefecture,130.558,31.56,0,1
+area,Juan Fernández Islands,-78.841,-33.641,1,1
+area,Gulf Country,140.175,-17.873,1,1
+city,Antinoöpolis,30.873,27.808,1,1
+city,Anzio,12.628,41.447,0,1
+city,Apia,-171.833,-13.833,0,1
+area,Long Beach Island,-74.171,39.66,0,1
+city,Apollonia,21.967,32.9,0,1
+area,Salzach,12.116,47.3,0,1
+area,Store Vildmose,9.782,57.224,0,1
+city,Appenzell,9.417,47.333,1,1
+area,Zakarpattia Oblast,23.29,48.41,0,1
+city,Arica,-70.321,-18.478,1,1
+area,Tamil Nadu,79.0,11.0,0,1
+area,Vrijbos,2.958,50.962,0,1
+city,Arezzo,11.878,43.463,1,1
+area,Friedländer Große Wiese,13.792,53.656,1,1
+city,Arecibo Observatory,-66.753,18.347,0,1
+city,Area 51,-115.808,37.233,1,1
+area,Ras Nouadhibou,-17.047,20.771,0,1
+area,Hikueru,-142.65,-17.583,0,1
+area,Seine,0.118,49.435,0,1
+area,Vombsjön,13.589,55.681,1,1
+city,Arcavell,1.483,42.431,1,1
+city,Aranjuez,-3.603,40.033,1,1
+area,Province of Biella,8.0,46.0,1,1
+city,Aquileia,13.367,45.767,0,1
+area,Dauphiné,5.733,45.383,0,1
+area,Nivernais,3.16,46.99,0,1
+city,Andechs,11.185,47.967,0,1
+area,Hejaz,40.86,23.504,1,1
+area,Jiangsu,120.0,33.0,0,1
+area,Poltava Oblast,34.551,49.589,0,1
+area,Allgäu,10.193,47.539,0,1
+area,Valsugana,11.477,46.051,1,1
+area,Mulde,12.798,51.161,0,1
+area,Moselle,7.608,50.366,0,1
+city,Andes,-70.302,-16.878,0,1
+area,Als,9.917,54.983,1,1
+area,East Frisia,7.49,53.47,0,1
+area,Cyrenaica,21.633,32.283,0,1
+area,Nordskoven,9.599,56.159,0,1
+area,Jarama,-3.65,40.031,1,1
+area,Duchy of Parma and Piacenza,10.328,44.801,0,1
+area,Province of Bergamo,9.67,45.695,0,1
+area,Province of Brescia,10.219,45.539,1,1
+area,Province of Mantua,10.8,45.167,1,1
+area,Province of Oristano,8.583,39.9,1,1
+area,Province of Ravenna,12.199,44.418,0,1
+area,Province of Rimini,12.553,44.06,0,1
+area,Province of Rovigo,11.783,45.067,1,1
+area,Province of Turin,7.7,45.067,1,1
+city,Andorra,1.6,42.542,0,1
+area,Pleiße,12.425,50.648,0,1
+city,Annaka,138.776,36.341,0,1
+area,Isefjord,11.8,55.85,1,1
+area,Volga Region,50.0,55.0,1,1
+area,Ronneby River,15.301,56.174,1,1
+area,Franche-Comté,6.0,47.0,1,1
+area,Hyndland,-4.31,55.879,0,1
+area,Connacht,-9.05,53.78,0,1
+area,Trentino,11.126,46.066,1,1
+area,Meester Cornelis,106.883,-6.233,1,1
+area,Vatnsdalur,-20.287,65.425,0,1
+area,Staffa,-6.34,56.436,1,1
+area,Allier,3.079,46.959,1,1
+area,Jordan Valley,35.57,32.317,0,1
+area,Trièves,5.667,44.8,1,1
+area,Philae,32.884,24.022,0,1
+area,Leyte Gulf,125.417,10.833,0,1
+area,South Texas,-98.561,28.345,0,1
+area,Isla Chupadores Chico,-79.933,-2.55,1,1
+area,City of Edinburgh,-3.193,55.95,0,1
+area,Tryggevælde Å,12.254,55.398,1,1
+area,Svartån,16.547,59.601,1,1
+area,Pattani,101.25,6.868,0,1
+city,Albuquerque,-106.641,35.105,0,1
+area,Bering Island,166.25,55.0,0,1
+area,Hundslund Parish,10.052,55.915,0,1
+area,Galloway,-4.133,55.05,0,1
+city,Alcolea,-2.95,36.967,1,1
+city,Alenquer,-54.738,-1.942,0,1
+city,Aleppo,37.168,36.232,0,1
+city,Alexandrov Kremlin,38.74,56.401,0,1
+city,Algonquin Provincial Park,-78.7,45.8,0,1
+city,Alleghe,12.021,46.407,1,1
+area,Herefordshire,-2.75,52.083,0,1
+city,Allendale,-121.943,38.445,0,1
+area,Derbyshire,-1.61,53.18,1,1
+area,Lincolnshire,-0.2,53.1,1,1
+city,Allentown,-75.5,40.6,0,1
+area,Weald,0.4,51.0,0,1
+city,Allinge,14.801,55.278,0,1
+area,Kashmir Valley,74.8,34.05,1,1
+area,Farum Sø,12.365,55.803,1,1
+area,Dragačevo,20.2,43.783,1,1
+area,Madeira Island,-16.98,32.75,0,1
+area,Österdal River,15.134,60.552,1,1
+area,Salvation's Islands,-52.586,5.286,1,1
+area,Île de Peilz,6.914,46.4,0,1
+area,Pannonia,19.02,44.9,0,1
+area,Étang de Berre,5.114,43.446,1,1
+area,Los Angeles Basin,-118.243,34.05,1,1
+area,Baie de Douarnenez,-4.433,48.167,0,1
+area,Klondike River,-139.443,64.055,1,1
+area,Banke District,81.617,28.05,0,1
+area,Amazonia,-60.016,-3.1,1,1
+area,Mugello,11.383,43.95,1,1
+area,Santa Clara Island,-1.999,43.321,1,1
+area,Azores,-28.031,38.624,0,1
+city,Alba,8.026,44.692,0,1
+area,Beitou District,121.5,25.117,0,1
+area,Zealand,11.89,55.57,0,1
+area,Lombardy,9.95,45.65,0,1
+area,Capital Region of Denmark,12.35,55.932,0,1
+area,Madeira,-17.0,32.75,0,1
+area,southern Ukraine,34.0,47.0,0,1
+area,Gerlache Strait,-62.333,-64.5,0,1
+area,Central Denmark,9.5,56.167,0,1
+area,Ribera de Navarre,-1.574,42.175,1,1
+area,Pays de Savoie,5.933,45.567,0,1
+area,Salzkammergut,13.5,47.75,1,1
+area,Algarve,-7.935,37.014,1,1
+area,Aetolia,21.4,38.617,0,1
+area,Phocis Prefecture,22.25,38.5,0,1
+area,Linderödsåsen,14.033,55.817,1,1
+area,Mauritius Island,57.583,-20.3,1,1
+area,Kangaroo Island,137.3,-35.8,0,1
+area,Songhua River,127.224,42.728,0,1
+city,Altea,-0.049,38.6,1,1
+area,Thessaloniki Regional Unit,23.279,40.684,1,1
+area,Ångermanland,17.238,63.154,1,1
+area,Bohuslän,11.887,58.248,1,1
+area,Ölziit,100.816,46.067,0,1
+area,Loch Lomond,-4.652,56.148,0,1
+area,Oltenia,23.5,44.5,1,1
+area,Pianosa,10.083,42.583,1,1
+area,Ucayali Department,-73.19,-9.96,0,1
+area,Komi Republic,54.467,64.283,1,1
+area,Q20543331,-8.661,42.288,1,1
+area,Cusco Department,-72.11,-13.26,0,1
+area,Montecristo,10.317,42.333,1,1
+area,Engadin,9.896,46.55,1,1
+city,Altmünster,13.767,47.9,0,1
+city,Althorp,-1.002,52.28,0,1
+area,River Thames,-2.03,51.694,0,1
+area,Salling,8.963,56.671,0,1
+area,River Clyde,-3.652,55.406,1,1
+city,Altendorf,8.83,47.192,0,1
+area,Langhe,7.964,44.609,1,1
+area,canton of Campan,0.171,43.036,0,1
+area,South Caucasus,49.891,40.38,1,1
+area,Lapland,26.0,67.0,1,1
+area,Newfoundland and Labrador,-60.0,53.0,0,1
+city,Altenau,10.447,51.803,0,1
+area,Ucayali River,-73.756,-10.701,0,1
+area,La Palma,-17.86,28.66,1,1
+area,Bougainville Island,155.384,-6.244,1,1
+area,Nunavut,-90.9,67.35,1,1
+area,Balzar Canton,-79.9,-1.36,0,1
+area,Lido di Venezia,12.35,45.383,0,1
+area,Taiwan Island,121.0,23.767,0,1
+area,Punjab,75.467,30.767,0,1
+area,Grassy Narrows,-94.267,49.833,0,1
+area,Guanabara Bay,-43.156,-22.79,1,1
+area,Gammel Parish,8.21,56.104,1,1
+area,Furesø,12.414,55.796,0,1
+area,Lindum Forest,9.681,56.577,0,1
+area,Q21707816,9.583,56.725,0,1
+area,Skatskov,9.541,56.729,0,1
+area,Dalälven,17.45,60.642,1,1
+area,Tarim Basin,76.05,39.467,1,1
+area,Samsø,10.617,55.867,1,1
+area,Okefenokee Swamp,-82.333,30.667,0,1
+area,Mýrdalsjökull,-19.129,63.666,1,1
+area,Tinos,25.167,37.533,1,1
+area,Great Morava,20.157,43.452,1,1
+area,Hjälmaren,15.75,59.25,1,1
+area,Mandø,8.55,55.283,1,1
+area,Västerbotten,20.25,64.25,1,1
+city,Altamont,-81.944,35.991,0,1
+area,Hebei,114.509,38.042,0,1
+area,Amalfi Coast,14.6,40.633,1,1
+area,Chica,-60.8,-62.45,0,1
+area,Rheingau,7.995,50.036,1,1
+area,metropolitan France,2.0,46.0,1,1
+area,Gurre Lake,12.483,56.032,0,1
+area,Una,16.918,45.27,0,1
+area,Santiago Metropolitan Region,-70.65,-33.438,0,1
+area,Béarn,-0.367,43.3,0,1
+area,Lindisfarne,-1.802,55.68,0,1
+area,Northern Norway,19.0,69.667,0,1
+area,Quessant Island,151.257,-11.151,1,1
+city,Jungshovedgaard,12.12,55.09,1,1
+city,Juntusranta,29.476,65.219,1,1
+city,Jyllinge,12.104,55.751,1,1
+city,Jönköping,14.167,57.783,1,1
+city,Jörgenberg Castle,9.138,46.78,0,1
+city,Kablar,15.756,45.479,1,1
+city,Kaesong,126.564,37.964,1,1
+city,Split,16.44,43.51,0,1
+city,Kaikōura Ranges,173.667,-42.0,0,1
+city,Kalundborg,11.085,55.681,0,1
+city,"Kamenica, Kosovo",21.567,42.567,1,1
+city,Kampen,5.92,52.555,0,1
+city,Kanpur,80.318,26.462,0,1
+city,Burr Oak,-91.868,43.458,1,1
+city,Kargopol,38.933,61.5,1,1
+city,Karlova Studánka,17.307,50.073,0,1
+city,Bianliang,114.348,34.852,0,1
+city,Iława,19.566,53.596,0,1
+city,Jackson,-90.185,32.299,1,1
+city,Jagodina,21.256,43.975,1,1
+city,Jaipur,75.808,26.923,0,1
+city,Jaisalmer Fort,70.913,26.913,1,1
+city,Jaisalmer,70.917,26.917,0,1
+city,Bussy-Saint-Georges,2.698,48.842,1,1
+city,Jomfru Ane Gade,9.919,57.05,1,1
+city,Jaén,-3.789,37.77,0,1
+city,Jefferson,-83.59,34.127,1,1
+city,Jelenik,15.368,45.945,0,1
+city,Jemez Pueblo,-106.728,35.611,1,1
+city,Jena,11.586,50.927,0,1
+city,Jernhatten,10.787,56.245,0,1
+city,Jihlava,15.591,49.4,0,1
+city,Jiujiang,115.98,29.73,0,1
+city,Jasenovac,16.911,45.276,1,1
+city,Kiirunavaara,20.185,67.827,1,1
+city,Kikinda Municipality,20.446,45.818,0,1
+city,Kikkebjerg,8.394,55.451,0,1
+city,Kilpisjärvi,20.873,69.017,1,1
+city,Kinosaki Onsen,134.8,35.628,0,1
+city,Kinugawa Onsen,139.716,36.825,0,1
+city,Kiruna,20.303,67.849,1,1
+city,Karlovy Vary,12.873,50.231,1,1
+city,Kitale,35.0,1.017,1,1
+city,Kjellerup,9.433,56.285,0,1
+city,Klausen,11.566,46.64,0,1
+city,Klenje,19.434,44.807,0,1
+city,Kleve,6.14,51.79,0,1
+city,Knittlingen,8.757,49.024,1,1
+city,Knockemstiff,-83.119,39.268,0,1
+city,Kochi,76.222,10.017,1,1
+city,Kislovodsk,42.72,43.91,1,1
+city,Karlskrona,15.631,56.192,1,1
+city,Karpacz,15.75,50.767,1,1
+city,Kars,43.096,40.608,1,1
+city,Karuizawa,138.597,36.348,1,1
+city,Kassel,9.5,51.3,0,1
+city,Kastellaun,7.443,50.069,0,1
+city,Kathmandu,85.315,27.719,1,1
+city,Khyber Pass,71.112,34.11,1,1
+city,Szopienice,19.02,50.26,1,1
+city,Kaub,7.763,50.088,0,1
+city,Kaunakakai,-157.012,21.089,1,1
+city,Kazan,49.124,55.752,0,1
+city,Kaçanik,21.259,42.232,1,1
+city,Kelberg,6.921,50.288,0,1
+city,Key West,-81.784,24.56,1,1
+city,Khatgal,100.162,50.439,0,1
+city,Katonah,-73.685,41.259,1,1
+city,Himmerod Abbey,6.757,50.028,0,1
+city,Béthune,2.639,50.531,1,1
+city,Hirtshals,9.96,57.59,0,1
+city,Hjarbæk,9.319,56.531,0,1
+city,Hobro Station,9.783,56.643,1,1
+city,Hochkelberg,6.953,50.274,0,1
+city,Hohenfels-Essingen,6.732,50.254,0,1
+city,Iđoš,20.312,45.829,1,1
+city,Hokitika,170.967,-42.717,1,1
+city,Holbæk,11.71,55.718,0,1
+city,Holmegård,11.122,54.86,0,1
+city,Bårse,11.95,55.126,1,1
+city,Honolulu,-157.86,21.309,0,1
+city,Hontanares de Eresma,-4.203,40.983,0,1
+city,Hornachuelos,-5.248,37.832,0,1
+city,Hotel Ansgar,10.203,56.151,0,1
+city,Hohenschwangau Castle,10.736,47.556,0,1
+city,Hautefaye,0.493,45.537,1,1
+city,Calgary,-114.082,51.085,1,1
+city,Havreholm Slot,12.428,56.057,0,1
+city,Haʻena State Park,-159.584,22.225,1,1
+city,Cahors,1.441,44.447,1,1
+city,Helsingør Municipality,12.611,56.035,0,1
+city,Büchel,7.084,50.174,0,1
+city,Himmelbjerget,9.685,56.105,0,1
+city,Heraklion,25.134,35.34,0,1
+city,Hersegade,12.085,55.64,0,1
+city,Hertfordshire,-0.2,51.9,1,1
+city,Hestehavevej,10.204,56.12,0,1
+city,Hestetorvet,12.089,55.64,0,1
+city,Hestrud,4.151,50.199,1,1
+city,Hillesheim,6.675,50.293,0,1
+city,Béziers,3.216,43.343,0,1
+city,Børglum Abbey,9.799,57.369,0,1
+city,Indiana University Bloomington,-86.521,39.167,0,1
+city,Ingleborough,-2.397,54.166,0,1
+city,Innsbruck,11.393,47.268,0,1
+city,"Institute of Astronomy, Cambridge",0.093,52.214,1,1
+city,Interlaken,7.865,46.687,0,1
+city,Intxortas,-2.499,43.131,0,1
+city,Inveraray,-5.073,56.231,1,1
+city,Hotel Elephant,11.33,50.979,1,1
+city,Irig,19.858,45.101,1,1
+city,Silverado,-117.83,33.68,1,1
+city,Iselingen,11.926,55.015,1,1
+city,Isles of Scilly,-6.3,49.92,1,1
+city,Ismaïlia,32.26,30.59,0,1
+city,Butte,-112.53,46.006,0,1
+city,Ivanovo,41.01,57.01,1,1
+city,Ivinghoe,-0.626,51.836,1,1
+city,Iowa City,-91.525,41.656,1,1
+city,Bäckaskog Castle,14.349,56.086,1,1
+city,Hunderupvej,10.389,55.383,1,1
+city,Huskvarna,14.276,57.792,1,1
+city,Bárcenas,-3.562,43.097,1,1
+city,Hvam Mejeriby,8.73,56.409,0,1
+city,Hvidbjerg Church,8.527,56.653,0,1
+city,Hvidsten Inn,10.002,56.55,0,1
+city,Incheon,126.64,37.478,0,1
+city,Hvorvarp,9.458,56.825,0,1
+city,Hyrylä,25.022,60.401,0,1
+city,Hāwera,174.282,-39.589,1,1
+city,Hōryū-ji Temple,135.734,34.614,0,1
+city,Idas Valley,18.883,-33.92,0,1
+city,Igbeti,4.135,8.753,1,1
+city,Gunsan,126.945,35.941,1,1
+city,Illescas,-3.85,40.124,0,1
+city,Hvidsten,10.002,56.554,0,1
+city,Locarno,8.8,46.166,0,1
+city,Lock Haven,-77.451,41.138,0,1
+city,Lodi,9.5,45.317,0,1
+city,Loja,-79.205,-3.991,1,1
+city,London,-81.25,42.97,0,1
+city,Bromølle Kro,11.387,55.612,0,1
+city,Lorain,-82.169,41.448,1,1
+city,Kolding,9.472,55.491,0,1
+city,Broken Bow,-94.738,34.03,1,1
+city,Loudun,0.084,47.01,0,1
+city,Louisiana Museum of Modern Art,12.543,55.969,1,1
+city,Lourdes,-0.047,43.094,0,1
+city,Lubuk Sikaping,100.167,0.15,1,1
+city,Lucca,10.517,43.85,1,1
+city,Lucknow,80.913,26.857,0,1
+city,Ludwikowice Kłodzkie,16.478,50.618,1,1
+city,Los Alamos,-106.298,35.891,1,1
+city,Lgov,35.699,53.476,0,1
+city,Licodia Eubea,14.7,37.15,1,1
+city,Limburg an der Lahn,8.067,50.383,0,1
+city,Linköping Cathedral,15.617,58.411,1,1
+city,Lipce Reymontowskie,19.942,51.899,1,1
+city,Lipovac,17.503,45.834,1,1
+city,Brooklands,-0.472,51.349,1,1
+city,Ljuders socken,15.315,56.682,1,1
+city,Litomyšl,16.311,49.872,1,1
+city,Littlestone-on-Sea,0.964,50.981,1,1
+city,Brookhaven,-90.443,31.582,0,1
+city,Liwa,104.061,-5.019,1,1
+city,Liège,5.58,50.63,1,1
+city,Ljubić,20.356,43.903,1,1
+city,Ljubljana,14.515,46.055,0,1
+city,Ljubovija,19.373,44.187,1,1
+city,Lisović,20.441,44.551,0,1
+city,Malta,14.4,35.9,1,1
+city,Manado,124.85,1.48,1,1
+city,Brinje,15.133,45.0,1,1
+city,Manggar,108.27,-2.89,0,1
+city,Brindisi,17.946,40.638,1,1
+city,Briedern,7.211,50.109,0,1
+city,Manresa,1.829,41.726,0,1
+city,Luino,8.75,46.0,1,1
+city,Marathon,23.962,38.153,0,1
+city,Marbækvej,12.074,55.822,0,1
+city,Margao,73.958,15.272,0,1
+city,Maria Laach Abbey,7.252,50.402,0,1
+city,Bridgton,-70.713,44.055,1,1
+city,Marine Corps Recruit Depot Parris Island,-80.672,32.35,0,1
+city,Markovica,20.203,43.858,1,1
+city,Marquette,-87.396,46.544,1,1
+city,Manzanillo Municipality,-104.35,19.15,0,1
+city,Luossavaara,20.222,67.875,1,1
+city,Luoyang,112.468,34.682,0,1
+city,Lusaka,28.281,-15.415,1,1
+city,Luz-Saint-Sauveur,-0.002,42.872,0,1
+city,Luçon,-1.166,46.455,1,1
+city,Lößnitz,12.732,50.621,0,1
+city,Løkken strand,9.704,57.372,0,1
+city,Malo,11.405,45.658,0,1
+city,Machala,-79.967,-3.267,1,1
+city,Magdeburg,11.64,52.132,1,1
+city,Magome-juku,137.558,35.525,1,1
+city,Malindi,40.117,-3.219,0,1
+city,Maljen,20.027,44.117,1,1
+city,Malmberget,20.651,67.175,1,1
+city,Malmö,13.033,55.583,0,1
+city,Malone,-74.289,44.851,1,1
+city,Lüneburg,10.414,53.252,0,1
+city,Kruger National Park,31.485,-24.011,0,1
+city,Krämerstraße,12.142,54.091,0,1
+city,Kullaberg,12.467,56.3,1,1
+city,Kulturhistorie Tønder,8.867,54.933,0,1
+city,Kumamoto,130.701,32.801,1,1
+city,Kumanovo,21.714,42.132,1,1
+city,Kupinovo,21.347,42.986,1,1
+city,Ležimir,19.57,45.123,1,1
+city,Kuršumlija,21.268,43.141,1,1
+city,Bujumbura,29.36,-3.376,1,1
+city,Kustavi,21.358,60.546,1,1
+city,Kutná Hora,15.268,49.948,0,1
+city,Budyně nad Ohří,14.126,50.404,0,1
+city,Buddenbrookhaus,10.686,53.868,1,1
+city,Kyustendil,22.687,42.28,0,1
+city,Kællingtandgårde,9.508,56.747,0,1
+city,Kurihara,141.021,38.73,0,1
+city,Kolmården,16.466,58.665,1,1
+city,Kolín,15.201,50.028,0,1
+city,Komoro,138.426,36.327,1,1
+city,Konya,32.473,37.877,0,1
+city,Koper,13.731,45.548,1,1
+city,Korning,9.699,55.851,0,1
+city,Kotari,15.675,45.75,1,1
+city,Kronstadt,29.775,59.991,0,1
+city,Kozhikode,75.768,11.252,0,1
+city,Burg Nebra,11.576,51.285,0,1
+city,Kraljevo,20.687,43.723,1,1
+city,Kramnitse,11.252,54.707,0,1
+city,Krasnoyarsk,92.864,56.016,0,1
+city,Kras,13.9,45.667,1,1
+city,Kristianstad,14.126,56.021,1,1
+city,Krnić,19.861,44.589,0,1
+city,Kouvola,26.704,60.868,1,1
+city,Bryson City,-83.448,35.427,1,1
+city,Latisana,13.0,45.783,1,1
+city,Bruntál,17.465,49.988,0,1
+city,Lawrence,-95.235,38.972,0,1
+city,Layrac,0.662,44.134,0,1
+city,Lazarevac,20.258,44.383,1,1
+city,Le Faouët,-3.491,48.033,1,1
+city,Køge,12.183,55.45,0,1
+city,Lebedyan,39.128,53.012,0,1
+city,Ledinci,19.805,45.212,1,1
+city,Brundby,10.604,55.814,0,1
+city,Leksand,14.999,60.731,1,1
+city,Lemvig,8.303,56.548,0,1
+city,Leoncin,20.55,52.4,0,1
+city,Leptis Magna,14.29,32.638,0,1
+city,Levice,18.607,48.214,1,1
+city,Lebanon,-92.662,37.678,0,1
+city,Kühlungsborn,11.75,54.133,1,1
+city,La Creuse,6.347,47.676,1,1
+city,La Paz,-68.152,-16.496,1,1
+city,La Roche-Guyon,1.629,49.082,0,1
+city,La Spezia,9.829,44.108,1,1
+city,Ladispoli,12.074,41.954,1,1
+city,Bucharest,26.098,44.435,1,1
+city,Bubaveci,20.722,42.55,1,1
+city,Lake Maggiore,8.715,46.098,1,1
+city,Lalang,108.279,-2.881,0,1
+city,Lammermuirs,-2.733,55.833,1,1
+city,Lamy,-105.881,35.481,0,1
+city,Laon,3.621,49.564,0,1
+city,Lapachito,-59.4,-27.167,1,1
+city,Larache,-6.154,35.195,1,1
+city,Laramie,-105.594,41.311,0,1
+city,Laka-Tymzha,51.528,56.265,0,1
+city,Deligrad,21.579,43.615,1,1
+city,Delos,25.271,37.391,0,1
+city,Delsbo,16.557,61.803,1,1
+city,Dendermonde,4.098,51.031,0,1
+city,Deoghar,86.7,24.48,0,1
+city,Dearborn,-83.082,42.332,0,1
+city,Deventer,6.16,52.251,0,1
+city,Hastinapur,78.033,29.283,0,1
+city,Diepkloof,22.698,-33.67,0,1
+city,Dizy,3.967,49.065,1,1
+city,Djibouti,43.148,11.595,0,1
+city,Dobroselica,20.968,43.837,0,1
+city,Doles Ash,-2.396,50.801,1,1
+city,Dolynska,32.765,48.111,0,1
+city,Domaine of Villarceaux,1.706,49.123,0,1
+city,Domnino,41.694,58.167,0,1
+city,Dhaka,90.407,23.725,1,1
+city,Ceuta,-5.3,35.887,0,1
+city,Côte de Lumière,-1.843,46.609,0,1
+city,Căldărușani Monastery,26.267,44.676,0,1
+city,Da Nang,108.25,16.06,0,1
+city,Daejeon,127.423,36.337,1,1
+city,Damsholte,12.218,54.94,0,1
+city,Dana Abad,73.452,31.214,0,1
+city,Delain,5.636,47.577,1,1
+city,Dansebjerg,10.602,55.808,0,1
+city,Dar es Salaam,39.266,-6.798,1,1
+city,Dariapur,87.858,21.796,1,1
+city,Darmstadt,8.65,49.867,0,1
+city,Daule,-79.983,-1.867,1,1
+city,Daytona Beach,-81.023,29.211,0,1
+city,De Panne,2.584,51.098,0,1
+city,Deditzhöhe,12.814,51.246,0,1
+city,Danish national road 22,11.205,55.551,0,1
+city,Casale Monferrato,8.458,45.134,1,1
+city,Eastern Carpathians,24.636,47.594,1,1
+city,Eau Claire,-91.493,44.815,0,1
+city,Eaux-Bonnes,-0.392,42.973,0,1
+city,Ebensee am Traunsee,13.773,47.812,0,1
+city,Ebernburg Castle,7.839,49.807,0,1
+city,Echigo Yuzawa Onsen,138.808,36.938,1,1
+city,Domrémy-la-Pucelle,5.675,48.443,0,1
+city,Edwards Air Force Base,-117.891,34.924,0,1
+city,Efteling,5.048,51.65,0,1
+city,Eifel,6.813,50.417,1,1
+city,Eisenach,10.324,50.975,0,1
+city,El Golfo,-13.831,28.981,1,1
+city,Beni Hasan,30.75,28.09,0,1
+city,El Paso,-106.512,31.782,1,1
+city,Eldon,-92.22,40.918,0,1
+city,Edmonton,-113.502,53.552,0,1
+city,Donje Točane,21.371,43.181,1,1
+city,Dorfschmiede Kagel,13.911,52.46,0,1
+city,Douai,3.079,50.371,0,1
+city,Dover,1.312,51.127,1,1
+city,Drachenwand,13.347,47.814,0,1
+city,Drena,10.945,45.969,1,1
+city,Castle of the Unnamed,9.427,45.815,1,1
+city,Durrës,19.446,41.313,1,1
+city,Castello Visconteo,8.706,45.685,0,1
+city,Duchcov,13.746,50.604,1,1
+city,Cashel,-7.889,52.517,1,1
+city,Dunedin,170.504,-45.874,0,1
+city,Dungannon,-6.77,54.5,0,1
+city,Dunkirk,2.376,51.038,1,1
+city,Durango,-2.632,43.167,0,1
+city,Durham,-78.92,36.0,1,1
+city,Castello di Tornano,11.408,43.424,0,1
+city,Chunuk Bair,26.308,40.25,0,1
+city,Chur,9.53,46.852,1,1
+city,Chyhyryn,32.667,49.083,0,1
+city,Ciboure,-1.668,43.385,0,1
+city,Ciciano,11.071,43.141,1,1
+city,Loveland,-84.459,39.164,0,1
+city,Cirebon,108.567,-6.733,1,1
+city,Córdoba,-64.184,-31.398,1,1
+city,Ciudad Guzmán,-103.463,19.705,1,1
+city,Ciudad del Este,-54.616,-25.517,1,1
+city,Ciénaga,-74.247,11.007,1,1
+city,Clamecy,3.519,47.46,1,1
+city,Clayton,-73.287,42.043,1,1
+city,Clermont-Ferrand,3.087,45.78,1,1
+city,Cluj-Napoca,23.598,46.788,1,1
+city,Coal Flat,171.93,-41.808,0,1
+city,City of Zvornik,19.102,44.38,1,1
+city,Chartres,1.488,48.447,1,1
+city,Chatham,-69.96,41.682,1,1
+city,Cheb,12.374,50.08,0,1
+city,Chelford,-2.279,53.27,1,1
+city,Cheltenham,-2.078,51.897,1,1
+city,Chelyabinsk,61.437,55.157,0,1
+city,Chemnitz,12.92,50.83,0,1
+city,Chișinău,28.858,47.005,0,1
+city,Chennai,80.278,13.092,0,1
+city,Cherbourg,-1.6,49.633,1,1
+city,Chernobyl,30.217,51.267,0,1
+city,Chichen Itza,-88.569,20.683,0,1
+city,Chichilianne,5.572,44.812,1,1
+city,Chicoutimi,-71.059,48.428,1,1
+city,Chikura,139.95,34.95,1,1
+city,Chinle,-109.579,36.155,1,1
+city,Chengdu,104.068,30.672,1,1
+city,Costa del Sol,-4.882,36.516,0,1
+city,Craonnelle,3.771,49.431,1,1
+city,Cressy,1.166,49.723,0,1
+city,Crna Bara,19.395,44.874,0,1
+city,Crotone,17.117,39.083,1,1
+city,Ctesiphon,44.581,33.094,0,1
+city,Cuenca,-2.134,40.072,1,1
+city,Cochem,7.167,50.147,0,1
+city,Cumaná,-64.18,10.45,0,1
+city,Cumbria,-3.25,54.5,1,1
+city,Cuneo,7.55,44.383,1,1
+city,Curaçao,-69.0,12.2,0,1
+city,Cuvio,8.733,45.9,1,1
+city,Cypress,-95.668,29.995,0,1
+city,Czarci Ostrów,21.709,53.73,0,1
+city,Chamberlain,-69.477,43.892,1,1
+city,Culiacán,-107.382,24.832,1,1
+city,Coigny,-1.384,49.323,0,1
+city,Coimbatore,76.948,11.002,1,1
+city,Coimbra,-8.429,40.211,0,1
+city,College of Europe,3.226,51.206,0,1
+city,Collioure,3.081,42.526,0,1
+city,Thuin,4.45,50.42,1,1
+city,Chapelle Sainte-Barbe du Faouët,-3.48,48.042,1,1
+city,Cortona,11.988,43.276,1,1
+city,Comitán de Domínguez,-92.134,16.251,1,1
+city,Chapada Diamantina,-41.372,-12.88,1,1
+city,Constanța,28.61,44.203,1,1
+city,Contrecœur,-73.233,45.85,0,1
+city,Cook Islands,-159.783,-21.233,1,1
+city,Coole Park,-8.835,53.097,0,1
+city,Changchun,125.338,43.867,1,1
+city,Cornwall,-73.331,41.845,1,1
+city,Comacchio,12.183,44.7,0,1
+city,Gračanica,18.31,44.703,1,1
+city,Grdelica,22.07,42.902,0,1
+city,Greater Sudbury,-81.01,46.49,0,1
+city,Gredstedbro,8.744,55.397,0,1
+city,Green Table,-3.601,58.134,1,1
+city,Greenville,-82.394,34.853,1,1
+city,Grenada,-61.7,12.1,1,1
+city,Elemir,20.3,45.443,0,1
+city,Canet-en-Roussillon,3.007,42.706,1,1
+city,Grgurevci,19.646,45.105,1,1
+city,Griethausen,6.165,51.822,0,1
+city,Grimhøj Mosque,10.124,56.164,0,1
+city,Grindelwald,8.033,46.626,0,1
+city,Grocka,20.717,44.67,0,1
+city,Grodno Castle,16.411,50.75,1,1
+city,Grottewitz,12.822,51.251,0,1
+city,Grenen,10.647,57.746,1,1
+city,Glenariff,-6.079,55.032,0,1
+city,Glimmingehus,14.231,55.501,1,1
+city,Gmunden,13.799,47.918,0,1
+city,Gold Hill,-105.407,40.062,0,1
+city,Golubac,21.632,44.653,1,1
+city,Goračići,20.32,43.778,1,1
+city,Gordon's Bay,18.867,-34.15,0,1
+city,Graz,15.41,47.078,1,1
+city,Gorobilje,20.079,43.818,1,1
+city,Gourougou,-2.997,35.221,1,1
+city,Graines Castle,7.754,45.738,1,1
+city,Canigó,2.457,42.519,0,1
+city,Grand Rapids,-85.67,42.964,0,1
+city,Grasse,6.925,43.658,1,1
+city,Gravesend,0.369,51.442,0,1
+city,Grazalema,-5.369,36.759,0,1
+city,Gorleben,11.356,53.048,0,1
+city,Hakuba,137.862,36.698,0,1
+city,Hald Manor,9.344,56.393,1,1
+city,Hald Ruin,9.356,56.391,1,1
+city,Halifax,-63.6,44.65,0,1
+city,Halle (Saale),11.97,51.483,0,1
+city,Hals,10.309,56.997,0,1
+city,Ecbatana,48.515,34.796,0,1
+city,Grottole,16.383,40.6,1,1
+city,Handan,114.478,36.582,0,1
+city,Campagna,15.106,40.667,0,1
+city,Hanoi,105.848,21.035,1,1
+city,Callao,-77.135,-12.07,1,1
+city,Hardangervidda,7.018,60.052,1,1
+city,Cali,-76.502,3.402,1,1
+city,Hasle,14.706,55.184,0,1
+city,Hasserisvej,9.884,57.035,0,1
+city,Camprodon,2.365,42.312,0,1
+city,Gruža,20.767,43.9,1,1
+city,Guadalajara,-3.167,40.633,1,1
+city,Guarda,10.153,46.775,1,1
+city,Gudhjem,14.972,55.207,1,1
+city,Guernsey,-2.583,49.45,0,1
+city,"Guildhall, Derry",-7.319,54.998,0,1
+city,Guilleries,2.5,41.917,1,1
+city,Hakone Onsen,139.058,35.242,0,1
+city,Guwahati,91.768,26.162,0,1
+city,Guérande,-2.429,47.328,1,1
+city,Guéthary,-1.609,43.424,0,1
+city,Göta Canal,16.173,58.498,1,1
+city,Göttingen,9.936,51.534,0,1
+city,Haarlem,4.63,52.38,0,1
+city,Haifa,34.978,32.822,1,1
+city,Hakkâri,43.741,37.574,1,1
+city,Guldager,9.579,56.716,0,1
+city,Ferizovići,18.966,43.802,1,1
+city,Ferring,8.122,56.525,0,1
+city,Feuchtwangen,10.317,49.167,0,1
+city,Fez,-5.002,34.057,1,1
+city,Fierbinți-Târg,26.383,44.683,0,1
+city,Finale Emilia,11.296,44.832,1,1
+city,Fingal's Cave,-6.341,56.431,1,1
+city,Glastonbury,-2.717,51.148,1,1
+city,Fischergrube,10.684,53.871,1,1
+city,Fjerritslev,9.267,57.088,0,1
+city,Fjällbacka,11.287,58.597,1,1
+city,Floda,14.795,60.498,1,1
+city,Fonni,9.254,40.119,1,1
+city,Fordlândia,-55.498,-3.831,0,1
+city,Fort Lauderdale,-80.142,26.136,1,1
+city,Fort Saint Louis,-96.12,28.33,0,1
+city,Finspång,15.809,58.705,1,1
+city,Elend,10.686,51.745,0,1
+city,Elgeta,-2.488,43.137,0,1
+city,Elim,32.967,29.3,0,1
+city,Ellwood,-2.593,51.771,0,1
+city,Elsesminde,10.331,55.369,0,1
+city,Elsey Station,133.35,-14.951,1,1
+city,Enkhuizen,5.283,52.7,0,1
+city,Fellingsbro,15.588,59.436,1,1
+city,Esmeraldas,-79.667,0.95,1,1
+city,Carnarvon,113.657,-24.884,1,1
+city,Exilles,6.929,45.097,1,1
+city,Faid,7.119,50.145,0,1
+city,Fall River,-71.156,41.701,0,1
+city,Falun Mine,15.616,60.6,1,1
+city,Famara,-13.541,29.122,1,1
+city,Fehrbellin,12.766,52.814,0,1
+city,Eskilstuna,16.513,59.377,1,1
+city,Garut Kota,107.9,-7.217,0,1
+city,Gaza City,34.445,31.53,0,1
+city,Bysewo,18.64,54.36,1,1
+city,Gdynia,18.53,54.52,1,1
+city,Geel,4.99,51.161,0,1
+city,Cape Gelidonya,30.557,36.636,0,1
+city,Cape Canaveral,-80.528,28.456,0,1
+city,Fort Smith,-111.891,60.005,0,1
+city,Giebichenstein Castle,11.954,51.503,0,1
+city,Asturias,-5.67,43.53,1,1
+city,Gimcheon,128.115,36.119,1,1
+city,Cape Canaveral Space Force Station,-80.578,28.489,1,1
+city,Giverny,1.529,49.076,1,1
+city,Givet,4.824,50.138,1,1
+city,Canterbury,1.077,51.278,1,1
+city,Gjorslev,12.378,55.355,1,1
+city,Gibbet Hill,-0.716,51.116,0,1
+city,Forty Mile,-140.55,64.45,0,1
+city,Cape Palos,-0.7,37.632,1,1
+city,Fredericia,9.76,55.564,0,1
+city,Frederick,-99.018,34.392,0,1
+city,Frederikssund,12.064,55.841,0,1
+city,Freeport,-78.66,26.52,1,1
+city,Fremont,-121.988,37.549,1,1
+city,Fresno,-119.773,36.748,0,1
+city,Gaomi,119.75,36.383,1,1
+city,Frieswijk,6.203,52.292,0,1
+city,Frombork,19.683,54.358,0,1
+city,Gaborone,25.909,-24.657,1,1
+city,Gaglovo,21.426,43.57,0,1
+city,Cape Kidnappers / Te Kauwae-a-Māui,177.096,-39.643,1,1
+city,Galtellì,9.612,40.385,1,1
+city,Galveston,-94.795,29.301,1,1
+city,Ganja,46.35,40.685,0,1
+city,Friedberg,8.755,50.335,0,1
+city,Bexhövede,8.684,53.484,0,1
+city,Bethesda,-4.06,53.179,1,1
+city,Santo Domingo,-75.166,6.471,1,1
+city,Santos,-46.335,-23.952,1,1
+city,Sassari,8.559,40.727,1,1
+city,Savannah,-81.104,32.051,0,1
+city,Sava,17.553,40.402,1,1
+city,Brezovac,20.585,44.252,0,1
+city,Schaftlach station,11.684,47.795,0,1
+city,Schalkhaar,6.192,52.268,0,1
+city,Schierke,10.665,51.764,0,1
+city,Schlitz,9.559,50.676,1,1
+city,Schmorditz,12.792,51.262,0,1
+city,Schweinfurt,10.233,50.05,1,1
+city,Sct. Oluf,10.212,56.159,0,1
+city,Scyros,24.525,38.873,0,1
+city,Scarborough,-0.4,54.282,0,1
+city,Bhopal,77.408,23.252,0,1
+city,Milpitas,-121.852,37.302,1,1
+city,San Juan Bautista Valle Nacional,-96.302,17.776,0,1
+city,San Luis Obispo,-120.663,35.274,1,1
+city,San Marino,12.467,43.933,1,1
+city,Bečej Municipality,20.036,45.616,0,1
+city,Sandared,12.792,57.712,0,1
+city,Santander,-3.8,43.467,1,1
+city,Bezhin Meadow,36.69,53.455,0,1
+city,Sankt Hans Hospital,12.069,55.651,0,1
+city,Sanremo,7.775,43.818,1,1
+city,Sant Miquel (la Cava),0.735,40.718,0,1
+city,Bex,7.017,46.25,0,1
+city,Santa Cruz,-122.026,36.972,1,1
+city,Santa Marta,-74.202,11.247,0,1
+city,Santa Monica,-118.481,34.022,0,1
+city,Sankassa,79.271,27.334,0,1
+city,Shkodër,19.512,42.068,1,1
+city,Shlisselburg,31.035,59.945,1,1
+city,Shravasti,82.051,27.517,0,1
+city,Bergen,5.323,60.392,0,1
+city,Sicyon,22.723,37.98,0,1
+city,Sidon,35.375,33.56,0,1
+city,Bergen Line,7.822,60.338,1,1
+city,Sechelt,-123.754,49.474,1,1
+city,Sigmaringen,9.217,48.087,1,1
+city,Sils im Engadin/Segl,9.766,46.433,1,1
+city,Simested,9.553,56.696,0,1
+city,Simmern/Hunsrück,7.517,49.983,0,1
+city,Singapore,103.854,1.295,0,1
+city,Sint-Jorisstraat,3.222,51.214,0,1
+city,Siret,26.06,47.95,1,1
+city,Sjørup,9.302,56.342,0,1
+city,Sierra Nevada,-119.57,37.73,0,1
+city,Seitajärvi,27.886,67.561,1,1
+city,Selinunte,12.825,37.584,0,1
+city,Semyhory,30.997,49.573,1,1
+city,Senj,14.901,44.99,1,1
+city,Sens,3.283,48.197,0,1
+city,Seoni,79.53,22.08,0,1
+city,Bermeo,-2.721,43.421,0,1
+city,Shishapangma,85.78,28.352,0,1
+city,Serra da Estrela,-7.613,40.322,0,1
+city,Serrata,16.1,38.513,1,1
+city,Sessenheim,7.986,48.797,0,1
+city,Berkovitsa,23.125,43.237,1,1
+city,Bergerac,0.487,44.854,1,1
+city,Shijiazhuang,114.478,38.052,0,1
+city,Shillong,91.88,25.57,0,1
+city,Shiraz,52.568,29.632,1,1
+city,Serez,1.364,48.934,1,1
+city,Roge,19.983,43.75,1,1
+city,Biltmore Estate,-82.552,35.54,1,1
+city,Rosenthal,8.867,50.967,0,1
+city,Rosh Pinna,35.542,32.969,0,1
+city,Roskilde Cathedral School,12.058,55.634,0,1
+city,Roskilde Festival,12.077,55.622,1,1
+city,Roskilde,12.081,55.642,0,1
+city,Gütersloh,8.53,52.03,1,1
+city,Rosselló,2.817,42.667,0,1
+city,Rosso,-15.805,16.513,0,1
+city,Rottweil,8.625,48.168,0,1
+city,Rovaniemi,25.728,66.503,1,1
+city,Rovereto,11.034,45.883,1,1
+city,Rudnik nad Sanem,22.241,50.444,1,1
+city,Ruinerwold,6.251,52.723,0,1
+city,"Rujan, Široki Brijeg",17.44,43.418,0,1
+city,Rosporden,-3.835,47.961,1,1
+city,Reims,4.029,49.265,0,1
+city,Remmerstrand,8.491,56.551,0,1
+city,Reno,-119.82,39.53,0,1
+city,Rephidim,33.65,28.717,0,1
+city,Retezat Mountains,22.867,45.367,1,1
+city,Bispensgade,9.919,57.049,1,1
+city,Rheingrafenstein,7.85,49.808,0,1
+city,Rocky Mountains,-113.8,44.15,0,1
+city,Riccione,12.65,44.0,1,1
+city,Rif,-4.0,35.0,1,1
+city,Rijeka,14.433,45.333,0,1
+city,Bingen am Rhein,7.895,49.967,0,1
+city,Rio do Sul,-49.643,-27.214,0,1
+city,River Heights,-111.817,41.724,1,1
+city,Roccapalumba,13.633,37.8,1,1
+city,Rochester,-77.622,43.172,1,1
+city,Ribe Katedralskole,8.76,55.326,0,1
+city,Saint-Omer,2.261,50.748,1,1
+city,Saint-Paul,55.27,-21.01,0,1
+city,Saint-Rambert-en-Bugey,5.438,45.949,0,1
+city,Sainte-Marie,55.549,-20.897,1,1
+city,Salalah,54.09,17.02,1,1
+city,Biloxi,-88.885,30.396,0,1
+city,Salaš,22.316,44.111,0,1
+city,Ruma,19.829,45.003,1,1
+city,Salina,-109.867,36.022,1,1
+city,Saline di Volterra,10.814,43.362,1,1
+city,Salonen,9.421,56.451,1,1
+city,Salt Lake City,-111.932,40.777,0,1
+city,Bieuxy,3.261,49.447,0,1
+city,Biella,8.053,45.566,0,1
+city,Salò,10.533,45.6,1,1
+city,San Antonio de Areco,-59.467,-34.25,1,1
+city,Salem,-123.039,44.94,1,1
+city,Ry,9.758,56.092,0,1
+city,Rättvik,15.116,60.872,1,1
+city,Rødbyhavn,11.36,54.663,1,1
+city,Rødding,9.058,55.367,0,1
+city,Rønne,14.7,55.1,0,1
+city,Rørvig Church,11.734,55.948,0,1
+city,Saarbrücken,6.97,49.25,0,1
+city,Saint-Martin,-63.06,18.075,0,1
+city,Sacramento,-121.472,38.577,1,1
+city,Saint Helena,-5.715,-15.965,0,1
+city,Saint Lucia,-60.967,13.883,0,1
+city,Saint-Firmin,3.392,47.043,0,1
+city,Saint-Jean-de-Luz,-1.66,43.39,0,1
+city,Saint-Leu,55.287,-21.166,1,1
+city,Saint-Magloire,-70.283,46.583,1,1
+city,Saint-Malo,-2.026,48.649,0,1
+city,Sachsenhausen concentration camp,13.262,52.766,0,1
+city,Taberg,14.1,57.678,1,1
+city,Tacoma,-122.515,47.211,0,1
+city,Taima-dera Temple,135.695,34.516,0,1
+city,Taihoku,121.568,25.036,0,1
+city,Takamatsu,134.045,34.345,1,1
+city,Tallinn,24.728,59.434,1,1
+city,Beg Meil,-3.987,47.858,1,1
+city,Beočin,19.72,45.192,1,1
+city,Tanjungpandan,107.65,-2.75,0,1
+city,Tarbes,0.074,43.233,0,1
+city,Tarifa,-5.606,36.015,1,1
+city,Tarragona,1.253,41.117,0,1
+city,Tartu,26.723,58.38,1,1
+city,Tata,18.317,47.65,1,1
+city,Teguise,-13.558,29.058,1,1
+city,Beersheba,34.787,31.252,1,1
+city,Taninges,6.591,46.108,0,1
+city,Suzhou,116.977,33.638,0,1
+city,Svaneke,15.142,55.136,0,1
+city,Svenstrup,9.847,56.971,1,1
+city,Swaffham,0.684,52.653,0,1
+city,Swansea,-3.95,51.63,0,1
+city,Swindon,-1.781,51.558,0,1
+city,Swiss Alps,8.5,46.5,1,1
+city,Săliște,23.886,45.794,0,1
+city,Beilstein,7.239,50.111,0,1
+city,Szczecin,14.53,53.42,1,1
+city,Szeged,20.167,46.25,0,1
+city,Begeč,19.623,45.237,1,1
+city,Söderåsen National Park,13.23,56.024,1,1
+city,Søholm,12.371,55.371,1,1
+city,Sønderborg Castle,9.784,54.907,1,1
+city,Søndervig,8.116,56.119,0,1
+city,East Jakarta,106.972,-6.217,1,1
+city,Timbuktu,-2.999,16.773,1,1
+city,Timișoara,21.223,45.759,1,1
+city,Tjele Gods,9.611,56.511,0,1
+city,Tjust,16.383,57.883,1,1
+city,Tjærby,10.108,56.471,0,1
+city,Bayankhongor,100.718,46.194,0,1
+city,Bay Minette,-87.777,30.883,0,1
+city,Beckum,8.041,51.756,0,1
+city,Tongyeong,128.424,34.846,1,1
+city,Tono,141.533,39.332,0,1
+city,Topeka,-95.678,39.048,1,1
+city,Torda,20.457,45.586,0,1
+city,Tornik,19.523,44.191,0,1
+city,Tornio,24.144,65.85,1,1
+city,Battle of the Bulge,6.137,50.624,1,1
+city,Tor,1.399,42.571,0,1
+city,Tolstoy Farm,27.816,-26.364,0,1
+city,Teplice,13.817,50.633,0,1
+city,Teramo,13.704,42.659,1,1
+city,Terborg,6.357,51.92,0,1
+city,Terezín,14.151,50.511,0,1
+city,Terre Haute,-87.39,39.47,0,1
+city,Terschelling,5.331,53.401,0,1
+city,Bašaid,20.414,45.641,0,1
+city,Timanfaya National Park,-13.78,29.014,1,1
+city,The Old Town,10.192,56.159,0,1
+city,Bazar Vest,10.133,56.163,0,1
+city,Thermopylae,22.537,38.796,1,1
+city,Bayonne,-1.476,43.492,1,1
+city,Thorning,9.331,56.284,0,1
+city,Thémines,1.828,44.74,0,1
+city,Thüringenhausen,10.8,51.267,0,1
+city,Tihuța Pass,25.019,47.269,1,1
+city,The Hamptons,-72.501,40.885,1,1
+city,Solovki prison camp,35.711,65.024,1,1
+city,Solun,18.539,44.166,1,1
+city,Somerset,-3.0,51.3,0,1
+city,Sondrup,10.069,55.898,0,1
+city,Sonfjället National Park,13.552,62.277,1,1
+city,Sorrento,14.374,40.628,1,1
+city,Sorø,11.559,55.437,0,1
+city,Suvodol,20.875,44.557,1,1
+city,Belo Polje,20.517,43.267,1,1
+city,Southport,-78.021,33.924,1,1
+city,Sovetsk,21.886,55.081,1,1
+city,Spa,5.862,50.492,0,1
+city,Spessart,9.429,49.903,0,1
+city,Spilsby,0.093,53.173,1,1
+city,Spirbakken,10.451,57.692,0,1
+city,Spokane,-117.42,47.67,1,1
+city,South Troy,-92.433,44.206,1,1
+city,Skanderborg railway station,9.925,56.044,0,1
+city,Benevento,14.783,41.133,0,1
+city,Skælskør,11.293,55.253,0,1
+city,Slapton,-3.65,50.3,1,1
+city,Slaughter,-91.141,30.717,1,1
+city,Slotsgården,10.04,56.461,0,1
+city,Smarhon,26.4,54.484,0,1
+city,Solok,100.654,-0.788,1,1
+city,Smith Mountain Dam,-79.536,37.041,1,1
+city,Smygehuk,13.359,55.337,1,1
+city,Sneek,5.66,53.032,0,1
+city,Snekkersten,12.58,56.011,0,1
+city,Sneslev,11.844,55.387,0,1
+city,Snæfellsjökull,-23.776,64.807,1,1
+city,Beluzh'ya,48.272,45.881,0,1
+city,Sokcho,128.591,38.208,1,1
+city,Smederevska Palanka,20.959,44.365,1,1
+city,Beljina,20.317,43.88,0,1
+city,Stoke-on-Trent,-2.18,53.0,0,1
+city,Ston Municipality,17.7,42.833,1,1
+city,Stonehenge,-1.826,51.179,1,1
+city,Store Klingbjerg,9.49,55.25,0,1
+city,Belchite,-0.755,41.307,0,1
+city,Stratford-upon-Avon,-1.706,52.193,1,1
+city,Belmopan,-88.767,17.25,1,1
+city,Studnice,16.029,49.291,0,1
+city,Subotica,19.665,46.1,1,1
+city,Sulitjelma,16.077,67.133,0,1
+city,Summerside,-63.783,46.4,0,1
+city,Sundsvall,17.286,62.396,1,1
+city,Suomussalmi,28.913,64.885,1,1
+city,Surat,72.838,21.202,0,1
+city,Susa,48.256,32.189,0,1
+city,Stresa,8.539,45.884,1,1
+city,Srbobran Municipality,19.79,45.546,0,1
+city,Srbobran,19.802,45.552,1,1
+city,Srednjevo,21.489,44.645,1,1
+city,Belmar,-74.024,40.18,1,1
+city,St John's College,0.117,52.208,1,1
+city,St Martin's Church,10.035,56.46,0,1
+city,St. Augustine,-81.314,29.895,0,1
+city,Bellver de Cerdanya,1.778,42.371,1,1
+city,Sterzing,11.432,46.896,0,1
+city,Stahleck Castle,7.766,50.058,0,1
+city,Stalać,21.414,43.678,1,1
+city,Stanton St Gabriel,-2.859,50.735,0,1
+city,Staun,9.487,57.011,1,1
+city,Stavanger,5.731,58.97,0,1
+city,Stege,12.286,54.986,0,1
+city,Steinach,11.167,50.433,1,1
+city,Sternberg,11.829,53.712,0,1
+city,Bellano,9.307,46.044,1,1
+city,Mühlenstraße (Lübeck),10.687,53.863,1,1
+city,Mühlhausen/Thuringia,10.45,51.217,1,1
+city,Mělník,14.474,50.351,0,1
+city,Nagoya,136.913,35.157,0,1
+city,Nairobi,36.815,-1.281,1,1
+city,Al-Hirah,44.335,32.0,0,1
+city,Nampo,125.45,38.769,0,1
+city,Reichenbach Falls,8.183,46.714,0,1
+city,Naning,102.17,2.459,1,1
+city,Bozeman,-111.037,45.679,0,1
+city,Boven-Digoel,140.298,-6.097,0,1
+city,Nara,135.805,34.685,0,1
+city,Narbonne,3.004,43.185,0,1
+city,Narva,28.201,59.379,1,1
+city,Narvik,17.428,68.438,1,1
+city,Nashville,-86.782,36.172,1,1
+city,Nancy,6.2,48.684,0,1
+city,Mount Kyllini,22.397,37.939,0,1
+city,Mount Leinster,-6.778,52.617,0,1
+city,Mount Nametoko,140.901,39.533,0,1
+city,Mount Olympus,22.35,40.083,0,1
+city,Mount Sinai,33.975,28.538,0,1
+city,Mousehole,-5.539,50.083,1,1
+city,Mulvadvej,8.692,55.46,0,1
+city,Mörön,100.161,49.638,0,1
+city,Munger,86.465,25.381,1,1
+city,Braga,-8.421,41.555,1,1
+city,Murtenica,19.792,43.59,0,1
+city,Murzuk,13.934,25.914,0,1
+city,Musa Dagh,35.904,36.258,1,1
+city,Muxía,-9.217,43.106,1,1
+city,Mårbacka,13.233,59.781,1,1
+city,Mérida,-6.333,38.916,0,1
+city,Gopalpur,84.8,19.32,0,1
+city,Nilgiri Mountains,76.761,11.375,0,1
+city,Nismes,4.548,50.075,0,1
+city,Borreby Castle,11.291,55.233,0,1
+city,Noosa Heads,153.093,-26.398,0,1
+city,Norberg Municipality,15.95,60.083,1,1
+city,Borkum,6.67,53.588,0,1
+city,North Berwick,-2.717,56.058,1,1
+city,Natzweiler-Struthof concentration camp,7.255,48.455,1,1
+city,North Devon,-4.0,51.06,1,1
+city,Northampton,-0.9,52.233,1,1
+city,Norwich,-75.522,42.532,0,1
+city,Nouadhibou,-17.05,20.915,0,1
+city,Nouakchott,-15.975,18.086,0,1
+city,Novara,8.62,45.45,0,1
+city,Novi Pazar,20.517,43.15,1,1
+city,Borgholm,16.698,56.879,1,1
+city,North Buxton,-82.225,42.31,1,1
+city,Naval Air Station Patuxent River,-76.419,38.284,1,1
+city,Neder Hvam,9.336,56.326,0,1
+city,Nether Lypiatt Manor,-2.184,51.733,0,1
+city,Neuilly,3.503,47.24,0,1
+city,Nevers,3.157,46.992,0,1
+city,New Bern,-77.044,35.108,1,1
+city,New Burlington,-83.966,39.562,0,1
+city,Niendorf,10.816,53.993,1,1
+city,Bovan,21.418,43.541,1,1
+city,Boulogne-sur-Mer,1.614,50.726,1,1
+city,Bougainville,2.042,49.87,0,1
+city,Boston,-0.021,52.975,1,1
+city,Newcastle,29.933,-27.746,0,1
+city,Nexø,15.132,55.062,0,1
+city,Niagara Falls,-79.071,43.08,0,1
+city,Boryspil International Airport,30.893,50.345,0,1
+city,New Delhi,77.2,28.6,1,1
+city,Megiddo,35.181,32.579,0,1
+city,Mejdal,8.648,56.347,0,1
+city,Brezovac,16.837,45.868,0,1
+city,Membrilla,-3.348,38.972,0,1
+city,Memphis Mansion,10.054,56.433,0,1
+city,Mende,3.501,44.518,0,1
+city,Mengstraße,10.684,53.868,1,1
+city,Mount Hua,110.083,34.483,0,1
+city,Miami Beach,-80.132,25.81,1,1
+city,Middelfart,9.731,55.506,1,1
+city,Hartlepool,-1.23,54.58,0,1
+city,Middletown,-84.376,39.506,1,1
+city,Mikulov,16.638,48.806,0,1
+city,Breite Straße,10.686,53.868,1,1
+city,Miletus,27.276,37.531,0,1
+city,Milos,24.433,36.688,0,1
+city,Metz,6.18,49.12,1,1
+city,Marselisborg Palace,10.203,56.128,0,1
+city,Marsilly,-1.138,46.23,1,1
+city,Marstal,10.517,54.85,1,1
+city,Marstrand,11.581,57.886,1,1
+city,Martigues,5.048,43.405,0,1
+city,Marville,5.456,49.452,0,1
+city,Tus,59.568,36.272,0,1
+city,Medina Sidonia,-5.927,36.458,1,1
+city,Massa,10.133,44.033,0,1
+city,Masyaf,36.342,35.065,1,1
+city,Matsumoto,137.972,36.238,0,1
+city,Matsuyama,132.766,33.846,0,1
+city,Maulbronn Monastery,8.813,49.001,1,1
+city,Mayen,7.217,50.333,0,1
+city,Medan,98.648,3.582,1,1
+city,Medevi,14.957,58.672,1,1
+city,Massa Lubrense,14.35,40.617,0,1
+city,Montreuil-sur-Mer,1.763,50.464,1,1
+city,Brande,9.124,55.944,0,1
+city,Montélimar,4.751,44.559,1,1
+city,Moravci,20.282,44.242,0,1
+city,Moravița,21.267,45.257,1,1
+city,Morin-ji Temple,139.531,36.224,0,1
+city,Mortagne,6.754,48.269,0,1
+city,Bra,7.85,44.7,1,1
+city,Nineveh,43.143,36.347,0,1
+city,Motala,15.037,58.544,1,1
+city,Motal,25.614,52.315,1,1
+city,Moulins,3.333,46.565,1,1
+city,Mount Amanokagu,135.817,34.496,0,1
+city,Mount Athos,24.327,40.158,1,1
+city,Mount Fitz Roy,-73.043,-49.271,0,1
+city,Mount Hermon,35.85,33.4,0,1
+city,Brakel,9.183,51.717,0,1
+city,Minsk,27.565,53.902,0,1
+city,Misaka Pass,138.764,35.556,0,1
+city,Mitchelstown Cave,-8.08,52.31,1,1
+city,Brazzaville,15.283,-4.257,1,1
+city,Mohawk Institute Residential School,-80.24,43.128,0,1
+city,Mokra Gora,19.5,43.783,0,1
+city,Mombasa,39.688,-4.038,0,1
+city,Montopoli in Val d'Arno,10.75,43.674,0,1
+city,Monastery Beach,-121.927,36.524,1,1
+city,Mondsee,13.352,47.857,0,1
+city,Monestir de Santa Maria de Lillet,1.993,42.243,0,1
+city,Montauk,-71.951,41.038,0,1
+city,Montefrío,-4.009,37.323,0,1
+city,Montemor-o-Velho,-8.683,40.167,0,1
+city,Monterey Canyon,-121.833,36.783,1,1
+city,Montgomery,-86.3,32.367,0,1
+city,Braunfels,8.389,50.517,0,1
+city,Poitiers,0.335,46.581,0,1
+city,Pokhara,83.985,28.21,1,1
+city,Popoli Terme,13.832,42.171,1,1
+city,Port Fourchon,-90.194,29.106,0,1
+city,Port Harcourt,7.008,4.812,1,1
+city,Port of Aarhus,10.226,56.155,1,1
+city,Port of Trieste,13.764,45.659,1,1
+city,Noyers,3.994,47.697,1,1
+city,Port of Spain,-61.517,10.652,0,1
+city,Porto Empedocle,13.527,37.294,1,1
+city,Porto,-8.622,41.152,1,1
+city,Potajnik,18.996,44.281,1,1
+city,Požega,17.674,45.331,0,1
+city,Blue Ridge Mountains,-82.266,35.764,0,1
+city,Preševo,21.65,42.307,1,1
+city,Prilepac,22.046,42.962,1,1
+city,Port-Vendres,3.105,42.518,1,1
+city,Pfalzgrafenstein Castle,7.766,50.083,0,1
+city,Pherae,22.749,39.379,0,1
+city,Bodleian Library,-1.255,51.754,1,1
+city,Phnom Penh,104.915,11.552,1,1
+city,Phoenix,-112.072,33.542,0,1
+city,Picketwire Ditch,-104.473,37.233,0,1
+city,Piedras Negras,-100.528,28.708,1,1
+city,Pointe au Baril,-80.503,45.561,1,1
+city,Pionerskoye,28.968,60.374,1,1
+city,Piran,13.569,45.527,0,1
+city,Bobbejaanland,4.905,51.201,0,1
+city,Plataea,23.274,38.221,0,1
+city,Playa Blanca,-13.828,28.864,1,1
+city,Pločnik,21.357,43.198,1,1
+city,Plzeň,13.383,49.741,0,1
+city,Podgorac,21.599,43.736,1,1
+city,Pinon,3.446,49.488,1,1
+city,Bjørnsknude,10.03,55.697,0,1
+city,R'lyeh,-126.717,-47.15,0,1
+city,Raate,29.642,64.815,1,1
+city,Salé,-6.836,34.025,1,1
+city,Radenković,19.493,44.924,0,1
+city,Raffadali,13.534,37.405,1,1
+city,Rainy Mountain,-98.85,34.997,0,1
+city,"Princess Royal Barracks, Deepcut",-0.7,51.305,0,1
+city,Randers,10.039,56.457,0,1
+city,Rapallo,9.233,44.35,1,1
+city,Bitola,21.335,41.032,1,1
+city,Raxendorf,15.275,48.341,0,1
+city,"Rača, Bajina Bašta",19.55,43.917,0,1
+city,Bistrița,24.483,47.133,1,1
+city,Reading,-75.926,40.342,0,1
+city,Recanati,13.553,43.399,1,1
+city,Randers Tropical Zoo,10.033,56.457,0,1
+city,Bloomington,-86.535,39.167,0,1
+city,Pričiūnai,25.639,54.841,0,1
+city,Prnjavor,20.993,43.659,1,1
+city,Probolinggo,113.217,-7.75,1,1
+city,Prostějov,17.111,49.472,0,1
+city,Bloemfontein,26.23,-29.12,0,1
+city,Provincetown,-70.179,42.058,1,1
+city,Black Forest,8.15,48.3,0,1
+city,Psophis,21.893,37.872,0,1
+city,Purfleet-on-Thames,0.25,51.48,1,1
+city,Putkinotko,28.826,61.922,0,1
+city,Bletchley Park,-0.741,51.998,1,1
+city,Black Rock City,-119.204,40.787,1,1
+city,Périgueux,0.718,45.184,0,1
+city,Péronne,2.933,49.929,0,1
+city,Quantock Hills,-3.233,51.15,1,1
+city,Præstø,12.05,55.117,0,1
+city,Bonjol,100.217,0.0,1,1
+city,Ohrid,20.802,41.117,1,1
+city,Okayama,133.917,34.672,0,1
+city,Oldenburg,8.214,53.144,0,1
+city,Olduvai Gorge,35.35,-2.983,1,1
+city,Olomouc,17.251,49.594,0,1
+city,Olympia,21.63,37.638,0,1
+city,Petrovice,13.976,50.789,0,1
+city,Opava,17.904,49.938,0,1
+city,Opobo Town,7.54,4.511,0,1
+city,Oppido Mamertina,15.983,38.3,1,1
+city,Oran,-0.622,35.712,1,1
+city,Oraovac,19.044,44.414,0,1
+city,Ore Mountains,13.0,50.5,0,1
+city,Orient Point,-72.234,41.16,1,1
+city,Orlovac,21.257,43.002,0,1
+city,Onzaga,-72.817,6.344,0,1
+city,Noyon,2.999,49.581,0,1
+city,Nuda,139.095,35.334,0,1
+city,Numantia,-2.444,41.809,0,1
+city,Astana,71.428,51.181,0,1
+city,Nyborg Municipality,10.703,55.295,0,1
+city,Nymindegab,8.192,55.816,0,1
+city,Nymphaion,36.417,45.237,0,1
+city,Odder,10.15,55.972,1,1
+city,Nørlund Slot,9.724,56.782,1,1
+city,Nørre Vosborg,8.329,56.327,0,1
+city,Nørre-Elkjær,10.218,57.573,0,1
+city,Nørresundby,9.923,57.058,0,1
+city,Oaxaca,-96.67,17.083,0,1
+city,Oberammergau,11.064,47.597,1,1
+city,Oberehe,6.771,50.279,0,1
+city,Oberwesel,7.726,50.108,0,1
+city,Næstved,11.767,55.233,0,1
+city,Palanka,18.731,44.798,0,1
+city,Bojnik,21.733,43.017,0,1
+city,Palù del Fersina,11.35,46.133,1,1
+city,Pamplona,-72.648,7.376,0,1
+city,Panama Canal,-79.75,9.12,1,1
+city,Panama City,-79.535,8.97,1,1
+city,Panjevac,21.113,43.401,1,1
+city,Oschatz,13.107,51.3,0,1
+city,Paray-le-Monial,4.119,46.451,1,1
+city,Bogatić,19.481,44.837,0,1
+city,Parma,10.328,44.801,0,1
+city,Pascagoula,-88.559,30.365,0,1
+city,Peenemünde,13.775,54.135,1,1
+city,Persepolis,52.89,29.935,0,1
+city,Pescarenico,9.4,45.845,1,1
+city,Petkovica,19.439,44.666,1,1
+city,Papagayo Beach,-13.789,28.848,1,1
+city,Bongpyeong-myeon,128.378,37.614,0,1
+city,Osthofen,8.329,49.708,0,1
+city,Ottenby,16.415,56.233,1,1
+city,Ouessant,-5.098,48.455,0,1
+city,Oulu,25.472,65.014,1,1
+city,Bongard,6.839,50.293,0,1
+city,Outback,130.0,-25.0,0,1
+city,Ovesholm Castle,14.002,56.0,1,1
+city,Palacio de Galiana,-4.005,39.865,1,1
+city,Bomarzo,12.249,42.483,0,1
+city,Oxyrhynchus,30.656,28.536,0,1
+city,Oñati,-2.412,43.033,1,1
+city,Oña,-3.412,42.734,0,1
+city,Padang,100.358,-0.958,1,1
+city,Bolsheretsk,156.55,52.908,0,1
+city,Pajsoån,14.817,60.183,0,1
+city,Palace of the Governors,-105.938,35.688,0,1
+city,Oxfordshire,-1.28,51.75,0,1

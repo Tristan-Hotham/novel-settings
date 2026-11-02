@@ -1,0 +1,731 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Where Novels Are Set</title>
+<meta name="description" content="An interactive map of the real places where {{source.novels|int}} novels and {{source.works|int}} literary works in Wikidata are set: the cities fiction loves, London, Paris and New York over two centuries, how far authors travel from where they were born, and the parts of the world that are barely written.">
+<meta property="og:title" content="Where novels are set: a map of fiction's real places">
+<meta property="og:description" content="{{source.novels|int}} novels in Wikidata, mapped. London {{spot.London.n|int}}, New York {{spot.New York City.n|int}}, Paris {{spot.Paris.n|int}}; Mumbai {{spot.Mumbai.n|int}}. Europe is home to {{continents.Europe.pop_pct|int}}% of the world's people and {{continents.Europe.novels_pct|int}}% of its mapped novels.">
+<meta property="og:image" content="https://maps.tristanhotham.com/novel-settings/header.png">
+<meta property="og:url" content="https://maps.tristanhotham.com/novel-settings/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800;9..144,900&family=IBM+Plex+Mono:wght@400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<style>
+/* A reading room: pale paper, red ink for novels, blue for wider places, gold for New York. */
+:root{
+  --bg:#F6F4EF; --panel:#EAE7DF; --fg:#1D2128; --muted:#636A72; --rule:#DDD8CC; --card:#FFFEFA; --border:#CBC5B8;
+  --hot:#C8322B; --cool:#2F5FA7; --gold:#E0A11B; --ink:#1F2F4D; --land:#E6E2D8; --sea:#EEF1F2; --line:#7A2E2A;
+  --display:"Fraunces",Georgia,"Times New Roman",serif;
+  --body:"Source Serif 4",Georgia,"Times New Roman",serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#12151B; --panel:#1C2029; --fg:#ECEEF1; --muted:#A2A8B0; --rule:#30353F; --card:#171B22; --border:#444B57;
+  --hot:#FF6A5C; --cool:#7DA7E6; --gold:#F2B54E; --ink:#A9BBDD; --land:#2A2F38; --sea:#161A20; --line:#FFB3A8; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#12151B; --panel:#1C2029; --fg:#ECEEF1; --muted:#A2A8B0; --rule:#30353F; --card:#171B22; --border:#444B57;
+  --hot:#FF6A5C; --cool:#7DA7E6; --gold:#F2B54E; --ink:#A9BBDD; --land:#2A2F38; --sea:#161A20; --line:#FFB3A8; color-scheme:dark}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:400 18px/1.62 var(--body);
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));overflow-x:hidden}
+.wrap{max-width:700px;margin:0 auto;padding-block:28px 64px}
+.wrap .bleed{width:min(1180px,calc(100vw - 32px));margin-left:calc((100% - min(1180px,100vw - 32px))/2);margin-right:0}
+a{color:inherit;text-decoration-color:var(--hot);text-underline-offset:3px}
+.kicker{font:500 12px/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.kicker b{background:var(--ink);color:#fff;padding:5px 8px;font-weight:500}
+:root[data-theme="dark"] .kicker b{color:#12151B}
+header.hero{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px 24px;align-items:end;border-bottom:6px double var(--fg);padding-bottom:22px;margin-top:18px}
+h1{font:900 clamp(44px,11vw,94px)/.9 var(--display);letter-spacing:-.02em;margin:0;text-wrap:balance}
+h1 .a{color:var(--hot)} h1 .b{color:var(--cool)}
+.mark{width:clamp(78px,16vw,128px);height:auto;display:block;color:var(--fg)}
+.dek{grid-column:1/-1;font-size:21px;line-height:1.42;margin:8px 0 0;max-width:56ch}
+.byline{font:400 13px/1.4 var(--mono);color:var(--muted);margin-top:14px}
+h2{font:800 34px/1.04 var(--display);letter-spacing:-.01em;margin:54px 0 10px;text-wrap:balance}
+h2 .n{font:500 13px/1 var(--mono);color:var(--hot);display:block;letter-spacing:.1em;margin-bottom:10px}
+h3{font:600 20px/1.25 var(--display);margin:28px 0 6px}
+p{margin:0 0 16px}
+.lede::first-letter{font:900 72px/.8 var(--display);float:left;margin:6px 10px 0 0;color:var(--hot)}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:var(--rule);border:1px solid var(--rule);margin:26px 0 8px}
+.stats div{background:var(--card);padding:14px 12px}
+.stats b{display:block;font:900 clamp(22px,4.4vw,32px)/1 var(--display);letter-spacing:-.01em}
+.stats b.h{color:var(--hot)} .stats b.c{color:var(--cool)} .stats b.g{color:var(--gold)} .stats b.p{color:var(--ink)}
+.stats span{font:400 12px/1.35 var(--mono);color:var(--muted);display:block;margin-top:6px}
+@media (max-width:600px){.stats{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.figure{margin:26px 0 30px}
+.fig-h{font:600 19px/1.25 var(--display);margin:0 0 4px}
+.fig-sub{font:400 13px/1.45 var(--mono);color:var(--muted);margin:0 0 12px}
+.src{font:400 12px/1.45 var(--mono);color:var(--muted);margin-top:10px}
+.chart{width:100%;position:relative}
+.chart svg{display:block;width:100%;height:auto;overflow:visible}
+svg text{font-family:var(--mono);fill:var(--fg)}
+.lab{font-size:12px}.lab.m{fill:var(--muted)}.lab.b{font-weight:500}.lab.s{font-size:11px}
+.tip{position:absolute;pointer-events:none;background:var(--fg);color:var(--bg);font:400 12px/1.45 var(--mono);padding:8px 10px;border-radius:3px;max-width:300px;z-index:1000;transform:translate(-50%,calc(-100% - 12px));display:none}
+.tip b{font-weight:500}
+.controls{display:flex;gap:8px;align-items:center;margin:0 0 10px;flex-wrap:wrap}
+.scrollrow{display:flex;gap:6px;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:thin;padding-bottom:2px;max-width:100%}
+.scrollrow .btn{flex:0 0 auto;white-space:nowrap}
+.ctl-l{font:500 11px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-right:2px;flex:0 0 auto;align-self:center}
+.btn{font:500 12px/1 var(--mono);background:var(--card);color:var(--fg);border:1px solid var(--border);border-radius:3px;padding:8px 10px;cursor:pointer;min-height:36px}
+.btn[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.btn i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px;vertical-align:-1px;border:1px solid rgba(0,0,0,.2)}
+.btn:focus-visible,input:focus-visible,summary:focus-visible,select:focus-visible{outline:2px solid var(--hot);outline-offset:2px}
+.searchbox{position:relative;flex:1 1 260px;min-width:0}
+input[type=search]{font:400 15px/1 var(--mono);background:var(--card);color:var(--fg);border:1px solid var(--border);border-radius:3px;padding:10px 11px;min-height:40px;width:100%}
+.suggest{position:absolute;left:0;right:0;top:100%;margin:2px 0 0;padding:0;list-style:none;background:var(--card);border:1px solid var(--border);z-index:1001;font:400 13px/1.3 var(--mono);display:none;max-height:340px;overflow:auto}
+.suggest li{padding:8px 10px;cursor:pointer;border-bottom:1px solid var(--rule)}
+.suggest li span{color:var(--muted)}
+.suggest li[aria-selected="true"],.suggest li:hover{background:var(--panel)}
+.mapgrid{display:grid;grid-template-columns:minmax(0,1fr) 330px;gap:14px;align-items:start}
+@media (max-width:900px){.mapgrid{grid-template-columns:1fr}}
+.side{background:var(--card);border:1px solid var(--border);padding:12px 12px 10px;font:400 13px/1.45 var(--mono);max-height:660px;overflow:auto}
+@media (max-width:900px){.side{max-height:none}}
+.side h4{font:500 11px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:14px 0 8px}
+.side h4:first-child{margin-top:2px}
+.side .big{font:800 24px/1.12 var(--display);margin:2px 0 4px}
+.side .sub{color:var(--muted);font-size:12px;margin:0 0 8px}
+.side ol,.side ul{margin:4px 0 8px;padding-left:20px}
+.side li{margin:3px 0}
+.side li small,.side td small{color:var(--muted)}
+.side table{width:100%;border-collapse:collapse;margin:4px 0 6px}
+.side td{padding:4px 4px 4px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+.side td.num{text-align:right;white-space:nowrap}
+.back{font:400 12px var(--mono);background:none;border:0;color:var(--muted);padding:0;cursor:pointer;text-decoration:underline;margin-bottom:6px}
+.go{cursor:pointer;text-decoration:underline;text-decoration-color:var(--border);text-underline-offset:3px}
+.lmap{height:620px;border:1px solid var(--border);background:var(--sea);border-radius:2px;position:relative;overflow:hidden}
+@media (max-width:600px){.lmap{height:min(62vh,460px)}}
+.nomap{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;text-align:center;padding:24px;font:400 13px/1.5 var(--mono);color:var(--muted)}
+.labels{position:absolute;inset:0;pointer-events:none;z-index:2;overflow:hidden}
+.cityL{position:absolute;font:500 11px/1 var(--mono);color:var(--fg);white-space:nowrap;text-shadow:0 0 3px var(--bg),0 0 3px var(--bg),0 0 2px var(--bg)}
+.cityL i{display:inline-block;width:4px;height:4px;border-radius:50%;background:var(--fg);margin-right:4px;vertical-align:1px}
+.cityL.s{font-size:10px;font-weight:400}
+.cntL{position:absolute;font:700 10.5px/1 var(--mono);color:var(--fg);white-space:nowrap;text-transform:uppercase;letter-spacing:.06em;opacity:.65;text-shadow:0 0 3px var(--bg),0 0 3px var(--bg);transform:translate(-50%,-50%)}
+.lyr{position:absolute;top:10px;left:10px;z-index:5}
+.lyrBtn{background:var(--card);color:var(--fg);border:1px solid var(--border);border-radius:3px;font:600 12px/1 var(--mono);padding:8px 10px;cursor:pointer;box-shadow:0 1px 4px rgba(0,0,0,.12)}
+.lyrBtn[aria-expanded="true"]{background:var(--fg);color:var(--bg)}
+.lyrPanel{background:var(--card);color:var(--fg);border:1px solid var(--border);border-radius:3px;padding:10px 12px 8px;margin-top:6px;width:250px;box-shadow:0 2px 10px rgba(0,0,0,.15);font:400 12px/1.3 var(--mono);max-height:min(70vh,520px);overflow:auto}
+.lyrPanel[hidden]{display:none}
+.lyrPanel .row{margin:0 0 9px}
+.lyrPanel label{display:flex;gap:6px;align-items:center;cursor:pointer;font-weight:600}
+.lyrPanel input[type=range]{width:100%;accent-color:var(--fg)}
+.lyrPanel select{font:400 12px var(--mono);background:var(--bg);color:var(--fg);border:1px solid var(--border);border-radius:2px;padding:2px 4px;width:100%}
+.lyrPanel .sub{display:flex;gap:6px;align-items:center;color:var(--muted);font-size:11px;margin-top:3px}
+.lyrPanel .sub span{flex:0 0 58px}
+.lyrPanel .hd{font:500 10.5px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:10px 0 7px;border-top:1px solid var(--rule);padding-top:9px}
+.lyrPanel .reset{font:400 11px var(--mono);color:var(--muted);background:none;border:0;padding:0;cursor:pointer;text-decoration:underline}
+.mapnote{position:absolute;left:10px;top:52px;z-index:4;background:color-mix(in srgb,var(--card) 92%,transparent);border:1px solid var(--border);border-radius:3px;padding:6px 9px;font:400 12px/1.35 var(--mono);max-width:min(300px,62vw);box-shadow:0 1px 4px rgba(0,0,0,.12)}
+.mapnote:empty{display:none}
+.maplibregl-ctrl-attrib{font:400 10.5px/1.3 var(--mono)!important;background:color-mix(in srgb,var(--card) 85%,transparent)!important;color:var(--muted)}
+.maplibregl-ctrl-attrib a{color:var(--fg)}
+.maplibregl-popup-content{background:var(--card);color:var(--fg);font:400 12.5px/1.45 var(--mono);padding:10px 12px;border:1px solid var(--border);border-radius:3px;max-width:320px}
+.maplibregl-popup-tip{border-top-color:var(--card)!important;border-bottom-color:var(--card)!important}
+.maplibregl-popup-content b.t{display:block;font:700 16px/1.2 var(--display);margin-bottom:2px}
+.maplibregl-popup-content ol{margin:6px 0 2px;padding-left:28px;max-height:220px;overflow:auto}
+.maplibregl-popup-content li{margin:2px 0}
+.maplibregl-popup-content small{color:var(--muted)}
+.maplibregl-popup-close-button{color:var(--fg);font-size:18px;padding:0 6px}
+.legend{display:flex;gap:6px 14px;flex-wrap:wrap;font:400 12px/1.3 var(--mono);color:var(--muted);margin-top:8px;align-items:center}
+.legend span{display:inline-flex;align-items:center}
+.legend i{display:inline-block;width:13px;height:13px;margin-right:6px;border-radius:50%;border:1px solid rgba(0,0,0,.15)}
+.legend i.sq{border-radius:2px}
+.legend i.ring{background:transparent;border:2px solid var(--cool)}
+.pull{font:600 26px/1.25 var(--display);border-left:6px solid var(--hot);padding:4px 0 4px 18px;margin:30px 0}
+.note{background:var(--panel);border:1px solid var(--rule);padding:14px 16px;font-size:16px;margin:22px 0}
+.note h3{margin-top:0}
+table.tbl{width:100%;border-collapse:collapse;font:400 13px/1.4 var(--mono)}
+table.tbl th{font:500 11px/1 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);text-align:left;padding:6px 6px 6px 0;border-bottom:2px solid var(--fg)}
+table.tbl td{padding:6px 6px 6px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.tbl td.r,table.tbl th.r{text-align:right;white-space:nowrap}
+table.tbl tr[data-q]{cursor:pointer}
+table.tbl tr[data-q]:hover td{background:var(--panel)}
+.tablebox{max-height:460px;overflow:auto;border:1px solid var(--border);background:var(--card);padding:0 10px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;margin:18px 0}
+.cards div{background:var(--card);border:1px solid var(--border);padding:12px;font:400 13px/1.45 var(--mono)}
+.cards b{display:block;font:800 20px/1.15 var(--display);margin-bottom:4px}
+.cards span{color:var(--muted)}
+details{margin:14px 0}
+summary{font:500 13px/1.4 var(--mono);cursor:pointer;color:var(--fg);padding:8px 0}
+.cta{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}
+.cta a{font:500 13px/1 var(--mono);text-decoration:none;border:1px solid var(--fg);padding:11px 14px;border-radius:3px}
+.cta a.p{background:var(--hot);border-color:var(--hot);color:#fff}
+footer{border-top:6px double var(--fg);margin-top:56px;padding-top:16px;font:400 13px/1.55 var(--mono);color:var(--muted)}
+footer p{margin:0 0 10px}
+.theme{position:fixed;right:12px;bottom:12px;z-index:1002}
+@media print{.theme,.controls{display:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="kicker"><b>Data study</b><span>Literature</span><span>World, novels and literary works</span></div>
+<header class="hero">
+  <h1>Where <span class="a">novels</span> are <span class="b">set</span></h1>
+  <svg class="mark" viewBox="0 0 120 120" aria-hidden="true"><g id="heroMark"></g></svg>
+  <p class="dek">Wikidata, the free database behind Wikipedia, records the real places where {{source.novels|int}} novels are set, and {{source.other|int}} other plays, stories, poems and books besides. I put them all on one map. Fiction turns out to love three cities, to travel less than you might think, and to leave most of the world almost unwritten. The map also shows where a few volunteers have been very busy.</p>
+</header>
+<div class="byline">Dr Tristan Hotham · Independent researcher · 2026 · Data: Wikidata (CC0); Natural Earth</div>
+
+<div class="stats">
+  <div><b class="p">{{source.novels|int}}</b><span>novels with a real setting, in {{source.places_novels|int}} places</span></div>
+  <div><b class="h">{{spot.London.n|int}}</b><span>set in London, the most of any city; New York {{spot.New York City.n|int}}, Paris {{spot.Paris.n|int}}</span></div>
+  <div><b class="g">{{home.median_km|int}} km</b><span>median distance from the author's birthplace to the setting</span></div>
+  <div><b class="c">{{continents.Asia.novels_pct|int}}%</b><span>of mapped novels are set in Asia, home to {{continents.Asia.pop_pct|int}}% of the world's people</span></div>
+</div>
+
+<p class="lede">Every novel happens somewhere. Some of those somewheres are invented, but most are real: Dickens's London, Balzac's Paris, Chandler's Los Angeles. Wikidata records them with a property called narrative location, and because each place carries coordinates, the settings of literature can be put on a map. I downloaded every literary work in Wikidata with at least one real narrative location: {{source.works|int}} works, {{source.novels|int}} of them novels, set in {{source.places|int}} distinct places across {{n_countries|int}} countries.</p>
+<p>The map below lets you search for a book or an author, filter by genre and period, and draw a line from where an author was born to where their story takes place. Then scroll on for what the map says about fiction, and about the people who catalogue it. Wikidata is written by volunteers, and in a few places a single dedicated project has added more settings than the rest of the world combined. That is part of the story too.</p>
+
+<h2><span class="n">01 · The map</span>{{source.places|int}} real places in fiction</h2>
+<div class="bleed" id="atlas">
+<div class="controls">
+  <div class="searchbox"><input type="search" id="q" placeholder="Search a book or an author (Ulysses, Agatha Christie...)" aria-label="Search a book or an author" autocomplete="off"><ul class="suggest" id="sug" role="listbox"></ul></div>
+</div>
+<div class="controls"><div class="scrollrow" id="kindRow"><span class="ctl-l">Show</span><button class="btn" data-k="1" aria-pressed="true">Novels</button><button class="btn" data-k="0" aria-pressed="false">All literary works</button></div>
+  <div class="scrollrow" id="lineRow"><span class="ctl-l">Birthplace lines</span><button class="btn" data-l="1" aria-pressed="true">On</button><button class="btn" data-l="0" aria-pressed="false">Off</button></div></div>
+<div class="controls"><div class="scrollrow" id="genreRow"><span class="ctl-l">Genre</span></div></div>
+<div class="controls"><div class="scrollrow" id="eraRow"><span class="ctl-l">Published</span></div></div>
+<div class="controls"><div class="scrollrow" id="focusRow"><span class="ctl-l">Zoom to</span></div></div>
+<div class="mapgrid">
+  <div><div id="map" class="lmap" role="application" aria-label="World map of the real places where novels are set, sized by the number of works"><div class="nomap" id="nomap">Loading the map...</div></div>
+    <div class="legend" id="legend"></div></div>
+  <div class="side" id="side" aria-live="polite"></div>
+</div>
+<p class="src">Filled circles: cities, towns and single sites, with area proportional to the number of works set there. Zoomed out, places within 25 km of a big city are merged into that city; zoom in to see streets, buildings and neighbourhoods. Rings: wider areas (states, islands, regions) drawn at their Wikidata point. Settings that name only a whole country or a continent are not drawn as points; click a country to see them. Click a circle for its works, search for a book or author to see its places, and turn on birthplace lines to draw the journey from the author's birthplace. Source: Wikidata (CC0), extract made with QLever in {{source.extract_year|raw}}. Outlines: Natural Earth. Relief: Esri World Hillshade.</p>
+</div>
+
+<h2><span class="n">02 · The big three</span>London, New York, Paris</h2>
+<p>Three cities stand far above the rest. {{spot.London.n|int}} novels are set at least partly in London, {{spot.New York City.n|int}} in New York and {{spot.Paris.n|int}} in Paris. Together they appear in {{city_top3_pct|int}}% of all the novels on the map. Count every literary work, including plays, short stories and poems, and Paris comes first, with {{spot.Paris.all|int}}, ahead of New York's {{spot.New York City.all|int}} and London's {{spot.London.all|int}}: French plays and stories are particularly well recorded. After them come Los Angeles ({{spot.Los Angeles.n|int}} novels), San Francisco ({{spot.San Francisco.n|int}}), Rome ({{spot.Rome.n|int}}) and Madrid ({{spot.Madrid.n|int}}).</p>
+<div class="figure"><p class="fig-h">The cities with the most novels set in them</p><p class="fig-sub">Novels set at least partly in each city area (places within 25 km of a big city count for it, so Baker Street and Brooklyn count for London and New York). Outlines: all literary works. Click a bar to see the city on the map.</p><div class="chart" id="cityChart"></div><div class="legend"><span><i class="sq" style="background:var(--hot)"></i>novels</span><span><i class="sq" style="background:transparent;border:1px solid var(--muted)"></i>all literary works</span></div></div>
+<p>Single authors shape the list. Benito Pérez Galdós, who chronicled nineteenth century Spain, accounts for {{author_facts.Benito Pérez Galdós.top_city_n|int}} of Madrid's novels; Rex Stout's detective Nero Wolfe for {{author_facts.Rex Stout.top_city_n|int}} of New York's; Georges Simenon's Inspector Maigret for {{author_facts.Georges Simenon.top_city_n|int}} of Paris's. And one name in the top ten needs explaining. Pittsburgh is eighth, with {{spot.Pittsburgh.n|int}} novels, ahead of Chicago ({{spot.Chicago.n|int}}) and Boston ({{spot.Boston.n|int}}). Pittsburgh is not the literary capital of America, but the novels set there are unusually well catalogued in Wikidata. Mumbai, a city of about {{spot.Mumbai.pop_m|int}} million people, has {{spot.Mumbai.n|int}}; Lagos {{spot.Lagos.n|int}}; Tokyo {{spot.Tokyo.n|int}}.</p>
+
+<h2><span class="n">03 · Two centuries</span>Paris, then London, then New York</h2>
+<p>The three cities have taken turns. In novels published between 1830 and 1849, the age of Balzac, Hugo and Eugène Sue, Paris is the setting of {{trio20.0.Paris_pct|int}}% of the novels with a mapped place, against {{trio20.0.London_pct|int}}% for London. By the turn of the twentieth century London had caught up, and it led between the wars. After 1950 New York took over: {{trio20.6.New York_pct|int}}% of novels published from 1950 to 1969 are set there, more than in London ({{trio20.6.London_pct|int}}%) or Paris ({{trio20.6.Paris_pct|int}}%). Since 1990 London has edged back in front, while Paris has faded to about {{trio20.8.Paris_pct|int}}%.</p>
+<div class="figure"><p class="fig-h">London, Paris and New York, by publication period</p><p class="fig-sub">Share of novels with a mapped place (a city, site or area) that are set at least partly in each city, by twenty years of first publication. The early periods are small samples (counts under the axis). Hover a point.</p><div class="chart" id="trioChart"></div><div class="legend" id="trioLegend"></div></div>
+<p>All three shares fall in the most recent decades because the map has grown wider, not because the cities have lost their appeal: novels published since 1990 are spread across many more places. Wikidata holds far more recent novels than old ones; half of the novels with a date were first published in {{years.median_novel|raw}} or later.</p>
+
+<h2><span class="n">04 · Home and abroad</span>Most novels stay close to home</h2>
+<p>For {{home.n|int}} novels Wikidata knows both where at least one author was born and the country of at least one setting. {{home.home_pct|int}}% of them are set entirely in the country where their author was born (judged by today's borders), and {{home.abroad_pct|int}}% go abroad at least once. The distances are short. Measuring from the author's birthplace to each mapped place, the median is {{home.median_km|int}} km, and {{home.within_50|int}}% of settings lie within 50 km of where the author was born. Writers really do write about home.</p>
+<div class="figure"><p class="fig-h">How far from home</p><p class="fig-sub">Distance from the author's birthplace to each mapped setting of a novel ({{home.pairs|int}} novel and place pairs; for co-written books the nearest author). Hover a bar.</p><div class="chart" id="distChart"></div></div>
+<p>Some travel much further. The longest journey on the map belongs to Ngaio Marsh, born in New Zealand, who set {{author_facts.Ngaio Marsh.top_country_n|int}} of her {{author_facts.Ngaio Marsh.novels|int}} mapped detective novels in Britain: {{farthest.0.title|raw}}, set in {{farthest.0.place|raw}}, lies {{farthest.0.km|int}} km from her birthplace in Christchurch, almost the far side of the planet. P. L. Travers, born in Australia, set all {{author_facts.P L Travers.novels|int}} of her Mary Poppins books in London. Among the {{authors_far_n|int}} authors with at least three mapped novels, those two travel furthest.</p>
+<div class="figure"><p class="fig-h">Who goes abroad, by the author's country of birth</p><p class="fig-sub">Share of novels set at least partly outside the present-day country where the author was born. Countries with at least 40 such novels. Hover a bar for where they go.</p><div class="chart" id="abroadChart"></div></div>
+<p>Birthplace is not nationality, and the chart shows it. Writers born in what is now Ukraine top the list ({{home_country.UKR.abroad_pct|int}}% abroad) because Joseph Roth, Irène Némirovsky, Mikhail Bulgakov and the Italian crime writer Giorgio Scerbanenco were all born there and set their books in Austria, France, Russia and Italy. Belgium's {{home_country.BEL.abroad_pct|int}}% is mostly Simenon, born in Liège, whose Maigret lives in Paris. Nigeria's {{home_country.NGA.abroad_pct|int}}% owes much to Simon Scarrow, born in Lagos, whose {{author_facts.Simon Scarrow.novels|int}} Roman army novels are mostly recorded as set in Italy. At the other end, {{home_country.USA.abroad_pct|int}}% of novels by American-born writers go abroad, and {{home_country.GBR.abroad_pct|int}}% of those by British-born writers.</p>
+
+<h2><span class="n">05 · Genres</span>Crime goes to Paris, science fiction to San Francisco</h2>
+<p>Wikidata gives a genre for many novels. Crime and mystery is the biggest group with real settings, {{genres.Crime and mystery.n|int}} novels, and its capital is Paris ({{crime_top.0.1|int}}, many of them Maigret's), then London ({{crime_top.1.1|int}}) and New York ({{crime_top.2.1|int}}). Relative to all novels, crime is unusually drawn to Miami, Oslo, Edinburgh and Venice, home of Donna Leon's Commissario Brunetti. Science fiction that uses real places goes to New York and London, but it is {{genres.Science fiction.lift.0.2|f1}} times as likely as the average novel to be set in San Francisco. Fantasy with a real setting belongs above all to London ({{genres.Fantasy.cities.0.1|int}}). Historical novels lean towards Europe: Paris ({{genres.Historical.cities.0.1|int}}), London ({{genres.Historical.cities.1.1|int}}) and Rome ({{genres.Historical.cities.3.1|int}}). And {{offworld.moon_works|int}} works in Wikidata are set at least partly on the Moon, and {{offworld.mars_works|int}} on Mars; they are counted here but not mapped.</p>
+<div class="figure"><p class="fig-h">The favourite cities of each genre</p><p class="fig-sub">Novels in each genre group set at least partly in each city area. A novel can belong to more than one group. Click a panel to filter the map by that genre.</p><div class="chart" id="genreChart"></div></div>
+
+<h2><span class="n">06 · The unwritten world</span>Europe and North America, then a long way down</h2>
+<p>Novels on the map are concentrated in two continents. {{continents.Europe.novels_pct|int}}% of novels with a setting in a known country are set at least partly in Europe, which is home to {{continents.Europe.pop_pct|int}}% of the world's people; {{continents.North America.novels_pct|int}}% in North America, home to {{continents.North America.pop_pct|int}}%. Asia, with {{continents.Asia.pop_pct|int}}% of humanity, has {{continents.Asia.novels_pct|int}}% of the novels, and Africa, with {{continents.Africa.pop_pct|int}}%, has {{continents.Africa.novels_pct|int}}%. Per person, Europe has {{cont_eur_vs_asia|int}} times as many mapped novels as Asia, and North America {{cont_na_vs_africa|int}} times as many as Africa.</p>
+<div class="figure"><p class="fig-h">Where novels are set, against where people live</p><p class="fig-sub">Share of novels with a setting in each continent (a novel can count for more than one) and share of the world's population (Natural Earth estimates). Hover a bar.</p><div class="chart" id="contChart"></div></div>
+<p>The gaps are largest in the most populous countries. China has {{country.CHN.n|int}} mapped novels for 1.4 billion people, India {{country.IND.n|int}}, Pakistan {{undermapped.4.n|int}} and Bangladesh {{undermapped.0.n|int}}. The United Kingdom, with 67 million, has {{country.GBR.n|int}}. This is not a measure of how much fiction is written in those places. It reflects what has been catalogued in Wikidata, with English labels, by its mostly European and North American volunteers, and what gets translated and written about in English. {{countries_none_n10m|int}} countries of more than 10 million people have no mapped novel at all.</p>
+
+<h2><span class="n">07 · A map of Wikidata</span>Why Denmark has more places than China and India</h2>
+<p>Look closely at the map and Denmark glows. It holds {{bias.DNK.places|int}} distinct setting places, {{bias.DNK.places_pct|int}}% of every place in the data, more than any other country, including the United States ({{bias.USA.places|int}}). Denmark has {{bias.DNK.pop_pct|f2}}% of the world's people; China and India together, with more than a third, have {{bias.dnk_vs.chn_ind_places|int}} places between them. Danish works are recorded in extraordinary detail: the {{danish.works|int}} works in Danish have an average of {{bias_lang.6.per_work|f1}} settings each, against {{bias_lang.0.per_work|f1}} for works in English, down to individual Copenhagen streets. One Danish novel, {{danish.top_work|raw}}, lists {{danish.top_work_places|int}} places. {{danish.dnk_places_from_danish_pct|int}}% of Denmark's places come from works in Danish.</p>
+<div class="figure"><p class="fig-h">Distinct setting places by country</p><p class="fig-sub">All literary works. Red: the two countries where single cataloguing projects stand out. Hover a bar.</p><div class="chart" id="biasChart"></div></div>
+<p>Serbia is the second case. Its {{bias.SRB.places|int}} places put it eighth in the world, mostly from {{serbian.works|int}} works in Serbian, {{serbian.pre1930_pct|int}}% of them published before 1930, with an average of {{bias_lang.7.per_work|f1}} settings each. Both are the work of careful volunteers adding the settings of their national literatures, and both are good things. They are also a warning: a map like this measures the attention of the people who build the database as much as it measures literature. The same is true of Pittsburgh's place among the great fiction cities, and of the thinness of Asia and Africa. I have left the data as it is, and the novel counts used in the rest of this page are much less affected than the place counts: Denmark has {{country.DNK.n|int}} mapped novels and Serbia {{country.SRB.n|int}}.</p>
+
+<h2><span class="n">08 · Famous settings</span>The best-known novel set in each country</h2>
+<p>Wikidata counts how many language editions of Wikipedia have an article about each book, a rough measure of fame. The best-known novel on the map is {{most_linked.0.title|raw}}, with articles in {{most_linked.0.links|int}} languages; it is set in Spain. Next come {{most_linked.1.title|raw}} ({{most_linked.1.links|int}}), set in England, and {{most_linked.3.title|raw}} ({{most_linked.3.links|int}}), set in China. Choosing the best-known novel set at least partly in each country gives some surprises: wandering books win in many places, so Robinson Crusoe is the best-known novel set in Venezuela, and Paulo Coelho's The Alchemist in Egypt.</p>
+<div class="figure"><p class="fig-h">The best-known novel set in each country</p><p class="fig-sub">By Wikipedia language editions (sitelinks). {{n_countries|int}} countries. Click a row to see the book on the map.</p><div class="tablebox"><table class="tbl" id="famousTable"></table></div></div>
+
+<h2><span class="n">09 · Ends of the earth</span>Poles, islands and one Copenhagen street</h2>
+<div class="cards">
+  <div><b>{{remote.0.label|raw}}</b>The most remote real setting, {{remote.0.km|int}} km from the nearest city of a million people. <span>{{remote.0.works.0.title|raw}} ({{remote.0.works.0.year|raw}}), {{remote.0.works.1.title|raw}}.</span></div>
+  <div><b>{{remote.1.label|raw}}</b>The most remote inhabited setting, {{remote.1.km|int}} km from a big city. <span>{{remote.1.works.1.title|raw}}, Robert Louis Stevenson and Lloyd Osbourne.</span></div>
+  <div><b>{{north.0.label|raw}}</b>The northernmost. <span>{{north.0.works.1.title|raw}}, Jules Verne, {{north.0.works.1.year|raw}}.</span></div>
+  <div><b>The Moon</b>{{offworld.moon_works|int}} works are set there and {{offworld.mars_works|int}} on Mars, including The Martian. <span>Counted, not mapped.</span></div>
+  <div><b>{{streets.0.label|raw}}</b>The most written-about street, in {{streets.0.city|raw}}: {{streets.0.works|int}} works. <span>{{streets_dnk|int}} of the {{n_streets|int}} streets and squares in the data are Danish.</span></div>
+  <div><b>{{buildings.0.label|raw}}</b>The single site with the most works, {{buildings.0.works|int}}. <span>Memoirs and novels, including The Zone of Interest.</span></div>
+</div>
+<p>The southernmost setting is the South Pole itself, reached in fiction by Jules Verne in 1869 and again in 1897. The remotest inhabited places in fiction are the islands of French Polynesia, more than {{remote.2.km|int}} km from any city of a million people, which owe their place largely to old travellers' tales and to Robert Louis Stevenson and Jack London. Wikidata also holds {{source.fictional_places|int}} invented places that it gives real coordinates: Lovecraft's Arkham in Massachusetts and R'lyeh in the South Pacific, Starfleet Academy in San Francisco, and 221B Baker Street. They are on the map, marked as fictional, but left out of every count of real places above.</p>
+
+<h2><span class="n">10 · How I did this</span>Methods and caveats</h2>
+<p><b>Data.</b> One Wikidata query, run with QLever in {{source.extract_year|raw}}, returned every item that is an instance of a kind of literary work and has a narrative location with coordinates: {{source.rows|int}} rows covering {{source.works_all|int}} works. Further queries gave each work's classes, genres, country of origin, language, form, sitelinks and English Wikipedia article, and each place's classes and country. {{source.works|int}} works have at least one setting on Earth; {{source.offworld_only|int}} more are set only on the Moon or Mars. A work counts as a novel if Wikidata gives its form as novel or novella, or if it belongs to a class with "novel" in its name (graphic novel, unfinished novel, light novel series): {{source.novels|int}} works. I made two exceptions: the {{source.decameron|int}} tales of the Decameron, which Wikidata files as novellas in the Decameron, and the Odyssey, whose form Wikidata gives as novel. Both stay in the literary works.</p>
+<p><b>Places.</b> I sorted each place by its Wikidata classes into cities and towns ({{levels.places.city|int}}), single sites and parts of cities ({{levels.places.site|int}}), wider areas ({{levels.places.region|int}}), countries ({{levels.places.country|int}}) and continents, oceans and world regions ({{levels.places.large|int}}). Only the first three are drawn as points. {{levels.novels_country_only|int}} novels name only a country or larger area. City areas join every city or site within 25 km of a Natural Earth city of 250,000 or more people. A place's country is the present-day country its point falls in. The distance from home uses the coordinates of the author's place of birth, and "home" means the present-day country of that birthplace, which is not always the author's nationality.</p>
+<p><b>What this is not.</b> This is a map of what Wikidata records, not of all literature. Coverage depends on volunteers, on English labels and on what has an article in Wikipedia; {{source.no_english_label|int}} works have no English label. Settings are often partial: a novel set in several places may list one of them, and some settings are recorded only as "New York" the state when the city is meant. Genres are as Wikidata gives them, grouped by me. Publication years are the earliest date recorded.</p>
+<details><summary>Sources and licences</summary>
+<ul>
+<li>Wikidata, https://www.wikidata.org/, CC0. Narrative location (P840), coordinates (P625), author (P50), place of birth (P19), publication date (P577), genre (P136), form of creative work (P7937), country of origin (P495), language (P407). Queried with QLever in {{source.extract_year|raw}}.</li>
+<li>Natural Earth country outlines and populated places (public domain).</li>
+<li>Relief tiles: Esri World Hillshade.</li>
+</ul></details>
+
+<div class="cta"><a class="p" href="https://doi.org/10.5281/zenodo.23872997">Read the paper</a><a href="https://github.com/Tristan-Hotham/novel-settings">Data and code</a><a href="https://blog.tristanhotham.com/2026/10/31/novel-settings/">Blog post</a></div>
+
+<footer>
+<p>Dr Tristan Hotham, Independent researcher. ORCID <a href="https://orcid.org/0000-0003-4931-9349">0000-0003-4931-9349</a>.</p>
+<p>Cite as: Hotham, T. (2026) Where novels are set: mapping the real places of fiction in Wikidata. Zenodo. <a href="https://doi.org/10.5281/zenodo.23872997">https://doi.org/10.5281/zenodo.23872997</a></p>
+<p>Data: Wikidata (CC0). Licence: derived data and text CC BY 4.0, code MIT.</p>
+<p>I wrote the text, with drafting and editing assistance from Claude (Anthropic), which also helped prepare the analysis code. I reviewed and checked all text and results.</p>
+</footer>
+</div>
+<div class="tip" id="tip"></div>
+<button class="btn theme" id="theme" aria-label="Toggle dark mode">◐</button>
+<script src="https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script>
+const R = /*RESULTS*/;
+const SITE = /*SITE*/;
+const WORLD = /*WORLD*/;
+const CITIES = /*CITIES*/;
+const fmt = n => n == null || n === "" ? "n/a" : Math.round(n).toLocaleString("en-GB");
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const tip = document.getElementById("tip");
+function showTip(h, x, y) { tip.innerHTML = h; tip.style.display = "block"; const w = tip.offsetWidth; x = Math.max(w / 2 + 8, Math.min(innerWidth - w / 2 - 8, x)); tip.style.left = x + scrollX + "px"; tip.style.top = y + scrollY + "px"; }
+function hideTip() { tip.style.display = "none"; }
+document.addEventListener("click", hideTip);
+const NS = "http://www.w3.org/2000/svg";
+const el = (t, a, p) => { const e = document.createElementNS(NS, t); for (const k in a) e.setAttribute(k, a[k]); if (p) p.appendChild(e); return e; };
+const lbl = (svg, x, y, s, cls = "lab", anchor = "start") => { const t = el("text", { x, y, class: cls, "text-anchor": anchor }, svg); t.textContent = s; return t; };
+const redraws = [];
+function resp(box, render) { let last = 0; const go = force => { const w = Math.max(280, Math.round(box.clientWidth)); if (!force && Math.abs(w - last) < 4) return; last = w; box.innerHTML = ""; render(w, w < 560); }; new ResizeObserver(() => go()).observe(box); go(); redraws.push(() => go(true)); }
+const isDark = () => { const r = document.documentElement; return r.dataset.theme ? r.dataset.theme === "dark" : matchMedia("(prefers-color-scheme: dark)").matches; };
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const small = () => innerWidth < 900;
+const GEN = SITE.genres, ERAS = SITE.eras, TRIO = SITE.trio;
+const cname = i => SITE.cname[i] || i || "no country";
+
+/* hero mark: an open book with a map pin rising from it */
+(function () {
+  const g = document.getElementById("heroMark");
+  el("path", { d: "M10 92 Q36 80 60 92 Q84 80 110 92 L110 104 Q84 92 60 104 Q36 92 10 104 Z", fill: "#FFFEFA", stroke: "currentColor", "stroke-width": 2.6, "stroke-linejoin": "round" }, g);
+  el("path", { d: "M60 92 L60 104", stroke: "currentColor", "stroke-width": 2.2 }, g);
+  [[20, 92], [26, 90], [74, 90], [80, 92]].forEach(([x]) => el("path", { d: `M${x} ${x < 60 ? 94 : 94} q${x < 60 ? 14 : 14} -6 ${x < 60 ? 30 : 26} 0`, stroke: "#B9B2A6", "stroke-width": 1.4, fill: "none" }, g));
+  el("path", { d: "M60 16 C44 16 36 28 36 40 C36 58 60 80 60 80 C60 80 84 58 84 40 C84 28 76 16 60 16 Z", fill: "#C8322B", stroke: "currentColor", "stroke-width": 2.6 }, g);
+  el("circle", { cx: 60, cy: 40, r: 8.5, fill: "#FFFEFA", stroke: "currentColor", "stroke-width": 2 }, g);
+})();
+
+/* ---------- state ---------- */
+const S = { nov: true, g: -1, e: -1, sel: null, lines: true, iso: null };
+let D = null;                 // points.json
+let W2P = null, A2W = null, PT = null;
+function okW(i) {
+  const w = D.works[i];
+  if (S.nov && !w[6]) return false;
+  if (S.g >= 0 && !((w[7] >> S.g) & 1)) return false;
+  if (S.e >= 0) { const y = w[2], e = ERAS[S.e]; if (y == null || y < e[1] || y > e[2]) return false; }
+  return true;
+}
+const wTitle = w => w[1] || "(no English title) " + w[0];
+const wLink = w => w[5] ? "https://en.wikipedia.org/wiki/" + w[5] : "https://www.wikidata.org/wiki/" + w[0];
+const wAuth = w => w[3].map(a => D.authors[a][1]).join(", ");
+function wItem(i, extra) { const w = D.works[i]; return `<li><a href="${wLink(w)}" target="_blank" rel="noopener">${esc(wTitle(w))}</a> <small>${esc(wAuth(w))}${w[2] != null ? ", " + w[2] : ""}${extra ? " · " + extra : ""}</small> <span class="go" data-w="${i}" title="Show on the map">map</span></li>`; }
+
+/* ---------- map ---------- */
+const ESRI = "https://server.arcgisonline.com/ArcGIS/rest/services/";
+const LYDEF = { relief: true, reliefK: 45, borders: true, names: true, nameLvl: 1, cnames: false, size: 3, areas: true, fic: true };
+const LY = { ...LYDEF };
+try { Object.assign(LY, JSON.parse(localStorage.getItem("ns_layers") || "{}")); } catch (e) {}
+const saveLY = () => { try { localStorage.setItem("ns_layers", JSON.stringify(LY)); } catch (e) {} };
+let map = null, ready = false;
+const HOME = () => small() ? { center: [10, 30], zoom: .6 } : { center: [5, 32], zoom: 1.35 };
+const colours = () => ({ sea: css("--sea"), land: css("--land"), border: isDark() ? "#4B5260" : "#BDB6A8", hot: css("--hot"), cool: css("--cool"), line: css("--line"), fg: css("--fg"), bg: css("--bg") });
+const radiusExpr = k => { const r = (a, b) => ["+", a, ["*", b * k / 3, ["sqrt", ["get", "n"]]]]; return ["interpolate", ["linear"], ["zoom"], 0, r(1.6, .6), 3, r(2.4, 1.1), 6, r(3, 1.7), 10, r(4, 2.6)]; };
+function initMap() {
+  const box = document.getElementById("map");
+  if (!window.maplibregl) { document.getElementById("nomap").textContent = "The interactive map could not load here (the map library did not arrive). The charts and text below still work."; return; }
+  try {
+    const C = colours();
+    map = new maplibregl.Map({ container: "map", ...HOME(), minZoom: 0, maxZoom: 15, renderWorldCopies: false, attributionControl: false, dragRotate: false, pitchWithRotate: false,
+      style: { version: 8, sources: {
+        world: { type: "geojson", data: WORLD, attribution: "Outlines: Natural Earth" },
+        relief: { type: "raster", tiles: [ESRI + "Elevation/World_Hillshade/MapServer/tile/{z}/{y}/{x}"], tileSize: 256, maxzoom: 15, attribution: "Relief: Esri World Hillshade" } },
+        layers: [{ id: "bg", type: "background", paint: { "background-color": C.sea } },
+          { id: "land", type: "fill", source: "world", paint: { "fill-color": C.land } },
+          { id: "relief", type: "raster", source: "relief", paint: { "raster-opacity": .45 } },
+          { id: "borders", type: "line", source: "world", paint: { "line-color": C.border, "line-width": ["interpolate", ["linear"], ["zoom"], 1, .4, 6, 1.1] } }] } });
+    map.on("error", e => { if (!(e && e.sourceId === "relief")) console.warn("map:", e && e.error && e.error.message); });   // missing relief tiles (offline, blocked) are not fatal: the outlines are local
+    map.addControl(new maplibregl.AttributionControl({ compact: true, customAttribution: "Settings: Wikidata (CC0)" }), "bottom-right");
+    map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "bottom-right");
+    map.addControl(new maplibregl.ScaleControl({ unit: "metric", maxWidth: 100 }), "bottom-left");
+    map.on("load", () => { const nm = document.getElementById("nomap"); if (nm) nm.remove(); setupLayers(); ready = true; if (D) refresh(); });
+    const lab = document.createElement("div"); lab.className = "labels"; box.appendChild(lab);
+    const note = document.createElement("div"); note.className = "mapnote"; note.id = "mapnote"; box.appendChild(note);
+    layerControl(box);
+    let raf = 0; map.on("move", () => { if (!raf) raf = requestAnimationFrame(() => { raf = 0; placeNames(); }); });
+  } catch (err) { console.warn(err); document.getElementById("nomap").textContent = "The interactive map could not start in this browser (" + err.message + "). The charts and text below still work."; map = null; }
+}
+function setupLayers() {
+  const C = colours();
+  const fc = { type: "FeatureCollection", features: [] };
+  ["hubs", "places", "areas", "sel", "lines", "births"].forEach(s => map.addSource(s, { type: "geojson", data: fc }));
+  map.addLayer({ id: "areas-c", type: "circle", source: "areas", paint: { "circle-radius": radiusExpr(LY.size), "circle-color": "rgba(0,0,0,0)", "circle-stroke-color": C.cool, "circle-stroke-width": 1.4, "circle-stroke-opacity": .8 } });
+  map.addLayer({ id: "hubs-c", type: "circle", source: "hubs", maxzoom: 7, paint: { "circle-radius": radiusExpr(LY.size), "circle-color": ["case", ["==", ["get", "f"], 1], "#8C8478", C.hot], "circle-opacity": .82, "circle-stroke-color": isDark() ? "#000" : "#fff", "circle-stroke-width": .8 } });
+  map.addLayer({ id: "places-c", type: "circle", source: "places", minzoom: 7, paint: { "circle-radius": radiusExpr(LY.size), "circle-color": ["case", ["==", ["get", "f"], 1], "#8C8478", C.hot], "circle-opacity": .82, "circle-stroke-color": isDark() ? "#000" : "#fff", "circle-stroke-width": .8 } });
+  map.addLayer({ id: "lines-l", type: "line", source: "lines", layout: { "line-cap": "round" }, paint: { "line-color": C.line, "line-width": 1.6, "line-dasharray": [2, 1.5], "line-opacity": .9 } });
+  map.addLayer({ id: "sel-c", type: "circle", source: "sel", paint: { "circle-radius": 8, "circle-color": "rgba(0,0,0,0)", "circle-stroke-color": C.fg, "circle-stroke-width": 2.4 } });
+  map.addLayer({ id: "births-c", type: "circle", source: "births", paint: { "circle-radius": 6, "circle-color": C.gold || "#E0A11B", "circle-stroke-color": C.fg, "circle-stroke-width": 1.6 } });
+  const hit = ["places-c", "hubs-c", "areas-c"];
+  hit.forEach(l => { map.on("mouseenter", l, () => map.getCanvas().style.cursor = "pointer"); map.on("mouseleave", l, () => map.getCanvas().style.cursor = ""); });
+  map.on("click", e => {
+    const f = map.queryRenderedFeatures([[e.point.x - 4, e.point.y - 4], [e.point.x + 4, e.point.y + 4]], { layers: hit.filter(l => map.getLayer(l)) });
+    if (f.length) { const p = f[0].properties; popupFor(p.k, +p.i, e.lngLat); return; }
+    const c = map.queryRenderedFeatures(e.point, { layers: ["land"] });
+    if (c.length) { S.sel = null; S.iso = c[0].properties.iso; drawSel(); side(); }
+  });
+  applyLayers();
+}
+function applyLayers() {
+  if (!ready && !map) return;
+  try {
+    map.setLayoutProperty("relief", "visibility", LY.relief ? "visible" : "none"); map.setPaintProperty("relief", "raster-opacity", Math.min(1, LY.reliefK / 100));
+    map.setLayoutProperty("borders", "visibility", LY.borders ? "visible" : "none");
+    map.setLayoutProperty("areas-c", "visibility", LY.areas ? "visible" : "none");
+    ["hubs-c", "places-c", "areas-c"].forEach(l => map.setPaintProperty(l, "circle-radius", radiusExpr(LY.size)));
+  } catch (e) {}
+  if (D) refresh(); placeNames(); legend();
+}
+function themeMap() {
+  if (!map || !map.getLayer("land")) return; const C = colours();
+  map.setPaintProperty("bg", "background-color", C.sea); map.setPaintProperty("land", "fill-color", C.land); map.setPaintProperty("borders", "line-color", C.border);
+  ["hubs-c", "places-c"].forEach(l => { map.setPaintProperty(l, "circle-color", ["case", ["==", ["get", "f"], 1], "#8C8478", C.hot]); map.setPaintProperty(l, "circle-stroke-color", isDark() ? "#000" : "#fff"); });
+  map.setPaintProperty("areas-c", "circle-stroke-color", C.cool); map.setPaintProperty("lines-l", "line-color", C.line); map.setPaintProperty("sel-c", "circle-stroke-color", C.fg); map.setPaintProperty("births-c", "circle-stroke-color", C.fg);
+  placeNames();
+}
+function layerControl(box) {
+  const d = document.createElement("div"); d.className = "lyr";
+  d.innerHTML = `<button class="lyrBtn" aria-expanded="false">Map layers</button>
+<div class="lyrPanel" hidden>
+ <div class="row"><label><input type="checkbox" data-k="relief"> Relief (hills and mountains)</label><div class="sub"><span>strength</span><input type="range" data-k="reliefK" min="10" max="100" step="5" aria-label="Relief strength"></div></div>
+ <div class="row"><label><input type="checkbox" data-k="borders"> Borders</label></div>
+ <div class="row"><label><input type="checkbox" data-k="names"> Place names</label><div class="sub"><span>how many</span><select data-k="nameLvl" aria-label="How many place names"><option value="0">Biggest only</option><option value="1">Some</option><option value="2">Lots</option></select></div></div>
+ <div class="row"><label><input type="checkbox" data-k="cnames"> Country names</label></div>
+ <div class="hd">Settings</div>
+ <div class="row"><label>Circle size</label><div class="sub"><span>size</span><input type="range" data-k="size" min="1.5" max="6" step=".5" aria-label="Circle size"></div></div>
+ <div class="row"><label><input type="checkbox" data-k="areas"> Wider areas (rings)</label></div>
+ <div class="row"><label><input type="checkbox" data-k="fic"> Fictional places with coordinates</label></div>
+ <button class="reset">Reset layers</button>
+</div>`;
+  ["click", "dblclick", "mousedown", "touchstart", "wheel"].forEach(t => d.addEventListener(t, e => e.stopPropagation(), { passive: true }));
+  box.appendChild(d);
+  const btn = d.querySelector(".lyrBtn"), pan = d.querySelector(".lyrPanel");
+  btn.onclick = () => { const o = pan.hidden; pan.hidden = !o; btn.setAttribute("aria-expanded", o); };
+  const sync = () => pan.querySelectorAll("[data-k]").forEach(i => { const k = i.dataset.k; if (i.type === "checkbox") i.checked = LY[k]; else i.value = LY[k]; });
+  pan.querySelectorAll("[data-k]").forEach(i => i.addEventListener(i.type === "range" ? "input" : "change", () => {
+    const k = i.dataset.k; LY[k] = i.type === "checkbox" ? i.checked : +i.value;
+    if (k === "reliefK") LY.relief = true; if (k === "nameLvl") LY.names = true;
+    sync(); saveLY(); applyLayers();
+  }));
+  pan.querySelector(".reset").onclick = () => { Object.assign(LY, LYDEF); saveLY(); sync(); applyLayers(); };
+  sync();
+}
+function overlap(bx, bxs) { return bxs.some(o => bx[0] < o[2] && bx[2] > o[0] && bx[1] < o[3] && bx[3] > o[1]); }
+function placeNames() {
+  if (!map) return; const box = map.getContainer().querySelector(".labels"); if (!box) return;
+  let h = ""; const z = map.getZoom(), W = box.clientWidth, H = box.clientHeight, bxs = [];
+  const inV = p => p.x > -20 && p.y > -10 && p.x < W + 20 && p.y < H + 10;
+  if (LY.names) {
+    const minPop = [[1.5, 1.5e7], [2.5, 8e6], [3.5, 4e6], [4.5, 1.5e6], [5.5, 6e5], [99, 2.5e5]].find(([zz]) => z < zz + (LY.nameLvl === 2 ? 1.2 : LY.nameLvl === 0 ? -1 : 0))[1] * (LY.nameLvl === 0 ? 2 : 1);
+    let n = 0;
+    for (const c of CITIES) {
+      if (c.pop < minPop) continue; const p = map.project([c.lon, c.lat]); if (!inV(p)) continue;
+      const big = c.pop >= 5e6, bx = [p.x - 3, p.y - 7, p.x + 10 + c.name.length * (big ? 6.7 : 6.1), p.y + 7];
+      if (overlap(bx, bxs)) continue; bxs.push(bx);
+      h += `<div class="cityL${big ? "" : " s"}" style="left:${(p.x - 2).toFixed(1)}px;top:${(p.y - 6).toFixed(1)}px"><i></i>${esc(c.name)}</div>`;
+      if (++n >= 70) break;
+    }
+  }
+  if (LY.cnames && z >= 1.5 && z < 7) {
+    for (const iso in SITE.cpos) { const g = SITE.cpos[iso]; if (z < 2.5 && (g[2] || 0) < 3e7) continue; if (z < 3.5 && (g[2] || 0) < 5e6) continue;
+      const p = map.project([g[0], g[1]]); if (!inV(p)) continue; const nm = cname(iso), w = nm.length * 7.4;
+      const bx = [p.x - w / 2, p.y - 7, p.x + w / 2, p.y + 7]; if (overlap(bx, bxs)) continue; bxs.push(bx);
+      h += `<div class="cntL" style="left:${p.x.toFixed(1)}px;top:${p.y.toFixed(1)}px">${esc(nm)}</div>`; }
+  }
+  box.innerHTML = h;
+}
+function gc(a, b, n = 48) {   // great circle from a to b, [lon, lat]; longitudes unwrapped so the line stays continuous
+  const r = Math.PI / 180, [l1, p1] = [a[0] * r, a[1] * r], [l2, p2] = [b[0] * r, b[1] * r];
+  const d = 2 * Math.asin(Math.sqrt(Math.sin((p2 - p1) / 2) ** 2 + Math.cos(p1) * Math.cos(p2) * Math.sin((l2 - l1) / 2) ** 2));
+  if (d < 1e-6) return [a, b]; const out = []; let prev = null;
+  for (let i = 0; i <= n; i++) { const f = i / n, A = Math.sin((1 - f) * d) / Math.sin(d), B = Math.sin(f * d) / Math.sin(d);
+    const x = A * Math.cos(p1) * Math.cos(l1) + B * Math.cos(p2) * Math.cos(l2), y = A * Math.cos(p1) * Math.sin(l1) + B * Math.cos(p2) * Math.sin(l2), z = A * Math.sin(p1) + B * Math.sin(p2);
+    let lon = Math.atan2(y, x) / r; const lat = Math.atan2(z, Math.sqrt(x * x + y * y)) / r;
+    if (prev != null) { while (lon - prev > 180) lon -= 360; while (lon - prev < -180) lon += 360; } prev = lon; out.push([lon, lat]); }
+  return out;
+}
+const kmBetween = (a, b) => { const r = Math.PI / 180; const h = Math.sin((b[1] - a[1]) * r / 2) ** 2 + Math.cos(a[1] * r) * Math.cos(b[1] * r) * Math.sin((b[0] - a[0]) * r / 2) ** 2; return 12742 * Math.asin(Math.sqrt(h)); };
+
+/* aggregate the filtered works to places and city areas */
+let HUBN = null, PLN = null;
+function refresh() {
+  if (!D) return;
+  const hubs = new Map(), plf = [], arf = [];
+  PLN = new Array(D.points.length).fill(0);
+  D.points.forEach((p, i) => {
+    if (p[5] && !LY.fic) return;
+    let n = 0; for (const w of p[8]) if (okW(w)) n++;
+    PLN[i] = n; if (!n) return;
+    const f = { type: "Feature", geometry: { type: "Point", coordinates: [p[2], p[3]] }, properties: { n, i, k: "p", f: p[5] } };
+    if (p[4] === 2) { f.properties.k = "a"; arf.push(f); return; }
+    plf.push(f);
+    if (p[6] >= 0) { let h = hubs.get(p[6]); if (!h) { h = new Set(); hubs.set(p[6], h); } p[8].forEach(w => { if (okW(w)) h.add(w); }); }
+    else hubs.set("p" + i, n);
+  });
+  HUBN = new Map(); const hf = [];
+  for (const [k, v] of hubs) {
+    if (typeof k === "string") { const i = +k.slice(1), p = D.points[i]; hf.push({ type: "Feature", geometry: { type: "Point", coordinates: [p[2], p[3]] }, properties: { n: v, i, k: "p", f: p[5] } }); continue; }
+    const H = D.hubs[k]; HUBN.set(k, v.size); hf.push({ type: "Feature", geometry: { type: "Point", coordinates: [H[1], H[2]] }, properties: { n: v.size, i: k, k: "h", f: 0 } });
+  }
+  const sort = a => a.sort((x, y) => y.properties.n - x.properties.n);
+  if (map && ready) { map.getSource("hubs").setData({ type: "FeatureCollection", features: sort(hf) }); map.getSource("places").setData({ type: "FeatureCollection", features: sort(plf) }); map.getSource("areas").setData({ type: "FeatureCollection", features: sort(arf) }); }
+  drawSel(); side();
+}
+function worksAt(k, i) {   // filtered works at a place, city area or wider area: [[work, place index]]
+  const out = new Map();
+  if (k === "h") D.points.forEach((p, j) => { if (p[6] === i) p[8].forEach(w => { if (okW(w) && !out.has(w)) out.set(w, j); }); });
+  else D.points[i][8].forEach(w => { if (okW(w)) out.set(w, i); });
+  return [...out.entries()].sort((a, b) => D.works[b[0]][4] - D.works[a[0]][4]);
+}
+let popup = null;
+function popupFor(k, i, ll) {
+  const ws = worksAt(k, i), name = k === "h" ? D.hubs[i][0] : D.points[i][1], p = k === "h" ? null : D.points[i];
+  const kind = k === "h" ? "city area (places within 25 km)" : p[5] ? "fictional place with coordinates" : ["city or town", "site", "wider area"][p[4]];
+  const lim = 40;
+  const h = `<b class="t">${esc(name)}</b><small>${esc(kind)} · ${fmt(ws.length)} ${S.nov ? "novel" : "work"}${ws.length === 1 ? "" : "s"}${filtTxt()}</small><ol>` +
+    ws.slice(0, lim).map(([w, j]) => wItem(w, k === "h" && D.points[j][1] !== name ? esc(D.points[j][1]) : "")).join("") + `</ol>` + (ws.length > lim ? `<small>and ${fmt(ws.length - lim)} more, the best known first</small>` : "");
+  if (popup) popup.remove();
+  popup = new maplibregl.Popup({ maxWidth: "320px", offset: 8 }).setLngLat(ll).setHTML(h).addTo(map);
+  popup.getElement().querySelectorAll("[data-w]").forEach(e => e.onclick = () => selectWork(+e.dataset.w));
+  note(`<b>${esc(name)}</b>: ${fmt(ws.length)}${filtTxt()}`);
+}
+function filtTxt() { const a = []; if (S.g >= 0) a.push(GEN[S.g][0].toLowerCase()); if (S.e >= 0) a.push(ERAS[S.e][0].toLowerCase()); return a.length ? " (" + a.join(", ") + ")" : ""; }
+function note(h) { const n = document.getElementById("mapnote"); if (n) n.innerHTML = h || ""; }
+
+/* ---------- selection: a work or an author ---------- */
+function selWorks() { if (!S.sel) return []; return S.sel.t === "w" ? [S.sel.i] : (A2W.get(S.sel.i) || []); }
+function drawSel() {
+  if (!map || !ready || !D) return;
+  const ws = selWorks(), pts = [], lines = [], births = new Map();
+  for (const w of ws) {
+    const W = D.works[w];
+    for (const pi of (W2P.get(w) || [])) { const p = D.points[pi]; pts.push({ type: "Feature", geometry: { type: "Point", coordinates: [p[2], p[3]] }, properties: {} });
+      if (S.lines) W[3].forEach(a => { const A = D.authors[a]; if (A[2] == null || (S.sel.t === "a" && a !== S.sel.i)) return; births.set(a, [A[2], A[3]]); lines.push({ type: "Feature", geometry: { type: "LineString", coordinates: gc([A[2], A[3]], [p[2], p[3]]) }, properties: {} }); }); }
+  }
+  if (S.lines && S.sel && S.sel.t === "a") { const A = D.authors[S.sel.i]; if (A[2] != null) births.set(S.sel.i, [A[2], A[3]]); }
+  map.getSource("sel").setData({ type: "FeatureCollection", features: pts });
+  map.getSource("lines").setData({ type: "FeatureCollection", features: lines });
+  map.getSource("births").setData({ type: "FeatureCollection", features: [...births.values()].map(c => ({ type: "Feature", geometry: { type: "Point", coordinates: c }, properties: {} })) });
+}
+function fitSel() {
+  if (!map) return; const ws = selWorks(); const cs = [];
+  ws.forEach(w => { (W2P.get(w) || []).forEach(pi => cs.push([D.points[pi][2], D.points[pi][3]])); if (S.lines) D.works[w][3].forEach(a => { const A = D.authors[a]; if (A[2] != null) cs.push([A[2], A[3]]); }); });
+  if (!cs.length) return;
+  const b = cs.reduce((bb, c) => [Math.min(bb[0], c[0]), Math.min(bb[1], c[1]), Math.max(bb[2], c[0]), Math.max(bb[3], c[1])], [180, 90, -180, -90]);
+  map.fitBounds([[b[0], b[1]], [b[2], b[3]]], { padding: 60, maxZoom: 9, duration: 900 });
+}
+function toMap() { if (small()) document.getElementById("map").scrollIntoView({ behavior: "smooth", block: "start" }); }
+function selectWork(i) { S.sel = { t: "w", i }; S.iso = null; if (popup) popup.remove(); drawSel(); fitSel(); side(); toMap(); }
+function selectAuthor(a) { S.sel = { t: "a", i: a }; S.iso = null; if (popup) popup.remove(); drawSel(); fitSel(); side(); toMap(); }
+
+/* ---------- side panel ---------- */
+function side() {
+  const box = document.getElementById("side"); if (!D) { box.innerHTML = "<p class='sub'>Loading the settings...</p>"; return; }
+  let h = "";
+  if (S.sel && S.sel.t === "w") {
+    const i = S.sel.i, w = D.works[i], ps = W2P.get(i) || [];
+    const gs = GEN.filter((g, k) => (w[7] >> k) & 1).map(g => g[0]);
+    h = `<button class="back">Back</button><h4>${w[6] ? "Novel" : "Literary work"}</h4><div class="big">${esc(wTitle(w))}</div><p class="sub">${esc(wAuth(w)) || "author not recorded"}${w[2] != null ? " · " + w[2] : ""} · <a href="${wLink(w)}" target="_blank" rel="noopener">${w[5] ? "Wikipedia" : "Wikidata"}</a></p>`;
+    if (gs.length) h += `<p class="sub">${esc(gs.join(", "))}</p>`;
+    h += `<table><tr><td>Wikipedia languages</td><td class="num">${w[4]}</td></tr>`;
+    w[3].forEach(a => { const A = D.authors[a]; h += `<tr><td>${esc(A[1])} born in</td><td class="num">${A[2] != null ? esc(cname(A[4])) : "not recorded"}</td></tr>`; });
+    h += `</table><h4>Mapped places</h4><ul>` + ps.map(pi => { const p = D.points[pi]; const near = w[3].map(a => D.authors[a]).filter(A => A[2] != null).map(A => kmBetween([A[2], A[3]], [p[2], p[3]]));
+      return `<li>${esc(p[1])} <small>${esc(cname(p[7]))}${near.length ? ", " + fmt(Math.min(...near)) + " km from the author's birthplace" : ""}${p[5] ? ", fictional" : ""}</small></li>`; }).join("") + `</ul>`;
+    const wh = Object.entries(D.whole).filter(([k, v]) => v.includes(i)).map(([k]) => cname(k)), lg = Object.entries(D.large).filter(([k, v]) => v.includes(i)).map(([k]) => k);
+    if (wh.length || lg.length) h += `<h4>Also set in</h4><p class="sub">${esc([...wh, ...lg].join(", "))} (a whole country or region, not drawn)</p>`;
+    if (!ps.length) h += `<p class="sub">No point setting: this work names only a country or region.</p>`;
+    note(`<b>${esc(wTitle(w))}</b>${S.lines ? ": dashed lines from the author's birthplace" : ""}`);
+  } else if (S.sel && S.sel.t === "a") {
+    const a = S.sel.i, A = D.authors[a], ws = (A2W.get(a) || []).slice().sort((x, y) => (D.works[x][2] || 0) - (D.works[y][2] || 0));
+    const ds = []; ws.forEach(w => (W2P.get(w) || []).forEach(pi => { if (A[2] != null && !D.points[pi][5]) ds.push(kmBetween([A[2], A[3]], [D.points[pi][2], D.points[pi][3]])); }));
+    ds.sort((x, y) => x - y);
+    h = `<button class="back">Back</button><h4>Author</h4><div class="big">${esc(A[1])}</div><p class="sub">Born in ${A[2] != null ? esc(cname(A[4])) : "a place not recorded"} · <a href="https://www.wikidata.org/wiki/${A[0]}" target="_blank" rel="noopener">Wikidata</a></p>
+<table><tr><td>Works with a setting</td><td class="num">${ws.length}</td></tr><tr><td>Novels</td><td class="num">${ws.filter(w => D.works[w][6]).length}</td></tr>${ds.length ? `<tr><td>Median distance from birthplace</td><td class="num">${fmt(ds[Math.floor(ds.length / 2)])} km</td></tr>` : ""}</table>
+<h4>Works</h4><ol>${ws.map(w => wItem(w)).join("")}</ol>`;
+    note(`<b>${esc(A[1])}</b>: ${ws.length} works${S.lines ? ", lines from the birthplace" : ""}`);
+  } else if (S.iso) {
+    const iso = S.iso, cc = SITE.ccount[iso] || [0, 0], fam = SITE.famous[iso];
+    const wh = (D.whole[iso] || []).filter(okW);
+    const top = [...(HUBN || new Map()).entries()].filter(([k]) => D.hubs[k][3] === iso).sort((a, b) => b[1] - a[1]).slice(0, 8);
+    h = `<button class="back">Back</button><h4>Country</h4><div class="big">${esc(cname(iso))}</div><table><tr><td>Novels set there, at least partly</td><td class="num">${fmt(cc[0])}</td></tr><tr><td>All literary works</td><td class="num">${fmt(cc[1])}</td></tr><tr><td>Set in the whole country${filtTxt()}</td><td class="num">${fmt(wh.length)}</td></tr></table>`;
+    if (fam) h += `<h4>Best-known novel set there</h4><p><a href="${fam[4] ? "https://en.wikipedia.org/wiki/" + fam[4] : "https://www.wikidata.org/wiki/" + fam[5]}" target="_blank" rel="noopener">${esc(fam[0])}</a> <small style="color:var(--muted)">${esc(fam[1])}${fam[2] ? ", " + fam[2] : ""}, ${fam[3]} Wikipedia languages</small></p>`;
+    if (top.length) h += `<h4>Cities on the map now</h4><ol>` + top.map(([k, n]) => `<li><span class="go" data-h="${k}">${esc(D.hubs[k][0])}</span> <small>${fmt(n)}</small></li>`).join("") + `</ol>`;
+    if (wh.length) h += `<h4>Set in the whole country</h4><ol>` + wh.sort((a, b) => D.works[b][4] - D.works[a][4]).slice(0, 25).map(w => wItem(w)).join("") + `</ol>`;
+    note(`<b>${esc(cname(iso))}</b>`);
+  } else {
+    let tot = 0; const seen = new Set(); D.points.forEach((p, i) => { if (PLN && PLN[i]) p[8].forEach(w => { if (okW(w)) seen.add(w); }); }); tot = seen.size;
+    const top = [...(HUBN || new Map()).entries()].sort((a, b) => b[1] - a[1]).slice(0, 10);
+    h = `<h4>On the map now</h4><div class="big">${fmt(tot)}</div><p class="sub">${S.nov ? "novels" : "literary works"} with a mapped place${filtTxt()}</p>`;
+    h += `<h4>Top cities</h4><ol>` + top.map(([k, n]) => `<li><span class="go" data-h="${k}">${esc(D.hubs[k][0])}</span> <small>${fmt(n)}</small></li>`).join("") + `</ol>`;
+    h += `<h4>Try</h4><ul>` + [["Ulysses", "w"], ["Jules Verne", "a"], ["Ngaio Marsh", "a"], ["Don Quixote", "w"], ["Things Fall Apart", "w"], ["Haruki Murakami", "a"]].map(([n, t]) => `<li><span class="go" data-try="${t}">${esc(n)}</span></li>`).join("") + `</ul>`;
+    h += `<p class="sub">Click a circle for its works, or a country for books set in the whole country. Search for a book or an author to see their places and the line from the author's birthplace.</p>`;
+    note("");
+  }
+  box.innerHTML = h;
+  const b = box.querySelector(".back"); if (b) b.onclick = () => { S.sel = null; S.iso = null; drawSel(); side(); };
+  box.querySelectorAll("[data-w]").forEach(e => e.onclick = () => selectWork(+e.dataset.w));
+  box.querySelectorAll("[data-h]").forEach(e => e.onclick = () => flyHub(+e.dataset.h));
+  box.querySelectorAll("[data-try]").forEach(e => e.onclick = () => { const n = e.textContent; if (e.dataset.try === "w") { const i = D.works.findIndex(w => w[1] === n); if (i >= 0) selectWork(i); } else { const a = D.authors.findIndex(x => x[1] === n); if (a >= 0) selectAuthor(a); } });
+}
+function flyHub(k) { const H = D.hubs[k]; if (map) { map.flyTo({ center: [H[1], H[2]], zoom: 8, duration: 1200 }); map.once("moveend", () => popupFor("h", k, { lng: H[1], lat: H[2] })); } toMap(); }
+
+/* ---------- controls ---------- */
+const press = (row, b) => document.querySelectorAll(row + " .btn").forEach(x => x.setAttribute("aria-pressed", x === b));
+document.querySelectorAll("#kindRow .btn").forEach(b => b.onclick = () => { S.nov = b.dataset.k === "1"; press("#kindRow", b); refresh(); legend(); });
+document.querySelectorAll("#lineRow .btn").forEach(b => b.onclick = () => { S.lines = b.dataset.l === "1"; press("#lineRow", b); drawSel(); side(); });
+function rowOf(id, items, set) {
+  const row = document.getElementById(id);
+  const all = document.createElement("button"); all.className = "btn"; all.textContent = "All"; all.setAttribute("aria-pressed", "true"); all.dataset.v = -1; row.appendChild(all);
+  items.forEach(([n, c], i) => { const b = document.createElement("button"); b.className = "btn"; b.dataset.v = i; b.innerHTML = (c ? `<i style="background:${c}"></i>` : "") + esc(n); b.setAttribute("aria-pressed", "false"); row.appendChild(b); });
+  row.querySelectorAll(".btn").forEach(b => b.onclick = () => { press("#" + id, b); set(+b.dataset.v); refresh(); });
+}
+rowOf("genreRow", GEN.map(g => [g[0], g[2]]), v => S.g = v);
+rowOf("eraRow", ERAS.map(e => [e[0], null]), v => S.e = v);
+window.setGenre = v => { const b = document.querySelector(`#genreRow .btn[data-v="${v}"]`); if (b) b.click(); };
+(function focusRow() {
+  const row = document.getElementById("focusRow");
+  const F = [["World", null], ["Europe", [[-12, 35], [32, 61]]], ["British Isles", [[-10.8, 49.8], [2.2, 59]]], ["London", [[-.5, 51.3], [.3, 51.7]]], ["Paris", [[2.2, 48.8], [2.5, 48.92]]], ["New York", [[-74.1, 40.6], [-73.8, 40.9]]], ["California", [[-124.5, 32.5], [-114, 42]]], ["Africa", [[-20, -36], [52, 38]]], ["South Asia", [[60, 5], [98, 36]]], ["East Asia", [[98, 18], [146, 46]]], ["Latin America", [[-118, -56], [-33, 30]]]];
+  F.forEach(([n, b]) => { const x = document.createElement("button"); x.className = "btn"; x.textContent = n; x.onclick = () => { if (!map) return; if (popup) popup.remove(); if (!b) map.flyTo({ ...HOME(), duration: 900 }); else map.fitBounds(b, { padding: 20, duration: 900 }); toMap(); }; row.appendChild(x); });
+})();
+function legend() {
+  const e = document.getElementById("legend");
+  e.innerHTML = `<span><i style="background:var(--hot)"></i>${S.nov ? "novels" : "works"} set in a city, town or site (area = number)</span><span><i class="ring"></i>wider area</span>` +
+    (LY.fic ? `<span><i style="background:#8C8478"></i>fictional place with coordinates</span>` : "") + `<span><i style="background:var(--gold);border:1.5px solid var(--fg)"></i>author's birthplace</span><span><i class="sq" style="background:transparent;border:0;border-top:2px dashed var(--line);border-radius:0;height:2px"></i>birthplace to setting</span>`;
+}
+
+/* ---------- search ---------- */
+(function search() {
+  const inp = document.getElementById("q"), sug = document.getElementById("sug"); let opts = [], k = -1;
+  const norm = s => String(s).normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+  let WN = null, AN = null;
+  function build(q) {
+    if (!D) return []; const nq = norm(q).trim(); if (nq.length < 2) return [];
+    if (!WN) { WN = D.works.map(w => norm(w[1])); AN = D.authors.map(a => norm(a[1])); }
+    const out = [];
+    AN.forEach((n, i) => { if (n.includes(nq)) out.push({ t: "a", i, s: (n === nq ? 30 : n.startsWith(nq) ? 20 : 10) + Math.min(9, (A2W.get(i) || []).length) }); });
+    for (let i = 0; i < WN.length && out.length < 400; i++) { const n = WN[i]; if (n && n.includes(nq)) out.push({ t: "w", i, s: (n === nq ? 32 : n.startsWith(nq) ? 18 : 8) + Math.min(9, D.works[i][4] / 10) }); }
+    return out.sort((a, b) => b.s - a.s).slice(0, 12);
+  }
+  const lab = o => o.t === "a" ? `${esc(D.authors[o.i][1])} <span>author, ${(A2W.get(o.i) || []).length} works</span>` : `${esc(D.works[o.i][1])} <span>${esc(wAuth(D.works[o.i]))}${D.works[o.i][2] != null ? ", " + D.works[o.i][2] : ""}</span>`;
+  const show = () => { sug.innerHTML = opts.map((o, i) => `<li role="option" aria-selected="${i === k}" data-i="${i}">${lab(o)}</li>`).join(""); sug.style.display = opts.length ? "block" : "none"; };
+  const choose = o => { sug.style.display = "none"; inp.value = o.t === "a" ? D.authors[o.i][1] : D.works[o.i][1]; inp.blur(); if (o.t === "a") selectAuthor(o.i); else selectWork(o.i); };
+  inp.addEventListener("input", () => { opts = build(inp.value); k = -1; show(); });
+  inp.addEventListener("keydown", e => { if (e.key === "ArrowDown") { k = Math.min(opts.length - 1, k + 1); show(); e.preventDefault(); } else if (e.key === "ArrowUp") { k = Math.max(0, k - 1); show(); e.preventDefault(); } else if (e.key === "Enter" && opts.length) { choose(opts[Math.max(0, k)]); } else if (e.key === "Escape") { sug.style.display = "none"; } });
+  sug.addEventListener("click", e => { const li = e.target.closest("li"); if (li) choose(opts[+li.dataset.i]); });
+  document.addEventListener("click", e => { if (!e.target.closest(".searchbox")) sug.style.display = "none"; });
+  window.searchWork = q => { const i = D ? D.works.findIndex(w => w[0] === q) : -1; if (i >= 0) { document.getElementById("atlas").scrollIntoView({ behavior: "smooth" }); setTimeout(() => selectWork(i), 300); } };
+})();
+
+/* ---------- charts ---------- */
+function cityChart() {
+  const C = R.cities.slice(0, 20);
+  resp(document.getElementById("cityChart"), (w, sm) => {
+    const rh = 22, lw = sm ? 112 : 140, h = C.length * rh + 8, svg = el("svg", { viewBox: `0 0 ${w} ${h}`, role: "img", "aria-label": "Bar chart of the cities with the most novels set in them" }, document.getElementById("cityChart"));
+    const mx = Math.max(...C.map(c => c.all)), X = v => (w - lw - (sm ? 70 : 150)) * v / mx;
+    C.forEach((c, i) => { const y = i * rh + 4;
+      lbl(svg, lw - 8, y + 14, c.name, "lab", "end");
+      el("rect", { x: lw, y: y + 3, width: X(c.all), height: rh - 7, fill: "none", stroke: css("--muted"), "stroke-width": .8 }, svg);
+      const b = el("rect", { x: lw, y: y + 3, width: Math.max(2, X(c.n)), height: rh - 7, fill: css("--hot") }, svg); b.style.cursor = "pointer";
+      lbl(svg, lw + Math.max(X(c.all), X(c.n)) + 5, y + 14, sm ? fmt(c.n) : `${fmt(c.n)}  (${fmt(c.all)} works)`, "lab s");
+      const hr = el("rect", { x: 0, y, width: w, height: rh, fill: "transparent" }, svg); hr.style.cursor = "pointer";
+      hr.addEventListener("mousemove", ev => showTip(`<b>${esc(c.name)}</b>, ${esc(c.country)}<br>${fmt(c.n)} novels, ${fmt(c.all)} literary works`, ev.clientX, ev.clientY)); hr.addEventListener("mouseleave", hideTip);
+      hr.addEventListener("click", ev => { ev.stopPropagation(); if (!D) return; const k = D.hubs.findIndex(H => H[0] === c.name && H[3] === c.iso); document.getElementById("atlas").scrollIntoView({ behavior: "smooth" }); if (k >= 0) setTimeout(() => flyHub(k), 400); }); });
+  });
+}
+function trioChart() {
+  const T = R.trio20;
+  resp(document.getElementById("trioChart"), (w, sm) => {
+    const h = sm ? 280 : 330, m = { l: 36, r: 12, t: 14, b: 44 }, svg = el("svg", { viewBox: `0 0 ${w} ${h}`, role: "img", "aria-label": "Line chart of the share of novels set in London, Paris and New York by publication period" }, document.getElementById("trioChart"));
+    const mx = 50, X = i => m.l + (w - m.l - m.r) * (i + .5) / T.length, Y = v => h - m.b - (h - m.t - m.b) * v / mx;
+    for (let v = 0; v <= mx; v += 10) { el("line", { x1: m.l, x2: w - m.r, y1: Y(v), y2: Y(v), stroke: css("--rule") }, svg); lbl(svg, m.l - 6, Y(v) + 4, v + "%", "lab s m", "end"); }
+    T.forEach((t, i) => { if (!sm || i % 2 === 0) { lbl(svg, X(i), h - m.b + 16, t.from, "lab s m", "middle"); lbl(svg, X(i), h - m.b + 30, "n " + fmt(t.n), "lab s m", "middle"); } });
+    TRIO.forEach(([k, c]) => { el("polyline", { points: T.map((t, i) => `${X(i)},${Y(t[k + "_pct"])}`).join(" "), fill: "none", stroke: c, "stroke-width": 2.6 }, svg);
+      T.forEach((t, i) => { const d = el("circle", { cx: X(i), cy: Y(t[k + "_pct"]), r: 4, fill: c }, svg);
+        d.addEventListener("mousemove", ev => showTip(`<b>${t.from} to ${t.to}</b><br>` + TRIO.map(([kk, cc]) => `<span style="color:${cc}">●</span> ${kk} ${t[kk + "_pct"].toFixed(1)}% (${t[kk]})`).join("<br>") + `<br>of ${fmt(t.n)} novels`, ev.clientX, ev.clientY)); d.addEventListener("mouseleave", hideTip); }); });
+  });
+  document.getElementById("trioLegend").innerHTML = TRIO.map(([n, c]) => `<span><i style="background:${c}"></i>${n}</span>`).join("");
+}
+function distChart() {
+  const E = R.dist_hist.edges, N = R.dist_hist.n;
+  resp(document.getElementById("distChart"), (w, sm) => {
+    const h = sm ? 230 : 270, m = { l: 40, r: 8, t: 14, b: 40 }, svg = el("svg", { viewBox: `0 0 ${w} ${h}`, role: "img", "aria-label": "Bar chart of distances from authors' birthplaces to the settings of their novels" }, document.getElementById("distChart"));
+    const mx = Math.ceil(Math.max(...N) / 200) * 200, bw = (w - m.l - m.r) / N.length, Y = v => h - m.b - (h - m.t - m.b) * v / mx;
+    for (let v = 0; v <= mx; v += 400) { el("line", { x1: m.l, x2: w - m.r, y1: Y(v), y2: Y(v), stroke: css("--rule") }, svg); lbl(svg, m.l - 6, Y(v) + 4, fmt(v), "lab s m", "end"); }
+    const lab = (a, b) => b >= 20000 ? `${fmt(a)}+` : `${fmt(a)} to ${fmt(b)}`;
+    N.forEach((n, i) => { const x = m.l + i * bw, r = el("rect", { x: x + 1, y: Y(n), width: bw - 2, height: h - m.b - Y(n), fill: css("--cool") }, svg);
+      r.addEventListener("mousemove", ev => showTip(`<b>${lab(E[i], E[i + 1])} km</b><br>${fmt(n)} novel and place pairs`, ev.clientX, ev.clientY)); r.addEventListener("mouseleave", hideTip);
+      if (!sm || i % 2 === 0) lbl(svg, x + bw / 2, h - m.b + 14, E[i] >= 1000 ? (E[i] / 1000) + "k" : E[i], "lab s m", "middle"); });
+    lbl(svg, (w + m.l) / 2, h - 6, "km from the author's birthplace (bins widen to the right)", "lab s m", "middle");
+  });
+}
+function abroadChart() {
+  const H = R.home_by_country.slice().sort((a, b) => b.abroad_pct - a.abroad_pct);
+  resp(document.getElementById("abroadChart"), (w, sm) => {
+    const rh = 21, lw = sm ? 112 : 150, h = H.length * rh + 6, svg = el("svg", { viewBox: `0 0 ${w} ${h}`, role: "img", "aria-label": "Share of novels set abroad by the author's country of birth" }, document.getElementById("abroadChart"));
+    H.forEach((r, i) => { const y = i * rh + 3, bw = (w - lw - 80) * r.abroad_pct / 100;
+      lbl(svg, lw - 8, y + 14, r.name, "lab", "end"); el("rect", { x: lw, y: y + 3, width: bw, height: rh - 7, fill: css("--hot") }, svg);
+      lbl(svg, lw + bw + 5, y + 14, `${Math.round(r.abroad_pct)}%`, "lab s b"); lbl(svg, w - 2, y + 14, `n ${fmt(r.n)}`, "lab s m", "end");
+      const hr = el("rect", { x: 0, y, width: w, height: rh, fill: "transparent" }, svg);
+      hr.addEventListener("mousemove", ev => showTip(`<b>Born in ${esc(r.name)}</b>: ${fmt(r.n)} novels, ${r.abroad_pct.toFixed(0)}% abroad<br>median ${fmt(r.median_km)} km from birthplace<br>abroad mostly: ${r.top_abroad.map(t => `${esc(t[0])} ${t[1]}`).join(", ")}`, ev.clientX, ev.clientY)); hr.addEventListener("mouseleave", hideTip); });
+  });
+}
+function genreChart() {
+  const G = R.genres_list;
+  resp(document.getElementById("genreChart"), (w, sm) => {
+    const cols = sm ? 1 : w < 900 ? 2 : 3, pw = w / cols, rh = 20, ph = 6 * rh + 44, rows = Math.ceil(G.length / cols);
+    const svg = el("svg", { viewBox: `0 0 ${w} ${rows * ph}`, role: "img", "aria-label": "Small bar charts of the favourite cities of each genre" }, document.getElementById("genreChart"));
+    G.forEach((g, k) => { const x0 = (k % cols) * pw, y0 = Math.floor(k / cols) * ph, col = GEN[k][2], lw = 120, rowsG = g.cities.slice(0, 6), mx = Math.max(...rowsG.map(r => r[1]));
+      const head = lbl(svg, x0, y0 + 16, `${g.genre} · ${fmt(g.n)}`, "lab b"); head.setAttribute("style", `fill:${col}`);
+      rowsG.forEach((r, i) => { const y = y0 + 26 + i * rh, bw = (pw - lw - 44) * r[1] / mx; lbl(svg, x0 + lw - 6, y + 13, r[0], "lab s", "end"); el("rect", { x: x0 + lw, y: y + 3, width: bw, height: rh - 7, fill: col }, svg); lbl(svg, x0 + lw + bw + 4, y + 13, r[1], "lab s"); });
+      const hr = el("rect", { x: x0, y: y0, width: pw, height: ph, fill: "transparent" }, svg); hr.style.cursor = "pointer";
+      hr.addEventListener("mousemove", ev => showTip(`<b>${esc(g.genre)}</b>: ${fmt(g.n)} novels<br>most over-represented: ${g.lift.slice(0, 3).map(l => `${esc(l[0])} ${l[2].toFixed(1)}x`).join(", ")}<br>click to filter the map`, ev.clientX, ev.clientY)); hr.addEventListener("mouseleave", hideTip);
+      hr.addEventListener("click", ev => { ev.stopPropagation(); window.setGenre(k); document.getElementById("atlas").scrollIntoView({ behavior: "smooth" }); }); });
+  });
+}
+function contChart() {
+  const C = R.continents_list.filter(c => c.cont !== "Antarctica");
+  resp(document.getElementById("contChart"), (w, sm) => {
+    const rh = 40, lw = sm ? 104 : 130, h = C.length * rh + 6, svg = el("svg", { viewBox: `0 0 ${w} ${h}`, role: "img", "aria-label": "Share of novels and share of world population by continent" }, document.getElementById("contChart"));
+    const X = v => (w - lw - 50) * v / 62;
+    C.forEach((c, i) => { const y = i * rh + 3; lbl(svg, lw - 8, y + 20, c.cont, "lab", "end");
+      el("rect", { x: lw, y: y + 2, width: X(c.novels_pct), height: 15, fill: css("--hot") }, svg); lbl(svg, lw + X(c.novels_pct) + 5, y + 14, Math.round(c.novels_pct) + "%", "lab s b");
+      el("rect", { x: lw, y: y + 19, width: X(c.pop_pct), height: 15, fill: "#B9B2A6" }, svg); lbl(svg, lw + X(c.pop_pct) + 5, y + 31, Math.round(c.pop_pct) + "% of people", "lab s m");
+      const hr = el("rect", { x: 0, y, width: w, height: rh, fill: "transparent" }, svg);
+      hr.addEventListener("mousemove", ev => showTip(`<b>${esc(c.cont)}</b><br>${fmt(c.novels)} novels (${c.novels_pct.toFixed(1)}%)<br>${c.pop_pct.toFixed(1)}% of world population<br>${c.per_10m} novels per 10 million people`, ev.clientX, ev.clientY)); hr.addEventListener("mouseleave", hideTip); });
+  });
+}
+function biasChart() {
+  const B = R.bias_top.slice(0, 12);
+  resp(document.getElementById("biasChart"), (w, sm) => {
+    const rh = 22, lw = sm ? 112 : 150, h = B.length * rh + 6, svg = el("svg", { viewBox: `0 0 ${w} ${h}`, role: "img", "aria-label": "Distinct setting places by country" }, document.getElementById("biasChart"));
+    const mx = Math.max(...B.map(b => b.places));
+    B.forEach((b, i) => { const y = i * rh + 3, bw = (w - lw - (sm ? 46 : 210)) * b.places / mx, hot = b.iso === "DNK" || b.iso === "SRB";
+      lbl(svg, lw - 8, y + 14, b.name, "lab", "end"); el("rect", { x: lw, y: y + 3, width: bw, height: rh - 7, fill: hot ? css("--hot") : "#8C8478" }, svg);
+      lbl(svg, lw + bw + 5, y + 14, sm ? fmt(b.places) : `${fmt(b.places)} · ${b.pop_pct.toFixed(2)}% of world pop.`, "lab s");
+      const hr = el("rect", { x: 0, y, width: w, height: rh, fill: "transparent" }, svg);
+      hr.addEventListener("mousemove", ev => showTip(`<b>${esc(b.name)}</b><br>${fmt(b.places)} distinct places (${b.places_pct.toFixed(1)}% of all), ${fmt(b.streets)} streets and squares<br>${fmt(b.works)} works, ${fmt(b.novels)} novels<br>${b.pop_pct.toFixed(2)}% of world population`, ev.clientX, ev.clientY)); hr.addEventListener("mouseleave", hideTip); });
+  });
+}
+function famousTable() {
+  const F = Object.values(R.famous).sort((a, b) => b.links - a.links || a.country.localeCompare(b.country));
+  const t = document.getElementById("famousTable");
+  t.innerHTML = `<thead><tr><th>Country</th><th>Best-known novel set there</th><th class="r">Year</th><th class="r">Languages</th><th class="r">Novels</th></tr></thead><tbody>` +
+    F.map(f => `<tr data-q="${f.q}"><td>${esc(f.country)}</td><td>${esc(f.title)} <small style="color:var(--muted)">${esc(f.author)}</small></td><td class="r">${f.year ?? ""}</td><td class="r">${f.links}</td><td class="r">${fmt(f.n)}</td></tr>`).join("") + `</tbody>`;
+  t.querySelectorAll("tr[data-q]").forEach(r => r.onclick = () => window.searchWork(r.dataset.q));
+}
+function charts() { cityChart(); trioChart(); distChart(); abroadChart(); genreChart(); contChart(); biasChart(); famousTable(); }
+
+/* ---------- start ---------- */
+document.getElementById("theme").onclick = () => { const r = document.documentElement; r.dataset.theme = isDark() ? "light" : "dark"; themeMap(); legend(); redraws.forEach(f => f()); };
+charts(); legend(); side(); initMap();
+fetch("data/points.json").then(r => r.json()).then(j => {
+  D = j; W2P = new Map(); A2W = new Map();
+  D.points.forEach((p, i) => p[8].forEach(w => { if (!W2P.has(w)) W2P.set(w, []); W2P.get(w).push(i); }));
+  D.works.forEach((w, i) => w[3].forEach(a => { if (!A2W.has(a)) A2W.set(a, []); A2W.get(a).push(i); }));
+  refresh();
+}).catch(e => { document.getElementById("side").innerHTML = "<p class='sub'>The settings data could not load.</p>"; });
+</script>
+/*FULLSCREEN*/
+</body>
+</html>

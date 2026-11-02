@@ -1,0 +1,11055 @@
+{
+ "source": {
+  "rows": 19443,
+  "works_all": 13241,
+  "works": 13218,
+  "novels": 7300,
+  "other": 5918,
+  "novel_form": 7256,
+  "novel_type_only": 56,
+  "decameron": 67,
+  "places": 4057,
+  "places_novels": 2209,
+  "pairs": 16926,
+  "pairs_novels": 9093,
+  "authors": 6255,
+  "authors_birth": 5478,
+  "no_english_label": 2301,
+  "no_title": 2289,
+  "offworld_pairs": 33,
+  "offworld_only": 23,
+  "extract_year": "2026",
+  "with_year": 11017,
+  "novels_with_year": 6884,
+  "novels_with_author": 7172,
+  "places_per_work": 1.28,
+  "places_per_novel": 1.25,
+  "fictional_places": 15
+ },
+ "levels": {
+  "places": {
+   "city": 1720,
+   "site": 1098,
+   "region": 839,
+   "country": 342,
+   "large": 58
+  },
+  "novel_pairs": {
+   "city": 4444,
+   "site": 621,
+   "region": 1616,
+   "country": 2243,
+   "large": 169
+  },
+  "novels_with_point": 5306,
+  "novels_with_point_pct": 72.68,
+  "novels_country_only": 1994
+ },
+ "other_forms": [
+  [
+   "play",
+   1001
+  ],
+  [
+   "short story",
+   683
+  ],
+  [
+   "narration",
+   569
+  ],
+  [
+   "opera",
+   254
+  ],
+  [
+   "short story collection",
+   151
+  ],
+  [
+   "history book",
+   116
+  ],
+  [
+   "poem",
+   84
+  ],
+  [
+   "musical play",
+   30
+  ]
+ ],
+ "other_no_form": 2843,
+ "cities": [
+  {
+   "hub": "London|GBR",
+   "name": "London",
+   "iso": "GBR",
+   "country": "United Kingdom",
+   "n": 549,
+   "all": 786,
+   "lon": -0.119,
+   "lat": 51.502,
+   "pct": 7.52
+  },
+  {
+   "hub": "New York|USA",
+   "name": "New York City",
+   "iso": "USA",
+   "country": "United States",
+   "n": 510,
+   "all": 813,
+   "lon": -73.982,
+   "lat": 40.752,
+   "pct": 6.99
+  },
+  {
+   "hub": "Paris|FRA",
+   "name": "Paris",
+   "iso": "FRA",
+   "country": "France",
+   "n": 422,
+   "all": 877,
+   "lon": 2.331,
+   "lat": 48.869,
+   "pct": 5.78
+  },
+  {
+   "hub": "Los Angeles|USA",
+   "name": "Los Angeles",
+   "iso": "USA",
+   "country": "United States",
+   "n": 140,
+   "all": 179,
+   "lon": -118.182,
+   "lat": 33.992
+  },
+  {
+   "hub": "San Francisco|USA",
+   "name": "San Francisco",
+   "iso": "USA",
+   "country": "United States",
+   "n": 136,
+   "all": 173,
+   "lon": -122.417,
+   "lat": 37.769
+  },
+  {
+   "hub": "Rome|ITA",
+   "name": "Rome",
+   "iso": "ITA",
+   "country": "Italy",
+   "n": 126,
+   "all": 212,
+   "lon": 12.481,
+   "lat": 41.898
+  },
+  {
+   "hub": "Madrid|ESP",
+   "name": "Madrid",
+   "iso": "ESP",
+   "country": "Spain",
+   "n": 104,
+   "all": 240,
+   "lon": -3.685,
+   "lat": 40.402
+  },
+  {
+   "hub": "Pittsburgh|USA",
+   "name": "Pittsburgh",
+   "iso": "USA",
+   "country": "United States",
+   "n": 98,
+   "all": 103,
+   "lon": -80.002,
+   "lat": 40.432
+  },
+  {
+   "hub": "Chicago|USA",
+   "name": "Chicago",
+   "iso": "USA",
+   "country": "United States",
+   "n": 65,
+   "all": 85,
+   "lon": -87.752,
+   "lat": 41.832
+  },
+  {
+   "hub": "Boston|USA",
+   "name": "Boston",
+   "iso": "USA",
+   "country": "United States",
+   "n": 60,
+   "all": 80,
+   "lon": -71.072,
+   "lat": 42.332
+  },
+  {
+   "hub": "Milan|ITA",
+   "name": "Milan",
+   "iso": "ITA",
+   "country": "Italy",
+   "n": 50,
+   "all": 76,
+   "lon": 9.203,
+   "lat": 45.472
+  },
+  {
+   "hub": "Naples|ITA",
+   "name": "Naples",
+   "iso": "ITA",
+   "country": "Italy",
+   "n": 49,
+   "all": 94,
+   "lon": 14.243,
+   "lat": 40.842
+  },
+  {
+   "hub": "Berlin|DEU",
+   "name": "Berlin",
+   "iso": "DEU",
+   "country": "Germany",
+   "n": 45,
+   "all": 81,
+   "lon": 13.4,
+   "lat": 52.524
+  },
+  {
+   "hub": "Venice|ITA",
+   "name": "Venice",
+   "iso": "ITA",
+   "country": "Italy",
+   "n": 44,
+   "all": 81,
+   "lon": 12.335,
+   "lat": 45.439
+  },
+  {
+   "hub": "Toulouse|FRA",
+   "name": "Toulouse",
+   "iso": "FRA",
+   "country": "France",
+   "n": 39,
+   "all": 42,
+   "lon": 1.448,
+   "lat": 43.622
+  },
+  {
+   "hub": "Vienna|AUT",
+   "name": "Vienna",
+   "iso": "AUT",
+   "country": "Austria",
+   "n": 37,
+   "all": 64,
+   "lon": 16.365,
+   "lat": 48.202
+  },
+  {
+   "hub": "Barcelona|ESP",
+   "name": "Barcelona",
+   "iso": "ESP",
+   "country": "Spain",
+   "n": 35,
+   "all": 41,
+   "lon": 2.181,
+   "lat": 41.385
+  },
+  {
+   "hub": "Dublin|IRL",
+   "name": "Dublin",
+   "iso": "IRL",
+   "country": "Ireland",
+   "n": 34,
+   "all": 50,
+   "lon": -6.251,
+   "lat": 53.335
+  },
+  {
+   "hub": "København|DNK",
+   "name": "Copenhagen",
+   "iso": "DNK",
+   "country": "Denmark",
+   "n": 33,
+   "all": 108,
+   "lon": 12.562,
+   "lat": 55.681
+  },
+  {
+   "hub": "Turin|ITA",
+   "name": "Turin",
+   "iso": "ITA",
+   "country": "Italy",
+   "n": 28,
+   "all": 29,
+   "lon": 7.668,
+   "lat": 45.072
+  },
+  {
+   "hub": "Buenos Aires|ARG",
+   "name": "Buenos Aires",
+   "iso": "ARG",
+   "country": "Argentina",
+   "n": 28,
+   "all": 43,
+   "lon": -58.399,
+   "lat": -34.601
+  },
+  {
+   "hub": "Belgrade|SRB",
+   "name": "Belgrade",
+   "iso": "SRB",
+   "country": "Serbia",
+   "n": 25,
+   "all": 43,
+   "lon": 20.466,
+   "lat": 44.821
+  },
+  {
+   "hub": "Istanbul|TUR",
+   "name": "Istanbul",
+   "iso": "TUR",
+   "country": "Turkey",
+   "n": 25,
+   "all": 57,
+   "lon": 29.008,
+   "lat": 41.107
+  },
+  {
+   "hub": "Tokyo|JPN",
+   "name": "Tokyo",
+   "iso": "JPN",
+   "country": "Japan",
+   "n": 24,
+   "all": 43,
+   "lon": 139.749,
+   "lat": 35.687
+  },
+  {
+   "hub": "Edinburgh|GBR",
+   "name": "Edinburgh",
+   "iso": "GBR",
+   "country": "United Kingdom",
+   "n": 24,
+   "all": 28,
+   "lon": -3.219,
+   "lat": 55.948
+  },
+  {
+   "hub": "Windsor|CAN",
+   "name": "Detroit",
+   "iso": "CAN",
+   "country": "Canada",
+   "n": 22,
+   "all": 25,
+   "lon": -83.037,
+   "lat": 42.315
+  },
+  {
+   "hub": "St. Petersburg|RUS",
+   "name": "Saint Petersburg",
+   "iso": "RUS",
+   "country": "Russia",
+   "n": 22,
+   "all": 44,
+   "lon": 30.314,
+   "lat": 59.941
+  },
+  {
+   "hub": "Moscow|RUS",
+   "name": "Moscow",
+   "iso": "RUS",
+   "country": "Russia",
+   "n": 22,
+   "all": 50,
+   "lon": 37.614,
+   "lat": 55.754
+  },
+  {
+   "hub": "Amsterdam|NLD",
+   "name": "Amsterdam",
+   "iso": "NLD",
+   "country": "Netherlands",
+   "n": 20,
+   "all": 30,
+   "lon": 4.915,
+   "lat": 52.352
+  },
+  {
+   "hub": "Reading|GBR",
+   "name": "Reading",
+   "iso": "GBR",
+   "country": "United Kingdom",
+   "n": 19,
+   "all": 19,
+   "lon": -0.98,
+   "lat": 51.47
+  }
+ ],
+ "cities_all": [
+  {
+   "hub": "Paris|FRA",
+   "name": "Paris",
+   "iso": "FRA",
+   "country": "France",
+   "n": 422,
+   "all": 877,
+   "lon": 2.331,
+   "lat": 48.869
+  },
+  {
+   "hub": "New York|USA",
+   "name": "New York City",
+   "iso": "USA",
+   "country": "United States",
+   "n": 510,
+   "all": 813,
+   "lon": -73.982,
+   "lat": 40.752
+  },
+  {
+   "hub": "London|GBR",
+   "name": "London",
+   "iso": "GBR",
+   "country": "United Kingdom",
+   "n": 549,
+   "all": 786,
+   "lon": -0.119,
+   "lat": 51.502
+  },
+  {
+   "hub": "Madrid|ESP",
+   "name": "Madrid",
+   "iso": "ESP",
+   "country": "Spain",
+   "n": 104,
+   "all": 240,
+   "lon": -3.685,
+   "lat": 40.402
+  },
+  {
+   "hub": "Rome|ITA",
+   "name": "Rome",
+   "iso": "ITA",
+   "country": "Italy",
+   "n": 126,
+   "all": 212,
+   "lon": 12.481,
+   "lat": 41.898
+  },
+  {
+   "hub": "Los Angeles|USA",
+   "name": "Los Angeles",
+   "iso": "USA",
+   "country": "United States",
+   "n": 140,
+   "all": 179,
+   "lon": -118.182,
+   "lat": 33.992
+  },
+  {
+   "hub": "San Francisco|USA",
+   "name": "San Francisco",
+   "iso": "USA",
+   "country": "United States",
+   "n": 136,
+   "all": 173,
+   "lon": -122.417,
+   "lat": 37.769
+  },
+  {
+   "hub": "København|DNK",
+   "name": "Copenhagen",
+   "iso": "DNK",
+   "country": "Denmark",
+   "n": 33,
+   "all": 108,
+   "lon": 12.562,
+   "lat": 55.681
+  },
+  {
+   "hub": "Pittsburgh|USA",
+   "name": "Pittsburgh",
+   "iso": "USA",
+   "country": "United States",
+   "n": 98,
+   "all": 103,
+   "lon": -80.002,
+   "lat": 40.432
+  },
+  {
+   "hub": "Naples|ITA",
+   "name": "Naples",
+   "iso": "ITA",
+   "country": "Italy",
+   "n": 49,
+   "all": 94,
+   "lon": 14.243,
+   "lat": 40.842
+  },
+  {
+   "hub": "Chicago|USA",
+   "name": "Chicago",
+   "iso": "USA",
+   "country": "United States",
+   "n": 65,
+   "all": 85,
+   "lon": -87.752,
+   "lat": 41.832
+  },
+  {
+   "hub": "Berlin|DEU",
+   "name": "Berlin",
+   "iso": "DEU",
+   "country": "Germany",
+   "n": 45,
+   "all": 81,
+   "lon": 13.4,
+   "lat": 52.524
+  },
+  {
+   "hub": "Venice|ITA",
+   "name": "Venice",
+   "iso": "ITA",
+   "country": "Italy",
+   "n": 44,
+   "all": 81,
+   "lon": 12.335,
+   "lat": 45.439
+  },
+  {
+   "hub": "Boston|USA",
+   "name": "Boston",
+   "iso": "USA",
+   "country": "United States",
+   "n": 60,
+   "all": 80,
+   "lon": -71.072,
+   "lat": 42.332
+  },
+  {
+   "hub": "Milan|ITA",
+   "name": "Milan",
+   "iso": "ITA",
+   "country": "Italy",
+   "n": 50,
+   "all": 76,
+   "lon": 9.203,
+   "lat": 45.472
+  },
+  {
+   "hub": "Vienna|AUT",
+   "name": "Vienna",
+   "iso": "AUT",
+   "country": "Austria",
+   "n": 37,
+   "all": 64,
+   "lon": 16.365,
+   "lat": 48.202
+  },
+  {
+   "hub": "Florence|ITA",
+   "name": "Florence",
+   "iso": "ITA",
+   "country": "Italy",
+   "n": 19,
+   "all": 62,
+   "lon": 11.25,
+   "lat": 43.78
+  },
+  {
+   "hub": "Istanbul|TUR",
+   "name": "Istanbul",
+   "iso": "TUR",
+   "country": "Turkey",
+   "n": 25,
+   "all": 57,
+   "lon": 29.008,
+   "lat": 41.107
+  },
+  {
+   "hub": "Athens|GRC",
+   "name": "Athens",
+   "iso": "GRC",
+   "country": "Greece",
+   "n": 12,
+   "all": 53,
+   "lon": 23.731,
+   "lat": 37.985
+  },
+  {
+   "hub": "Moscow|RUS",
+   "name": "Moscow",
+   "iso": "RUS",
+   "country": "Russia",
+   "n": 22,
+   "all": 50,
+   "lon": 37.614,
+   "lat": 55.754
+  },
+  {
+   "hub": "Dublin|IRL",
+   "name": "Dublin",
+   "iso": "IRL",
+   "country": "Ireland",
+   "n": 34,
+   "all": 50,
+   "lon": -6.251,
+   "lat": 53.335
+  },
+  {
+   "hub": "St. Petersburg|RUS",
+   "name": "Saint Petersburg",
+   "iso": "RUS",
+   "country": "Russia",
+   "n": 22,
+   "all": 44,
+   "lon": 30.314,
+   "lat": 59.941
+  },
+  {
+   "hub": "Buenos Aires|ARG",
+   "name": "Buenos Aires",
+   "iso": "ARG",
+   "country": "Argentina",
+   "n": 28,
+   "all": 43,
+   "lon": -58.399,
+   "lat": -34.601
+  },
+  {
+   "hub": "Belgrade|SRB",
+   "name": "Belgrade",
+   "iso": "SRB",
+   "country": "Serbia",
+   "n": 25,
+   "all": 43,
+   "lon": 20.466,
+   "lat": 44.821
+  },
+  {
+   "hub": "Tokyo|JPN",
+   "name": "Tokyo",
+   "iso": "JPN",
+   "country": "Japan",
+   "n": 24,
+   "all": 43,
+   "lon": 139.749,
+   "lat": 35.687
+  },
+  {
+   "hub": "Toulouse|FRA",
+   "name": "Toulouse",
+   "iso": "FRA",
+   "country": "France",
+   "n": 39,
+   "all": 42,
+   "lon": 1.448,
+   "lat": 43.622
+  },
+  {
+   "hub": "Barcelona|ESP",
+   "name": "Barcelona",
+   "iso": "ESP",
+   "country": "Spain",
+   "n": 35,
+   "all": 41,
+   "lon": 2.181,
+   "lat": 41.385
+  },
+  {
+   "hub": "Jerusalem|ISR",
+   "name": "Jerusalem",
+   "iso": "ISR",
+   "country": "Israel",
+   "n": 13,
+   "all": 40,
+   "lon": 35.207,
+   "lat": 31.778
+  },
+  {
+   "hub": "Lyon|FRA",
+   "name": "Lyon",
+   "iso": "FRA",
+   "country": "France",
+   "n": 13,
+   "all": 34,
+   "lon": 4.828,
+   "lat": 45.772
+  },
+  {
+   "hub": "Hong Kong|Q8646",
+   "name": "Hong Kong",
+   "iso": "HKG",
+   "country": "Hong Kong",
+   "n": 18,
+   "all": 31,
+   "lon": 114.159,
+   "lat": 22.278
+  }
+ ],
+ "n_cities": 1063,
+ "city_top3_pct": 19.85,
+ "places_top": [
+  {
+   "q": "Q84",
+   "label": "London",
+   "level": "city",
+   "n": 541
+  },
+  {
+   "q": "Q60",
+   "label": "New York City",
+   "level": "city",
+   "n": 493
+  },
+  {
+   "q": "Q90",
+   "label": "Paris",
+   "level": "city",
+   "n": 403
+  },
+  {
+   "q": "Q99",
+   "label": "California",
+   "level": "region",
+   "n": 215
+  },
+  {
+   "q": "Q21",
+   "label": "England",
+   "level": "country",
+   "n": 202
+  },
+  {
+   "q": "Q30",
+   "label": "United States",
+   "level": "country",
+   "n": 202
+  },
+  {
+   "q": "Q1384",
+   "label": "New York",
+   "level": "region",
+   "n": 140
+  },
+  {
+   "q": "Q65",
+   "label": "Los Angeles",
+   "level": "city",
+   "n": 134
+  },
+  {
+   "q": "Q62",
+   "label": "San Francisco",
+   "level": "city",
+   "n": 128
+  },
+  {
+   "q": "Q668",
+   "label": "India",
+   "level": "country",
+   "n": 127
+  },
+  {
+   "q": "Q220",
+   "label": "Rome",
+   "level": "city",
+   "n": 117
+  },
+  {
+   "q": "Q142",
+   "label": "France",
+   "level": "country",
+   "n": 108
+  },
+  {
+   "q": "Q2807",
+   "label": "Madrid",
+   "level": "city",
+   "n": 101
+  },
+  {
+   "q": "Q1342",
+   "label": "Pittsburgh",
+   "level": "city",
+   "n": 98
+  },
+  {
+   "q": "Q27",
+   "label": "Ireland",
+   "level": "country",
+   "n": 90
+  },
+  {
+   "q": "Q38",
+   "label": "Italy",
+   "level": "country",
+   "n": 89
+  },
+  {
+   "q": "Q812",
+   "label": "Florida",
+   "level": "region",
+   "n": 83
+  },
+  {
+   "q": "Q34",
+   "label": "Sweden",
+   "level": "country",
+   "n": 75
+  },
+  {
+   "q": "Q148",
+   "label": "People's Republic of China",
+   "level": "country",
+   "n": 73
+  },
+  {
+   "q": "Q1033",
+   "label": "Nigeria",
+   "level": "country",
+   "n": 71
+  },
+  {
+   "q": "Q1297",
+   "label": "Chicago",
+   "level": "city",
+   "n": 63
+  },
+  {
+   "q": "Q183",
+   "label": "Germany",
+   "level": "country",
+   "n": 60
+  },
+  {
+   "q": "Q100",
+   "label": "Boston",
+   "level": "city",
+   "n": 58
+  },
+  {
+   "q": "Q490",
+   "label": "Milan",
+   "level": "city",
+   "n": 49
+  },
+  {
+   "q": "Q1408",
+   "label": "New Jersey",
+   "level": "region",
+   "n": 48
+  }
+ ],
+ "countries": [
+  {
+   "iso": "USA",
+   "name": "United States",
+   "n": 2151,
+   "all": 3287,
+   "pop_m": 328.24,
+   "per_m": 6.55,
+   "cont": "North America",
+   "pct": 29.47,
+   "per_10m": 65.53
+  },
+  {
+   "iso": "GBR",
+   "name": "United Kingdom",
+   "n": 1216,
+   "all": 1830,
+   "pop_m": 66.83,
+   "per_m": 18.19,
+   "cont": "Europe",
+   "pct": 16.66,
+   "per_10m": 181.95
+  },
+  {
+   "iso": "ITA",
+   "name": "Italy",
+   "n": 705,
+   "all": 1163,
+   "pop_m": 60.3,
+   "per_m": 11.69,
+   "cont": "Europe",
+   "pct": 9.66,
+   "per_10m": 116.92
+  },
+  {
+   "iso": "FRA",
+   "name": "France",
+   "n": 669,
+   "all": 1552,
+   "pop_m": 67.06,
+   "per_m": 9.98,
+   "cont": "Europe",
+   "pct": 9.16,
+   "per_10m": 99.76
+  },
+  {
+   "iso": "ESP",
+   "name": "Spain",
+   "n": 284,
+   "all": 607,
+   "pop_m": 47.08,
+   "per_m": 6.03,
+   "cont": "Europe",
+   "pct": 3.89
+  },
+  {
+   "iso": "DEU",
+   "name": "Germany",
+   "n": 200,
+   "all": 535,
+   "pop_m": 83.13,
+   "per_m": 2.41,
+   "cont": "Europe",
+   "pct": 2.74,
+   "per_10m": 24.06
+  },
+  {
+   "iso": "IND",
+   "name": "India",
+   "n": 158,
+   "all": 268,
+   "pop_m": 1366.42,
+   "per_m": 0.12,
+   "cont": "Asia",
+   "pct": 2.16,
+   "per_10m": 1.16
+  },
+  {
+   "iso": "RUS",
+   "name": "Russia",
+   "n": 154,
+   "all": 362,
+   "pop_m": 144.37,
+   "per_m": 1.07,
+   "cont": "Europe",
+   "pct": 2.11,
+   "per_10m": 10.67
+  },
+  {
+   "iso": "IRL",
+   "name": "Ireland",
+   "n": 129,
+   "all": 180,
+   "pop_m": 4.94,
+   "per_m": 26.11,
+   "cont": "Europe"
+  },
+  {
+   "iso": "CHN",
+   "name": "China",
+   "n": 111,
+   "all": 207,
+   "pop_m": 1397.71,
+   "per_m": 0.08,
+   "cont": "Asia",
+   "pct": 1.52,
+   "per_10m": 0.79
+  },
+  {
+   "iso": "SWE",
+   "name": "Sweden",
+   "n": 91,
+   "all": 124,
+   "pop_m": 10.29,
+   "per_m": 8.85,
+   "cont": "Europe"
+  },
+  {
+   "iso": "JPN",
+   "name": "Japan",
+   "n": 86,
+   "all": 259,
+   "pop_m": 126.26,
+   "per_m": 0.68,
+   "cont": "Asia",
+   "pct": 1.18,
+   "per_10m": 6.81
+  },
+  {
+   "iso": "EGY",
+   "name": "Egypt",
+   "n": 79,
+   "all": 149,
+   "pop_m": 100.39,
+   "per_m": 0.79,
+   "cont": "Africa",
+   "per_10m": 7.87
+  },
+  {
+   "iso": "NGA",
+   "name": "Nigeria",
+   "n": 79,
+   "all": 109,
+   "pop_m": 200.96,
+   "per_m": 0.39,
+   "cont": "Africa",
+   "pct": 1.08,
+   "per_10m": 3.93
+  },
+  {
+   "iso": "CAN",
+   "name": "Canada",
+   "n": 73,
+   "all": 179,
+   "pop_m": 37.59,
+   "per_m": 1.94,
+   "cont": "North America"
+  },
+  {
+   "iso": "AUT",
+   "name": "Austria",
+   "n": 69,
+   "all": 121,
+   "pop_m": 8.88,
+   "per_m": 7.77,
+   "cont": "Europe"
+  },
+  {
+   "iso": "DNK",
+   "name": "Denmark",
+   "n": 57,
+   "all": 211,
+   "pop_m": 5.82,
+   "per_m": 9.8,
+   "cont": "Europe",
+   "pct": 0.78
+  },
+  {
+   "iso": "SRB",
+   "name": "Serbia",
+   "n": 54,
+   "all": 100,
+   "pop_m": 6.94,
+   "per_m": 7.78,
+   "cont": "Europe",
+   "pct": 0.74
+  },
+  {
+   "iso": "POL",
+   "name": "Poland",
+   "n": 52,
+   "all": 88,
+   "pop_m": 37.97,
+   "per_m": 1.37,
+   "cont": "Europe"
+  },
+  {
+   "iso": "MEX",
+   "name": "Mexico",
+   "n": 51,
+   "all": 101,
+   "pop_m": 127.58,
+   "per_m": 0.4,
+   "cont": "North America",
+   "per_10m": 4.0
+  },
+  {
+   "iso": "TUR",
+   "name": "Turkey",
+   "n": 50,
+   "all": 159,
+   "pop_m": 83.43,
+   "per_m": 0.6,
+   "cont": "Asia",
+   "per_10m": 5.99
+  },
+  {
+   "iso": "BRA",
+   "name": "Brazil",
+   "n": 48,
+   "all": 102,
+   "pop_m": 211.05,
+   "per_m": 0.23,
+   "cont": "South America",
+   "per_10m": 2.27
+  },
+  {
+   "iso": "ZAF",
+   "name": "South Africa",
+   "n": 47,
+   "all": 97,
+   "pop_m": 58.56,
+   "per_m": 0.8,
+   "cont": "Africa",
+   "per_10m": 8.03
+  },
+  {
+   "iso": "ARG",
+   "name": "Argentina",
+   "n": 44,
+   "all": 67,
+   "pop_m": 44.94,
+   "per_m": 0.98,
+   "cont": "South America"
+  },
+  {
+   "iso": "GRC",
+   "name": "Greece",
+   "n": 41,
+   "all": 188,
+   "pop_m": 10.72,
+   "per_m": 3.83,
+   "cont": "Europe"
+  },
+  {
+   "iso": "FIN",
+   "name": "Finland",
+   "n": 39,
+   "all": 53,
+   "pop_m": 5.52,
+   "per_m": 7.06,
+   "cont": "Europe"
+  },
+  {
+   "iso": "KEN",
+   "name": "Kenya",
+   "n": 38,
+   "all": 54,
+   "pop_m": 52.57,
+   "per_m": 0.72,
+   "cont": "Africa",
+   "per_10m": 7.23
+  },
+  {
+   "iso": "NLD",
+   "name": "Netherlands",
+   "n": 37,
+   "all": 73,
+   "pop_m": 17.33,
+   "per_m": 2.13,
+   "cont": "Europe"
+  },
+  {
+   "iso": "NOR",
+   "name": "Norway",
+   "n": 37,
+   "all": 66,
+   "pop_m": 5.35,
+   "per_m": 6.92,
+   "cont": "Europe"
+  },
+  {
+   "iso": "ECU",
+   "name": "Ecuador",
+   "n": 36,
+   "all": 46,
+   "pop_m": 17.37,
+   "per_m": 2.07,
+   "cont": "South America"
+  },
+  {
+   "iso": "VNM",
+   "name": "Vietnam",
+   "n": 33,
+   "all": 45,
+   "pop_m": 96.46,
+   "per_m": 0.34,
+   "cont": "Asia",
+   "per_10m": 3.42
+  },
+  {
+   "iso": "AUS",
+   "name": "Australia",
+   "n": 28,
+   "all": 67,
+   "pop_m": 25.36,
+   "per_m": 1.1,
+   "cont": "Oceania"
+  },
+  {
+   "iso": "IDN",
+   "name": "Indonesia",
+   "n": 28,
+   "all": 55,
+   "pop_m": 270.63,
+   "per_m": 0.1,
+   "cont": "Asia",
+   "per_10m": 1.03
+  },
+  {
+   "iso": "CHE",
+   "name": "Switzerland",
+   "n": 26,
+   "all": 91,
+   "pop_m": 8.57,
+   "per_m": 3.03,
+   "cont": "Europe"
+  },
+  {
+   "iso": "ISR",
+   "name": "Israel",
+   "n": 26,
+   "all": 69,
+   "pop_m": 9.05,
+   "per_m": 2.87,
+   "cont": "Asia"
+  },
+  {
+   "iso": "CZE",
+   "name": "Czech Republic",
+   "n": 26,
+   "all": 53,
+   "pop_m": 10.67,
+   "per_m": 2.44,
+   "cont": "Europe"
+  },
+  {
+   "iso": "BEL",
+   "name": "Belgium",
+   "n": 22,
+   "all": 93,
+   "pop_m": 11.48,
+   "per_m": 1.92,
+   "cont": "Europe"
+  },
+  {
+   "iso": "IRN",
+   "name": "Iran",
+   "n": 22,
+   "all": 52,
+   "pop_m": 82.91,
+   "per_m": 0.27,
+   "cont": "Asia",
+   "per_10m": 2.65
+  },
+  {
+   "iso": "PRT",
+   "name": "Portugal",
+   "n": 21,
+   "all": 53,
+   "pop_m": 10.27,
+   "per_m": 2.04,
+   "cont": "Europe"
+  },
+  {
+   "iso": "HRV",
+   "name": "Croatia",
+   "n": 20,
+   "all": 41,
+   "pop_m": 4.07,
+   "per_m": 4.92,
+   "cont": "Europe"
+  },
+  {
+   "iso": "ROU",
+   "name": "Romania",
+   "n": 20,
+   "all": 28,
+   "pop_m": 19.36,
+   "per_m": 1.03,
+   "cont": "Europe"
+  },
+  {
+   "iso": "IRQ",
+   "name": "Iraq",
+   "n": 20,
+   "all": 64,
+   "pop_m": 39.31,
+   "per_m": 0.51,
+   "cont": "Asia"
+  },
+  {
+   "iso": "KOR",
+   "name": "South Korea",
+   "n": 19,
+   "all": 53,
+   "pop_m": 51.71,
+   "per_m": 0.37,
+   "cont": "Asia",
+   "per_10m": 3.67
+  },
+  {
+   "iso": "HKG",
+   "name": "Hong Kong",
+   "n": 19,
+   "all": 33,
+   "pop_m": 7.51,
+   "per_m": 2.53,
+   "cont": "Asia"
+  },
+  {
+   "iso": "ISL",
+   "name": "Iceland",
+   "n": 19,
+   "all": 26,
+   "pop_m": 0.36,
+   "per_m": 52.59,
+   "cont": "Europe"
+  },
+  {
+   "iso": "PER",
+   "name": "Peru",
+   "n": 19,
+   "all": 40,
+   "pop_m": 32.51,
+   "per_m": 0.58,
+   "cont": "South America"
+  },
+  {
+   "iso": "CHL",
+   "name": "Chile",
+   "n": 18,
+   "all": 29,
+   "pop_m": 18.95,
+   "per_m": 0.95,
+   "cont": "South America"
+  },
+  {
+   "iso": "BIH",
+   "name": "Bosnia and Herzegovina",
+   "n": 17,
+   "all": 31,
+   "pop_m": 3.3,
+   "per_m": 5.15,
+   "cont": "Europe"
+  },
+  {
+   "iso": "UKR",
+   "name": "Ukraine",
+   "n": 17,
+   "all": 51,
+   "pop_m": 44.39,
+   "per_m": 0.38,
+   "cont": "Europe"
+  },
+  {
+   "iso": "KOS",
+   "name": "Kosovo",
+   "n": 14,
+   "all": 18,
+   "pop_m": 1.79,
+   "per_m": 7.8,
+   "cont": "Europe"
+  },
+  {
+   "iso": "COL",
+   "name": "Colombia",
+   "n": 14,
+   "all": 60,
+   "pop_m": 50.34,
+   "per_m": 0.28,
+   "cont": "South America",
+   "per_10m": 2.78
+  },
+  {
+   "iso": "GHA",
+   "name": "Ghana",
+   "n": 13,
+   "all": 18,
+   "pop_m": 30.42,
+   "per_m": 0.43,
+   "cont": "Africa"
+  },
+  {
+   "iso": "CUB",
+   "name": "Cuba",
+   "n": 13,
+   "all": 24,
+   "pop_m": 11.33,
+   "per_m": 1.15,
+   "cont": "North America"
+  },
+  {
+   "iso": "PAK",
+   "name": "Pakistan",
+   "n": 13,
+   "all": 23,
+   "pop_m": 216.57,
+   "per_m": 0.06,
+   "cont": "Asia",
+   "per_10m": 0.6
+  },
+  {
+   "iso": "NZL",
+   "name": "New Zealand",
+   "n": 13,
+   "all": 24,
+   "pop_m": 4.92,
+   "per_m": 2.64,
+   "cont": "Oceania"
+  },
+  {
+   "iso": "SOM",
+   "name": "Somalia",
+   "n": 11,
+   "all": 12,
+   "pop_m": 10.19,
+   "per_m": 1.08,
+   "cont": "Africa"
+  },
+  {
+   "iso": "DZA",
+   "name": "Algeria",
+   "n": 11,
+   "all": 25,
+   "pop_m": 43.05,
+   "per_m": 0.26,
+   "cont": "Africa"
+  },
+  {
+   "iso": "AFG",
+   "name": "Afghanistan",
+   "n": 11,
+   "all": 19,
+   "pop_m": 38.04,
+   "per_m": 0.29,
+   "cont": "Asia"
+  },
+  {
+   "iso": "HUN",
+   "name": "Hungary",
+   "n": 11,
+   "all": 24,
+   "pop_m": 9.77,
+   "per_m": 1.13,
+   "cont": "Europe"
+  },
+  {
+   "iso": "ETH",
+   "name": "Ethiopia",
+   "n": 9,
+   "all": 13,
+   "pop_m": 112.08,
+   "per_m": 0.08,
+   "cont": "Africa",
+   "per_10m": 0.8
+  },
+  {
+   "iso": "MAR",
+   "name": "Morocco",
+   "n": 9,
+   "all": 16,
+   "pop_m": 36.47,
+   "per_m": 0.25,
+   "cont": "Africa"
+  },
+  {
+   "iso": "PSE",
+   "name": "Palestine",
+   "n": 8,
+   "all": 20,
+   "pop_m": 4.69,
+   "per_m": 1.71,
+   "cont": "Asia"
+  },
+  {
+   "iso": "THA",
+   "name": "Thailand",
+   "n": 8,
+   "all": 16,
+   "pop_m": 69.63,
+   "per_m": 0.11,
+   "cont": "Asia",
+   "per_10m": 1.15
+  },
+  {
+   "iso": "HTI",
+   "name": "Haiti",
+   "n": 8,
+   "all": 12,
+   "pop_m": 11.26,
+   "per_m": 0.71,
+   "cont": "North America"
+  },
+  {
+   "iso": "SYR",
+   "name": "Syria",
+   "n": 8,
+   "all": 28,
+   "pop_m": 17.07,
+   "per_m": 0.47,
+   "cont": "Asia"
+  },
+  {
+   "iso": "TZA",
+   "name": "Tanzania",
+   "n": 7,
+   "all": 13,
+   "pop_m": 58.01,
+   "per_m": 0.12,
+   "cont": "Africa",
+   "per_10m": 1.21
+  },
+  {
+   "iso": "BGR",
+   "name": "Bulgaria",
+   "n": 7,
+   "all": 13,
+   "pop_m": 6.98,
+   "per_m": 1.0,
+   "cont": "Europe"
+  },
+  {
+   "iso": "ALB",
+   "name": "Albania",
+   "n": 7,
+   "all": 8,
+   "pop_m": 2.85,
+   "per_m": 2.45,
+   "cont": "Europe"
+  },
+  {
+   "iso": "ATA",
+   "name": "Antarctica",
+   "n": 7,
+   "all": 17,
+   "pop_m": 0.0,
+   "per_m": 1559.02,
+   "cont": "Antarctica"
+  },
+  {
+   "iso": "AGO",
+   "name": "Angola",
+   "n": 6,
+   "all": 8,
+   "pop_m": 31.83,
+   "per_m": 0.19,
+   "cont": "Africa"
+  },
+  {
+   "iso": "SEN",
+   "name": "Senegal",
+   "n": 6,
+   "all": 8,
+   "pop_m": 16.3,
+   "per_m": 0.37,
+   "cont": "Africa"
+  },
+  {
+   "iso": "COG",
+   "name": "Congo",
+   "n": 5,
+   "all": 7,
+   "pop_m": 5.38,
+   "per_m": 0.93,
+   "cont": "Africa"
+  },
+  {
+   "iso": "NPL",
+   "name": "Nepal",
+   "n": 5,
+   "all": 12,
+   "pop_m": 28.61,
+   "per_m": 0.17,
+   "cont": "Asia"
+  },
+  {
+   "iso": "LBN",
+   "name": "Lebanon",
+   "n": 5,
+   "all": 16,
+   "pop_m": 6.86,
+   "per_m": 0.73,
+   "cont": "Asia"
+  },
+  {
+   "iso": "ZMB",
+   "name": "Zambia",
+   "n": 5,
+   "all": 7,
+   "pop_m": 17.86,
+   "per_m": 0.28,
+   "cont": "Africa"
+  },
+  {
+   "iso": "ZWE",
+   "name": "Zimbabwe",
+   "n": 5,
+   "all": 14,
+   "pop_m": 14.65,
+   "per_m": 0.34,
+   "cont": "Africa"
+  },
+  {
+   "iso": "MYS",
+   "name": "Malaysia",
+   "n": 5,
+   "all": 15,
+   "pop_m": 31.95,
+   "per_m": 0.16,
+   "cont": "Asia"
+  },
+  {
+   "iso": "PRK",
+   "name": "North Korea",
+   "n": 5,
+   "all": 19,
+   "pop_m": 25.67,
+   "per_m": 0.19,
+   "cont": "Asia"
+  },
+  {
+   "iso": "NIC",
+   "name": "Nicaragua",
+   "n": 4,
+   "all": 7,
+   "pop_m": 6.55,
+   "per_m": 0.61,
+   "cont": "North America"
+  },
+  {
+   "iso": "PNG",
+   "name": "Papua New Guinea",
+   "n": 4,
+   "all": 7,
+   "pop_m": 8.78,
+   "per_m": 0.46,
+   "cont": "Oceania"
+  },
+  {
+   "iso": "NER",
+   "name": "Niger",
+   "n": 4,
+   "all": 5,
+   "pop_m": 23.31,
+   "per_m": 0.17,
+   "cont": "Africa"
+  },
+  {
+   "iso": "MOZ",
+   "name": "Mozambique",
+   "n": 4,
+   "all": 14,
+   "pop_m": 30.37,
+   "per_m": 0.13,
+   "cont": "Africa"
+  },
+  {
+   "iso": "JAM",
+   "name": "Jamaica",
+   "n": 4,
+   "all": 8,
+   "pop_m": 2.95,
+   "per_m": 1.36,
+   "cont": "North America"
+  },
+  {
+   "iso": "RWA",
+   "name": "Rwanda",
+   "n": 4,
+   "all": 4,
+   "pop_m": 12.63,
+   "per_m": 0.32,
+   "cont": "Africa"
+  },
+  {
+   "iso": "BDI",
+   "name": "Burundi",
+   "n": 4,
+   "all": 5,
+   "pop_m": 11.53,
+   "per_m": 0.35,
+   "cont": "Africa"
+  },
+  {
+   "iso": "COD",
+   "name": "Democratic Republic of the Congo",
+   "n": 4,
+   "all": 12,
+   "pop_m": 86.79,
+   "per_m": 0.05,
+   "cont": "Africa",
+   "per_10m": 0.46
+  },
+  {
+   "iso": "MLI",
+   "name": "Mali",
+   "n": 4,
+   "all": 4,
+   "pop_m": 19.66,
+   "per_m": 0.2,
+   "cont": "Africa"
+  },
+  {
+   "iso": "LVA",
+   "name": "Latvia",
+   "n": 4,
+   "all": 7,
+   "pop_m": 1.91,
+   "per_m": 2.09,
+   "cont": "Europe"
+  },
+  {
+   "iso": "MMR",
+   "name": "Myanmar",
+   "n": 3,
+   "all": 6,
+   "pop_m": 54.05,
+   "per_m": 0.06,
+   "cont": "Asia",
+   "per_10m": 0.56
+  },
+  {
+   "iso": "BWA",
+   "name": "Botswana",
+   "n": 3,
+   "all": 4,
+   "pop_m": 2.3,
+   "per_m": 1.3,
+   "cont": "Africa"
+  },
+  {
+   "iso": "LKA",
+   "name": "Sri Lanka",
+   "n": 3,
+   "all": 9,
+   "pop_m": 21.8,
+   "per_m": 0.14,
+   "cont": "Asia"
+  },
+  {
+   "iso": "KAZ",
+   "name": "Kazakhstan",
+   "n": 3,
+   "all": 7,
+   "pop_m": 18.51,
+   "per_m": 0.16,
+   "cont": "Asia"
+  },
+  {
+   "iso": "MCO",
+   "name": "Monaco",
+   "n": 3,
+   "all": 6,
+   "pop_m": 0.04,
+   "per_m": 76.99,
+   "cont": "Europe"
+  },
+  {
+   "iso": "SAU",
+   "name": "Saudi Arabia",
+   "n": 3,
+   "all": 10,
+   "pop_m": 34.27,
+   "per_m": 0.09,
+   "cont": "Asia"
+  },
+  {
+   "iso": "PAN",
+   "name": "Panama",
+   "n": 3,
+   "all": 6,
+   "pop_m": 4.25,
+   "per_m": 0.71,
+   "cont": "North America"
+  },
+  {
+   "iso": "SVK",
+   "name": "Slovakia",
+   "n": 3,
+   "all": 5,
+   "pop_m": 5.45,
+   "per_m": 0.55,
+   "cont": "Europe"
+  },
+  {
+   "iso": "PHL",
+   "name": "Philippines",
+   "n": 3,
+   "all": 7,
+   "pop_m": 108.12,
+   "per_m": 0.03,
+   "cont": "Asia",
+   "per_10m": 0.28
+  },
+  {
+   "iso": "PRY",
+   "name": "Paraguay",
+   "n": 3,
+   "all": 7,
+   "pop_m": 7.04,
+   "per_m": 0.43,
+   "cont": "South America"
+  },
+  {
+   "iso": "YEM",
+   "name": "Yemen",
+   "n": 3,
+   "all": 3,
+   "pop_m": 29.16,
+   "per_m": 0.1,
+   "cont": "Asia"
+  },
+  {
+   "iso": "MNE",
+   "name": "Montenegro",
+   "n": 3,
+   "all": 4,
+   "pop_m": 0.62,
+   "per_m": 4.82,
+   "cont": "Europe"
+  },
+  {
+   "iso": "SGP",
+   "name": "Singapore",
+   "n": 3,
+   "all": 8,
+   "pop_m": 5.7,
+   "per_m": 0.53,
+   "cont": "Asia"
+  },
+  {
+   "iso": "MKD",
+   "name": "North Macedonia",
+   "n": 3,
+   "all": 6,
+   "pop_m": 2.08,
+   "per_m": 1.44,
+   "cont": "Europe"
+  },
+  {
+   "iso": "AZE",
+   "name": "Azerbaijan",
+   "n": 2,
+   "all": 5,
+   "pop_m": 10.02,
+   "per_m": 0.2,
+   "cont": "Asia"
+  },
+  {
+   "iso": "BLR",
+   "name": "Belarus",
+   "n": 2,
+   "all": 7,
+   "pop_m": 9.47,
+   "per_m": 0.21,
+   "cont": "Europe"
+  },
+  {
+   "iso": "BGD",
+   "name": "Bangladesh",
+   "n": 2,
+   "all": 3,
+   "pop_m": 163.05,
+   "per_m": 0.01,
+   "cont": "Asia",
+   "per_10m": 0.12
+  },
+  {
+   "iso": "CAF",
+   "name": "Central African Republic",
+   "n": 2,
+   "all": 2,
+   "pop_m": 4.75,
+   "per_m": 0.42,
+   "cont": "Africa"
+  },
+  {
+   "iso": "URY",
+   "name": "Uruguay",
+   "n": 2,
+   "all": 5,
+   "pop_m": 3.46,
+   "per_m": 0.58,
+   "cont": "South America"
+  },
+  {
+   "iso": "VAT",
+   "name": "Vatican City",
+   "n": 2,
+   "all": 5,
+   "pop_m": 0.0,
+   "per_m": 2424.24,
+   "cont": "Europe"
+  },
+  {
+   "iso": "TKM",
+   "name": "Turkmenistan",
+   "n": 2,
+   "all": 2,
+   "pop_m": 5.94,
+   "per_m": 0.34,
+   "cont": "Asia"
+  },
+  {
+   "iso": "EST",
+   "name": "Estonia",
+   "n": 2,
+   "all": 5,
+   "pop_m": 1.33,
+   "per_m": 1.51,
+   "cont": "Europe"
+  },
+  {
+   "iso": "BHS",
+   "name": "Bahamas",
+   "n": 2,
+   "all": 3,
+   "pop_m": 0.39,
+   "per_m": 5.14,
+   "cont": "North America"
+  },
+  {
+   "iso": "FJI",
+   "name": "Fiji",
+   "n": 2,
+   "all": 4,
+   "pop_m": 0.89,
+   "per_m": 2.25,
+   "cont": "Oceania"
+  },
+  {
+   "iso": "KHM",
+   "name": "Cambodia",
+   "n": 2,
+   "all": 4,
+   "pop_m": 16.49,
+   "per_m": 0.12,
+   "cont": "Asia"
+  },
+  {
+   "iso": "LTU",
+   "name": "Lithuania",
+   "n": 2,
+   "all": 8,
+   "pop_m": 2.79,
+   "per_m": 0.72,
+   "cont": "Europe"
+  },
+  {
+   "iso": "VEN",
+   "name": "Venezuela",
+   "n": 2,
+   "all": 3,
+   "pop_m": 28.52,
+   "per_m": 0.07,
+   "cont": "South America"
+  },
+  {
+   "iso": "SVN",
+   "name": "Slovenia",
+   "n": 2,
+   "all": 5,
+   "pop_m": 2.09,
+   "per_m": 0.96,
+   "cont": "Europe"
+  },
+  {
+   "iso": "GIN",
+   "name": "Guinea",
+   "n": 2,
+   "all": 3,
+   "pop_m": 12.77,
+   "per_m": 0.16,
+   "cont": "Africa"
+  },
+  {
+   "iso": "PYF",
+   "name": "French Polynesia",
+   "n": 2,
+   "all": 8,
+   "pop_m": 0.28,
+   "per_m": 7.16,
+   "cont": "Oceania"
+  },
+  {
+   "iso": "GTM",
+   "name": "Guatemala",
+   "n": 2,
+   "all": 4,
+   "pop_m": 16.6,
+   "per_m": 0.12,
+   "cont": "North America"
+  },
+  {
+   "iso": "MNG",
+   "name": "Mongolia",
+   "n": 2,
+   "all": 5,
+   "pop_m": 3.23,
+   "per_m": 0.62,
+   "cont": "Asia"
+  },
+  {
+   "iso": "TUN",
+   "name": "Tunisia",
+   "n": 2,
+   "all": 10,
+   "pop_m": 11.69,
+   "per_m": 0.17,
+   "cont": "Africa"
+  },
+  {
+   "iso": "ARM",
+   "name": "Armenia",
+   "n": 1,
+   "all": 5,
+   "pop_m": 2.96,
+   "per_m": 0.34,
+   "cont": "Asia"
+  },
+  {
+   "iso": "BOL",
+   "name": "Bolivia",
+   "n": 1,
+   "all": 3,
+   "pop_m": 11.51,
+   "per_m": 0.09,
+   "cont": "South America"
+  },
+  {
+   "iso": "BMU",
+   "name": "Bermuda",
+   "n": 1,
+   "all": 2,
+   "pop_m": 0.06,
+   "per_m": 15.65,
+   "cont": "North America"
+  },
+  {
+   "iso": "BLZ",
+   "name": "Belize",
+   "n": 1,
+   "all": 1,
+   "pop_m": 0.39,
+   "per_m": 2.56,
+   "cont": "North America"
+  },
+  {
+   "iso": "MDA",
+   "name": "Moldova",
+   "n": 1,
+   "all": 4,
+   "pop_m": 2.66,
+   "per_m": 0.38,
+   "cont": "Europe"
+  },
+  {
+   "iso": "MDG",
+   "name": "Madagascar",
+   "n": 1,
+   "all": 4,
+   "pop_m": 26.97,
+   "per_m": 0.04,
+   "cont": "Africa"
+  },
+  {
+   "iso": "JOR",
+   "name": "Jordan",
+   "n": 1,
+   "all": 4,
+   "pop_m": 10.1,
+   "per_m": 0.1,
+   "cont": "Asia"
+  },
+  {
+   "iso": "DJI",
+   "name": "Djibouti",
+   "n": 1,
+   "all": 2,
+   "pop_m": 0.97,
+   "per_m": 1.03,
+   "cont": "Africa"
+  },
+  {
+   "iso": "CYP",
+   "name": "Turkish Republic of Northern Cyprus",
+   "n": 1,
+   "all": 8,
+   "pop_m": 0.33,
+   "per_m": 3.07,
+   "cont": "Asia"
+  },
+  {
+   "iso": "ESH",
+   "name": "Western Sahara",
+   "n": 1,
+   "all": 1,
+   "pop_m": 0.6,
+   "per_m": 1.66,
+   "cont": "Africa"
+  },
+  {
+   "iso": "DOM",
+   "name": "Dominican Republic",
+   "n": 1,
+   "all": 6,
+   "pop_m": 10.74,
+   "per_m": 0.09,
+   "cont": "North America"
+  },
+  {
+   "iso": "GEO",
+   "name": "Georgia",
+   "n": 1,
+   "all": 9,
+   "pop_m": 3.72,
+   "per_m": 0.27,
+   "cont": "Asia"
+  },
+  {
+   "iso": "GMB",
+   "name": "Gambia",
+   "n": 1,
+   "all": 1,
+   "pop_m": 2.35,
+   "per_m": 0.43,
+   "cont": "Africa"
+  },
+  {
+   "iso": "GNB",
+   "name": "Guinea-Bissau",
+   "n": 1,
+   "all": 1,
+   "pop_m": 1.92,
+   "per_m": 0.52,
+   "cont": "Africa"
+  },
+  {
+   "iso": "GNQ",
+   "name": "Equatorial Guinea",
+   "n": 1,
+   "all": 1,
+   "pop_m": 1.36,
+   "per_m": 0.74,
+   "cont": "Africa"
+  },
+  {
+   "iso": "GRD",
+   "name": "Grenada",
+   "n": 1,
+   "all": 1,
+   "pop_m": 0.11,
+   "per_m": 8.93,
+   "cont": "North America"
+  },
+  {
+   "iso": "GRL",
+   "name": "Greenland",
+   "n": 1,
+   "all": 4,
+   "pop_m": 0.06,
+   "per_m": 17.79,
+   "cont": "North America"
+  },
+  {
+   "iso": "COK",
+   "name": "Cook Islands",
+   "n": 1,
+   "all": 1,
+   "pop_m": 0.02,
+   "per_m": 57.28,
+   "cont": "Oceania"
+  },
+  {
+   "iso": "CIV",
+   "name": "Ivory Coast",
+   "n": 1,
+   "all": 2,
+   "pop_m": 25.72,
+   "per_m": 0.04,
+   "cont": "Africa"
+  },
+  {
+   "iso": "LBR",
+   "name": "Liberia",
+   "n": 1,
+   "all": 1,
+   "pop_m": 4.94,
+   "per_m": 0.2,
+   "cont": "Africa"
+  },
+  {
+   "iso": "LAO",
+   "name": "Laos",
+   "n": 1,
+   "all": 2,
+   "pop_m": 7.17,
+   "per_m": 0.14,
+   "cont": "Asia"
+  },
+  {
+   "iso": "GUY",
+   "name": "Guyana",
+   "n": 1,
+   "all": 5,
+   "pop_m": 0.78,
+   "per_m": 1.28,
+   "cont": "South America"
+  },
+  {
+   "iso": "OMN",
+   "name": "Oman",
+   "n": 1,
+   "all": 1,
+   "pop_m": 4.97,
+   "per_m": 0.2,
+   "cont": "Asia"
+  },
+  {
+   "iso": "MLT",
+   "name": "Malta",
+   "n": 1,
+   "all": 2,
+   "pop_m": 0.5,
+   "per_m": 1.99,
+   "cont": "Europe"
+  },
+  {
+   "iso": "MUS",
+   "name": "Mauritius",
+   "n": 1,
+   "all": 3,
+   "pop_m": 1.27,
+   "per_m": 0.79,
+   "cont": "Seven seas (open ocean)"
+  },
+  {
+   "iso": "TJK",
+   "name": "Tajikistan",
+   "n": 1,
+   "all": 1,
+   "pop_m": 9.32,
+   "per_m": 0.11,
+   "cont": "Asia"
+  },
+  {
+   "iso": "SUR",
+   "name": "Suriname",
+   "n": 1,
+   "all": 2,
+   "pop_m": 0.58,
+   "per_m": 1.72,
+   "cont": "South America"
+  },
+  {
+   "iso": "SMR",
+   "name": "San Marino",
+   "n": 1,
+   "all": 1,
+   "pop_m": 0.03,
+   "per_m": 29.53,
+   "cont": "Europe"
+  },
+  {
+   "iso": "SLE",
+   "name": "Sierra Leone",
+   "n": 1,
+   "all": 3,
+   "pop_m": 7.81,
+   "per_m": 0.13,
+   "cont": "Africa"
+  },
+  {
+   "iso": "SDN",
+   "name": "Sudan",
+   "n": 1,
+   "all": 7,
+   "pop_m": 42.81,
+   "per_m": 0.02,
+   "cont": "Africa"
+  },
+  {
+   "iso": "TTO",
+   "name": "Trinidad and Tobago",
+   "n": 1,
+   "all": 2,
+   "pop_m": 1.39,
+   "per_m": 0.72,
+   "cont": "North America"
+  },
+  {
+   "iso": "UGA",
+   "name": "Uganda",
+   "n": 1,
+   "all": 3,
+   "pop_m": 44.27,
+   "per_m": 0.02,
+   "cont": "Africa"
+  },
+  {
+   "iso": "UZB",
+   "name": "Uzbekistan",
+   "n": 1,
+   "all": 2,
+   "pop_m": 33.58,
+   "per_m": 0.03,
+   "cont": "Asia"
+  }
+ ],
+ "n_countries": 154,
+ "countries_all": [
+  {
+   "iso": "USA",
+   "name": "United States",
+   "n": 3287,
+   "nov": 2151
+  },
+  {
+   "iso": "GBR",
+   "name": "United Kingdom",
+   "n": 1830,
+   "nov": 1216
+  },
+  {
+   "iso": "FRA",
+   "name": "France",
+   "n": 1552,
+   "nov": 669
+  },
+  {
+   "iso": "ITA",
+   "name": "Italy",
+   "n": 1163,
+   "nov": 705
+  },
+  {
+   "iso": "ESP",
+   "name": "Spain",
+   "n": 607,
+   "nov": 284
+  },
+  {
+   "iso": "DEU",
+   "name": "Germany",
+   "n": 535,
+   "nov": 200
+  },
+  {
+   "iso": "RUS",
+   "name": "Russia",
+   "n": 362,
+   "nov": 154
+  },
+  {
+   "iso": "IND",
+   "name": "India",
+   "n": 268,
+   "nov": 158
+  },
+  {
+   "iso": "JPN",
+   "name": "Japan",
+   "n": 259,
+   "nov": 86
+  },
+  {
+   "iso": "DNK",
+   "name": "Denmark",
+   "n": 211,
+   "nov": 57
+  },
+  {
+   "iso": "CHN",
+   "name": "China",
+   "n": 207,
+   "nov": 111
+  },
+  {
+   "iso": "GRC",
+   "name": "Greece",
+   "n": 188,
+   "nov": 41
+  },
+  {
+   "iso": "IRL",
+   "name": "Ireland",
+   "n": 180,
+   "nov": 129
+  },
+  {
+   "iso": "CAN",
+   "name": "Canada",
+   "n": 179,
+   "nov": 73
+  },
+  {
+   "iso": "TUR",
+   "name": "Turkey",
+   "n": 159,
+   "nov": 50
+  },
+  {
+   "iso": "EGY",
+   "name": "Egypt",
+   "n": 149,
+   "nov": 79
+  },
+  {
+   "iso": "SWE",
+   "name": "Sweden",
+   "n": 124,
+   "nov": 91
+  },
+  {
+   "iso": "AUT",
+   "name": "Austria",
+   "n": 121,
+   "nov": 69
+  },
+  {
+   "iso": "NGA",
+   "name": "Nigeria",
+   "n": 109,
+   "nov": 79
+  },
+  {
+   "iso": "BRA",
+   "name": "Brazil",
+   "n": 102,
+   "nov": 48
+  },
+  {
+   "iso": "MEX",
+   "name": "Mexico",
+   "n": 101,
+   "nov": 51
+  },
+  {
+   "iso": "SRB",
+   "name": "Serbia",
+   "n": 100,
+   "nov": 54
+  },
+  {
+   "iso": "ZAF",
+   "name": "South Africa",
+   "n": 97,
+   "nov": 47
+  },
+  {
+   "iso": "BEL",
+   "name": "Belgium",
+   "n": 93,
+   "nov": 22
+  },
+  {
+   "iso": "CHE",
+   "name": "Switzerland",
+   "n": 91,
+   "nov": 26
+  },
+  {
+   "iso": "POL",
+   "name": "Poland",
+   "n": 88,
+   "nov": 52
+  },
+  {
+   "iso": "NLD",
+   "name": "Netherlands",
+   "n": 73,
+   "nov": 37
+  },
+  {
+   "iso": "ISR",
+   "name": "Israel",
+   "n": 69,
+   "nov": 26
+  },
+  {
+   "iso": "AUS",
+   "name": "Australia",
+   "n": 67,
+   "nov": 28
+  },
+  {
+   "iso": "ARG",
+   "name": "Argentina",
+   "n": 67,
+   "nov": 44
+  }
+ ],
+ "country": {
+  "USA": {
+   "iso": "USA",
+   "name": "United States",
+   "n": 2151,
+   "all": 3287,
+   "pop_m": 328.24,
+   "per_m": 6.55,
+   "cont": "North America",
+   "pct": 29.47,
+   "per_10m": 65.53
+  },
+  "GBR": {
+   "iso": "GBR",
+   "name": "United Kingdom",
+   "n": 1216,
+   "all": 1830,
+   "pop_m": 66.83,
+   "per_m": 18.19,
+   "cont": "Europe",
+   "pct": 16.66,
+   "per_10m": 181.95
+  },
+  "ITA": {
+   "iso": "ITA",
+   "name": "Italy",
+   "n": 705,
+   "all": 1163,
+   "pop_m": 60.3,
+   "per_m": 11.69,
+   "cont": "Europe",
+   "pct": 9.66,
+   "per_10m": 116.92
+  },
+  "FRA": {
+   "iso": "FRA",
+   "name": "France",
+   "n": 669,
+   "all": 1552,
+   "pop_m": 67.06,
+   "per_m": 9.98,
+   "cont": "Europe",
+   "pct": 9.16,
+   "per_10m": 99.76
+  },
+  "ESP": {
+   "iso": "ESP",
+   "name": "Spain",
+   "n": 284,
+   "all": 607,
+   "pop_m": 47.08,
+   "per_m": 6.03,
+   "cont": "Europe",
+   "pct": 3.89
+  },
+  "DEU": {
+   "iso": "DEU",
+   "name": "Germany",
+   "n": 200,
+   "all": 535,
+   "pop_m": 83.13,
+   "per_m": 2.41,
+   "cont": "Europe",
+   "pct": 2.74,
+   "per_10m": 24.06
+  },
+  "IND": {
+   "iso": "IND",
+   "name": "India",
+   "n": 158,
+   "all": 268,
+   "pop_m": 1366.42,
+   "per_m": 0.12,
+   "cont": "Asia",
+   "pct": 2.16,
+   "per_10m": 1.16
+  },
+  "RUS": {
+   "iso": "RUS",
+   "name": "Russia",
+   "n": 154,
+   "all": 362,
+   "pop_m": 144.37,
+   "per_m": 1.07,
+   "cont": "Europe",
+   "pct": 2.11,
+   "per_10m": 10.67
+  },
+  "IRL": {
+   "iso": "IRL",
+   "name": "Ireland",
+   "n": 129,
+   "all": 180,
+   "pop_m": 4.94,
+   "per_m": 26.11,
+   "cont": "Europe"
+  },
+  "CHN": {
+   "iso": "CHN",
+   "name": "China",
+   "n": 111,
+   "all": 207,
+   "pop_m": 1397.71,
+   "per_m": 0.08,
+   "cont": "Asia",
+   "pct": 1.52,
+   "per_10m": 0.79
+  },
+  "SWE": {
+   "iso": "SWE",
+   "name": "Sweden",
+   "n": 91,
+   "all": 124,
+   "pop_m": 10.29,
+   "per_m": 8.85,
+   "cont": "Europe"
+  },
+  "JPN": {
+   "iso": "JPN",
+   "name": "Japan",
+   "n": 86,
+   "all": 259,
+   "pop_m": 126.26,
+   "per_m": 0.68,
+   "cont": "Asia",
+   "pct": 1.18,
+   "per_10m": 6.81
+  },
+  "EGY": {
+   "iso": "EGY",
+   "name": "Egypt",
+   "n": 79,
+   "all": 149,
+   "pop_m": 100.39,
+   "per_m": 0.79,
+   "cont": "Africa",
+   "per_10m": 7.87
+  },
+  "NGA": {
+   "iso": "NGA",
+   "name": "Nigeria",
+   "n": 79,
+   "all": 109,
+   "pop_m": 200.96,
+   "per_m": 0.39,
+   "cont": "Africa",
+   "pct": 1.08,
+   "per_10m": 3.93
+  },
+  "CAN": {
+   "iso": "CAN",
+   "name": "Canada",
+   "n": 73,
+   "all": 179,
+   "pop_m": 37.59,
+   "per_m": 1.94,
+   "cont": "North America"
+  },
+  "AUT": {
+   "iso": "AUT",
+   "name": "Austria",
+   "n": 69,
+   "all": 121,
+   "pop_m": 8.88,
+   "per_m": 7.77,
+   "cont": "Europe"
+  },
+  "DNK": {
+   "iso": "DNK",
+   "name": "Denmark",
+   "n": 57,
+   "all": 211,
+   "pop_m": 5.82,
+   "per_m": 9.8,
+   "cont": "Europe",
+   "pct": 0.78
+  },
+  "SRB": {
+   "iso": "SRB",
+   "name": "Serbia",
+   "n": 54,
+   "all": 100,
+   "pop_m": 6.94,
+   "per_m": 7.78,
+   "cont": "Europe",
+   "pct": 0.74
+  },
+  "POL": {
+   "iso": "POL",
+   "name": "Poland",
+   "n": 52,
+   "all": 88,
+   "pop_m": 37.97,
+   "per_m": 1.37,
+   "cont": "Europe"
+  },
+  "MEX": {
+   "iso": "MEX",
+   "name": "Mexico",
+   "n": 51,
+   "all": 101,
+   "pop_m": 127.58,
+   "per_m": 0.4,
+   "cont": "North America",
+   "per_10m": 4.0
+  },
+  "TUR": {
+   "iso": "TUR",
+   "name": "Turkey",
+   "n": 50,
+   "all": 159,
+   "pop_m": 83.43,
+   "per_m": 0.6,
+   "cont": "Asia",
+   "per_10m": 5.99
+  },
+  "BRA": {
+   "iso": "BRA",
+   "name": "Brazil",
+   "n": 48,
+   "all": 102,
+   "pop_m": 211.05,
+   "per_m": 0.23,
+   "cont": "South America",
+   "per_10m": 2.27
+  },
+  "ZAF": {
+   "iso": "ZAF",
+   "name": "South Africa",
+   "n": 47,
+   "all": 97,
+   "pop_m": 58.56,
+   "per_m": 0.8,
+   "cont": "Africa",
+   "per_10m": 8.03
+  },
+  "ARG": {
+   "iso": "ARG",
+   "name": "Argentina",
+   "n": 44,
+   "all": 67,
+   "pop_m": 44.94,
+   "per_m": 0.98,
+   "cont": "South America"
+  },
+  "GRC": {
+   "iso": "GRC",
+   "name": "Greece",
+   "n": 41,
+   "all": 188,
+   "pop_m": 10.72,
+   "per_m": 3.83,
+   "cont": "Europe"
+  },
+  "FIN": {
+   "iso": "FIN",
+   "name": "Finland",
+   "n": 39,
+   "all": 53,
+   "pop_m": 5.52,
+   "per_m": 7.06,
+   "cont": "Europe"
+  },
+  "KEN": {
+   "iso": "KEN",
+   "name": "Kenya",
+   "n": 38,
+   "all": 54,
+   "pop_m": 52.57,
+   "per_m": 0.72,
+   "cont": "Africa",
+   "per_10m": 7.23
+  },
+  "NLD": {
+   "iso": "NLD",
+   "name": "Netherlands",
+   "n": 37,
+   "all": 73,
+   "pop_m": 17.33,
+   "per_m": 2.13,
+   "cont": "Europe"
+  },
+  "NOR": {
+   "iso": "NOR",
+   "name": "Norway",
+   "n": 37,
+   "all": 66,
+   "pop_m": 5.35,
+   "per_m": 6.92,
+   "cont": "Europe"
+  },
+  "ECU": {
+   "iso": "ECU",
+   "name": "Ecuador",
+   "n": 36,
+   "all": 46,
+   "pop_m": 17.37,
+   "per_m": 2.07,
+   "cont": "South America"
+  },
+  "VNM": {
+   "iso": "VNM",
+   "name": "Vietnam",
+   "n": 33,
+   "all": 45,
+   "pop_m": 96.46,
+   "per_m": 0.34,
+   "cont": "Asia",
+   "per_10m": 3.42
+  },
+  "AUS": {
+   "iso": "AUS",
+   "name": "Australia",
+   "n": 28,
+   "all": 67,
+   "pop_m": 25.36,
+   "per_m": 1.1,
+   "cont": "Oceania"
+  },
+  "IDN": {
+   "iso": "IDN",
+   "name": "Indonesia",
+   "n": 28,
+   "all": 55,
+   "pop_m": 270.63,
+   "per_m": 0.1,
+   "cont": "Asia",
+   "per_10m": 1.03
+  },
+  "CHE": {
+   "iso": "CHE",
+   "name": "Switzerland",
+   "n": 26,
+   "all": 91,
+   "pop_m": 8.57,
+   "per_m": 3.03,
+   "cont": "Europe"
+  },
+  "ISR": {
+   "iso": "ISR",
+   "name": "Israel",
+   "n": 26,
+   "all": 69,
+   "pop_m": 9.05,
+   "per_m": 2.87,
+   "cont": "Asia"
+  },
+  "CZE": {
+   "iso": "CZE",
+   "name": "Czech Republic",
+   "n": 26,
+   "all": 53,
+   "pop_m": 10.67,
+   "per_m": 2.44,
+   "cont": "Europe"
+  },
+  "BEL": {
+   "iso": "BEL",
+   "name": "Belgium",
+   "n": 22,
+   "all": 93,
+   "pop_m": 11.48,
+   "per_m": 1.92,
+   "cont": "Europe"
+  },
+  "IRN": {
+   "iso": "IRN",
+   "name": "Iran",
+   "n": 22,
+   "all": 52,
+   "pop_m": 82.91,
+   "per_m": 0.27,
+   "cont": "Asia",
+   "per_10m": 2.65
+  },
+  "PRT": {
+   "iso": "PRT",
+   "name": "Portugal",
+   "n": 21,
+   "all": 53,
+   "pop_m": 10.27,
+   "per_m": 2.04,
+   "cont": "Europe"
+  },
+  "HRV": {
+   "iso": "HRV",
+   "name": "Croatia",
+   "n": 20,
+   "all": 41,
+   "pop_m": 4.07,
+   "per_m": 4.92,
+   "cont": "Europe"
+  },
+  "ROU": {
+   "iso": "ROU",
+   "name": "Romania",
+   "n": 20,
+   "all": 28,
+   "pop_m": 19.36,
+   "per_m": 1.03,
+   "cont": "Europe"
+  },
+  "IRQ": {
+   "iso": "IRQ",
+   "name": "Iraq",
+   "n": 20,
+   "all": 64,
+   "pop_m": 39.31,
+   "per_m": 0.51,
+   "cont": "Asia"
+  },
+  "KOR": {
+   "iso": "KOR",
+   "name": "South Korea",
+   "n": 19,
+   "all": 53,
+   "pop_m": 51.71,
+   "per_m": 0.37,
+   "cont": "Asia",
+   "per_10m": 3.67
+  },
+  "HKG": {
+   "iso": "HKG",
+   "name": "Hong Kong",
+   "n": 19,
+   "all": 33,
+   "pop_m": 7.51,
+   "per_m": 2.53,
+   "cont": "Asia"
+  },
+  "ISL": {
+   "iso": "ISL",
+   "name": "Iceland",
+   "n": 19,
+   "all": 26,
+   "pop_m": 0.36,
+   "per_m": 52.59,
+   "cont": "Europe"
+  },
+  "PER": {
+   "iso": "PER",
+   "name": "Peru",
+   "n": 19,
+   "all": 40,
+   "pop_m": 32.51,
+   "per_m": 0.58,
+   "cont": "South America"
+  },
+  "CHL": {
+   "iso": "CHL",
+   "name": "Chile",
+   "n": 18,
+   "all": 29,
+   "pop_m": 18.95,
+   "per_m": 0.95,
+   "cont": "South America"
+  },
+  "BIH": {
+   "iso": "BIH",
+   "name": "Bosnia and Herzegovina",
+   "n": 17,
+   "all": 31,
+   "pop_m": 3.3,
+   "per_m": 5.15,
+   "cont": "Europe"
+  },
+  "UKR": {
+   "iso": "UKR",
+   "name": "Ukraine",
+   "n": 17,
+   "all": 51,
+   "pop_m": 44.39,
+   "per_m": 0.38,
+   "cont": "Europe"
+  },
+  "KOS": {
+   "iso": "KOS",
+   "name": "Kosovo",
+   "n": 14,
+   "all": 18,
+   "pop_m": 1.79,
+   "per_m": 7.8,
+   "cont": "Europe"
+  },
+  "COL": {
+   "iso": "COL",
+   "name": "Colombia",
+   "n": 14,
+   "all": 60,
+   "pop_m": 50.34,
+   "per_m": 0.28,
+   "cont": "South America",
+   "per_10m": 2.78
+  },
+  "GHA": {
+   "iso": "GHA",
+   "name": "Ghana",
+   "n": 13,
+   "all": 18,
+   "pop_m": 30.42,
+   "per_m": 0.43,
+   "cont": "Africa"
+  },
+  "CUB": {
+   "iso": "CUB",
+   "name": "Cuba",
+   "n": 13,
+   "all": 24,
+   "pop_m": 11.33,
+   "per_m": 1.15,
+   "cont": "North America"
+  },
+  "PAK": {
+   "iso": "PAK",
+   "name": "Pakistan",
+   "n": 13,
+   "all": 23,
+   "pop_m": 216.57,
+   "per_m": 0.06,
+   "cont": "Asia",
+   "per_10m": 0.6
+  },
+  "NZL": {
+   "iso": "NZL",
+   "name": "New Zealand",
+   "n": 13,
+   "all": 24,
+   "pop_m": 4.92,
+   "per_m": 2.64,
+   "cont": "Oceania"
+  },
+  "SOM": {
+   "iso": "SOM",
+   "name": "Somalia",
+   "n": 11,
+   "all": 12,
+   "pop_m": 10.19,
+   "per_m": 1.08,
+   "cont": "Africa"
+  },
+  "DZA": {
+   "iso": "DZA",
+   "name": "Algeria",
+   "n": 11,
+   "all": 25,
+   "pop_m": 43.05,
+   "per_m": 0.26,
+   "cont": "Africa"
+  },
+  "AFG": {
+   "iso": "AFG",
+   "name": "Afghanistan",
+   "n": 11,
+   "all": 19,
+   "pop_m": 38.04,
+   "per_m": 0.29,
+   "cont": "Asia"
+  },
+  "HUN": {
+   "iso": "HUN",
+   "name": "Hungary",
+   "n": 11,
+   "all": 24,
+   "pop_m": 9.77,
+   "per_m": 1.13,
+   "cont": "Europe"
+  },
+  "ETH": {
+   "iso": "ETH",
+   "name": "Ethiopia",
+   "n": 9,
+   "all": 13,
+   "pop_m": 112.08,
+   "per_m": 0.08,
+   "cont": "Africa",
+   "per_10m": 0.8
+  },
+  "MAR": {
+   "iso": "MAR",
+   "name": "Morocco",
+   "n": 9,
+   "all": 16,
+   "pop_m": 36.47,
+   "per_m": 0.25,
+   "cont": "Africa"
+  },
+  "PSE": {
+   "iso": "PSE",
+   "name": "Palestine",
+   "n": 8,
+   "all": 20,
+   "pop_m": 4.69,
+   "per_m": 1.71,
+   "cont": "Asia"
+  },
+  "THA": {
+   "iso": "THA",
+   "name": "Thailand",
+   "n": 8,
+   "all": 16,
+   "pop_m": 69.63,
+   "per_m": 0.11,
+   "cont": "Asia",
+   "per_10m": 1.15
+  },
+  "HTI": {
+   "iso": "HTI",
+   "name": "Haiti",
+   "n": 8,
+   "all": 12,
+   "pop_m": 11.26,
+   "per_m": 0.71,
+   "cont": "North America"
+  },
+  "SYR": {
+   "iso": "SYR",
+   "name": "Syria",
+   "n": 8,
+   "all": 28,
+   "pop_m": 17.07,
+   "per_m": 0.47,
+   "cont": "Asia"
+  },
+  "TZA": {
+   "iso": "TZA",
+   "name": "Tanzania",
+   "n": 7,
+   "all": 13,
+   "pop_m": 58.01,
+   "per_m": 0.12,
+   "cont": "Africa",
+   "per_10m": 1.21
+  },
+  "BGR": {
+   "iso": "BGR",
+   "name": "Bulgaria",
+   "n": 7,
+   "all": 13,
+   "pop_m": 6.98,
+   "per_m": 1.0,
+   "cont": "Europe"
+  },
+  "ALB": {
+   "iso": "ALB",
+   "name": "Albania",
+   "n": 7,
+   "all": 8,
+   "pop_m": 2.85,
+   "per_m": 2.45,
+   "cont": "Europe"
+  },
+  "ATA": {
+   "iso": "ATA",
+   "name": "Antarctica",
+   "n": 7,
+   "all": 17,
+   "pop_m": 0.0,
+   "per_m": 1559.02,
+   "cont": "Antarctica"
+  },
+  "AGO": {
+   "iso": "AGO",
+   "name": "Angola",
+   "n": 6,
+   "all": 8,
+   "pop_m": 31.83,
+   "per_m": 0.19,
+   "cont": "Africa"
+  },
+  "SEN": {
+   "iso": "SEN",
+   "name": "Senegal",
+   "n": 6,
+   "all": 8,
+   "pop_m": 16.3,
+   "per_m": 0.37,
+   "cont": "Africa"
+  },
+  "COG": {
+   "iso": "COG",
+   "name": "Congo",
+   "n": 5,
+   "all": 7,
+   "pop_m": 5.38,
+   "per_m": 0.93,
+   "cont": "Africa"
+  },
+  "NPL": {
+   "iso": "NPL",
+   "name": "Nepal",
+   "n": 5,
+   "all": 12,
+   "pop_m": 28.61,
+   "per_m": 0.17,
+   "cont": "Asia"
+  },
+  "LBN": {
+   "iso": "LBN",
+   "name": "Lebanon",
+   "n": 5,
+   "all": 16,
+   "pop_m": 6.86,
+   "per_m": 0.73,
+   "cont": "Asia"
+  },
+  "ZMB": {
+   "iso": "ZMB",
+   "name": "Zambia",
+   "n": 5,
+   "all": 7,
+   "pop_m": 17.86,
+   "per_m": 0.28,
+   "cont": "Africa"
+  },
+  "ZWE": {
+   "iso": "ZWE",
+   "name": "Zimbabwe",
+   "n": 5,
+   "all": 14,
+   "pop_m": 14.65,
+   "per_m": 0.34,
+   "cont": "Africa"
+  },
+  "MYS": {
+   "iso": "MYS",
+   "name": "Malaysia",
+   "n": 5,
+   "all": 15,
+   "pop_m": 31.95,
+   "per_m": 0.16,
+   "cont": "Asia"
+  },
+  "PRK": {
+   "iso": "PRK",
+   "name": "North Korea",
+   "n": 5,
+   "all": 19,
+   "pop_m": 25.67,
+   "per_m": 0.19,
+   "cont": "Asia"
+  },
+  "NIC": {
+   "iso": "NIC",
+   "name": "Nicaragua",
+   "n": 4,
+   "all": 7,
+   "pop_m": 6.55,
+   "per_m": 0.61,
+   "cont": "North America"
+  },
+  "PNG": {
+   "iso": "PNG",
+   "name": "Papua New Guinea",
+   "n": 4,
+   "all": 7,
+   "pop_m": 8.78,
+   "per_m": 0.46,
+   "cont": "Oceania"
+  },
+  "NER": {
+   "iso": "NER",
+   "name": "Niger",
+   "n": 4,
+   "all": 5,
+   "pop_m": 23.31,
+   "per_m": 0.17,
+   "cont": "Africa"
+  },
+  "MOZ": {
+   "iso": "MOZ",
+   "name": "Mozambique",
+   "n": 4,
+   "all": 14,
+   "pop_m": 30.37,
+   "per_m": 0.13,
+   "cont": "Africa"
+  },
+  "JAM": {
+   "iso": "JAM",
+   "name": "Jamaica",
+   "n": 4,
+   "all": 8,
+   "pop_m": 2.95,
+   "per_m": 1.36,
+   "cont": "North America"
+  },
+  "RWA": {
+   "iso": "RWA",
+   "name": "Rwanda",
+   "n": 4,
+   "all": 4,
+   "pop_m": 12.63,
+   "per_m": 0.32,
+   "cont": "Africa"
+  },
+  "BDI": {
+   "iso": "BDI",
+   "name": "Burundi",
+   "n": 4,
+   "all": 5,
+   "pop_m": 11.53,
+   "per_m": 0.35,
+   "cont": "Africa"
+  },
+  "COD": {
+   "iso": "COD",
+   "name": "Democratic Republic of the Congo",
+   "n": 4,
+   "all": 12,
+   "pop_m": 86.79,
+   "per_m": 0.05,
+   "cont": "Africa",
+   "per_10m": 0.46
+  },
+  "MLI": {
+   "iso": "MLI",
+   "name": "Mali",
+   "n": 4,
+   "all": 4,
+   "pop_m": 19.66,
+   "per_m": 0.2,
+   "cont": "Africa"
+  },
+  "LVA": {
+   "iso": "LVA",
+   "name": "Latvia",
+   "n": 4,
+   "all": 7,
+   "pop_m": 1.91,
+   "per_m": 2.09,
+   "cont": "Europe"
+  },
+  "MMR": {
+   "iso": "MMR",
+   "name": "Myanmar",
+   "n": 3,
+   "all": 6,
+   "pop_m": 54.05,
+   "per_m": 0.06,
+   "cont": "Asia",
+   "per_10m": 0.56
+  },
+  "BWA": {
+   "iso": "BWA",
+   "name": "Botswana",
+   "n": 3,
+   "all": 4,
+   "pop_m": 2.3,
+   "per_m": 1.3,
+   "cont": "Africa"
+  },
+  "LKA": {
+   "iso": "LKA",
+   "name": "Sri Lanka",
+   "n": 3,
+   "all": 9,
+   "pop_m": 21.8,
+   "per_m": 0.14,
+   "cont": "Asia"
+  },
+  "KAZ": {
+   "iso": "KAZ",
+   "name": "Kazakhstan",
+   "n": 3,
+   "all": 7,
+   "pop_m": 18.51,
+   "per_m": 0.16,
+   "cont": "Asia"
+  },
+  "MCO": {
+   "iso": "MCO",
+   "name": "Monaco",
+   "n": 3,
+   "all": 6,
+   "pop_m": 0.04,
+   "per_m": 76.99,
+   "cont": "Europe"
+  },
+  "SAU": {
+   "iso": "SAU",
+   "name": "Saudi Arabia",
+   "n": 3,
+   "all": 10,
+   "pop_m": 34.27,
+   "per_m": 0.09,
+   "cont": "Asia"
+  },
+  "PAN": {
+   "iso": "PAN",
+   "name": "Panama",
+   "n": 3,
+   "all": 6,
+   "pop_m": 4.25,
+   "per_m": 0.71,
+   "cont": "North America"
+  },
+  "SVK": {
+   "iso": "SVK",
+   "name": "Slovakia",
+   "n": 3,
+   "all": 5,
+   "pop_m": 5.45,
+   "per_m": 0.55,
+   "cont": "Europe"
+  },
+  "PHL": {
+   "iso": "PHL",
+   "name": "Philippines",
+   "n": 3,
+   "all": 7,
+   "pop_m": 108.12,
+   "per_m": 0.03,
+   "cont": "Asia",
+   "per_10m": 0.28
+  },
+  "PRY": {
+   "iso": "PRY",
+   "name": "Paraguay",
+   "n": 3,
+   "all": 7,
+   "pop_m": 7.04,
+   "per_m": 0.43,
+   "cont": "South America"
+  },
+  "YEM": {
+   "iso": "YEM",
+   "name": "Yemen",
+   "n": 3,
+   "all": 3,
+   "pop_m": 29.16,
+   "per_m": 0.1,
+   "cont": "Asia"
+  },
+  "MNE": {
+   "iso": "MNE",
+   "name": "Montenegro",
+   "n": 3,
+   "all": 4,
+   "pop_m": 0.62,
+   "per_m": 4.82,
+   "cont": "Europe"
+  },
+  "SGP": {
+   "iso": "SGP",
+   "name": "Singapore",
+   "n": 3,
+   "all": 8,
+   "pop_m": 5.7,
+   "per_m": 0.53,
+   "cont": "Asia"
+  },
+  "MKD": {
+   "iso": "MKD",
+   "name": "North Macedonia",
+   "n": 3,
+   "all": 6,
+   "pop_m": 2.08,
+   "per_m": 1.44,
+   "cont": "Europe"
+  },
+  "AZE": {
+   "iso": "AZE",
+   "name": "Azerbaijan",
+   "n": 2,
+   "all": 5,
+   "pop_m": 10.02,
+   "per_m": 0.2,
+   "cont": "Asia"
+  },
+  "BLR": {
+   "iso": "BLR",
+   "name": "Belarus",
+   "n": 2,
+   "all": 7,
+   "pop_m": 9.47,
+   "per_m": 0.21,
+   "cont": "Europe"
+  },
+  "BGD": {
+   "iso": "BGD",
+   "name": "Bangladesh",
+   "n": 2,
+   "all": 3,
+   "pop_m": 163.05,
+   "per_m": 0.01,
+   "cont": "Asia",
+   "per_10m": 0.12
+  },
+  "CAF": {
+   "iso": "CAF",
+   "name": "Central African Republic",
+   "n": 2,
+   "all": 2,
+   "pop_m": 4.75,
+   "per_m": 0.42,
+   "cont": "Africa"
+  },
+  "URY": {
+   "iso": "URY",
+   "name": "Uruguay",
+   "n": 2,
+   "all": 5,
+   "pop_m": 3.46,
+   "per_m": 0.58,
+   "cont": "South America"
+  },
+  "VAT": {
+   "iso": "VAT",
+   "name": "Vatican City",
+   "n": 2,
+   "all": 5,
+   "pop_m": 0.0,
+   "per_m": 2424.24,
+   "cont": "Europe"
+  },
+  "TKM": {
+   "iso": "TKM",
+   "name": "Turkmenistan",
+   "n": 2,
+   "all": 2,
+   "pop_m": 5.94,
+   "per_m": 0.34,
+   "cont": "Asia"
+  },
+  "EST": {
+   "iso": "EST",
+   "name": "Estonia",
+   "n": 2,
+   "all": 5,
+   "pop_m": 1.33,
+   "per_m": 1.51,
+   "cont": "Europe"
+  },
+  "BHS": {
+   "iso": "BHS",
+   "name": "Bahamas",
+   "n": 2,
+   "all": 3,
+   "pop_m": 0.39,
+   "per_m": 5.14,
+   "cont": "North America"
+  },
+  "FJI": {
+   "iso": "FJI",
+   "name": "Fiji",
+   "n": 2,
+   "all": 4,
+   "pop_m": 0.89,
+   "per_m": 2.25,
+   "cont": "Oceania"
+  },
+  "KHM": {
+   "iso": "KHM",
+   "name": "Cambodia",
+   "n": 2,
+   "all": 4,
+   "pop_m": 16.49,
+   "per_m": 0.12,
+   "cont": "Asia"
+  },
+  "LTU": {
+   "iso": "LTU",
+   "name": "Lithuania",
+   "n": 2,
+   "all": 8,
+   "pop_m": 2.79,
+   "per_m": 0.72,
+   "cont": "Europe"
+  },
+  "VEN": {
+   "iso": "VEN",
+   "name": "Venezuela",
+   "n": 2,
+   "all": 3,
+   "pop_m": 28.52,
+   "per_m": 0.07,
+   "cont": "South America"
+  },
+  "SVN": {
+   "iso": "SVN",
+   "name": "Slovenia",
+   "n": 2,
+   "all": 5,
+   "pop_m": 2.09,
+   "per_m": 0.96,
+   "cont": "Europe"
+  },
+  "GIN": {
+   "iso": "GIN",
+   "name": "Guinea",
+   "n": 2,
+   "all": 3,
+   "pop_m": 12.77,
+   "per_m": 0.16,
+   "cont": "Africa"
+  },
+  "PYF": {
+   "iso": "PYF",
+   "name": "French Polynesia",
+   "n": 2,
+   "all": 8,
+   "pop_m": 0.28,
+   "per_m": 7.16,
+   "cont": "Oceania"
+  },
+  "GTM": {
+   "iso": "GTM",
+   "name": "Guatemala",
+   "n": 2,
+   "all": 4,
+   "pop_m": 16.6,
+   "per_m": 0.12,
+   "cont": "North America"
+  },
+  "MNG": {
+   "iso": "MNG",
+   "name": "Mongolia",
+   "n": 2,
+   "all": 5,
+   "pop_m": 3.23,
+   "per_m": 0.62,
+   "cont": "Asia"
+  },
+  "TUN": {
+   "iso": "TUN",
+   "name": "Tunisia",
+   "n": 2,
+   "all": 10,
+   "pop_m": 11.69,
+   "per_m": 0.17,
+   "cont": "Africa"
+  },
+  "ARM": {
+   "iso": "ARM",
+   "name": "Armenia",
+   "n": 1,
+   "all": 5,
+   "pop_m": 2.96,
+   "per_m": 0.34,
+   "cont": "Asia"
+  },
+  "BOL": {
+   "iso": "BOL",
+   "name": "Bolivia",
+   "n": 1,
+   "all": 3,
+   "pop_m": 11.51,
+   "per_m": 0.09,
+   "cont": "South America"
+  },
+  "BMU": {
+   "iso": "BMU",
+   "name": "Bermuda",
+   "n": 1,
+   "all": 2,
+   "pop_m": 0.06,
+   "per_m": 15.65,
+   "cont": "North America"
+  },
+  "BLZ": {
+   "iso": "BLZ",
+   "name": "Belize",
+   "n": 1,
+   "all": 1,
+   "pop_m": 0.39,
+   "per_m": 2.56,
+   "cont": "North America"
+  },
+  "MDA": {
+   "iso": "MDA",
+   "name": "Moldova",
+   "n": 1,
+   "all": 4,
+   "pop_m": 2.66,
+   "per_m": 0.38,
+   "cont": "Europe"
+  },
+  "MDG": {
+   "iso": "MDG",
+   "name": "Madagascar",
+   "n": 1,
+   "all": 4,
+   "pop_m": 26.97,
+   "per_m": 0.04,
+   "cont": "Africa"
+  },
+  "JOR": {
+   "iso": "JOR",
+   "name": "Jordan",
+   "n": 1,
+   "all": 4,
+   "pop_m": 10.1,
+   "per_m": 0.1,
+   "cont": "Asia"
+  },
+  "DJI": {
+   "iso": "DJI",
+   "name": "Djibouti",
+   "n": 1,
+   "all": 2,
+   "pop_m": 0.97,
+   "per_m": 1.03,
+   "cont": "Africa"
+  },
+  "CYP": {
+   "iso": "CYP",
+   "name": "Turkish Republic of Northern Cyprus",
+   "n": 1,
+   "all": 8,
+   "pop_m": 0.33,
+   "per_m": 3.07,
+   "cont": "Asia"
+  },
+  "ESH": {
+   "iso": "ESH",
+   "name": "Western Sahara",
+   "n": 1,
+   "all": 1,
+   "pop_m": 0.6,
+   "per_m": 1.66,
+   "cont": "Africa"
+  },
+  "DOM": {
+   "iso": "DOM",
+   "name": "Dominican Republic",
+   "n": 1,
+   "all": 6,
+   "pop_m": 10.74,
+   "per_m": 0.09,
+   "cont": "North America"
+  },
+  "GEO": {
+   "iso": "GEO",
+   "name": "Georgia",
+   "n": 1,
+   "all": 9,
+   "pop_m": 3.72,
+   "per_m": 0.27,
+   "cont": "Asia"
+  },
+  "GMB": {
+   "iso": "GMB",
+   "name": "Gambia",
+   "n": 1,
+   "all": 1,
+   "pop_m": 2.35,
+   "per_m": 0.43,
+   "cont": "Africa"
+  },
+  "GNB": {
+   "iso": "GNB",
+   "name": "Guinea-Bissau",
+   "n": 1,
+   "all": 1,
+   "pop_m": 1.92,
+   "per_m": 0.52,
+   "cont": "Africa"
+  },
+  "GNQ": {
+   "iso": "GNQ",
+   "name": "Equatorial Guinea",
+   "n": 1,
+   "all": 1,
+   "pop_m": 1.36,
+   "per_m": 0.74,
+   "cont": "Africa"
+  },
+  "GRD": {
+   "iso": "GRD",
+   "name": "Grenada",
+   "n": 1,
+   "all": 1,
+   "pop_m": 0.11,
+   "per_m": 8.93,
+   "cont": "North America"
+  },
+  "GRL": {
+   "iso": "GRL",
+   "name": "Greenland",
+   "n": 1,
+   "all": 4,
+   "pop_m": 0.06,
+   "per_m": 17.79,
+   "cont": "North America"
+  },
+  "COK": {
+   "iso": "COK",
+   "name": "Cook Islands",
+   "n": 1,
+   "all": 1,
+   "pop_m": 0.02,
+   "per_m": 57.28,
+   "cont": "Oceania"
+  },
+  "CIV": {
+   "iso": "CIV",
+   "name": "Ivory Coast",
+   "n": 1,
+   "all": 2,
+   "pop_m": 25.72,
+   "per_m": 0.04,
+   "cont": "Africa"
+  },
+  "LBR": {
+   "iso": "LBR",
+   "name": "Liberia",
+   "n": 1,
+   "all": 1,
+   "pop_m": 4.94,
+   "per_m": 0.2,
+   "cont": "Africa"
+  },
+  "LAO": {
+   "iso": "LAO",
+   "name": "Laos",
+   "n": 1,
+   "all": 2,
+   "pop_m": 7.17,
+   "per_m": 0.14,
+   "cont": "Asia"
+  },
+  "GUY": {
+   "iso": "GUY",
+   "name": "Guyana",
+   "n": 1,
+   "all": 5,
+   "pop_m": 0.78,
+   "per_m": 1.28,
+   "cont": "South America"
+  },
+  "OMN": {
+   "iso": "OMN",
+   "name": "Oman",
+   "n": 1,
+   "all": 1,
+   "pop_m": 4.97,
+   "per_m": 0.2,
+   "cont": "Asia"
+  },
+  "MLT": {
+   "iso": "MLT",
+   "name": "Malta",
+   "n": 1,
+   "all": 2,
+   "pop_m": 0.5,
+   "per_m": 1.99,
+   "cont": "Europe"
+  },
+  "MUS": {
+   "iso": "MUS",
+   "name": "Mauritius",
+   "n": 1,
+   "all": 3,
+   "pop_m": 1.27,
+   "per_m": 0.79,
+   "cont": "Seven seas (open ocean)"
+  },
+  "TJK": {
+   "iso": "TJK",
+   "name": "Tajikistan",
+   "n": 1,
+   "all": 1,
+   "pop_m": 9.32,
+   "per_m": 0.11,
+   "cont": "Asia"
+  },
+  "SUR": {
+   "iso": "SUR",
+   "name": "Suriname",
+   "n": 1,
+   "all": 2,
+   "pop_m": 0.58,
+   "per_m": 1.72,
+   "cont": "South America"
+  },
+  "SMR": {
+   "iso": "SMR",
+   "name": "San Marino",
+   "n": 1,
+   "all": 1,
+   "pop_m": 0.03,
+   "per_m": 29.53,
+   "cont": "Europe"
+  },
+  "SLE": {
+   "iso": "SLE",
+   "name": "Sierra Leone",
+   "n": 1,
+   "all": 3,
+   "pop_m": 7.81,
+   "per_m": 0.13,
+   "cont": "Africa"
+  },
+  "SDN": {
+   "iso": "SDN",
+   "name": "Sudan",
+   "n": 1,
+   "all": 7,
+   "pop_m": 42.81,
+   "per_m": 0.02,
+   "cont": "Africa"
+  },
+  "TTO": {
+   "iso": "TTO",
+   "name": "Trinidad and Tobago",
+   "n": 1,
+   "all": 2,
+   "pop_m": 1.39,
+   "per_m": 0.72,
+   "cont": "North America"
+  },
+  "UGA": {
+   "iso": "UGA",
+   "name": "Uganda",
+   "n": 1,
+   "all": 3,
+   "pop_m": 44.27,
+   "per_m": 0.02,
+   "cont": "Africa"
+  },
+  "UZB": {
+   "iso": "UZB",
+   "name": "Uzbekistan",
+   "n": 1,
+   "all": 2,
+   "pop_m": 33.58,
+   "per_m": 0.03,
+   "cont": "Asia"
+  }
+ },
+ "usa_gbr_pct": 45.82,
+ "countries_with_novel": 154,
+ "countries_total": 239,
+ "countries_none": [
+  "Benin",
+  "Burkina Faso",
+  "Cameroon",
+  "Chad",
+  "Malawi",
+  "South Sudan",
+  "Taiwan"
+ ],
+ "countries_none_n10m": 7,
+ "bias_top": [
+  {
+   "iso": "DNK",
+   "name": "Denmark",
+   "places": 476,
+   "places_pct": 11.73,
+   "pairs": 600,
+   "works": 211,
+   "novels": 57,
+   "pop_pct": 0.076,
+   "places_per_m": 81.8,
+   "sites": 318,
+   "streets": 131
+  },
+  {
+   "iso": "USA",
+   "name": "United States",
+   "places": 410,
+   "places_pct": 10.11,
+   "pairs": 3547,
+   "works": 3287,
+   "novels": 2151,
+   "pop_pct": 4.279,
+   "places_per_m": 1.2,
+   "sites": 98,
+   "streets": 4
+  },
+  {
+   "iso": "DEU",
+   "name": "Germany",
+   "places": 305,
+   "places_pct": 7.52,
+   "pairs": 745,
+   "works": 535,
+   "novels": 200,
+   "pop_pct": 1.084,
+   "places_per_m": 3.7,
+   "sites": 114,
+   "streets": 20
+  },
+  {
+   "iso": "FRA",
+   "name": "France",
+   "places": 298,
+   "places_pct": 7.35,
+   "pairs": 1792,
+   "works": 1552,
+   "novels": 669,
+   "pop_pct": 0.874,
+   "places_per_m": 4.4,
+   "sites": 72,
+   "streets": 15
+  },
+  {
+   "iso": "ITA",
+   "name": "Italy",
+   "places": 229,
+   "places_pct": 5.64,
+   "pairs": 1243,
+   "works": 1163,
+   "novels": 705,
+   "pop_pct": 0.786,
+   "places_per_m": 3.8,
+   "sites": 22,
+   "streets": 2
+  },
+  {
+   "iso": "GBR",
+   "name": "United Kingdom",
+   "places": 199,
+   "places_pct": 4.91,
+   "pairs": 1958,
+   "works": 1830,
+   "novels": 1216,
+   "pop_pct": 0.871,
+   "places_per_m": 3.0,
+   "sites": 64,
+   "streets": 3
+  },
+  {
+   "iso": "ESP",
+   "name": "Spain",
+   "places": 176,
+   "places_pct": 4.34,
+   "pairs": 730,
+   "works": 607,
+   "novels": 284,
+   "pop_pct": 0.614,
+   "places_per_m": 3.7,
+   "sites": 38,
+   "streets": 3
+  },
+  {
+   "iso": "SRB",
+   "name": "Serbia",
+   "places": 137,
+   "places_pct": 3.38,
+   "pairs": 326,
+   "works": 100,
+   "novels": 54,
+   "pop_pct": 0.091,
+   "places_per_m": 19.7,
+   "sites": 52,
+   "streets": 0
+  },
+  {
+   "iso": "JPN",
+   "name": "Japan",
+   "places": 121,
+   "places_pct": 2.98,
+   "pairs": 305,
+   "works": 259,
+   "novels": 86,
+   "pop_pct": 1.646,
+   "places_per_m": 1.0,
+   "sites": 50,
+   "streets": 0
+  },
+  {
+   "iso": "SWE",
+   "name": "Sweden",
+   "places": 93,
+   "places_pct": 2.29,
+   "pairs": 199,
+   "works": 124,
+   "novels": 91,
+   "pop_pct": 0.134,
+   "places_per_m": 9.0,
+   "sites": 27,
+   "streets": 0
+  },
+  {
+   "iso": "RUS",
+   "name": "Russia",
+   "places": 88,
+   "places_pct": 2.17,
+   "pairs": 408,
+   "works": 362,
+   "novels": 154,
+   "pop_pct": 1.882,
+   "places_per_m": 0.6,
+   "sites": 21,
+   "streets": 2
+  },
+  {
+   "iso": "CAN",
+   "name": "Canada",
+   "places": 71,
+   "places_pct": 1.75,
+   "pairs": 201,
+   "works": 179,
+   "novels": 73,
+   "pop_pct": 0.49,
+   "places_per_m": 1.9,
+   "sites": 13,
+   "streets": 0
+  },
+  {
+   "iso": "IDN",
+   "name": "Indonesia",
+   "places": 70,
+   "places_pct": 1.73,
+   "pairs": 100,
+   "works": 55,
+   "novels": 28,
+   "pop_pct": 3.528,
+   "places_per_m": 0.3,
+   "sites": 19,
+   "streets": 0
+  },
+  {
+   "iso": "IND",
+   "name": "India",
+   "places": 63,
+   "places_pct": 1.55,
+   "pairs": 285,
+   "works": 268,
+   "novels": 158,
+   "pop_pct": 17.813,
+   "places_per_m": 0.0,
+   "sites": 10,
+   "streets": 0
+  },
+  {
+   "iso": "GRC",
+   "name": "Greece",
+   "places": 58,
+   "places_pct": 1.43,
+   "pairs": 200,
+   "works": 188,
+   "novels": 41,
+   "pop_pct": 0.14,
+   "places_per_m": 5.4,
+   "sites": 6,
+   "streets": 0
+  }
+ ],
+ "bias": {
+  "DNK": {
+   "name": "Denmark",
+   "places": 476,
+   "places_pct": 11.73,
+   "pairs": 600,
+   "works": 211,
+   "novels": 57,
+   "pop_pct": 0.076,
+   "places_per_m": 81.8,
+   "sites": 318,
+   "streets": 131,
+   "iso": "DNK"
+  },
+  "SRB": {
+   "name": "Serbia",
+   "places": 137,
+   "places_pct": 3.38,
+   "pairs": 326,
+   "works": 100,
+   "novels": 54,
+   "pop_pct": 0.091,
+   "places_per_m": 19.7,
+   "sites": 52,
+   "streets": 0,
+   "iso": "SRB"
+  },
+  "USA": {
+   "name": "United States",
+   "places": 410,
+   "places_pct": 10.11,
+   "pairs": 3547,
+   "works": 3287,
+   "novels": 2151,
+   "pop_pct": 4.279,
+   "places_per_m": 1.2,
+   "sites": 98,
+   "streets": 4,
+   "iso": "USA"
+  },
+  "FRA": {
+   "name": "France",
+   "places": 298,
+   "places_pct": 7.35,
+   "pairs": 1792,
+   "works": 1552,
+   "novels": 669,
+   "pop_pct": 0.874,
+   "places_per_m": 4.4,
+   "sites": 72,
+   "streets": 15,
+   "iso": "FRA"
+  },
+  "GBR": {
+   "name": "United Kingdom",
+   "places": 199,
+   "places_pct": 4.91,
+   "pairs": 1958,
+   "works": 1830,
+   "novels": 1216,
+   "pop_pct": 0.871,
+   "places_per_m": 3.0,
+   "sites": 64,
+   "streets": 3,
+   "iso": "GBR"
+  },
+  "DEU": {
+   "name": "Germany",
+   "places": 305,
+   "places_pct": 7.52,
+   "pairs": 745,
+   "works": 535,
+   "novels": 200,
+   "pop_pct": 1.084,
+   "places_per_m": 3.7,
+   "sites": 114,
+   "streets": 20,
+   "iso": "DEU"
+  },
+  "ITA": {
+   "name": "Italy",
+   "places": 229,
+   "places_pct": 5.64,
+   "pairs": 1243,
+   "works": 1163,
+   "novels": 705,
+   "pop_pct": 0.786,
+   "places_per_m": 3.8,
+   "sites": 22,
+   "streets": 2,
+   "iso": "ITA"
+  },
+  "CHN": {
+   "name": "China",
+   "places": 47,
+   "places_pct": 1.16,
+   "pairs": 220,
+   "works": 207,
+   "novels": 111,
+   "pop_pct": 18.222,
+   "places_per_m": 0.0,
+   "sites": 7,
+   "streets": 0,
+   "iso": "CHN"
+  },
+  "IND": {
+   "name": "India",
+   "places": 63,
+   "places_pct": 1.55,
+   "pairs": 285,
+   "works": 268,
+   "novels": 158,
+   "pop_pct": 17.813,
+   "places_per_m": 0.0,
+   "sites": 10,
+   "streets": 0,
+   "iso": "IND"
+  },
+  "NGA": {
+   "name": "Nigeria",
+   "places": 10,
+   "places_pct": 0.25,
+   "pairs": 109,
+   "works": 109,
+   "novels": 79,
+   "pop_pct": 2.62,
+   "places_per_m": 0.0,
+   "sites": 0,
+   "streets": 0,
+   "iso": "NGA"
+  },
+  "IDN": {
+   "name": "Indonesia",
+   "places": 70,
+   "places_pct": 1.73,
+   "pairs": 100,
+   "works": 55,
+   "novels": 28,
+   "pop_pct": 3.528,
+   "places_per_m": 0.3,
+   "sites": 19,
+   "streets": 0,
+   "iso": "IDN"
+  },
+  "BRA": {
+   "name": "Brazil",
+   "places": 27,
+   "places_pct": 0.67,
+   "pairs": 107,
+   "works": 102,
+   "novels": 48,
+   "pop_pct": 2.751,
+   "places_per_m": 0.1,
+   "sites": 3,
+   "streets": 0,
+   "iso": "BRA"
+  },
+  "PAK": {
+   "name": "Pakistan",
+   "places": 4,
+   "places_pct": 0.1,
+   "pairs": 23,
+   "works": 23,
+   "novels": 13,
+   "pop_pct": 2.823,
+   "places_per_m": 0.0,
+   "sites": 1,
+   "streets": 0,
+   "iso": "PAK"
+  },
+  "dnk_vs": {
+   "chn_ind_places": 110,
+   "dnk_places": 476,
+   "dnk_x_pop": 154.3,
+   "srb_x_pop": 37.1,
+   "dnk_srb_places_pct": 15.1
+  }
+ },
+ "bias_per_m": [
+  {
+   "iso": "DNK",
+   "name": "Denmark",
+   "places": 476,
+   "places_per_m": 81.8
+  },
+  {
+   "iso": "SRB",
+   "name": "Serbia",
+   "places": 137,
+   "places_per_m": 19.7
+  },
+  {
+   "iso": "SWE",
+   "name": "Sweden",
+   "places": 93,
+   "places_per_m": 9.0
+  },
+  {
+   "iso": "BIH",
+   "name": "Bosnia and Herzegovina",
+   "places": 23,
+   "places_per_m": 7.0
+  },
+  {
+   "iso": "HRV",
+   "name": "Croatia",
+   "places": 25,
+   "places_per_m": 6.1
+  },
+  {
+   "iso": "IRL",
+   "name": "Ireland",
+   "places": 28,
+   "places_per_m": 5.7
+  },
+  {
+   "iso": "CHE",
+   "name": "Switzerland",
+   "places": 46,
+   "places_per_m": 5.4
+  },
+  {
+   "iso": "GRC",
+   "name": "Greece",
+   "places": 58,
+   "places_per_m": 5.4
+  },
+  {
+   "iso": "FRA",
+   "name": "France",
+   "places": 298,
+   "places_per_m": 4.4
+  },
+  {
+   "iso": "FIN",
+   "name": "Finland",
+   "places": 24,
+   "places_per_m": 4.3
+  }
+ ],
+ "bias_lang": [
+  {
+   "lang": "English",
+   "works": 5787,
+   "pairs": 6515,
+   "places": 1090,
+   "per_work": 1.13
+  },
+  {
+   "lang": "French",
+   "works": 1688,
+   "pairs": 2414,
+   "places": 637,
+   "per_work": 1.43
+  },
+  {
+   "lang": "Italian",
+   "works": 893,
+   "pairs": 962,
+   "places": 347,
+   "per_work": 1.08
+  },
+  {
+   "lang": "German",
+   "works": 688,
+   "pairs": 987,
+   "places": 528,
+   "per_work": 1.43
+  },
+  {
+   "lang": "Spanish",
+   "works": 648,
+   "pairs": 817,
+   "places": 264,
+   "per_work": 1.26
+  },
+  {
+   "lang": "Russian",
+   "works": 310,
+   "pairs": 438,
+   "places": 220,
+   "per_work": 1.41
+  },
+  {
+   "lang": "Danish",
+   "works": 222,
+   "pairs": 669,
+   "places": 555,
+   "per_work": 3.01
+  },
+  {
+   "lang": "Serbian",
+   "works": 112,
+   "pairs": 612,
+   "places": 274,
+   "per_work": 5.46
+  },
+  {
+   "lang": "Swedish",
+   "works": 129,
+   "pairs": 204,
+   "places": 105,
+   "per_work": 1.58
+  },
+  {
+   "lang": "Japanese",
+   "works": 202,
+   "pairs": 247,
+   "places": 121,
+   "per_work": 1.22
+  }
+ ],
+ "danish": {
+  "works": 222,
+  "places": 555,
+  "places_in_dnk": 451,
+  "top_work": "Koordinater",
+  "top_work_places": 53,
+  "top_work_year": 2013.0,
+  "dnk_places_from_danish_pct": 94.75
+ },
+ "serbian": {
+  "works": 112,
+  "places": 274,
+  "novels": 60,
+  "years": [
+   1844,
+   1917
+  ],
+  "pre1930_pct": 95.54,
+  "srb_places_from_serbian_pct": 89.05
+ },
+ "most_places": [
+  {
+   "title": "The Wonderful Adventures of Nils",
+   "q": "Q726254",
+   "n": 75,
+   "year": 1906,
+   "langs": [
+    "Swedish"
+   ]
+  },
+  {
+   "title": "Q122312867",
+   "q": "Q122312867",
+   "n": 70,
+   "year": 1799,
+   "langs": [
+    "German"
+   ]
+  },
+  {
+   "title": "Doitsu nikki",
+   "q": "Q60183580",
+   "n": 56,
+   "year": 1888,
+   "langs": []
+  },
+  {
+   "title": "Koordinater",
+   "q": "Q21431164",
+   "n": 53,
+   "year": 2013,
+   "langs": [
+    "Danish"
+   ]
+  },
+  {
+   "title": "Legion of death: a novel from the Balkan War 1912/1913. (written by Branislav Jurišić)",
+   "q": "Q109336102",
+   "n": 38,
+   "year": 1920,
+   "langs": [
+    "Serbian"
+   ]
+  },
+  {
+   "title": "The Fall of the King",
+   "q": "Q1758876",
+   "n": 26,
+   "year": 1901,
+   "langs": [
+    "Danish",
+    "German",
+    "Jutlandic",
+    "Latin"
+   ]
+  },
+  {
+   "title": "Sengsara Membawa Nikmat",
+   "q": "Q7450606",
+   "n": 24,
+   "year": 1929,
+   "langs": [
+    "Indonesian"
+   ]
+  },
+  {
+   "title": "Q121358994",
+   "q": "Q121358994",
+   "n": 23,
+   "year": 1798,
+   "langs": [
+    "German"
+   ]
+  }
+ ],
+ "trio": [
+  {
+   "dec": 1800,
+   "n": 4,
+   "London": 0,
+   "London_pct": 0.0,
+   "Paris": 1,
+   "Paris_pct": 25.0,
+   "New York": 0,
+   "New York_pct": 0.0
+  },
+  {
+   "dec": 1810,
+   "n": 12,
+   "London": 0,
+   "London_pct": 0.0,
+   "Paris": 2,
+   "Paris_pct": 16.67,
+   "New York": 0,
+   "New York_pct": 0.0
+  },
+  {
+   "dec": 1820,
+   "n": 13,
+   "London": 0,
+   "London_pct": 0.0,
+   "Paris": 3,
+   "Paris_pct": 23.08,
+   "New York": 0,
+   "New York_pct": 0.0
+  },
+  {
+   "dec": 1830,
+   "n": 37,
+   "London": 2,
+   "London_pct": 5.41,
+   "Paris": 23,
+   "Paris_pct": 62.16,
+   "New York": 0,
+   "New York_pct": 0.0
+  },
+  {
+   "dec": 1840,
+   "n": 38,
+   "London": 6,
+   "London_pct": 15.79,
+   "Paris": 10,
+   "Paris_pct": 26.32,
+   "New York": 2,
+   "New York_pct": 5.26
+  },
+  {
+   "dec": 1850,
+   "n": 23,
+   "London": 3,
+   "London_pct": 13.04,
+   "Paris": 4,
+   "Paris_pct": 17.39,
+   "New York": 0,
+   "New York_pct": 0.0
+  },
+  {
+   "dec": 1860,
+   "n": 40,
+   "London": 2,
+   "London_pct": 5.0,
+   "Paris": 6,
+   "Paris_pct": 15.0,
+   "New York": 2,
+   "New York_pct": 5.0
+  },
+  {
+   "dec": 1870,
+   "n": 45,
+   "London": 3,
+   "London_pct": 6.67,
+   "Paris": 7,
+   "Paris_pct": 15.56,
+   "New York": 1,
+   "New York_pct": 2.22
+  },
+  {
+   "dec": 1880,
+   "n": 73,
+   "London": 4,
+   "London_pct": 5.48,
+   "Paris": 10,
+   "Paris_pct": 13.7,
+   "New York": 4,
+   "New York_pct": 5.48
+  },
+  {
+   "dec": 1890,
+   "n": 84,
+   "London": 11,
+   "London_pct": 13.1,
+   "Paris": 9,
+   "Paris_pct": 10.71,
+   "New York": 1,
+   "New York_pct": 1.19
+  },
+  {
+   "dec": 1900,
+   "n": 105,
+   "London": 7,
+   "London_pct": 6.67,
+   "Paris": 9,
+   "Paris_pct": 8.57,
+   "New York": 5,
+   "New York_pct": 4.76
+  },
+  {
+   "dec": 1910,
+   "n": 92,
+   "London": 10,
+   "London_pct": 10.87,
+   "Paris": 11,
+   "Paris_pct": 11.96,
+   "New York": 8,
+   "New York_pct": 8.7
+  },
+  {
+   "dec": 1920,
+   "n": 154,
+   "London": 22,
+   "London_pct": 14.29,
+   "Paris": 15,
+   "Paris_pct": 9.74,
+   "New York": 20,
+   "New York_pct": 12.99
+  },
+  {
+   "dec": 1930,
+   "n": 232,
+   "London": 45,
+   "London_pct": 19.4,
+   "Paris": 29,
+   "Paris_pct": 12.5,
+   "New York": 19,
+   "New York_pct": 8.19
+  },
+  {
+   "dec": 1940,
+   "n": 195,
+   "London": 18,
+   "London_pct": 9.23,
+   "Paris": 21,
+   "Paris_pct": 10.77,
+   "New York": 35,
+   "New York_pct": 17.95
+  },
+  {
+   "dec": 1950,
+   "n": 258,
+   "London": 21,
+   "London_pct": 8.14,
+   "Paris": 42,
+   "Paris_pct": 16.28,
+   "New York": 44,
+   "New York_pct": 17.05
+  },
+  {
+   "dec": 1960,
+   "n": 318,
+   "London": 36,
+   "London_pct": 11.32,
+   "Paris": 25,
+   "Paris_pct": 7.86,
+   "New York": 45,
+   "New York_pct": 14.15
+  },
+  {
+   "dec": 1970,
+   "n": 308,
+   "London": 31,
+   "London_pct": 10.06,
+   "Paris": 21,
+   "Paris_pct": 6.82,
+   "New York": 45,
+   "New York_pct": 14.61
+  },
+  {
+   "dec": 1980,
+   "n": 383,
+   "London": 49,
+   "London_pct": 12.79,
+   "Paris": 17,
+   "Paris_pct": 4.44,
+   "New York": 39,
+   "New York_pct": 10.18
+  },
+  {
+   "dec": 1990,
+   "n": 649,
+   "London": 75,
+   "London_pct": 11.56,
+   "Paris": 25,
+   "Paris_pct": 3.85,
+   "New York": 59,
+   "New York_pct": 9.09
+  },
+  {
+   "dec": 2000,
+   "n": 1041,
+   "London": 115,
+   "London_pct": 11.05,
+   "Paris": 60,
+   "Paris_pct": 5.76,
+   "New York": 111,
+   "New York_pct": 10.66
+  },
+  {
+   "dec": 2010,
+   "n": 659,
+   "London": 59,
+   "London_pct": 8.95,
+   "Paris": 32,
+   "Paris_pct": 4.86,
+   "New York": 39,
+   "New York_pct": 5.92
+  },
+  {
+   "dec": 2020,
+   "n": 175,
+   "London": 7,
+   "London_pct": 4.0,
+   "Paris": 7,
+   "Paris_pct": 4.0,
+   "New York": 14,
+   "New York_pct": 8.0
+  }
+ ],
+ "trio20": [
+  {
+   "from": 1830,
+   "to": 1849,
+   "n": 75,
+   "London": 8,
+   "London_pct": 10.67,
+   "Paris": 33,
+   "Paris_pct": 44.0,
+   "New York": 2,
+   "New York_pct": 2.67
+  },
+  {
+   "from": 1850,
+   "to": 1869,
+   "n": 63,
+   "London": 5,
+   "London_pct": 7.94,
+   "Paris": 10,
+   "Paris_pct": 15.87,
+   "New York": 2,
+   "New York_pct": 3.17
+  },
+  {
+   "from": 1870,
+   "to": 1889,
+   "n": 118,
+   "London": 7,
+   "London_pct": 5.93,
+   "Paris": 17,
+   "Paris_pct": 14.41,
+   "New York": 5,
+   "New York_pct": 4.24
+  },
+  {
+   "from": 1890,
+   "to": 1909,
+   "n": 189,
+   "London": 18,
+   "London_pct": 9.52,
+   "Paris": 18,
+   "Paris_pct": 9.52,
+   "New York": 6,
+   "New York_pct": 3.17
+  },
+  {
+   "from": 1910,
+   "to": 1929,
+   "n": 246,
+   "London": 32,
+   "London_pct": 13.01,
+   "Paris": 26,
+   "Paris_pct": 10.57,
+   "New York": 28,
+   "New York_pct": 11.38
+  },
+  {
+   "from": 1930,
+   "to": 1949,
+   "n": 427,
+   "London": 63,
+   "London_pct": 14.75,
+   "Paris": 50,
+   "Paris_pct": 11.71,
+   "New York": 54,
+   "New York_pct": 12.65
+  },
+  {
+   "from": 1950,
+   "to": 1969,
+   "n": 576,
+   "London": 57,
+   "London_pct": 9.9,
+   "Paris": 67,
+   "Paris_pct": 11.63,
+   "New York": 89,
+   "New York_pct": 15.45
+  },
+  {
+   "from": 1970,
+   "to": 1989,
+   "n": 691,
+   "London": 80,
+   "London_pct": 11.58,
+   "Paris": 38,
+   "Paris_pct": 5.5,
+   "New York": 84,
+   "New York_pct": 12.16
+  },
+  {
+   "from": 1990,
+   "to": 2009,
+   "n": 1690,
+   "London": 190,
+   "London_pct": 11.24,
+   "Paris": 85,
+   "Paris_pct": 5.03,
+   "New York": 170,
+   "New York_pct": 10.06
+  },
+  {
+   "from": 2010,
+   "to": 2026,
+   "n": 834,
+   "London": 66,
+   "London_pct": 7.91,
+   "Paris": 39,
+   "Paris_pct": 4.68,
+   "New York": 53,
+   "New York_pct": 6.35
+  }
+ ],
+ "trio_eras": {
+  "London_1800": 8.4,
+  "London_1900": 13.11,
+  "London_1950": 11.06,
+  "London_2000": 9.65,
+  "Paris_1800": 20.33,
+  "Paris_1900": 10.93,
+  "Paris_1950": 6.78,
+  "Paris_2000": 5.28,
+  "New York_1800": 2.71,
+  "New York_1900": 11.18,
+  "New York_1950": 12.11,
+  "New York_2000": 8.75,
+  "n_1800": 369,
+  "n_2000": 1875
+ },
+ "trio_ny_first_lead": 1940,
+ "trio_ny_lead_decs": [
+  1940,
+  1950,
+  1960,
+  1970,
+  2020
+ ],
+ "trio_london_lead_decs": [
+  1890,
+  1920,
+  1930,
+  1980,
+  1990,
+  2000,
+  2010
+ ],
+ "trio_paris_lead_decs": [
+  1860,
+  1870,
+  1880,
+  1900,
+  1910
+ ],
+ "home": {
+  "n": 6654,
+  "abroad": 2079,
+  "abroad_pct": 31.24,
+  "home_pct": 68.76,
+  "mixed": 232,
+  "only_abroad": 1847,
+  "pairs": 6147,
+  "median_km": 343,
+  "mean_km": 1713,
+  "within_50": 24.76,
+  "within_500": 57.78,
+  "over_5000": 13.29,
+  "over_10000": 173,
+  "only_abroad_pct": 27.76
+ },
+ "home_eras": [
+  {
+   "era": "1800 to 1849",
+   "n": 137,
+   "abroad_pct": 26.28,
+   "median_km": 204
+  },
+  {
+   "era": "1850 to 1899",
+   "n": 364,
+   "abroad_pct": 32.42,
+   "median_km": 296
+  },
+  {
+   "era": "1900 to 1949",
+   "n": 964,
+   "abroad_pct": 38.07,
+   "median_km": 304
+  },
+  {
+   "era": "1950 to 1999",
+   "n": 2446,
+   "abroad_pct": 28.37,
+   "median_km": 385
+  },
+  {
+   "era": "2000 on",
+   "n": 2314,
+   "abroad_pct": 31.98,
+   "median_km": 396
+  }
+ ],
+ "home_by_country": [
+  {
+   "iso": "UKR",
+   "name": "Ukraine",
+   "n": 51,
+   "abroad_pct": 94.12,
+   "median_km": 1697,
+   "top_abroad": [
+    [
+     "Russia",
+     11
+    ],
+    [
+     "United States",
+     9
+    ],
+    [
+     "Italy",
+     8
+    ]
+   ]
+  },
+  {
+   "iso": "BEL",
+   "name": "Belgium",
+   "n": 85,
+   "abroad_pct": 89.41,
+   "median_km": 305,
+   "top_abroad": [
+    [
+     "France",
+     64
+    ],
+    [
+     "United Kingdom",
+     3
+    ],
+    [
+     "China",
+     2
+    ]
+   ]
+  },
+  {
+   "iso": "AUS",
+   "name": "Australia",
+   "n": 62,
+   "abroad_pct": 79.03,
+   "median_km": 16327,
+   "top_abroad": [
+    [
+     "United Kingdom",
+     24
+    ],
+    [
+     "Germany",
+     4
+    ],
+    [
+     "Ireland",
+     3
+    ]
+   ]
+  },
+  {
+   "iso": "CAN",
+   "name": "Canada",
+   "n": 86,
+   "abroad_pct": 62.79,
+   "median_km": 797,
+   "top_abroad": [
+    [
+     "United States",
+     26
+    ],
+    [
+     "United Kingdom",
+     10
+    ],
+    [
+     "China",
+     5
+    ]
+   ]
+  },
+  {
+   "iso": "POL",
+   "name": "Poland",
+   "n": 50,
+   "abroad_pct": 60.0,
+   "median_km": 168,
+   "top_abroad": [
+    [
+     "Germany",
+     7
+    ],
+    [
+     "France",
+     4
+    ],
+    [
+     "United States",
+     4
+    ]
+   ]
+  },
+  {
+   "iso": "NGA",
+   "name": "Nigeria",
+   "n": 67,
+   "abroad_pct": 59.7,
+   "median_km": 5020,
+   "top_abroad": [
+    [
+     "Italy",
+     24
+    ],
+    [
+     "United Kingdom",
+     6
+    ],
+    [
+     "United States",
+     3
+    ]
+   ]
+  },
+  {
+   "iso": "IRL",
+   "name": "Ireland",
+   "n": 103,
+   "abroad_pct": 44.66,
+   "median_km": 456,
+   "top_abroad": [
+    [
+     "United Kingdom",
+     25
+    ],
+    [
+     "United States",
+     9
+    ],
+    [
+     "France",
+     5
+    ]
+   ]
+  },
+  {
+   "iso": "DEU",
+   "name": "Germany",
+   "n": 174,
+   "abroad_pct": 41.95,
+   "median_km": 307,
+   "top_abroad": [
+    [
+     "France",
+     12
+    ],
+    [
+     "United States",
+     11
+    ],
+    [
+     "Italy",
+     10
+    ]
+   ]
+  },
+  {
+   "iso": "RUS",
+   "name": "Russia",
+   "n": 112,
+   "abroad_pct": 34.82,
+   "median_km": 1066,
+   "top_abroad": [
+    [
+     "United States",
+     9
+    ],
+    [
+     "Germany",
+     8
+    ],
+    [
+     "France",
+     5
+    ]
+   ]
+  },
+  {
+   "iso": "FRA",
+   "name": "France",
+   "n": 488,
+   "abroad_pct": 31.15,
+   "median_km": 208,
+   "top_abroad": [
+    [
+     "Egypt",
+     30
+    ],
+    [
+     "Italy",
+     21
+    ],
+    [
+     "United States",
+     21
+    ]
+   ]
+  },
+  {
+   "iso": "IND",
+   "name": "India",
+   "n": 110,
+   "abroad_pct": 30.0,
+   "median_km": 5976,
+   "top_abroad": [
+    [
+     "United Kingdom",
+     14
+    ],
+    [
+     "United States",
+     7
+    ],
+    [
+     "France",
+     3
+    ]
+   ]
+  },
+  {
+   "iso": "CHN",
+   "name": "China",
+   "n": 59,
+   "abroad_pct": 28.81,
+   "median_km": 8271,
+   "top_abroad": [
+    [
+     "United Kingdom",
+     6
+    ],
+    [
+     "Canada",
+     3
+    ],
+    [
+     "France",
+     3
+    ]
+   ]
+  },
+  {
+   "iso": "GBR",
+   "name": "United Kingdom",
+   "n": 1104,
+   "abroad_pct": 28.17,
+   "median_km": 155,
+   "top_abroad": [
+    [
+     "United States",
+     91
+    ],
+    [
+     "France",
+     39
+    ],
+    [
+     "Ireland",
+     32
+    ]
+   ]
+  },
+  {
+   "iso": "DNK",
+   "name": "Denmark",
+   "n": 50,
+   "abroad_pct": 28.0,
+   "median_km": 101,
+   "top_abroad": [
+    [
+     "Germany",
+     4
+    ],
+    [
+     "Italy",
+     3
+    ],
+    [
+     "France",
+     2
+    ]
+   ]
+  },
+  {
+   "iso": "ZAF",
+   "name": "South Africa",
+   "n": 52,
+   "abroad_pct": 25.0,
+   "median_km": 8674,
+   "top_abroad": [
+    [
+     "United Kingdom",
+     5
+    ],
+    [
+     "United States",
+     2
+    ],
+    [
+     "Spain",
+     2
+    ]
+   ]
+  },
+  {
+   "iso": "BRA",
+   "name": "Brazil",
+   "n": 40,
+   "abroad_pct": 22.5,
+   "median_km": 362,
+   "top_abroad": [
+    [
+     "France",
+     3
+    ],
+    [
+     "United States",
+     2
+    ],
+    [
+     "Egypt",
+     1
+    ]
+   ]
+  },
+  {
+   "iso": "USA",
+   "name": "United States",
+   "n": 2039,
+   "abroad_pct": 22.27,
+   "median_km": 1020,
+   "top_abroad": [
+    [
+     "United Kingdom",
+     143
+    ],
+    [
+     "France",
+     57
+    ],
+    [
+     "Italy",
+     48
+    ]
+   ]
+  },
+  {
+   "iso": "ITA",
+   "name": "Italy",
+   "n": 602,
+   "abroad_pct": 20.6,
+   "median_km": 64,
+   "top_abroad": [
+    [
+     "France",
+     16
+    ],
+    [
+     "United States",
+     10
+    ],
+    [
+     "Germany",
+     9
+    ]
+   ]
+  },
+  {
+   "iso": "JPN",
+   "name": "Japan",
+   "n": 66,
+   "abroad_pct": 16.67,
+   "median_km": 362,
+   "top_abroad": [
+    [
+     "United States",
+     4
+    ],
+    [
+     "China",
+     2
+    ],
+    [
+     "United Kingdom",
+     1
+    ]
+   ]
+  },
+  {
+   "iso": "ESP",
+   "name": "Spain",
+   "n": 262,
+   "abroad_pct": 16.41,
+   "median_km": 395,
+   "top_abroad": [
+    [
+     "France",
+     15
+    ],
+    [
+     "Italy",
+     7
+    ],
+    [
+     "United States",
+     5
+    ]
+   ]
+  },
+  {
+   "iso": "SWE",
+   "name": "Sweden",
+   "n": 91,
+   "abroad_pct": 13.19,
+   "median_km": 278,
+   "top_abroad": [
+    [
+     "United States",
+     3
+    ],
+    [
+     "Germany",
+     3
+    ],
+    [
+     "South Africa",
+     1
+    ]
+   ]
+  }
+ ],
+ "home_country": {
+  "UKR": {
+   "iso": "UKR",
+   "name": "Ukraine",
+   "n": 51,
+   "abroad_pct": 94.12,
+   "median_km": 1697,
+   "top_abroad": [
+    [
+     "Russia",
+     11
+    ],
+    [
+     "United States",
+     9
+    ],
+    [
+     "Italy",
+     8
+    ]
+   ]
+  },
+  "BEL": {
+   "iso": "BEL",
+   "name": "Belgium",
+   "n": 85,
+   "abroad_pct": 89.41,
+   "median_km": 305,
+   "top_abroad": [
+    [
+     "France",
+     64
+    ],
+    [
+     "United Kingdom",
+     3
+    ],
+    [
+     "China",
+     2
+    ]
+   ]
+  },
+  "AUS": {
+   "iso": "AUS",
+   "name": "Australia",
+   "n": 62,
+   "abroad_pct": 79.03,
+   "median_km": 16327,
+   "top_abroad": [
+    [
+     "United Kingdom",
+     24
+    ],
+    [
+     "Germany",
+     4
+    ],
+    [
+     "Ireland",
+     3
+    ]
+   ]
+  },
+  "CAN": {
+   "iso": "CAN",
+   "name": "Canada",
+   "n": 86,
+   "abroad_pct": 62.79,
+   "median_km": 797,
+   "top_abroad": [
+    [
+     "United States",
+     26
+    ],
+    [
+     "United Kingdom",
+     10
+    ],
+    [
+     "China",
+     5
+    ]
+   ]
+  },
+  "POL": {
+   "iso": "POL",
+   "name": "Poland",
+   "n": 50,
+   "abroad_pct": 60.0,
+   "median_km": 168,
+   "top_abroad": [
+    [
+     "Germany",
+     7
+    ],
+    [
+     "France",
+     4
+    ],
+    [
+     "United States",
+     4
+    ]
+   ]
+  },
+  "NGA": {
+   "iso": "NGA",
+   "name": "Nigeria",
+   "n": 67,
+   "abroad_pct": 59.7,
+   "median_km": 5020,
+   "top_abroad": [
+    [
+     "Italy",
+     24
+    ],
+    [
+     "United Kingdom",
+     6
+    ],
+    [
+     "United States",
+     3
+    ]
+   ]
+  },
+  "IRL": {
+   "iso": "IRL",
+   "name": "Ireland",
+   "n": 103,
+   "abroad_pct": 44.66,
+   "median_km": 456,
+   "top_abroad": [
+    [
+     "United Kingdom",
+     25
+    ],
+    [
+     "United States",
+     9
+    ],
+    [
+     "France",
+     5
+    ]
+   ]
+  },
+  "DEU": {
+   "iso": "DEU",
+   "name": "Germany",
+   "n": 174,
+   "abroad_pct": 41.95,
+   "median_km": 307,
+   "top_abroad": [
+    [
+     "France",
+     12
+    ],
+    [
+     "United States",
+     11
+    ],
+    [
+     "Italy",
+     10
+    ]
+   ]
+  },
+  "RUS": {
+   "iso": "RUS",
+   "name": "Russia",
+   "n": 112,
+   "abroad_pct": 34.82,
+   "median_km": 1066,
+   "top_abroad": [
+    [
+     "United States",
+     9
+    ],
+    [
+     "Germany",
+     8
+    ],
+    [
+     "France",
+     5
+    ]
+   ]
+  },
+  "FRA": {
+   "iso": "FRA",
+   "name": "France",
+   "n": 488,
+   "abroad_pct": 31.15,
+   "median_km": 208,
+   "top_abroad": [
+    [
+     "Egypt",
+     30
+    ],
+    [
+     "Italy",
+     21
+    ],
+    [
+     "United States",
+     21
+    ]
+   ]
+  },
+  "IND": {
+   "iso": "IND",
+   "name": "India",
+   "n": 110,
+   "abroad_pct": 30.0,
+   "median_km": 5976,
+   "top_abroad": [
+    [
+     "United Kingdom",
+     14
+    ],
+    [
+     "United States",
+     7
+    ],
+    [
+     "France",
+     3
+    ]
+   ]
+  },
+  "CHN": {
+   "iso": "CHN",
+   "name": "China",
+   "n": 59,
+   "abroad_pct": 28.81,
+   "median_km": 8271,
+   "top_abroad": [
+    [
+     "United Kingdom",
+     6
+    ],
+    [
+     "Canada",
+     3
+    ],
+    [
+     "France",
+     3
+    ]
+   ]
+  },
+  "GBR": {
+   "iso": "GBR",
+   "name": "United Kingdom",
+   "n": 1104,
+   "abroad_pct": 28.17,
+   "median_km": 155,
+   "top_abroad": [
+    [
+     "United States",
+     91
+    ],
+    [
+     "France",
+     39
+    ],
+    [
+     "Ireland",
+     32
+    ]
+   ]
+  },
+  "DNK": {
+   "iso": "DNK",
+   "name": "Denmark",
+   "n": 50,
+   "abroad_pct": 28.0,
+   "median_km": 101,
+   "top_abroad": [
+    [
+     "Germany",
+     4
+    ],
+    [
+     "Italy",
+     3
+    ],
+    [
+     "France",
+     2
+    ]
+   ]
+  },
+  "ZAF": {
+   "iso": "ZAF",
+   "name": "South Africa",
+   "n": 52,
+   "abroad_pct": 25.0,
+   "median_km": 8674,
+   "top_abroad": [
+    [
+     "United Kingdom",
+     5
+    ],
+    [
+     "United States",
+     2
+    ],
+    [
+     "Spain",
+     2
+    ]
+   ]
+  },
+  "BRA": {
+   "iso": "BRA",
+   "name": "Brazil",
+   "n": 40,
+   "abroad_pct": 22.5,
+   "median_km": 362,
+   "top_abroad": [
+    [
+     "France",
+     3
+    ],
+    [
+     "United States",
+     2
+    ],
+    [
+     "Egypt",
+     1
+    ]
+   ]
+  },
+  "USA": {
+   "iso": "USA",
+   "name": "United States",
+   "n": 2039,
+   "abroad_pct": 22.27,
+   "median_km": 1020,
+   "top_abroad": [
+    [
+     "United Kingdom",
+     143
+    ],
+    [
+     "France",
+     57
+    ],
+    [
+     "Italy",
+     48
+    ]
+   ]
+  },
+  "ITA": {
+   "iso": "ITA",
+   "name": "Italy",
+   "n": 602,
+   "abroad_pct": 20.6,
+   "median_km": 64,
+   "top_abroad": [
+    [
+     "France",
+     16
+    ],
+    [
+     "United States",
+     10
+    ],
+    [
+     "Germany",
+     9
+    ]
+   ]
+  },
+  "JPN": {
+   "iso": "JPN",
+   "name": "Japan",
+   "n": 66,
+   "abroad_pct": 16.67,
+   "median_km": 362,
+   "top_abroad": [
+    [
+     "United States",
+     4
+    ],
+    [
+     "China",
+     2
+    ],
+    [
+     "United Kingdom",
+     1
+    ]
+   ]
+  },
+  "ESP": {
+   "iso": "ESP",
+   "name": "Spain",
+   "n": 262,
+   "abroad_pct": 16.41,
+   "median_km": 395,
+   "top_abroad": [
+    [
+     "France",
+     15
+    ],
+    [
+     "Italy",
+     7
+    ],
+    [
+     "United States",
+     5
+    ]
+   ]
+  },
+  "SWE": {
+   "iso": "SWE",
+   "name": "Sweden",
+   "n": 91,
+   "abroad_pct": 13.19,
+   "median_km": 278,
+   "top_abroad": [
+    [
+     "United States",
+     3
+    ],
+    [
+     "Germany",
+     3
+    ],
+    [
+     "South Africa",
+     1
+    ]
+   ]
+  }
+ },
+ "farthest": [
+  {
+   "title": "Death at the Bar",
+   "q": "Q5247299",
+   "km": 19174,
+   "author": "Ngaio Marsh",
+   "place": "Devon",
+   "place_country": "United Kingdom",
+   "born": "New Zealand",
+   "year": 1940
+  },
+  {
+   "title": "Swing Brother Swing",
+   "q": "Q7658550",
+   "km": 18976,
+   "author": "Ngaio Marsh",
+   "place": "London",
+   "place_country": "United Kingdom",
+   "born": "New Zealand",
+   "year": 1949
+  },
+  {
+   "title": "Surfeit of Lampreys",
+   "q": "Q7646079",
+   "km": 18976,
+   "author": "Ngaio Marsh",
+   "place": "London",
+   "place_country": "United Kingdom",
+   "born": "New Zealand",
+   "year": 1941
+  },
+  {
+   "title": "Opening Night",
+   "q": "Q7096512",
+   "km": 18976,
+   "author": "Ngaio Marsh",
+   "place": "London",
+   "place_country": "United Kingdom",
+   "born": "New Zealand",
+   "year": 1951
+  },
+  {
+   "title": "False Scent",
+   "q": "Q5432666",
+   "km": 18976,
+   "author": "Ngaio Marsh",
+   "place": "London",
+   "place_country": "United Kingdom",
+   "born": "New Zealand",
+   "year": 1960
+  },
+  {
+   "title": "Death in a White Tie",
+   "q": "Q5247360",
+   "km": 18976,
+   "author": "Ngaio Marsh",
+   "place": "London",
+   "place_country": "United Kingdom",
+   "born": "New Zealand",
+   "year": 1938
+  },
+  {
+   "title": "Light Thickens",
+   "q": "Q15052542",
+   "km": 18976,
+   "author": "Ngaio Marsh",
+   "place": "London",
+   "place_country": "United Kingdom",
+   "born": "New Zealand",
+   "year": 1982
+  },
+  {
+   "title": "The Tournament",
+   "q": "Q7769717",
+   "km": 18930,
+   "author": "John Clarke",
+   "place": "Paris",
+   "place_country": "France",
+   "born": "New Zealand",
+   "year": 2002
+  },
+  {
+   "title": "Amorality Tale",
+   "q": "Q4747643",
+   "km": 18785,
+   "author": "David Bishop",
+   "place": "London",
+   "place_country": "United Kingdom",
+   "born": "New Zealand",
+   "year": 2002
+  },
+  {
+   "title": "When in Rome",
+   "q": "Q7992944",
+   "km": 18387,
+   "author": "Ngaio Marsh",
+   "place": "Rome",
+   "place_country": "Italy",
+   "born": "New Zealand",
+   "year": 1970
+  }
+ ],
+ "authors_far": [
+  {
+   "author": "Ngaio Marsh",
+   "q": "Q234392",
+   "novels": 8,
+   "median_km": 18976,
+   "born": "New Zealand"
+  },
+  {
+   "author": "P. L. Travers",
+   "q": "Q228901",
+   "novels": 7,
+   "median_km": 16327,
+   "born": "Australia"
+  },
+  {
+   "author": "Bharati Mukherjee",
+   "q": "Q4357833",
+   "novels": 6,
+   "median_km": 12573,
+   "born": "India"
+  },
+  {
+   "author": "Luis Sepúlveda",
+   "q": "Q334126",
+   "novels": 3,
+   "median_km": 11995,
+   "born": "Chile"
+  },
+  {
+   "author": "Roberto Bolaño",
+   "q": "Q297532",
+   "novels": 4,
+   "median_km": 11157,
+   "born": "Chile"
+  },
+  {
+   "author": "Y. S. Lee",
+   "q": "Q108917054",
+   "novels": 4,
+   "median_km": 10851,
+   "born": "Singapore"
+  },
+  {
+   "author": "Cassandra Clare",
+   "q": "Q235364",
+   "novels": 9,
+   "median_km": 9855,
+   "born": "Iran"
+  },
+  {
+   "author": "Michel Houellebecq",
+   "q": "Q103114",
+   "novels": 3,
+   "median_km": 9293,
+   "born": "France"
+  },
+  {
+   "author": "Charles Bukowski",
+   "q": "Q76409",
+   "novels": 4,
+   "median_km": 9214,
+   "born": "Germany"
+  },
+  {
+   "author": "J. G. Ballard",
+   "q": "Q140201",
+   "novels": 4,
+   "median_km": 9196,
+   "born": "China"
+  },
+  {
+   "author": "James Blaylock",
+   "q": "Q979465",
+   "novels": 3,
+   "median_km": 8779,
+   "born": "United States"
+  },
+  {
+   "author": "K. W. Jeter",
+   "q": "Q1090406",
+   "novels": 3,
+   "median_km": 8756,
+   "born": "United States"
+  }
+ ],
+ "authors_near": [
+  {
+   "author": "Pierre Gamarra",
+   "novels": 39,
+   "median_km": 0,
+   "born": "France"
+  },
+  {
+   "author": "Gianrico Carofiglio",
+   "novels": 14,
+   "median_km": 0,
+   "born": "Italy"
+  },
+  {
+   "author": "Maurizio De Giovanni",
+   "novels": 13,
+   "median_km": 0,
+   "born": "Italy"
+  },
+  {
+   "author": "Fred Vargas",
+   "novels": 11,
+   "median_km": 0,
+   "born": "France"
+  },
+  {
+   "author": "Jo Nesbø",
+   "novels": 9,
+   "median_km": 0,
+   "born": "Norway"
+  },
+  {
+   "author": "Ruth Rendell",
+   "novels": 7,
+   "median_km": 0,
+   "born": "United Kingdom"
+  },
+  {
+   "author": "Federico Moccia",
+   "novels": 6,
+   "median_km": 0,
+   "born": "Italy"
+  },
+  {
+   "author": "Roddy Doyle",
+   "novels": 6,
+   "median_km": 0,
+   "born": "Ireland"
+  }
+ ],
+ "authors_far_n": 398,
+ "authors_top": [
+  {
+   "author": "Georges Simenon",
+   "q": "Q128790",
+   "novels": 69
+  },
+  {
+   "author": "Benito Pérez Galdós",
+   "q": "Q189869",
+   "novels": 52
+  },
+  {
+   "author": "Rex Stout",
+   "q": "Q337351",
+   "novels": 46
+  },
+  {
+   "author": "John Dickson Carr",
+   "q": "Q365664",
+   "novels": 41
+  },
+  {
+   "author": "Pierre Gamarra",
+   "q": "Q379958",
+   "novels": 39
+  },
+  {
+   "author": "Emilio Salgari",
+   "q": "Q309786",
+   "novels": 37
+  },
+  {
+   "author": "Honoré de Balzac",
+   "q": "Q9711",
+   "novels": 34
+  },
+  {
+   "author": "Jules Verne",
+   "q": "Q33977",
+   "novels": 32
+  },
+  {
+   "author": "Simon Scarrow",
+   "q": "Q513883",
+   "novels": 32
+  },
+  {
+   "author": "Elmore Leonard",
+   "q": "Q336519",
+   "novels": 29
+  },
+  {
+   "author": "Faith A. Oyedepo",
+   "q": "Q112667936",
+   "novels": 28
+  },
+  {
+   "author": "Christian Jacq",
+   "q": "Q366302",
+   "novels": 27
+  }
+ ],
+ "genres": {
+  "Crime and mystery": {
+   "genre": "Crime and mystery",
+   "n": 869,
+   "pct": 11.9,
+   "cities": [
+    [
+     "Paris",
+     95
+    ],
+    [
+     "London",
+     82
+    ],
+    [
+     "New York City",
+     59
+    ],
+    [
+     "Los Angeles",
+     43
+    ],
+    [
+     "Pittsburgh",
+     21
+    ],
+    [
+     "San Francisco",
+     14
+    ],
+    [
+     "Venice",
+     14
+    ],
+    [
+     "Rome",
+     12
+    ]
+   ],
+   "countries": [
+    [
+     "United States",
+     320
+    ],
+    [
+     "United Kingdom",
+     180
+    ],
+    [
+     "France",
+     130
+    ],
+    [
+     "Italy",
+     54
+    ],
+    [
+     "Spain",
+     32
+    ],
+    [
+     "Sweden",
+     28
+    ],
+    [
+     "Germany",
+     15
+    ],
+    [
+     "Norway",
+     11
+    ]
+   ],
+   "lift": [
+    [
+     "Miami",
+     8,
+     7.47
+    ],
+    [
+     "Oslo",
+     8,
+     6.11
+    ],
+    [
+     "Edinburgh",
+     9,
+     3.15
+    ],
+    [
+     "Venice",
+     14,
+     2.67
+    ],
+    [
+     "Los Angeles",
+     43,
+     2.58
+    ],
+    [
+     "Paris",
+     95,
+     1.89
+    ]
+   ],
+   "usa_pct": 36.82,
+   "gbr_pct": 20.71,
+   "point_pct": 82.97,
+   "large_pct": 18.99
+  },
+  "Science fiction": {
+   "genre": "Science fiction",
+   "n": 413,
+   "pct": 5.66,
+   "cities": [
+    [
+     "New York City",
+     42
+    ],
+    [
+     "London",
+     35
+    ],
+    [
+     "San Francisco",
+     27
+    ],
+    [
+     "Paris",
+     17
+    ],
+    [
+     "Los Angeles",
+     13
+    ],
+    [
+     "Rome",
+     7
+    ],
+    [
+     "Chicago",
+     7
+    ],
+    [
+     "Moscow",
+     5
+    ]
+   ],
+   "countries": [
+    [
+     "United States",
+     204
+    ],
+    [
+     "United Kingdom",
+     80
+    ],
+    [
+     "France",
+     27
+    ],
+    [
+     "Italy",
+     15
+    ],
+    [
+     "Japan",
+     9
+    ],
+    [
+     "Germany",
+     9
+    ],
+    [
+     "Russia",
+     7
+    ],
+    [
+     "China",
+     6
+    ]
+   ],
+   "lift": [
+    [
+     "San Francisco",
+     27,
+     3.51
+    ],
+    [
+     "Los Angeles",
+     13,
+     1.64
+    ],
+    [
+     "New York City",
+     42,
+     1.46
+    ],
+    [
+     "London",
+     35,
+     1.13
+    ],
+    [
+     "Paris",
+     17,
+     0.71
+    ]
+   ],
+   "usa_pct": 49.39,
+   "gbr_pct": 19.37,
+   "point_pct": 72.15,
+   "large_pct": 33.66
+  },
+  "Fantasy": {
+   "genre": "Fantasy",
+   "n": 361,
+   "pct": 4.95,
+   "cities": [
+    [
+     "London",
+     47
+    ],
+    [
+     "New York City",
+     28
+    ],
+    [
+     "Paris",
+     11
+    ],
+    [
+     "San Francisco",
+     11
+    ],
+    [
+     "Los Angeles",
+     7
+    ],
+    [
+     "Boston",
+     6
+    ],
+    [
+     "Henrietta",
+     6
+    ],
+    [
+     "Rome",
+     5
+    ]
+   ],
+   "countries": [
+    [
+     "United States",
+     132
+    ],
+    [
+     "United Kingdom",
+     121
+    ],
+    [
+     "France",
+     14
+    ],
+    [
+     "Ireland",
+     11
+    ],
+    [
+     "Poland",
+     9
+    ],
+    [
+     "Sweden",
+     8
+    ],
+    [
+     "Italy",
+     8
+    ],
+    [
+     "Russia",
+     5
+    ]
+   ],
+   "lift": [
+    [
+     "London",
+     47,
+     1.73
+    ],
+    [
+     "San Francisco",
+     11,
+     1.64
+    ],
+    [
+     "New York City",
+     28,
+     1.11
+    ],
+    [
+     "Paris",
+     11,
+     0.53
+    ]
+   ],
+   "usa_pct": 36.57,
+   "gbr_pct": 33.52,
+   "point_pct": 73.41,
+   "large_pct": 32.96
+  },
+  "Historical": {
+   "genre": "Historical",
+   "n": 586,
+   "pct": 8.03,
+   "cities": [
+    [
+     "Paris",
+     38
+    ],
+    [
+     "London",
+     35
+    ],
+    [
+     "New York City",
+     12
+    ],
+    [
+     "Rome",
+     9
+    ],
+    [
+     "Madrid",
+     7
+    ],
+    [
+     "Pittsburgh",
+     7
+    ],
+    [
+     "Boston",
+     6
+    ],
+    [
+     "Saint Petersburg",
+     6
+    ]
+   ],
+   "countries": [
+    [
+     "United States",
+     124
+    ],
+    [
+     "United Kingdom",
+     110
+    ],
+    [
+     "Italy",
+     68
+    ],
+    [
+     "France",
+     61
+    ],
+    [
+     "Germany",
+     37
+    ],
+    [
+     "Spain",
+     25
+    ],
+    [
+     "Russia",
+     24
+    ],
+    [
+     "Ireland",
+     12
+    ]
+   ],
+   "lift": [
+    [
+     "Paris",
+     38,
+     1.12
+    ],
+    [
+     "Rome",
+     9,
+     0.89
+    ],
+    [
+     "London",
+     35,
+     0.79
+    ],
+    [
+     "New York City",
+     12,
+     0.29
+    ]
+   ],
+   "usa_pct": 21.16,
+   "gbr_pct": 18.77,
+   "point_pct": 64.68,
+   "large_pct": 41.3,
+   "median_year": 1993,
+   "ancient": 120
+  },
+  "Horror and gothic": {
+   "genre": "Horror and gothic",
+   "n": 225,
+   "pct": 3.08,
+   "cities": [
+    [
+     "London",
+     24
+    ],
+    [
+     "New York City",
+     21
+    ],
+    [
+     "Los Angeles",
+     12
+    ],
+    [
+     "Paris",
+     11
+    ],
+    [
+     "Tokyo",
+     4
+    ],
+    [
+     "Madrid",
+     4
+    ],
+    [
+     "New Orleans",
+     3
+    ],
+    [
+     "San Francisco",
+     3
+    ]
+   ],
+   "countries": [
+    [
+     "United States",
+     131
+    ],
+    [
+     "United Kingdom",
+     49
+    ],
+    [
+     "France",
+     11
+    ],
+    [
+     "Spain",
+     6
+    ],
+    [
+     "Italy",
+     4
+    ],
+    [
+     "Japan",
+     4
+    ],
+    [
+     "Sweden",
+     4
+    ],
+    [
+     "Romania",
+     3
+    ]
+   ],
+   "lift": [
+    [
+     "Los Angeles",
+     12,
+     2.78
+    ],
+    [
+     "London",
+     24,
+     1.42
+    ],
+    [
+     "New York City",
+     21,
+     1.34
+    ],
+    [
+     "Paris",
+     11,
+     0.85
+    ]
+   ],
+   "usa_pct": 58.22,
+   "gbr_pct": 21.78,
+   "point_pct": 87.56,
+   "large_pct": 16.89
+  },
+  "Children and young adult": {
+   "genre": "Children and young adult",
+   "n": 275,
+   "pct": 3.77,
+   "cities": [
+    [
+     "London",
+     30
+    ],
+    [
+     "New York City",
+     20
+    ],
+    [
+     "Toulouse",
+     18
+    ],
+    [
+     "Boston",
+     6
+    ],
+    [
+     "Henrietta",
+     6
+    ],
+    [
+     "San Francisco",
+     5
+    ],
+    [
+     "Chicago",
+     5
+    ],
+    [
+     "Wrocław",
+     4
+    ]
+   ],
+   "countries": [
+    [
+     "United States",
+     105
+    ],
+    [
+     "United Kingdom",
+     64
+    ],
+    [
+     "France",
+     29
+    ],
+    [
+     "Germany",
+     11
+    ],
+    [
+     "Poland",
+     11
+    ],
+    [
+     "India",
+     8
+    ],
+    [
+     "Canada",
+     7
+    ],
+    [
+     "Sweden",
+     6
+    ]
+   ],
+   "lift": [
+    [
+     "Toulouse",
+     18,
+     12.25
+    ],
+    [
+     "London",
+     30,
+     1.45
+    ],
+    [
+     "New York City",
+     20,
+     1.04
+    ]
+   ],
+   "usa_pct": 38.18,
+   "gbr_pct": 23.27,
+   "point_pct": 75.27,
+   "large_pct": 29.45
+  }
+ },
+ "genres_list": [
+  {
+   "genre": "Crime and mystery",
+   "n": 869,
+   "pct": 11.9,
+   "cities": [
+    [
+     "Paris",
+     95
+    ],
+    [
+     "London",
+     82
+    ],
+    [
+     "New York City",
+     59
+    ],
+    [
+     "Los Angeles",
+     43
+    ],
+    [
+     "Pittsburgh",
+     21
+    ],
+    [
+     "San Francisco",
+     14
+    ],
+    [
+     "Venice",
+     14
+    ],
+    [
+     "Rome",
+     12
+    ]
+   ],
+   "countries": [
+    [
+     "United States",
+     320
+    ],
+    [
+     "United Kingdom",
+     180
+    ],
+    [
+     "France",
+     130
+    ],
+    [
+     "Italy",
+     54
+    ],
+    [
+     "Spain",
+     32
+    ],
+    [
+     "Sweden",
+     28
+    ],
+    [
+     "Germany",
+     15
+    ],
+    [
+     "Norway",
+     11
+    ]
+   ],
+   "lift": [
+    [
+     "Miami",
+     8,
+     7.47
+    ],
+    [
+     "Oslo",
+     8,
+     6.11
+    ],
+    [
+     "Edinburgh",
+     9,
+     3.15
+    ],
+    [
+     "Venice",
+     14,
+     2.67
+    ],
+    [
+     "Los Angeles",
+     43,
+     2.58
+    ],
+    [
+     "Paris",
+     95,
+     1.89
+    ]
+   ],
+   "usa_pct": 36.82,
+   "gbr_pct": 20.71,
+   "point_pct": 82.97,
+   "large_pct": 18.99
+  },
+  {
+   "genre": "Science fiction",
+   "n": 413,
+   "pct": 5.66,
+   "cities": [
+    [
+     "New York City",
+     42
+    ],
+    [
+     "London",
+     35
+    ],
+    [
+     "San Francisco",
+     27
+    ],
+    [
+     "Paris",
+     17
+    ],
+    [
+     "Los Angeles",
+     13
+    ],
+    [
+     "Rome",
+     7
+    ],
+    [
+     "Chicago",
+     7
+    ],
+    [
+     "Moscow",
+     5
+    ]
+   ],
+   "countries": [
+    [
+     "United States",
+     204
+    ],
+    [
+     "United Kingdom",
+     80
+    ],
+    [
+     "France",
+     27
+    ],
+    [
+     "Italy",
+     15
+    ],
+    [
+     "Japan",
+     9
+    ],
+    [
+     "Germany",
+     9
+    ],
+    [
+     "Russia",
+     7
+    ],
+    [
+     "China",
+     6
+    ]
+   ],
+   "lift": [
+    [
+     "San Francisco",
+     27,
+     3.51
+    ],
+    [
+     "Los Angeles",
+     13,
+     1.64
+    ],
+    [
+     "New York City",
+     42,
+     1.46
+    ],
+    [
+     "London",
+     35,
+     1.13
+    ],
+    [
+     "Paris",
+     17,
+     0.71
+    ]
+   ],
+   "usa_pct": 49.39,
+   "gbr_pct": 19.37,
+   "point_pct": 72.15,
+   "large_pct": 33.66
+  },
+  {
+   "genre": "Fantasy",
+   "n": 361,
+   "pct": 4.95,
+   "cities": [
+    [
+     "London",
+     47
+    ],
+    [
+     "New York City",
+     28
+    ],
+    [
+     "Paris",
+     11
+    ],
+    [
+     "San Francisco",
+     11
+    ],
+    [
+     "Los Angeles",
+     7
+    ],
+    [
+     "Boston",
+     6
+    ],
+    [
+     "Henrietta",
+     6
+    ],
+    [
+     "Rome",
+     5
+    ]
+   ],
+   "countries": [
+    [
+     "United States",
+     132
+    ],
+    [
+     "United Kingdom",
+     121
+    ],
+    [
+     "France",
+     14
+    ],
+    [
+     "Ireland",
+     11
+    ],
+    [
+     "Poland",
+     9
+    ],
+    [
+     "Sweden",
+     8
+    ],
+    [
+     "Italy",
+     8
+    ],
+    [
+     "Russia",
+     5
+    ]
+   ],
+   "lift": [
+    [
+     "London",
+     47,
+     1.73
+    ],
+    [
+     "San Francisco",
+     11,
+     1.64
+    ],
+    [
+     "New York City",
+     28,
+     1.11
+    ],
+    [
+     "Paris",
+     11,
+     0.53
+    ]
+   ],
+   "usa_pct": 36.57,
+   "gbr_pct": 33.52,
+   "point_pct": 73.41,
+   "large_pct": 32.96
+  },
+  {
+   "genre": "Historical",
+   "n": 586,
+   "pct": 8.03,
+   "cities": [
+    [
+     "Paris",
+     38
+    ],
+    [
+     "London",
+     35
+    ],
+    [
+     "New York City",
+     12
+    ],
+    [
+     "Rome",
+     9
+    ],
+    [
+     "Madrid",
+     7
+    ],
+    [
+     "Pittsburgh",
+     7
+    ],
+    [
+     "Boston",
+     6
+    ],
+    [
+     "Saint Petersburg",
+     6
+    ]
+   ],
+   "countries": [
+    [
+     "United States",
+     124
+    ],
+    [
+     "United Kingdom",
+     110
+    ],
+    [
+     "Italy",
+     68
+    ],
+    [
+     "France",
+     61
+    ],
+    [
+     "Germany",
+     37
+    ],
+    [
+     "Spain",
+     25
+    ],
+    [
+     "Russia",
+     24
+    ],
+    [
+     "Ireland",
+     12
+    ]
+   ],
+   "lift": [
+    [
+     "Paris",
+     38,
+     1.12
+    ],
+    [
+     "Rome",
+     9,
+     0.89
+    ],
+    [
+     "London",
+     35,
+     0.79
+    ],
+    [
+     "New York City",
+     12,
+     0.29
+    ]
+   ],
+   "usa_pct": 21.16,
+   "gbr_pct": 18.77,
+   "point_pct": 64.68,
+   "large_pct": 41.3,
+   "median_year": 1993,
+   "ancient": 120
+  },
+  {
+   "genre": "Horror and gothic",
+   "n": 225,
+   "pct": 3.08,
+   "cities": [
+    [
+     "London",
+     24
+    ],
+    [
+     "New York City",
+     21
+    ],
+    [
+     "Los Angeles",
+     12
+    ],
+    [
+     "Paris",
+     11
+    ],
+    [
+     "Tokyo",
+     4
+    ],
+    [
+     "Madrid",
+     4
+    ],
+    [
+     "New Orleans",
+     3
+    ],
+    [
+     "San Francisco",
+     3
+    ]
+   ],
+   "countries": [
+    [
+     "United States",
+     131
+    ],
+    [
+     "United Kingdom",
+     49
+    ],
+    [
+     "France",
+     11
+    ],
+    [
+     "Spain",
+     6
+    ],
+    [
+     "Italy",
+     4
+    ],
+    [
+     "Japan",
+     4
+    ],
+    [
+     "Sweden",
+     4
+    ],
+    [
+     "Romania",
+     3
+    ]
+   ],
+   "lift": [
+    [
+     "Los Angeles",
+     12,
+     2.78
+    ],
+    [
+     "London",
+     24,
+     1.42
+    ],
+    [
+     "New York City",
+     21,
+     1.34
+    ],
+    [
+     "Paris",
+     11,
+     0.85
+    ]
+   ],
+   "usa_pct": 58.22,
+   "gbr_pct": 21.78,
+   "point_pct": 87.56,
+   "large_pct": 16.89
+  },
+  {
+   "genre": "Children and young adult",
+   "n": 275,
+   "pct": 3.77,
+   "cities": [
+    [
+     "London",
+     30
+    ],
+    [
+     "New York City",
+     20
+    ],
+    [
+     "Toulouse",
+     18
+    ],
+    [
+     "Boston",
+     6
+    ],
+    [
+     "Henrietta",
+     6
+    ],
+    [
+     "San Francisco",
+     5
+    ],
+    [
+     "Chicago",
+     5
+    ],
+    [
+     "Wrocław",
+     4
+    ]
+   ],
+   "countries": [
+    [
+     "United States",
+     105
+    ],
+    [
+     "United Kingdom",
+     64
+    ],
+    [
+     "France",
+     29
+    ],
+    [
+     "Germany",
+     11
+    ],
+    [
+     "Poland",
+     11
+    ],
+    [
+     "India",
+     8
+    ],
+    [
+     "Canada",
+     7
+    ],
+    [
+     "Sweden",
+     6
+    ]
+   ],
+   "lift": [
+    [
+     "Toulouse",
+     18,
+     12.25
+    ],
+    [
+     "London",
+     30,
+     1.45
+    ],
+    [
+     "New York City",
+     20,
+     1.04
+    ]
+   ],
+   "usa_pct": 38.18,
+   "gbr_pct": 23.27,
+   "point_pct": 75.27,
+   "large_pct": 29.45
+  }
+ ],
+ "crime_top": [
+  [
+   "Paris",
+   95
+  ],
+  [
+   "London",
+   82
+  ],
+  [
+   "New York City",
+   59
+  ],
+  [
+   "Los Angeles",
+   43
+  ],
+  [
+   "Pittsburgh",
+   21
+  ]
+ ],
+ "continents": {
+  "Europe": {
+   "cont": "Europe",
+   "novels": 3836,
+   "novels_pct": 53.51,
+   "works": 7236,
+   "works_pct": 55.98,
+   "pop_pct": 9.73,
+   "per_10m": 51.4,
+   "ratio": 5.5
+  },
+  "North America": {
+   "cont": "North America",
+   "novels": 2297,
+   "novels_pct": 32.04,
+   "works": 3623,
+   "works_pct": 28.03,
+   "pop_pct": 7.63,
+   "per_10m": 39.2,
+   "ratio": 4.2
+  },
+  "Asia": {
+   "cont": "Asia",
+   "novels": 655,
+   "novels_pct": 9.14,
+   "works": 1440,
+   "works_pct": 11.14,
+   "pop_pct": 59.52,
+   "per_10m": 1.4,
+   "ratio": 0.15
+  },
+  "Africa": {
+   "cont": "Africa",
+   "novels": 358,
+   "novels_pct": 4.99,
+   "works": 621,
+   "works_pct": 4.8,
+   "pop_pct": 16.99,
+   "per_10m": 2.7,
+   "ratio": 0.29
+  },
+  "South America": {
+   "cont": "South America",
+   "novels": 180,
+   "novels_pct": 2.51,
+   "works": 347,
+   "works_pct": 2.68,
+   "pop_pct": 5.57,
+   "per_10m": 4.2,
+   "ratio": 0.45
+  },
+  "Oceania": {
+   "cont": "Oceania",
+   "novels": 48,
+   "novels_pct": 0.67,
+   "works": 107,
+   "works_pct": 0.83,
+   "pop_pct": 0.55,
+   "per_10m": 11.3,
+   "ratio": 1.21
+  },
+  "Antarctica": {
+   "cont": "Antarctica",
+   "novels": 7,
+   "novels_pct": 0.1,
+   "works": 17,
+   "works_pct": 0.13,
+   "pop_pct": 0.0,
+   "per_10m": null,
+   "ratio": null
+  }
+ },
+ "continents_list": [
+  {
+   "cont": "Europe",
+   "novels": 3836,
+   "novels_pct": 53.51,
+   "works": 7236,
+   "works_pct": 55.98,
+   "pop_pct": 9.73,
+   "per_10m": 51.4,
+   "ratio": 5.5
+  },
+  {
+   "cont": "North America",
+   "novels": 2297,
+   "novels_pct": 32.04,
+   "works": 3623,
+   "works_pct": 28.03,
+   "pop_pct": 7.63,
+   "per_10m": 39.2,
+   "ratio": 4.2
+  },
+  {
+   "cont": "Asia",
+   "novels": 655,
+   "novels_pct": 9.14,
+   "works": 1440,
+   "works_pct": 11.14,
+   "pop_pct": 59.52,
+   "per_10m": 1.4,
+   "ratio": 0.15
+  },
+  {
+   "cont": "Africa",
+   "novels": 358,
+   "novels_pct": 4.99,
+   "works": 621,
+   "works_pct": 4.8,
+   "pop_pct": 16.99,
+   "per_10m": 2.7,
+   "ratio": 0.29
+  },
+  {
+   "cont": "South America",
+   "novels": 180,
+   "novels_pct": 2.51,
+   "works": 347,
+   "works_pct": 2.68,
+   "pop_pct": 5.57,
+   "per_10m": 4.2,
+   "ratio": 0.45
+  },
+  {
+   "cont": "Oceania",
+   "novels": 48,
+   "novels_pct": 0.67,
+   "works": 107,
+   "works_pct": 0.83,
+   "pop_pct": 0.55,
+   "per_10m": 11.3,
+   "ratio": 1.21
+  },
+  {
+   "cont": "Antarctica",
+   "novels": 7,
+   "novels_pct": 0.1,
+   "works": 17,
+   "works_pct": 0.13,
+   "pop_pct": 0.0,
+   "per_10m": null,
+   "ratio": null
+  }
+ ],
+ "continents_den": 7169,
+ "cont_eur_vs_asia": 36.7,
+ "cont_na_vs_africa": 14.5,
+ "undermapped": [
+  {
+   "iso": "BGD",
+   "name": "Bangladesh",
+   "n": 2,
+   "all": 3,
+   "pop_m": 163.05,
+   "per_m": 0.01,
+   "cont": "Asia",
+   "per_10m": 0.12
+  },
+  {
+   "iso": "PHL",
+   "name": "Philippines",
+   "n": 3,
+   "all": 7,
+   "pop_m": 108.12,
+   "per_m": 0.03,
+   "cont": "Asia",
+   "per_10m": 0.28
+  },
+  {
+   "iso": "COD",
+   "name": "Democratic Republic of the Congo",
+   "n": 4,
+   "all": 12,
+   "pop_m": 86.79,
+   "per_m": 0.05,
+   "cont": "Africa",
+   "per_10m": 0.46
+  },
+  {
+   "iso": "MMR",
+   "name": "Myanmar",
+   "n": 3,
+   "all": 6,
+   "pop_m": 54.05,
+   "per_m": 0.06,
+   "cont": "Asia",
+   "per_10m": 0.56
+  },
+  {
+   "iso": "PAK",
+   "name": "Pakistan",
+   "n": 13,
+   "all": 23,
+   "pop_m": 216.57,
+   "per_m": 0.06,
+   "cont": "Asia",
+   "per_10m": 0.6
+  },
+  {
+   "iso": "CHN",
+   "name": "China",
+   "n": 111,
+   "all": 207,
+   "pop_m": 1397.71,
+   "per_m": 0.08,
+   "cont": "Asia",
+   "pct": 1.52,
+   "per_10m": 0.79
+  },
+  {
+   "iso": "ETH",
+   "name": "Ethiopia",
+   "n": 9,
+   "all": 13,
+   "pop_m": 112.08,
+   "per_m": 0.08,
+   "cont": "Africa",
+   "per_10m": 0.8
+  },
+  {
+   "iso": "IDN",
+   "name": "Indonesia",
+   "n": 28,
+   "all": 55,
+   "pop_m": 270.63,
+   "per_m": 0.1,
+   "cont": "Asia",
+   "per_10m": 1.03
+  },
+  {
+   "iso": "THA",
+   "name": "Thailand",
+   "n": 8,
+   "all": 16,
+   "pop_m": 69.63,
+   "per_m": 0.11,
+   "cont": "Asia",
+   "per_10m": 1.15
+  },
+  {
+   "iso": "IND",
+   "name": "India",
+   "n": 158,
+   "all": 268,
+   "pop_m": 1366.42,
+   "per_m": 0.12,
+   "cont": "Asia",
+   "pct": 2.16,
+   "per_10m": 1.16
+  }
+ ],
+ "overmapped": [
+  {
+   "iso": "IRL",
+   "name": "Ireland",
+   "n": 129,
+   "all": 180,
+   "pop_m": 4.94,
+   "per_m": 26.11,
+   "cont": "Europe"
+  },
+  {
+   "iso": "GBR",
+   "name": "United Kingdom",
+   "n": 1216,
+   "all": 1830,
+   "pop_m": 66.83,
+   "per_m": 18.19,
+   "cont": "Europe",
+   "pct": 16.66,
+   "per_10m": 181.95
+  },
+  {
+   "iso": "ITA",
+   "name": "Italy",
+   "n": 705,
+   "all": 1163,
+   "pop_m": 60.3,
+   "per_m": 11.69,
+   "cont": "Europe",
+   "pct": 9.66,
+   "per_10m": 116.92
+  },
+  {
+   "iso": "FRA",
+   "name": "France",
+   "n": 669,
+   "all": 1552,
+   "pop_m": 67.06,
+   "per_m": 9.98,
+   "cont": "Europe",
+   "pct": 9.16,
+   "per_10m": 99.76
+  },
+  {
+   "iso": "DNK",
+   "name": "Denmark",
+   "n": 57,
+   "all": 211,
+   "pop_m": 5.82,
+   "per_m": 9.8,
+   "cont": "Europe",
+   "pct": 0.78
+  },
+  {
+   "iso": "SWE",
+   "name": "Sweden",
+   "n": 91,
+   "all": 124,
+   "pop_m": 10.29,
+   "per_m": 8.85,
+   "cont": "Europe"
+  },
+  {
+   "iso": "KOS",
+   "name": "Kosovo",
+   "n": 14,
+   "all": 18,
+   "pop_m": 1.79,
+   "per_m": 7.8,
+   "cont": "Europe"
+  },
+  {
+   "iso": "SRB",
+   "name": "Serbia",
+   "n": 54,
+   "all": 100,
+   "pop_m": 6.94,
+   "per_m": 7.78,
+   "cont": "Europe",
+   "pct": 0.74
+  },
+  {
+   "iso": "AUT",
+   "name": "Austria",
+   "n": 69,
+   "all": 121,
+   "pop_m": 8.88,
+   "per_m": 7.77,
+   "cont": "Europe"
+  },
+  {
+   "iso": "FIN",
+   "name": "Finland",
+   "n": 39,
+   "all": 53,
+   "pop_m": 5.52,
+   "per_m": 7.06,
+   "cont": "Europe"
+  }
+ ],
+ "famous": {
+  "AFG": {
+   "iso": "AFG",
+   "country": "Afghanistan",
+   "title": "The Kite Runner",
+   "q": "Q637839",
+   "links": 61,
+   "year": 2003,
+   "author": "Khaled Hosseini",
+   "enwiki": "https://en.wikipedia.org/wiki/The_Kite_Runner",
+   "n": 11
+  },
+  "AGO": {
+   "iso": "AGO",
+   "country": "Angola",
+   "title": "The Savage Detectives",
+   "q": "Q898056",
+   "links": 11,
+   "year": 1998,
+   "author": "Roberto Bolaño",
+   "enwiki": "https://en.wikipedia.org/wiki/The_Savage_Detectives",
+   "n": 6
+  },
+  "ALB": {
+   "iso": "ALB",
+   "country": "Albania",
+   "title": "Broken April",
+   "q": "Q2280031",
+   "links": 17,
+   "year": 1980,
+   "author": "Ismail Kadare",
+   "enwiki": "https://en.wikipedia.org/wiki/Broken_April",
+   "n": 7
+  },
+  "ARG": {
+   "iso": "ARG",
+   "country": "Argentina",
+   "title": "Candide",
+   "q": "Q215894",
+   "links": 65,
+   "year": 1759,
+   "author": "Voltaire",
+   "enwiki": "https://en.wikipedia.org/wiki/Candide",
+   "n": 44
+  },
+  "ARM": {
+   "iso": "ARM",
+   "country": "Armenia",
+   "title": "David Bek",
+   "q": "Q22240734",
+   "links": 7,
+   "year": 1882,
+   "author": "Raffi",
+   "enwiki": "https://en.wikipedia.org/wiki/David_Bek_(novel)",
+   "n": 1
+  },
+  "ATA": {
+   "iso": "ATA",
+   "country": "Antarctica",
+   "title": "Twenty Thousand Leagues Under the Sea",
+   "q": "Q183565",
+   "links": 77,
+   "year": 1869,
+   "author": "Jules Verne",
+   "enwiki": "https://en.wikipedia.org/wiki/Twenty_Thousand_Leagues_Under_the_Seas",
+   "n": 7
+  },
+  "AUS": {
+   "iso": "AUS",
+   "country": "Australia",
+   "title": "In Search of the Castaways",
+   "q": "Q1213902",
+   "links": 47,
+   "year": 1864,
+   "author": "Jules Verne",
+   "enwiki": "https://en.wikipedia.org/wiki/In_Search_of_the_Castaways",
+   "n": 28
+  },
+  "AUT": {
+   "iso": "AUT",
+   "country": "Austria",
+   "title": "War and Peace",
+   "q": "Q161531",
+   "links": 97,
+   "year": 1869,
+   "author": "Leo Tolstoy",
+   "enwiki": "https://en.wikipedia.org/wiki/War_and_Peace",
+   "n": 69
+  },
+  "AZE": {
+   "iso": "AZE",
+   "country": "Azerbaijan",
+   "title": "Red Storm Rising",
+   "q": "Q1581581",
+   "links": 19,
+   "year": 1986,
+   "author": "Tom Clancy",
+   "enwiki": "https://en.wikipedia.org/wiki/Red_Storm_Rising",
+   "n": 2
+  },
+  "BDI": {
+   "iso": "BDI",
+   "country": "Burundi",
+   "title": "Small Country",
+   "q": "Q27660315",
+   "links": 4,
+   "year": 2016,
+   "author": "Gaël Faye",
+   "enwiki": "https://en.wikipedia.org/wiki/Small_Country",
+   "n": 4
+  },
+  "BEL": {
+   "iso": "BEL",
+   "country": "Belgium",
+   "title": "Tintin in the Land of the Soviets",
+   "q": "Q648304",
+   "links": 29,
+   "year": 1929,
+   "author": "Hergé",
+   "enwiki": "https://en.wikipedia.org/wiki/Tintin_in_the_Land_of_the_Soviets",
+   "n": 22
+  },
+  "BGD": {
+   "iso": "BGD",
+   "country": "Bangladesh",
+   "title": "Lajja",
+   "q": "Q3595712",
+   "links": 10,
+   "year": 1993,
+   "author": "Taslima Nasrin",
+   "enwiki": "https://en.wikipedia.org/wiki/Lajja_(novel)",
+   "n": 2
+  },
+  "BGR": {
+   "iso": "BGR",
+   "country": "Bulgaria",
+   "title": "Dracula",
+   "q": "Q41542",
+   "links": 76,
+   "year": 1897,
+   "author": "Bram Stoker",
+   "enwiki": "https://en.wikipedia.org/wiki/Dracula",
+   "n": 7
+  },
+  "BHS": {
+   "iso": "BHS",
+   "country": "Bahamas",
+   "title": "Thunderball",
+   "q": "Q1952957",
+   "links": 24,
+   "year": 1961,
+   "author": "Ian Fleming",
+   "enwiki": "https://en.wikipedia.org/wiki/Thunderball_(novel)",
+   "n": 2
+  },
+  "BIH": {
+   "iso": "BIH",
+   "country": "Bosnia and Herzegovina",
+   "title": "Bosnian Chronicle",
+   "q": "Q824338",
+   "links": 15,
+   "year": 1945,
+   "author": "Ivo Andrić",
+   "enwiki": "https://en.wikipedia.org/wiki/Bosnian_Chronicle",
+   "n": 17
+  },
+  "BLR": {
+   "iso": "BLR",
+   "country": "Belarus",
+   "title": "August 44",
+   "q": "Q4101665",
+   "links": 3,
+   "year": 1974,
+   "author": "Vladimir Bogomolov",
+   "enwiki": "",
+   "n": 2
+  },
+  "BLZ": {
+   "iso": "BLZ",
+   "country": "Belize",
+   "title": "The Actual Star",
+   "q": "Q109942843",
+   "links": 1,
+   "year": 2021,
+   "author": "Monica Byrne",
+   "enwiki": "https://en.wikipedia.org/wiki/The_Actual_Star",
+   "n": 1
+  },
+  "BMU": {
+   "iso": "BMU",
+   "country": "Bermuda",
+   "title": "Facing the Flag",
+   "q": "Q221765",
+   "links": 25,
+   "year": 1896,
+   "author": "Jules Verne",
+   "enwiki": "https://en.wikipedia.org/wiki/Facing_the_Flag",
+   "n": 1
+  },
+  "BOL": {
+   "iso": "BOL",
+   "country": "Bolivia",
+   "title": "Felipe Delgado",
+   "q": "Q109406963",
+   "links": 0,
+   "year": 1979,
+   "author": "Jaime Sáenz",
+   "enwiki": "",
+   "n": 1
+  },
+  "BRA": {
+   "iso": "BRA",
+   "country": "Brazil",
+   "title": "Candide",
+   "q": "Q215894",
+   "links": 65,
+   "year": 1759,
+   "author": "Voltaire",
+   "enwiki": "https://en.wikipedia.org/wiki/Candide",
+   "n": 48
+  },
+  "BWA": {
+   "iso": "BWA",
+   "country": "Botswana",
+   "title": "The Full Cupboard of Life",
+   "q": "Q1026474",
+   "links": 4,
+   "year": 2003,
+   "author": "Alexander McCall Smith",
+   "enwiki": "https://en.wikipedia.org/wiki/The_Full_Cupboard_of_Life",
+   "n": 3
+  },
+  "CAF": {
+   "iso": "CAF",
+   "country": "Central African Republic",
+   "title": "Batouala",
+   "q": "Q2891606",
+   "links": 6,
+   "year": 1921,
+   "author": "René Maran",
+   "enwiki": "https://en.wikipedia.org/wiki/Batouala_(novel)",
+   "n": 2
+  },
+  "CAN": {
+   "iso": "CAN",
+   "country": "Canada",
+   "title": "The Call of the Wild",
+   "q": "Q476871",
+   "links": 54,
+   "year": 1903,
+   "author": "Jack London",
+   "enwiki": "https://en.wikipedia.org/wiki/The_Call_of_the_Wild",
+   "n": 73
+  },
+  "CHE": {
+   "iso": "CHE",
+   "country": "Switzerland",
+   "title": "Angels & Demons",
+   "q": "Q182502",
+   "links": 63,
+   "year": 2000,
+   "author": "Dan Brown",
+   "enwiki": "https://en.wikipedia.org/wiki/Angels_%26_Demons",
+   "n": 26
+  },
+  "CHL": {
+   "iso": "CHL",
+   "country": "Chile",
+   "title": "In Search of the Castaways",
+   "q": "Q1213902",
+   "links": 47,
+   "year": 1864,
+   "author": "Jules Verne",
+   "enwiki": "https://en.wikipedia.org/wiki/In_Search_of_the_Castaways",
+   "n": 18
+  },
+  "CHN": {
+   "iso": "CHN",
+   "country": "China",
+   "title": "Dream of the Red Chamber",
+   "q": "Q8265",
+   "links": 117,
+   "year": 1792,
+   "author": "Cao Xueqin",
+   "enwiki": "https://en.wikipedia.org/wiki/Dream_of_the_Red_Chamber",
+   "n": 111
+  },
+  "CIV": {
+   "iso": "CIV",
+   "country": "Ivory Coast",
+   "title": "Q96578456",
+   "q": "Q96578456",
+   "links": 0,
+   "year": 2019,
+   "author": "Isabelle Rochet",
+   "enwiki": "",
+   "n": 1
+  },
+  "COD": {
+   "iso": "COD",
+   "country": "Democratic Republic of the Congo",
+   "title": "Heart of Darkness",
+   "q": "Q129778",
+   "links": 58,
+   "year": 1899,
+   "author": "Joseph Conrad",
+   "enwiki": "https://en.wikipedia.org/wiki/Heart_of_Darkness",
+   "n": 4
+  },
+  "COG": {
+   "iso": "COG",
+   "country": "Congo",
+   "title": "Tomorrow I'll be Twenty",
+   "q": "Q3021995",
+   "links": 1,
+   "year": 2010,
+   "author": "Alain Mabanckou",
+   "enwiki": "",
+   "n": 5
+  },
+  "COK": {
+   "iso": "COK",
+   "country": "Cook Islands",
+   "title": "Propeller Island",
+   "q": "Q1215553",
+   "links": 21,
+   "year": 1895,
+   "author": "Jules Verne",
+   "enwiki": "https://en.wikipedia.org/wiki/Propeller_Island",
+   "n": 1
+  },
+  "COL": {
+   "iso": "COL",
+   "country": "Colombia",
+   "title": "Chronicle of a Death Foretold",
+   "q": "Q935935",
+   "links": 31,
+   "year": 1981,
+   "author": "Gabriel García Márquez",
+   "enwiki": "https://en.wikipedia.org/wiki/Chronicle_of_a_Death_Foretold",
+   "n": 14
+  },
+  "CUB": {
+   "iso": "CUB",
+   "country": "Cuba",
+   "title": "The Old Man and the Sea",
+   "q": "Q26505",
+   "links": 91,
+   "year": 1952,
+   "author": "Ernest Hemingway",
+   "enwiki": "https://en.wikipedia.org/wiki/The_Old_Man_and_the_Sea",
+   "n": 13
+  },
+  "CYP": {
+   "iso": "CYP",
+   "country": "Turkish Republic of Northern Cyprus",
+   "title": "Poste restante",
+   "q": "Q125537161",
+   "links": 0,
+   "year": 2001,
+   "author": "Cynthia Rimsky",
+   "enwiki": "",
+   "n": 1
+  },
+  "CZE": {
+   "iso": "CZE",
+   "country": "Czech Republic",
+   "title": "The Good Soldier Švejk",
+   "q": "Q208622",
+   "links": 55,
+   "year": 1921,
+   "author": "Jaroslav Hašek",
+   "enwiki": "https://en.wikipedia.org/wiki/The_Good_Soldier_%C5%A0vejk",
+   "n": 26
+  },
+  "DEU": {
+   "iso": "DEU",
+   "country": "Germany",
+   "title": "Candide",
+   "q": "Q215894",
+   "links": 65,
+   "year": 1759,
+   "author": "Voltaire",
+   "enwiki": "https://en.wikipedia.org/wiki/Candide",
+   "n": 200
+  },
+  "DJI": {
+   "iso": "DJI",
+   "country": "Djibouti",
+   "title": "Djibouti",
+   "q": "Q18206510",
+   "links": 4,
+   "year": 2010,
+   "author": "Elmore Leonard",
+   "enwiki": "https://en.wikipedia.org/wiki/Djibouti_(novel)",
+   "n": 1
+  },
+  "DNK": {
+   "iso": "DNK",
+   "country": "Denmark",
+   "title": "A Journey to the Centre of the Earth",
+   "q": "Q219457",
+   "links": 64,
+   "year": 1864,
+   "author": "Jules Verne",
+   "enwiki": "https://en.wikipedia.org/wiki/Journey_to_the_Centre_of_the_Earth",
+   "n": 57
+  },
+  "DOM": {
+   "iso": "DOM",
+   "country": "Dominican Republic",
+   "title": "In the Time of the Butterflies",
+   "q": "Q8775715",
+   "links": 5,
+   "year": 1994,
+   "author": "Julia Alvarez",
+   "enwiki": "https://en.wikipedia.org/wiki/In_the_Time_of_the_Butterflies",
+   "n": 1
+  },
+  "DZA": {
+   "iso": "DZA",
+   "country": "Algeria",
+   "title": "The Stranger",
+   "q": "Q163297",
+   "links": 86,
+   "year": 1942,
+   "author": "Albert Camus",
+   "enwiki": "https://en.wikipedia.org/wiki/The_Stranger_(Camus_novel)",
+   "n": 11
+  },
+  "ECU": {
+   "iso": "ECU",
+   "country": "Ecuador",
+   "title": "Galápagos",
+   "q": "Q2527126",
+   "links": 17,
+   "year": 1985,
+   "author": "Kurt Vonnegut",
+   "enwiki": "https://en.wikipedia.org/wiki/Gal%C3%A1pagos_(novel)",
+   "n": 36
+  },
+  "EGY": {
+   "iso": "EGY",
+   "country": "Egypt",
+   "title": "The Alchemist",
+   "q": "Q179021",
+   "links": 92,
+   "year": 1988,
+   "author": "Paulo Coelho",
+   "enwiki": "https://en.wikipedia.org/wiki/The_Alchemist_(novel)",
+   "n": 79
+  },
+  "ESH": {
+   "iso": "ESH",
+   "country": "Western Sahara",
+   "title": "Crying Camel",
+   "q": "Q136750256",
+   "links": 0,
+   "year": 1977,
+   "author": "Sanmao",
+   "enwiki": "",
+   "n": 1
+  },
+  "ESP": {
+   "iso": "ESP",
+   "country": "Spain",
+   "title": "Don Quixote",
+   "q": "Q480",
+   "links": 147,
+   "year": 1605,
+   "author": "Miguel de Cervantes",
+   "enwiki": "https://en.wikipedia.org/wiki/Don_Quixote",
+   "n": 284
+  },
+  "EST": {
+   "iso": "EST",
+   "country": "Estonia",
+   "title": "Q4096522",
+   "q": "Q4096522",
+   "links": 3,
+   "year": 1974,
+   "author": "Yulian Semyonov",
+   "enwiki": "",
+   "n": 2
+  },
+  "ETH": {
+   "iso": "ETH",
+   "country": "Ethiopia",
+   "title": "A Time to Kill",
+   "q": "Q3983329",
+   "links": 2,
+   "year": 1947,
+   "author": "Ennio Flaiano",
+   "enwiki": "https://en.wikipedia.org/wiki/A_Time_to_Kill_(Flaiano_novel)",
+   "n": 9
+  },
+  "FIN": {
+   "iso": "FIN",
+   "country": "Finland",
+   "title": "Colorless Tsukuru Tazaki and His Years of Pilgrimage",
+   "q": "Q10860215",
+   "links": 28,
+   "year": 2013,
+   "author": "Haruki Murakami",
+   "enwiki": "https://en.wikipedia.org/wiki/Colorless_Tsukuru_Tazaki_and_His_Years_of_Pilgrimage",
+   "n": 39
+  },
+  "FJI": {
+   "iso": "FJI",
+   "country": "Fiji",
+   "title": "Un dramma nell'Oceano Pacifico",
+   "q": "Q4003795",
+   "links": 2,
+   "year": 1895,
+   "author": "Emilio Salgari",
+   "enwiki": "",
+   "n": 2
+  },
+  "FRA": {
+   "iso": "FRA",
+   "country": "France",
+   "title": "Les Misérables",
+   "q": "Q180736",
+   "links": 98,
+   "year": 1862,
+   "author": "",
+   "enwiki": "https://en.wikipedia.org/wiki/Les_Mis%C3%A9rables",
+   "n": 669
+  },
+  "GBR": {
+   "iso": "GBR",
+   "country": "United Kingdom",
+   "title": "Nineteen Eighty-Four",
+   "q": "Q208460",
+   "links": 138,
+   "year": 1949,
+   "author": "George Orwell",
+   "enwiki": "https://en.wikipedia.org/wiki/Nineteen_Eighty-Four",
+   "n": 1216
+  },
+  "GEO": {
+   "iso": "GEO",
+   "country": "Georgia",
+   "title": "The Member of the Wedding",
+   "q": "Q1440585",
+   "links": 7,
+   "year": 1946,
+   "author": "Carson McCullers",
+   "enwiki": "https://en.wikipedia.org/wiki/The_Member_of_the_Wedding",
+   "n": 1
+  },
+  "GHA": {
+   "iso": "GHA",
+   "country": "Ghana",
+   "title": "The Two Hearts of Kwasi Boachi",
+   "q": "Q17111480",
+   "links": 4,
+   "year": 1996,
+   "author": "Arthur Japin",
+   "enwiki": "https://en.wikipedia.org/wiki/The_Two_Hearts_of_Kwasi_Boachi",
+   "n": 13
+  },
+  "GIN": {
+   "iso": "GIN",
+   "country": "Guinea",
+   "title": "Diamonds Are Forever",
+   "q": "Q659731",
+   "links": 29,
+   "year": 1956,
+   "author": "Ian Fleming",
+   "enwiki": "https://en.wikipedia.org/wiki/Diamonds_Are_Forever_(novel)",
+   "n": 2
+  },
+  "GMB": {
+   "iso": "GMB",
+   "country": "Gambia",
+   "title": "Alhaji",
+   "q": "Q4724410",
+   "links": 1,
+   "year": 1992,
+   "author": "Ebou Dibba",
+   "enwiki": "https://en.wikipedia.org/wiki/Alhaji_(novel)",
+   "n": 1
+  },
+  "GNB": {
+   "iso": "GNB",
+   "country": "Guinea-Bissau",
+   "title": "Q10277755",
+   "q": "Q10277755",
+   "links": 2,
+   "year": 1994,
+   "author": "Abdulai Silá",
+   "enwiki": "",
+   "n": 1
+  },
+  "GNQ": {
+   "iso": "GNQ",
+   "country": "Equatorial Guinea",
+   "title": "Obi’s nightmare",
+   "q": "Q54874792",
+   "links": 0,
+   "year": 2015,
+   "author": "Ramón Esono",
+   "enwiki": "",
+   "n": 1
+  },
+  "GRC": {
+   "iso": "GRC",
+   "country": "Greece",
+   "title": "Twenty Thousand Leagues Under the Sea",
+   "q": "Q183565",
+   "links": 77,
+   "year": 1869,
+   "author": "Jules Verne",
+   "enwiki": "https://en.wikipedia.org/wiki/Twenty_Thousand_Leagues_Under_the_Seas",
+   "n": 41
+  },
+  "GRD": {
+   "iso": "GRD",
+   "country": "Grenada",
+   "title": "The Girl Who Played with Fire",
+   "q": "Q1137369",
+   "links": 29,
+   "year": 2005,
+   "author": "Stieg Larsson",
+   "enwiki": "https://en.wikipedia.org/wiki/The_Girl_Who_Played_with_Fire",
+   "n": 1
+  },
+  "GRL": {
+   "iso": "GRL",
+   "country": "Greenland",
+   "title": "First Light",
+   "q": "Q5453204",
+   "links": 1,
+   "year": 2007,
+   "author": "Rebecca Stead",
+   "enwiki": "https://en.wikipedia.org/wiki/First_Light_(Stead_novel)",
+   "n": 1
+  },
+  "GTM": {
+   "iso": "GTM",
+   "country": "Guatemala",
+   "title": "Grave Secrets",
+   "q": "Q1777298",
+   "links": 4,
+   "year": 2002,
+   "author": "Kathy Reichs",
+   "enwiki": "https://en.wikipedia.org/wiki/Grave_Secrets",
+   "n": 2
+  },
+  "GUY": {
+   "iso": "GUY",
+   "country": "Guyana",
+   "title": "Green Mansions",
+   "q": "Q605921",
+   "links": 10,
+   "year": 1904,
+   "author": "William Henry Hudson",
+   "enwiki": "https://en.wikipedia.org/wiki/Green_Mansions",
+   "n": 1
+  },
+  "HKG": {
+   "iso": "HKG",
+   "country": "Hong Kong",
+   "title": "Around the World in Eighty Days",
+   "q": "Q1219561",
+   "links": 79,
+   "year": 1872,
+   "author": "Jules Verne",
+   "enwiki": "https://en.wikipedia.org/wiki/Around_the_World_in_Eighty_Days",
+   "n": 19
+  },
+  "HRV": {
+   "iso": "HRV",
+   "country": "Croatia",
+   "title": "Čuvaj se senjske ruke",
+   "q": "Q15307338",
+   "links": 2,
+   "year": 1876,
+   "author": "August Šenoa",
+   "enwiki": "",
+   "n": 20
+  },
+  "HTI": {
+   "iso": "HTI",
+   "country": "Haiti",
+   "title": "Bug-Jargal",
+   "q": "Q1219303",
+   "links": 19,
+   "year": 1826,
+   "author": "",
+   "enwiki": "https://en.wikipedia.org/wiki/Bug-Jargal",
+   "n": 8
+  },
+  "HUN": {
+   "iso": "HUN",
+   "country": "Hungary",
+   "title": "The Paul Street Boys",
+   "q": "Q460661",
+   "links": 27,
+   "year": 1906,
+   "author": "Ferenc Molnár",
+   "enwiki": "https://en.wikipedia.org/wiki/The_Paul_Street_Boys",
+   "n": 11
+  },
+  "IDN": {
+   "iso": "IDN",
+   "country": "Indonesia",
+   "title": "Max Havelaar",
+   "q": "Q919067",
+   "links": 33,
+   "year": 1940,
+   "author": "Multatuli",
+   "enwiki": "https://en.wikipedia.org/wiki/Max_Havelaar",
+   "n": 28
+  },
+  "IND": {
+   "iso": "IND",
+   "country": "India",
+   "title": "Around the World in Eighty Days",
+   "q": "Q1219561",
+   "links": 79,
+   "year": 1872,
+   "author": "Jules Verne",
+   "enwiki": "https://en.wikipedia.org/wiki/Around_the_World_in_Eighty_Days",
+   "n": 158
+  },
+  "IRL": {
+   "iso": "IRL",
+   "country": "Ireland",
+   "title": "Ulysses",
+   "q": "Q6511",
+   "links": 84,
+   "year": 1922,
+   "author": "James Joyce",
+   "enwiki": "https://en.wikipedia.org/wiki/Ulysses_(novel)",
+   "n": 129
+  },
+  "IRN": {
+   "iso": "IRN",
+   "country": "Iran",
+   "title": "Persepolis",
+   "q": "Q756604",
+   "links": 38,
+   "year": null,
+   "author": "Marjane Satrapi",
+   "enwiki": "https://en.wikipedia.org/wiki/Persepolis_(comics)",
+   "n": 22
+  },
+  "IRQ": {
+   "iso": "IRQ",
+   "country": "Iraq",
+   "title": "Murder in Mesopotamia",
+   "q": "Q642911",
+   "links": 32,
+   "year": 1936,
+   "author": "Agatha Christie",
+   "enwiki": "https://en.wikipedia.org/wiki/Murder_in_Mesopotamia",
+   "n": 20
+  },
+  "ISL": {
+   "iso": "ISL",
+   "country": "Iceland",
+   "title": "A Journey to the Centre of the Earth",
+   "q": "Q219457",
+   "links": 64,
+   "year": 1864,
+   "author": "Jules Verne",
+   "enwiki": "https://en.wikipedia.org/wiki/Journey_to_the_Centre_of_the_Earth",
+   "n": 19
+  },
+  "ISR": {
+   "iso": "ISR",
+   "country": "Israel",
+   "title": "The Master and Margarita",
+   "q": "Q188538",
+   "links": 79,
+   "year": 1928,
+   "author": "Mikhail Bulgakov",
+   "enwiki": "https://en.wikipedia.org/wiki/The_Master_and_Margarita",
+   "n": 26
+  },
+  "ITA": {
+   "iso": "ITA",
+   "country": "Italy",
+   "title": "The Count of Monte Cristo",
+   "q": "Q191838",
+   "links": 79,
+   "year": 1844,
+   "author": "Alexandre Dumas",
+   "enwiki": "https://en.wikipedia.org/wiki/The_Count_of_Monte_Cristo",
+   "n": 705
+  },
+  "JAM": {
+   "iso": "JAM",
+   "country": "Jamaica",
+   "title": "Dr. No",
+   "q": "Q26541",
+   "links": 30,
+   "year": 1958,
+   "author": "Ian Fleming",
+   "enwiki": "https://en.wikipedia.org/wiki/Dr._No_(novel)",
+   "n": 4
+  },
+  "JOR": {
+   "iso": "JOR",
+   "country": "Jordan",
+   "title": "Q125636161",
+   "q": "Q125636161",
+   "links": 0,
+   "year": 2019,
+   "author": "",
+   "enwiki": "",
+   "n": 1
+  },
+  "JPN": {
+   "iso": "JPN",
+   "country": "Japan",
+   "title": "Around the World in Eighty Days",
+   "q": "Q1219561",
+   "links": 79,
+   "year": 1872,
+   "author": "Jules Verne",
+   "enwiki": "https://en.wikipedia.org/wiki/Around_the_World_in_Eighty_Days",
+   "n": 86
+  },
+  "KAZ": {
+   "iso": "KAZ",
+   "country": "Kazakhstan",
+   "title": "And Quiet Flows the Don",
+   "q": "Q75840",
+   "links": 42,
+   "year": 1928,
+   "author": "Mikhail Sholokhov",
+   "enwiki": "https://en.wikipedia.org/wiki/And_Quiet_Flows_the_Don",
+   "n": 3
+  },
+  "KEN": {
+   "iso": "KEN",
+   "country": "Kenya",
+   "title": "Out of Africa",
+   "q": "Q1756234",
+   "links": 21,
+   "year": 1937,
+   "author": "Karen Blixen",
+   "enwiki": "https://en.wikipedia.org/wiki/Out_of_Africa",
+   "n": 38
+  },
+  "KHM": {
+   "iso": "KHM",
+   "country": "Cambodia",
+   "title": "Q8504697",
+   "q": "Q8504697",
+   "links": 2,
+   "year": 1904,
+   "author": "Emilio Salgari",
+   "enwiki": "",
+   "n": 2
+  },
+  "KOR": {
+   "iso": "KOR",
+   "country": "South Korea",
+   "title": "The White Book",
+   "q": "Q111913999",
+   "links": 7,
+   "year": 2016,
+   "author": "Han Kang",
+   "enwiki": "https://en.wikipedia.org/wiki/The_White_Book",
+   "n": 19
+  },
+  "KOS": {
+   "iso": "KOS",
+   "country": "Kosovo",
+   "title": "My Cat Yugoslavia",
+   "q": "Q22998877",
+   "links": 3,
+   "year": 2014,
+   "author": "Pajtim Statovci",
+   "enwiki": "https://en.wikipedia.org/wiki/My_Cat_Yugoslavia",
+   "n": 14
+  },
+  "LAO": {
+   "iso": "LAO",
+   "country": "Laos",
+   "title": "Run Me to Earth",
+   "q": "Q86752292",
+   "links": 1,
+   "year": 2020,
+   "author": "Paul Yoon",
+   "enwiki": "https://en.wikipedia.org/wiki/Run_Me_to_Earth",
+   "n": 1
+  },
+  "LBN": {
+   "iso": "LBN",
+   "country": "Lebanon",
+   "title": "Inshallah",
+   "q": "Q1627168",
+   "links": 7,
+   "year": 1992,
+   "author": "Oriana Fallaci",
+   "enwiki": "https://en.wikipedia.org/wiki/Inshallah_(novel)",
+   "n": 5
+  },
+  "LBR": {
+   "iso": "LBR",
+   "country": "Liberia",
+   "title": "Story for a Black Night",
+   "q": "Q7620401",
+   "links": 1,
+   "year": 1982,
+   "author": "Robert Locke",
+   "enwiki": "https://en.wikipedia.org/wiki/Story_for_a_Black_Night",
+   "n": 1
+  },
+  "LKA": {
+   "iso": "LKA",
+   "country": "Sri Lanka",
+   "title": "Twenty Thousand Leagues Under the Sea",
+   "q": "Q183565",
+   "links": 77,
+   "year": 1869,
+   "author": "Jules Verne",
+   "enwiki": "https://en.wikipedia.org/wiki/Twenty_Thousand_Leagues_Under_the_Seas",
+   "n": 3
+  },
+  "LTU": {
+   "iso": "LTU",
+   "country": "Lithuania",
+   "title": "The Road Goes Into the Distance",
+   "q": "Q4166770",
+   "links": 1,
+   "year": null,
+   "author": "Alexandra Brushtein",
+   "enwiki": "",
+   "n": 2
+  },
+  "LVA": {
+   "iso": "LVA",
+   "country": "Latvia",
+   "title": "Doom 94",
+   "q": "Q85757423",
+   "links": 3,
+   "year": 2013,
+   "author": "Jānis Joņevs",
+   "enwiki": "https://en.wikipedia.org/wiki/Doom_94",
+   "n": 4
+  },
+  "MAR": {
+   "iso": "MAR",
+   "country": "Morocco",
+   "title": "Robinson Crusoe",
+   "q": "Q483034",
+   "links": 99,
+   "year": 1719,
+   "author": "Daniel Defoe",
+   "enwiki": "https://en.wikipedia.org/wiki/Robinson_Crusoe",
+   "n": 9
+  },
+  "MCO": {
+   "iso": "MCO",
+   "country": "Monaco",
+   "title": "Rebecca",
+   "q": "Q1334940",
+   "links": 34,
+   "year": 1938,
+   "author": "Daphne du Maurier",
+   "enwiki": "https://en.wikipedia.org/wiki/Rebecca_(novel)",
+   "n": 3
+  },
+  "MDA": {
+   "iso": "MDA",
+   "country": "Moldova",
+   "title": "Q107987453",
+   "q": "Q107987453",
+   "links": 1,
+   "year": null,
+   "author": "Nicolai Lilin",
+   "enwiki": "",
+   "n": 1
+  },
+  "MDG": {
+   "iso": "MDG",
+   "country": "Madagascar",
+   "title": "Return to the Enchanted Island",
+   "q": "Q133954998",
+   "links": 0,
+   "year": 2013,
+   "author": "Johary Ravaloson",
+   "enwiki": "",
+   "n": 1
+  },
+  "MEX": {
+   "iso": "MEX",
+   "country": "Mexico",
+   "title": "The Pearl",
+   "q": "Q1215393",
+   "links": 31,
+   "year": 1947,
+   "author": "John Steinbeck",
+   "enwiki": "https://en.wikipedia.org/wiki/The_Pearl_(novella)",
+   "n": 51
+  },
+  "MKD": {
+   "iso": "MKD",
+   "country": "North Macedonia",
+   "title": "The Great Water",
+   "q": "Q20565529",
+   "links": 2,
+   "year": null,
+   "author": "",
+   "enwiki": "",
+   "n": 3
+  },
+  "MLI": {
+   "iso": "MLI",
+   "country": "Mali",
+   "title": "The Barsac Mission",
+   "q": "Q1171108",
+   "links": 20,
+   "year": 1914,
+   "author": "Michel Verne, Jules Verne",
+   "enwiki": "https://en.wikipedia.org/wiki/The_Barsac_Mission",
+   "n": 4
+  },
+  "MLT": {
+   "iso": "MLT",
+   "country": "Malta",
+   "title": "Sword and Scimitar",
+   "q": "Q32859442",
+   "links": 1,
+   "year": 2012,
+   "author": "Simon Scarrow",
+   "enwiki": "",
+   "n": 1
+  },
+  "MMR": {
+   "iso": "MMR",
+   "country": "Myanmar",
+   "title": "Pather Dabi",
+   "q": "Q13058459",
+   "links": 4,
+   "year": null,
+   "author": "Sarat Chandra Chattopadhyay",
+   "enwiki": "https://en.wikipedia.org/wiki/Pather_Dabi",
+   "n": 3
+  },
+  "MNE": {
+   "iso": "MNE",
+   "country": "Montenegro",
+   "title": "Omer Celebija : a short story from the life of the Serbian people",
+   "q": "Q109336114",
+   "links": 0,
+   "year": 1886,
+   "author": "Milan Milićević",
+   "enwiki": "",
+   "n": 3
+  },
+  "MNG": {
+   "iso": "MNG",
+   "country": "Mongolia",
+   "title": "Treasure of Khan",
+   "q": "Q3227916",
+   "links": 3,
+   "year": 2006,
+   "author": "Clive Cussler, Dirk Cussler",
+   "enwiki": "https://en.wikipedia.org/wiki/Treasure_of_Khan",
+   "n": 2
+  },
+  "MOZ": {
+   "iso": "MOZ",
+   "country": "Mozambique",
+   "title": "Ualalapi",
+   "q": "Q7876341",
+   "links": 2,
+   "year": 1987,
+   "author": "Ungulani Ba Ka Khosa",
+   "enwiki": "https://en.wikipedia.org/wiki/Ualalapi",
+   "n": 4
+  },
+  "MUS": {
+   "iso": "MUS",
+   "country": "Mauritius",
+   "title": "Paul et Virginie",
+   "q": "Q2293012",
+   "links": 17,
+   "year": 1787,
+   "author": "Jacques-Henri Bernardin de Saint-Pierre",
+   "enwiki": "https://en.wikipedia.org/wiki/Paul_et_Virginie",
+   "n": 1
+  },
+  "MYS": {
+   "iso": "MYS",
+   "country": "Malaysia",
+   "title": "The Pirates of Malaysia",
+   "q": "Q635918",
+   "links": 10,
+   "year": 1896,
+   "author": "Emilio Salgari",
+   "enwiki": "https://en.wikipedia.org/wiki/The_Pirates_of_Malaysia",
+   "n": 5
+  },
+  "NER": {
+   "iso": "NER",
+   "country": "Niger",
+   "title": "The Alchemist",
+   "q": "Q179021",
+   "links": 92,
+   "year": 1988,
+   "author": "Paulo Coelho",
+   "enwiki": "https://en.wikipedia.org/wiki/The_Alchemist_(novel)",
+   "n": 4
+  },
+  "NGA": {
+   "iso": "NGA",
+   "country": "Nigeria",
+   "title": "Things Fall Apart",
+   "q": "Q622400",
+   "links": 38,
+   "year": 1958,
+   "author": "Chinua Achebe",
+   "enwiki": "https://en.wikipedia.org/wiki/Things_Fall_Apart",
+   "n": 79
+  },
+  "NIC": {
+   "iso": "NIC",
+   "country": "Nicaragua",
+   "title": "The Stars at Noon",
+   "q": "Q85808539",
+   "links": 2,
+   "year": 1986,
+   "author": "Denis Johnson",
+   "enwiki": "https://en.wikipedia.org/wiki/The_Stars_at_Noon",
+   "n": 4
+  },
+  "NLD": {
+   "iso": "NLD",
+   "country": "Netherlands",
+   "title": "The Fault in Our Stars",
+   "q": "Q658375",
+   "links": 50,
+   "year": 2012,
+   "author": "John Green",
+   "enwiki": "https://en.wikipedia.org/wiki/The_Fault_in_Our_Stars",
+   "n": 37
+  },
+  "NOR": {
+   "iso": "NOR",
+   "country": "Norway",
+   "title": "Twenty Thousand Leagues Under the Sea",
+   "q": "Q183565",
+   "links": 77,
+   "year": 1869,
+   "author": "Jules Verne",
+   "enwiki": "https://en.wikipedia.org/wiki/Twenty_Thousand_Leagues_Under_the_Seas",
+   "n": 37
+  },
+  "NPL": {
+   "iso": "NPL",
+   "country": "Nepal",
+   "title": "Lost Horizon",
+   "q": "Q1199794",
+   "links": 22,
+   "year": 1933,
+   "author": "James Hilton",
+   "enwiki": "https://en.wikipedia.org/wiki/Lost_Horizon",
+   "n": 5
+  },
+  "NZL": {
+   "iso": "NZL",
+   "country": "New Zealand",
+   "title": "In Search of the Castaways",
+   "q": "Q1213902",
+   "links": 47,
+   "year": 1864,
+   "author": "Jules Verne",
+   "enwiki": "https://en.wikipedia.org/wiki/In_Search_of_the_Castaways",
+   "n": 13
+  },
+  "OMN": {
+   "iso": "OMN",
+   "country": "Oman",
+   "title": "The Adventures of Amina al-Sirafi",
+   "q": "Q122834958",
+   "links": 2,
+   "year": 2023,
+   "author": "Shannon Ali Chakraborty",
+   "enwiki": "https://en.wikipedia.org/wiki/The_Adventures_of_Amina_al-Sirafi",
+   "n": 1
+  },
+  "PAK": {
+   "iso": "PAK",
+   "country": "Pakistan",
+   "title": "Pir-e-Kamil",
+   "q": "Q7197549",
+   "links": 9,
+   "year": 2004,
+   "author": "Umera Ahmad",
+   "enwiki": "https://en.wikipedia.org/wiki/Pir-e-Kamil",
+   "n": 13
+  },
+  "PAN": {
+   "iso": "PAN",
+   "country": "Panama",
+   "title": "The Three-Body Problem",
+   "q": "Q607112",
+   "links": 34,
+   "year": 2006,
+   "author": "Liu Cixin",
+   "enwiki": "https://en.wikipedia.org/wiki/The_Three-Body_Problem_(novel)",
+   "n": 3
+  },
+  "PER": {
+   "iso": "PER",
+   "country": "Peru",
+   "title": "Candide",
+   "q": "Q215894",
+   "links": 65,
+   "year": 1759,
+   "author": "Voltaire",
+   "enwiki": "https://en.wikipedia.org/wiki/Candide",
+   "n": 19
+  },
+  "PHL": {
+   "iso": "PHL",
+   "country": "Philippines",
+   "title": "Noli Me Tángere (novel)",
+   "q": "Q568299",
+   "links": 27,
+   "year": 1887,
+   "author": "José Rizal",
+   "enwiki": "https://en.wikipedia.org/wiki/Noli_Me_T%C3%A1ngere_(novel)",
+   "n": 3
+  },
+  "PNG": {
+   "iso": "PNG",
+   "country": "Papua New Guinea",
+   "title": "Imperium",
+   "q": "Q1562043",
+   "links": 7,
+   "year": 2012,
+   "author": "Christian Kracht",
+   "enwiki": "https://en.wikipedia.org/wiki/Imperium_(Kracht_novel)",
+   "n": 4
+  },
+  "POL": {
+   "iso": "POL",
+   "country": "Poland",
+   "title": "The Good Soldier Švejk",
+   "q": "Q208622",
+   "links": 55,
+   "year": 1921,
+   "author": "Jaroslav Hašek",
+   "enwiki": "https://en.wikipedia.org/wiki/The_Good_Soldier_%C5%A0vejk",
+   "n": 52
+  },
+  "PRK": {
+   "iso": "PRK",
+   "country": "North Korea",
+   "title": "Janghwa Hongryeon jeon",
+   "q": "Q5370361",
+   "links": 10,
+   "year": null,
+   "author": "",
+   "enwiki": "https://en.wikipedia.org/wiki/Janghwa_Hongryeon_jeon",
+   "n": 5
+  },
+  "PRT": {
+   "iso": "PRT",
+   "country": "Portugal",
+   "title": "Candide",
+   "q": "Q215894",
+   "links": 65,
+   "year": 1759,
+   "author": "Voltaire",
+   "enwiki": "https://en.wikipedia.org/wiki/Candide",
+   "n": 21
+  },
+  "PRY": {
+   "iso": "PRY",
+   "country": "Paraguay",
+   "title": "Il tesoro del presidente del Paraguay",
+   "q": "Q3796036",
+   "links": 5,
+   "year": 1894,
+   "author": "Emilio Salgari",
+   "enwiki": "",
+   "n": 3
+  },
+  "PSE": {
+   "iso": "PSE",
+   "country": "Palestine",
+   "title": "The Old New Land",
+   "q": "Q443071",
+   "links": 23,
+   "year": 1902,
+   "author": "Theodor Herzl",
+   "enwiki": "https://en.wikipedia.org/wiki/The_Old_New_Land",
+   "n": 8
+  },
+  "PYF": {
+   "iso": "PYF",
+   "country": "French Polynesia",
+   "title": "Propeller Island",
+   "q": "Q1215553",
+   "links": 21,
+   "year": 1895,
+   "author": "Jules Verne",
+   "enwiki": "https://en.wikipedia.org/wiki/Propeller_Island",
+   "n": 2
+  },
+  "ROU": {
+   "iso": "ROU",
+   "country": "Romania",
+   "title": "Dracula",
+   "q": "Q41542",
+   "links": 76,
+   "year": 1897,
+   "author": "Bram Stoker",
+   "enwiki": "https://en.wikipedia.org/wiki/Dracula",
+   "n": 20
+  },
+  "RUS": {
+   "iso": "RUS",
+   "country": "Russia",
+   "title": "Crime and Punishment",
+   "q": "Q165318",
+   "links": 109,
+   "year": 1866,
+   "author": "Fyodor Dostoyevsky",
+   "enwiki": "https://en.wikipedia.org/wiki/Crime_and_Punishment",
+   "n": 154
+  },
+  "RWA": {
+   "iso": "RWA",
+   "country": "Rwanda",
+   "title": "The Savage Detectives",
+   "q": "Q898056",
+   "links": 11,
+   "year": 1998,
+   "author": "Roberto Bolaño",
+   "enwiki": "https://en.wikipedia.org/wiki/The_Savage_Detectives",
+   "n": 4
+  },
+  "SAU": {
+   "iso": "SAU",
+   "country": "Saudi Arabia",
+   "title": "The Twins",
+   "q": "Q86398739",
+   "links": 3,
+   "year": 1930,
+   "author": "Abd al-Quddus al-Ansari",
+   "enwiki": "https://en.wikipedia.org/wiki/The_Twins_(1930_novel)",
+   "n": 3
+  },
+  "SDN": {
+   "iso": "SDN",
+   "country": "Sudan",
+   "title": "Season of Migration to the North",
+   "q": "Q921128",
+   "links": 16,
+   "year": 1966,
+   "author": "al-Tayyib Salih",
+   "enwiki": "https://en.wikipedia.org/wiki/Season_of_Migration_to_the_North",
+   "n": 1
+  },
+  "SEN": {
+   "iso": "SEN",
+   "country": "Senegal",
+   "title": "So Long a Letter",
+   "q": "Q7549373",
+   "links": 4,
+   "year": 1980,
+   "author": "Mariama Bâ",
+   "enwiki": "https://en.wikipedia.org/wiki/So_Long_a_Letter",
+   "n": 6
+  },
+  "SGP": {
+   "iso": "SGP",
+   "country": "Singapore",
+   "title": "Around the World in Eighty Days",
+   "q": "Q1219561",
+   "links": 79,
+   "year": 1872,
+   "author": "Jules Verne",
+   "enwiki": "https://en.wikipedia.org/wiki/Around_the_World_in_Eighty_Days",
+   "n": 3
+  },
+  "SLE": {
+   "iso": "SLE",
+   "country": "Sierra Leone",
+   "title": "The Memory of Love",
+   "q": "Q29830265",
+   "links": 1,
+   "year": 2010,
+   "author": "Aminatta Forna",
+   "enwiki": "https://en.wikipedia.org/wiki/The_Memory_of_Love",
+   "n": 1
+  },
+  "SMR": {
+   "iso": "SMR",
+   "country": "San Marino",
+   "title": "Q3796117",
+   "q": "Q3796117",
+   "links": 1,
+   "year": 1928,
+   "author": "Marino Moretti",
+   "enwiki": "",
+   "n": 1
+  },
+  "SOM": {
+   "iso": "SOM",
+   "country": "Somalia",
+   "title": "The Adventures of Amina al-Sirafi",
+   "q": "Q122834958",
+   "links": 2,
+   "year": 2023,
+   "author": "Shannon Ali Chakraborty",
+   "enwiki": "https://en.wikipedia.org/wiki/The_Adventures_of_Amina_al-Sirafi",
+   "n": 11
+  },
+  "SRB": {
+   "iso": "SRB",
+   "country": "Serbia",
+   "title": "Impure Blood",
+   "q": "Q6008043",
+   "links": 7,
+   "year": 1910,
+   "author": "Borisav Stanković",
+   "enwiki": "https://en.wikipedia.org/wiki/Impure_Blood",
+   "n": 54
+  },
+  "SUR": {
+   "iso": "SUR",
+   "country": "Suriname",
+   "title": "The cost of Sugar",
+   "q": "Q87725165",
+   "links": 1,
+   "year": 1987,
+   "author": "Cynthia McLeod",
+   "enwiki": "",
+   "n": 1
+  },
+  "SVK": {
+   "iso": "SVK",
+   "country": "Slovakia",
+   "title": "Q19952366",
+   "q": "Q19952366",
+   "links": 2,
+   "year": 1967,
+   "author": "Gérard de Villiers",
+   "enwiki": "",
+   "n": 3
+  },
+  "SVN": {
+   "iso": "SVN",
+   "country": "Slovenia",
+   "title": "My Carso",
+   "q": "Q3794687",
+   "links": 2,
+   "year": 1912,
+   "author": "Scipio Slataper",
+   "enwiki": "",
+   "n": 2
+  },
+  "SWE": {
+   "iso": "SWE",
+   "country": "Sweden",
+   "title": "The Wonderful Adventures of Nils",
+   "q": "Q726254",
+   "links": 45,
+   "year": 1906,
+   "author": "Selma Lagerlöf",
+   "enwiki": "https://en.wikipedia.org/wiki/The_Wonderful_Adventures_of_Nils",
+   "n": 91
+  },
+  "SYR": {
+   "iso": "SYR",
+   "country": "Syria",
+   "title": "Assassin's Creed: Revelations",
+   "q": "Q3282199",
+   "links": 3,
+   "year": 2011,
+   "author": "Anton Gill",
+   "enwiki": "",
+   "n": 8
+  },
+  "THA": {
+   "iso": "THA",
+   "country": "Thailand",
+   "title": "The Bridge over the River Kwai",
+   "q": "Q1211785",
+   "links": 20,
+   "year": 1952,
+   "author": "Pierre Boulle",
+   "enwiki": "https://en.wikipedia.org/wiki/The_Bridge_over_the_River_Kwai",
+   "n": 8
+  },
+  "TJK": {
+   "iso": "TJK",
+   "country": "Tajikistan",
+   "title": "Claudius Bombarnac",
+   "q": "Q1098300",
+   "links": 21,
+   "year": 1892,
+   "author": "Jules Verne",
+   "enwiki": "https://en.wikipedia.org/wiki/Claudius_Bombarnac",
+   "n": 1
+  },
+  "TKM": {
+   "iso": "TKM",
+   "country": "Turkmenistan",
+   "title": "Claudius Bombarnac",
+   "q": "Q1098300",
+   "links": 21,
+   "year": 1892,
+   "author": "Jules Verne",
+   "enwiki": "https://en.wikipedia.org/wiki/Claudius_Bombarnac",
+   "n": 2
+  },
+  "TTO": {
+   "iso": "TTO",
+   "country": "Trinidad and Tobago",
+   "title": "Salt",
+   "q": "Q111948676",
+   "links": 1,
+   "year": null,
+   "author": "Earl Lovelace",
+   "enwiki": "https://en.wikipedia.org/wiki/Salt_(Lovelace_novel)",
+   "n": 1
+  },
+  "TUN": {
+   "iso": "TUN",
+   "country": "Tunisia",
+   "title": "Carthage in Flames",
+   "q": "Q635050",
+   "links": 4,
+   "year": 1908,
+   "author": "Emilio Salgari",
+   "enwiki": "",
+   "n": 2
+  },
+  "TUR": {
+   "iso": "TUR",
+   "country": "Turkey",
+   "title": "Candide",
+   "q": "Q215894",
+   "links": 65,
+   "year": 1759,
+   "author": "Voltaire",
+   "enwiki": "https://en.wikipedia.org/wiki/Candide",
+   "n": 50
+  },
+  "TZA": {
+   "iso": "TZA",
+   "country": "Tanzania",
+   "title": "A Sport of Nature",
+   "q": "Q4659762",
+   "links": 4,
+   "year": 1987,
+   "author": "Nadine Gordimer",
+   "enwiki": "https://en.wikipedia.org/wiki/A_Sport_of_Nature",
+   "n": 7
+  },
+  "UGA": {
+   "iso": "UGA",
+   "country": "Uganda",
+   "title": "The Evolution Man",
+   "q": "Q3400606",
+   "links": 4,
+   "year": 1960,
+   "author": "Roy Lewis",
+   "enwiki": "",
+   "n": 1
+  },
+  "UKR": {
+   "iso": "UKR",
+   "country": "Ukraine",
+   "title": "Everything Is Illuminated",
+   "q": "Q923551",
+   "links": 12,
+   "year": 2002,
+   "author": "Jonathan Safran Foer, Hans-Jacob Nilsson",
+   "enwiki": "https://en.wikipedia.org/wiki/Everything_Is_Illuminated",
+   "n": 17
+  },
+  "URY": {
+   "iso": "URY",
+   "country": "Uruguay",
+   "title": "Burnt Money",
+   "q": "Q6077998",
+   "links": 2,
+   "year": 1997,
+   "author": "Ricardo Piglia",
+   "enwiki": "",
+   "n": 2
+  },
+  "USA": {
+   "iso": "USA",
+   "country": "United States",
+   "title": "The Catcher in the Rye",
+   "q": "Q183883",
+   "links": 86,
+   "year": 1951,
+   "author": "J. D. Salinger",
+   "enwiki": "https://en.wikipedia.org/wiki/The_Catcher_in_the_Rye",
+   "n": 2151
+  },
+  "UZB": {
+   "iso": "UZB",
+   "country": "Uzbekistan",
+   "title": "Le Aquile della steppa",
+   "q": "Q8212205",
+   "links": 1,
+   "year": 1905,
+   "author": "Emilio Salgari",
+   "enwiki": "",
+   "n": 1
+  },
+  "VAT": {
+   "iso": "VAT",
+   "country": "Vatican City",
+   "title": "Angels & Demons",
+   "q": "Q182502",
+   "links": 63,
+   "year": 2000,
+   "author": "Dan Brown",
+   "enwiki": "https://en.wikipedia.org/wiki/Angels_%26_Demons",
+   "n": 2
+  },
+  "VEN": {
+   "iso": "VEN",
+   "country": "Venezuela",
+   "title": "Robinson Crusoe",
+   "q": "Q483034",
+   "links": 99,
+   "year": 1719,
+   "author": "Daniel Defoe",
+   "enwiki": "https://en.wikipedia.org/wiki/Robinson_Crusoe",
+   "n": 2
+  },
+  "VNM": {
+   "iso": "VNM",
+   "country": "Vietnam",
+   "title": "The Quiet American",
+   "q": "Q1199651",
+   "links": 22,
+   "year": 1955,
+   "author": "Graham Greene",
+   "enwiki": "https://en.wikipedia.org/wiki/The_Quiet_American",
+   "n": 33
+  },
+  "YEM": {
+   "iso": "YEM",
+   "country": "Yemen",
+   "title": "Around the World in Eighty Days",
+   "q": "Q1219561",
+   "links": 79,
+   "year": 1872,
+   "author": "Jules Verne",
+   "enwiki": "https://en.wikipedia.org/wiki/Around_the_World_in_Eighty_Days",
+   "n": 3
+  },
+  "ZAF": {
+   "iso": "ZAF",
+   "country": "South Africa",
+   "title": "Disgrace",
+   "q": "Q958560",
+   "links": 23,
+   "year": 1999,
+   "author": "J. M. Coetzee",
+   "enwiki": "https://en.wikipedia.org/wiki/Disgrace",
+   "n": 47
+  },
+  "ZMB": {
+   "iso": "ZMB",
+   "country": "Zambia",
+   "title": "The Old Drift",
+   "q": "Q108415509",
+   "links": 1,
+   "year": 2019,
+   "author": "Namwali Serpell",
+   "enwiki": "https://en.wikipedia.org/wiki/The_Old_Drift",
+   "n": 5
+  },
+  "ZWE": {
+   "iso": "ZWE",
+   "country": "Zimbabwe",
+   "title": "Out of Shadows",
+   "q": "Q96397865",
+   "links": 2,
+   "year": 2010,
+   "author": "Jason Wallace",
+   "enwiki": "https://en.wikipedia.org/wiki/Out_of_Shadows",
+   "n": 5
+  }
+ },
+ "famous_top": [
+  {
+   "iso": "ESP",
+   "country": "Spain",
+   "title": "Don Quixote",
+   "q": "Q480",
+   "links": 147,
+   "year": 1605.0,
+   "author": "Miguel de Cervantes",
+   "enwiki": "https://en.wikipedia.org/wiki/Don_Quixote",
+   "n": 284
+  },
+  {
+   "iso": "GBR",
+   "country": "United Kingdom",
+   "title": "Nineteen Eighty-Four",
+   "q": "Q208460",
+   "links": 138,
+   "year": 1949.0,
+   "author": "George Orwell",
+   "enwiki": "https://en.wikipedia.org/wiki/Nineteen_Eighty-Four",
+   "n": 1216
+  },
+  {
+   "iso": "CHN",
+   "country": "China",
+   "title": "Dream of the Red Chamber",
+   "q": "Q8265",
+   "links": 117,
+   "year": 1792.0,
+   "author": "Cao Xueqin",
+   "enwiki": "https://en.wikipedia.org/wiki/Dream_of_the_Red_Chamber",
+   "n": 111
+  },
+  {
+   "iso": "RUS",
+   "country": "Russia",
+   "title": "Crime and Punishment",
+   "q": "Q165318",
+   "links": 109,
+   "year": 1866.0,
+   "author": "Fyodor Dostoyevsky",
+   "enwiki": "https://en.wikipedia.org/wiki/Crime_and_Punishment",
+   "n": 154
+  },
+  {
+   "iso": "MAR",
+   "country": "Morocco",
+   "title": "Robinson Crusoe",
+   "q": "Q483034",
+   "links": 99,
+   "year": 1719.0,
+   "author": "Daniel Defoe",
+   "enwiki": "https://en.wikipedia.org/wiki/Robinson_Crusoe",
+   "n": 9
+  },
+  {
+   "iso": "VEN",
+   "country": "Venezuela",
+   "title": "Robinson Crusoe",
+   "q": "Q483034",
+   "links": 99,
+   "year": 1719.0,
+   "author": "Daniel Defoe",
+   "enwiki": "https://en.wikipedia.org/wiki/Robinson_Crusoe",
+   "n": 2
+  },
+  {
+   "iso": "FRA",
+   "country": "France",
+   "title": "Les Misérables",
+   "q": "Q180736",
+   "links": 98,
+   "year": 1862.0,
+   "author": "",
+   "enwiki": "https://en.wikipedia.org/wiki/Les_Mis%C3%A9rables",
+   "n": 669
+  },
+  {
+   "iso": "AUT",
+   "country": "Austria",
+   "title": "War and Peace",
+   "q": "Q161531",
+   "links": 97,
+   "year": 1869.0,
+   "author": "Leo Tolstoy",
+   "enwiki": "https://en.wikipedia.org/wiki/War_and_Peace",
+   "n": 69
+  },
+  {
+   "iso": "NER",
+   "country": "Niger",
+   "title": "The Alchemist",
+   "q": "Q179021",
+   "links": 92,
+   "year": 1988.0,
+   "author": "Paulo Coelho",
+   "enwiki": "https://en.wikipedia.org/wiki/The_Alchemist_(novel)",
+   "n": 4
+  },
+  {
+   "iso": "EGY",
+   "country": "Egypt",
+   "title": "The Alchemist",
+   "q": "Q179021",
+   "links": 92,
+   "year": 1988.0,
+   "author": "Paulo Coelho",
+   "enwiki": "https://en.wikipedia.org/wiki/The_Alchemist_(novel)",
+   "n": 79
+  },
+  {
+   "iso": "CUB",
+   "country": "Cuba",
+   "title": "The Old Man and the Sea",
+   "q": "Q26505",
+   "links": 91,
+   "year": 1952.0,
+   "author": "Ernest Hemingway",
+   "enwiki": "https://en.wikipedia.org/wiki/The_Old_Man_and_the_Sea",
+   "n": 13
+  },
+  {
+   "iso": "USA",
+   "country": "United States",
+   "title": "The Catcher in the Rye",
+   "q": "Q183883",
+   "links": 86,
+   "year": 1951.0,
+   "author": "J. D. Salinger",
+   "enwiki": "https://en.wikipedia.org/wiki/The_Catcher_in_the_Rye",
+   "n": 2151
+  }
+ ],
+ "most_linked": [
+  {
+   "title": "Don Quixote",
+   "links": 147,
+   "year": 1605
+  },
+  {
+   "title": "Nineteen Eighty-Four",
+   "links": 138,
+   "year": 1949
+  },
+  {
+   "title": "Animal Farm",
+   "links": 122,
+   "year": 1945
+  },
+  {
+   "title": "Dream of the Red Chamber",
+   "links": 117,
+   "year": 1792
+  },
+  {
+   "title": "Anna Karenina",
+   "links": 109,
+   "year": 1877
+  },
+  {
+   "title": "Crime and Punishment",
+   "links": 109,
+   "year": 1866
+  },
+  {
+   "title": "Harry Potter and the Philosopher's Stone",
+   "links": 104,
+   "year": 1997
+  },
+  {
+   "title": "Pride and Prejudice",
+   "links": 100,
+   "year": 1813
+  },
+  {
+   "title": "Robinson Crusoe",
+   "links": 99,
+   "year": 1719
+  },
+  {
+   "title": "Les Misérables",
+   "links": 98,
+   "year": 1862
+  }
+ ],
+ "remote": [
+  {
+   "label": "South Pole",
+   "q": "Q933",
+   "km": 5802,
+   "lat": -90.0,
+   "lon": 0.0,
+   "level": "site",
+   "iso": "ATA",
+   "works": [
+    {
+     "title": "An Antarctic Mystery",
+     "year": 1897,
+     "author": "Jules Verne"
+    },
+    {
+     "title": "Twenty Thousand Leagues Under the Sea",
+     "year": 1869,
+     "author": "Jules Verne"
+    }
+   ]
+  },
+  {
+   "label": "Marquesas Islands",
+   "q": "Q172697",
+   "km": 5150,
+   "lat": -8.9,
+   "lon": -139.6,
+   "level": "region",
+   "iso": "PYF",
+   "works": [
+    {
+     "title": "Voyage aux îles Mangareva (Océanie)",
+     "year": 1844,
+     "author": "Pierre Adolphe Lesson"
+    },
+    {
+     "title": "The Wrecker",
+     "year": 1892,
+     "author": "Lloyd Osbourne, Robert Louis Stevenson"
+    }
+   ]
+  },
+  {
+   "label": "Mangareva",
+   "q": "Q616662",
+   "km": 5016,
+   "lat": -23.1,
+   "lon": -134.97,
+   "level": "region",
+   "iso": "PYF",
+   "works": [
+    {
+     "title": "Voyage aux îles Mangareva (Océanie)",
+     "year": 1844,
+     "author": "Pierre Adolphe Lesson"
+    }
+   ]
+  },
+  {
+   "label": "Tuamotus",
+   "q": "Q183963",
+   "km": 4675,
+   "lat": -18.75,
+   "lon": -141.76,
+   "level": "region",
+   "iso": "FRA",
+   "works": [
+    {
+     "title": "South Sea Tales",
+     "year": null,
+     "author": "Jack London"
+    }
+   ]
+  },
+  {
+   "label": "Hikueru",
+   "q": "Q1469615",
+   "km": 4673,
+   "lat": -17.58,
+   "lon": -142.65,
+   "level": "region",
+   "iso": "PYF",
+   "works": [
+    {
+     "title": "South Sea Tales",
+     "year": null,
+     "author": "Jack London"
+    }
+   ]
+  },
+  {
+   "label": "Tahiti",
+   "q": "Q42000",
+   "km": 4093,
+   "lat": -17.67,
+   "lon": -149.47,
+   "level": "region",
+   "iso": "PYF",
+   "works": [
+    {
+     "title": "Lettres taïtiennes",
+     "year": 1784,
+     "author": "Marie-Joséphine de Lescun de Monbart"
+    },
+    {
+     "title": "Supplément au voyage de Bougainville",
+     "year": 1796,
+     "author": "Denis Diderot"
+    },
+    {
+     "title": "The Virtuous Island",
+     "year": null,
+     "author": "Jean Giraudoux"
+    }
+   ]
+  },
+  {
+   "label": "Society Islands",
+   "q": "Q118920",
+   "km": 3993,
+   "lat": -16.85,
+   "lon": -151.4,
+   "level": "region",
+   "iso": "PYF",
+   "works": [
+    {
+     "title": "Propeller Island",
+     "year": 1895,
+     "author": "Jules Verne"
+    }
+   ]
+  },
+  {
+   "label": "Haʻena State Park",
+   "q": "Q4243083",
+   "km": 3940,
+   "lat": 22.22,
+   "lon": -159.58,
+   "level": "site",
+   "iso": "USA",
+   "works": [
+    {
+     "title": "Vulcan's Glory",
+     "year": 1989,
+     "author": "D. C. Fontana"
+    }
+   ]
+  },
+  {
+   "label": "Honolulu",
+   "q": "Q18094",
+   "km": 3854,
+   "lat": 21.3,
+   "lon": -157.86,
+   "level": "city",
+   "iso": "USA",
+   "works": [
+    {
+     "title": "Cultural Revolution",
+     "year": null,
+     "author": "Norman Wong"
+    }
+   ]
+  },
+  {
+   "label": "Hawaii",
+   "q": "Q782",
+   "km": 3853,
+   "lat": 21.5,
+   "lon": -158.0,
+   "level": "region",
+   "iso": "USA",
+   "works": [
+    {
+     "title": "Project Hail Mary",
+     "year": 2021,
+     "author": "Andy Weir"
+    },
+    {
+     "title": "A Tale From the Rainbow Land",
+     "year": 1914,
+     "author": "Katherine Merritte Yates"
+    },
+    {
+     "title": "Kat and Copy-Cat",
+     "year": 1929,
+     "author": "Katherine Merritte Yates"
+    },
+    {
+     "title": "A Killer's Guide to Falling",
+     "year": 2027,
+     "author": "Kristin Wollett"
+    }
+   ]
+  }
+ ],
+ "south": [
+  {
+   "label": "South Pole",
+   "lat": -90.0,
+   "works": [
+    {
+     "title": "An Antarctic Mystery",
+     "year": 1897,
+     "author": "Jules Verne"
+    },
+    {
+     "title": "Twenty Thousand Leagues Under the Sea",
+     "year": 1869,
+     "author": "Jules Verne"
+    }
+   ]
+  },
+  {
+   "label": "Antarctic Peninsula",
+   "lat": -69.0,
+   "works": [
+    {
+     "title": "Madhouse at the End of the Earth",
+     "year": 2021,
+     "author": "Julian Sancton"
+    }
+   ]
+  },
+  {
+   "label": "Graham Land",
+   "lat": -66.0,
+   "works": [
+    {
+     "title": "Madhouse at the End of the Earth",
+     "year": 2021,
+     "author": "Julian Sancton"
+    }
+   ]
+  },
+  {
+   "label": "Chica",
+   "lat": -62.45,
+   "works": [
+    {
+     "title": "Le mage de Chica",
+     "year": 1759,
+     "author": ""
+    }
+   ]
+  },
+  {
+   "label": "Hoste Island",
+   "lat": -55.25,
+   "works": [
+    {
+     "title": "The Survivors of the \"Jonathan\"",
+     "year": 1909,
+     "author": "Michel Verne, Jules Verne"
+    }
+   ]
+  }
+ ],
+ "north": [
+  {
+   "label": "North Pole",
+   "lat": 90.0,
+   "works": [
+    {
+     "title": "Q136426621",
+     "year": 1899,
+     "author": "Jules Verne, Armando de María y Campos, Francisco C. Neve Velásquez, "
+    },
+    {
+     "title": "The Adventures of Captain Hatteras",
+     "year": 1864,
+     "author": "Jules Verne"
+    }
+   ]
+  },
+  {
+   "label": "Spitsbergen",
+   "lat": 78.75,
+   "works": [
+    {
+     "title": "Mine Seven",
+     "year": 2020,
+     "author": "Elana Gomel"
+    },
+    {
+     "title": "Q23312400",
+     "year": 1890,
+     "author": "Xavier Marmier"
+    }
+   ]
+  },
+  {
+   "label": "Svalbard",
+   "lat": 78.16,
+   "works": [
+    {
+     "title": "The Terrors of Ice and Darkness",
+     "year": 1984,
+     "author": "Christoph Ransmayr"
+    },
+    {
+     "title": "Northern Lights",
+     "year": 1995,
+     "author": "Philip Pullman"
+    }
+   ]
+  },
+  {
+   "label": "Novaya Zemlya",
+   "lat": 73.95,
+   "works": [
+    {
+     "title": "Q19132655",
+     "year": 1914,
+     "author": "S. Kondurushkin"
+    }
+   ]
+  },
+  {
+   "label": "Greenland",
+   "lat": 72.0,
+   "works": [
+    {
+     "title": "Q21426177",
+     "year": null,
+     "author": "Léo Pilipovic, Jean-Pierre Pécau"
+    }
+   ]
+  }
+ ],
+ "antarctica": {
+  "works": 17,
+  "novels": 7
+ },
+ "streets": [
+  {
+   "label": "Istedgade",
+   "q": "Q1674847",
+   "works": 4,
+   "novels": 1,
+   "types": [
+    "gay village",
+    "street"
+   ],
+   "city": "Copenhagen",
+   "iso": "DNK",
+   "fictional": false,
+   "examples": [
+    {
+     "title": "Last walk through the city",
+     "year": 1977,
+     "author": "Dan Turèll"
+    },
+    {
+     "title": "Koordinater",
+     "year": 2013,
+     "author": "Amalie Laulund Trudsø"
+    },
+    {
+     "title": "Naser",
+     "year": 2008,
+     "author": "Tanja Parker Astrup"
+    },
+    {
+     "title": "Q84409002",
+     "year": 1976,
+     "author": "Dan Turèll"
+    }
+   ]
+  },
+  {
+   "label": "Gammel Kongevej",
+   "q": "Q11300590",
+   "works": 3,
+   "novels": 3,
+   "types": [
+    "street"
+   ],
+   "city": "Copenhagen",
+   "iso": "DNK",
+   "fictional": false,
+   "examples": [
+    {
+     "title": "Danskere",
+     "year": 1896,
+     "author": "Johannes V. Jensen"
+    },
+    {
+     "title": "Koordinater",
+     "year": 2013,
+     "author": "Amalie Laulund Trudsø"
+    },
+    {
+     "title": "Q25340734",
+     "year": 2016,
+     "author": "Helle Vincentz"
+    }
+   ]
+  },
+  {
+   "label": "Nørrebrogade",
+   "q": "Q11992955",
+   "works": 3,
+   "novels": 2,
+   "types": [
+    "street"
+   ],
+   "city": "Copenhagen",
+   "iso": "DNK",
+   "fictional": false,
+   "examples": [
+    {
+     "title": "The Exception",
+     "year": 2004,
+     "author": "Christian Jungersen"
+    },
+    {
+     "title": "Koordinater",
+     "year": 2013,
+     "author": "Amalie Laulund Trudsø"
+    },
+    {
+     "title": "Q21859970",
+     "year": 1992,
+     "author": "Dorthe Petersen"
+    }
+   ]
+  },
+  {
+   "label": "Vesterbrogade",
+   "q": "Q3363759",
+   "works": 3,
+   "novels": 2,
+   "types": [
+    "street"
+   ],
+   "city": "Copenhagen",
+   "iso": "DNK",
+   "fictional": false,
+   "examples": [
+    {
+     "title": "Terminal Innocence",
+     "year": 1958,
+     "author": "Klaus Rifbjerg"
+    },
+    {
+     "title": "Last walk through the city",
+     "year": 1977,
+     "author": "Dan Turèll"
+    },
+    {
+     "title": "Koordinater",
+     "year": 2013,
+     "author": "Amalie Laulund Trudsø"
+    }
+   ]
+  },
+  {
+   "label": "Bredgade",
+   "q": "Q3432537",
+   "works": 3,
+   "novels": 1,
+   "types": [
+    "street"
+   ],
+   "city": "Copenhagen",
+   "iso": "DNK",
+   "fictional": false,
+   "examples": [
+    {
+     "title": "Q108899802",
+     "year": 1999,
+     "author": "Jane Aamund"
+    },
+    {
+     "title": "Q21664056",
+     "year": 2011,
+     "author": "Frederik Roed"
+    },
+    {
+     "title": "Q27915813",
+     "year": 1901,
+     "author": "Herman Bang"
+    }
+   ]
+  },
+  {
+   "label": "Vestergade",
+   "q": "Q12009460",
+   "works": 2,
+   "novels": 2,
+   "types": [
+    "street"
+   ],
+   "city": "Copenhagen",
+   "iso": "DNK",
+   "fictional": false,
+   "examples": [
+    {
+     "title": "Q12311959",
+     "year": 1843,
+     "author": "Søren Kierkegaard"
+    },
+    {
+     "title": "The Fall of the King",
+     "year": 1901,
+     "author": "Johannes V. Jensen"
+    }
+   ]
+  },
+  {
+   "label": "Second Avenue",
+   "q": "Q124914",
+   "works": 2,
+   "novels": 1,
+   "types": [
+    "north-south avenue in Manhattan",
+    "thoroughfare"
+   ],
+   "city": "New York City",
+   "iso": "USA",
+   "fictional": false,
+   "examples": [
+    {
+     "title": "The Prisoner of Second Avenue",
+     "year": null,
+     "author": "Neil Simon"
+    },
+    {
+     "title": "The Dark Tower V: Wolves of the Calla",
+     "year": 2003,
+     "author": "Stephen King"
+    }
+   ]
+  },
+  {
+   "label": "Hyskenstræde",
+   "q": "Q12317648",
+   "works": 2,
+   "novels": 1,
+   "types": [
+    "street"
+   ],
+   "city": "Copenhagen",
+   "iso": "DNK",
+   "fictional": false,
+   "examples": [
+    {
+     "title": "The Fall of the King",
+     "year": 1901,
+     "author": "Johannes V. Jensen"
+    },
+    {
+     "title": "The Old Bachelor’s Nightcap",
+     "year": 1858,
+     "author": "Hans Christian Andersen"
+    }
+   ]
+  },
+  {
+   "label": "Strandvejen",
+   "q": "Q10681579",
+   "works": 2,
+   "novels": 1,
+   "types": [
+    "street"
+   ],
+   "city": "Copenhagen",
+   "iso": "DNK",
+   "fictional": false,
+   "examples": [
+    {
+     "title": "Terminal Innocence",
+     "year": 1958,
+     "author": "Klaus Rifbjerg"
+    },
+    {
+     "title": "A Midsummer Night's Play",
+     "year": 1803,
+     "author": "Adam Oehlenschläger"
+    }
+   ]
+  },
+  {
+   "label": "Strøget",
+   "q": "Q1347634",
+   "works": 2,
+   "novels": 1,
+   "types": [
+    "pedestrian zone"
+   ],
+   "city": "Copenhagen",
+   "iso": "DNK",
+   "fictional": false,
+   "examples": [
+    {
+     "title": "Terminal Innocence",
+     "year": 1958,
+     "author": "Klaus Rifbjerg"
+    },
+    {
+     "title": "Last walk through the city",
+     "year": 1977,
+     "author": "Dan Turèll"
+    }
+   ]
+  }
+ ],
+ "n_streets": 189,
+ "streets_dnk": 132,
+ "streets_dnk_pct": 69.84,
+ "streets_top10_dnk": 9,
+ "buildings": [
+  {
+   "label": "Auschwitz",
+   "q": "Q7341",
+   "works": 7,
+   "novels": 2,
+   "types": [
+    "Nazi concentration camp",
+    "architectural ensemble",
+    "extermination camp"
+   ],
+   "city": "Auschwitz",
+   "iso": "POL",
+   "fictional": false,
+   "examples": [
+    {
+     "title": "Q104349732",
+     "year": null,
+     "author": "Liliana Segre"
+    },
+    {
+     "title": "Anus Mundi: Five Years in Auschwitz",
+     "year": 1966,
+     "author": "Wiesław Kielar"
+    },
+    {
+     "title": "Commandant of Auschwitz: The Autobiography of Rudolf Hoess",
+     "year": 1958,
+     "author": "Rudolf Höss"
+    },
+    {
+     "title": "The Zone of Interest",
+     "year": 2014,
+     "author": "Martin Amis"
+    }
+   ]
+  },
+  {
+   "label": "Christiansborg Palace",
+   "q": "Q940733",
+   "works": 5,
+   "novels": 0,
+   "types": [
+    "building of public administration",
+    "palace"
+   ],
+   "city": "Copenhagen",
+   "iso": "DNK",
+   "fictional": false,
+   "examples": [
+    {
+     "title": "Den Hemmelige Socialdemokrat",
+     "year": 2014,
+     "author": ""
+    },
+    {
+     "title": "Claus Hjort - strategen bag det nye Venstre",
+     "year": 2007,
+     "author": "Jette Hvidtfeldt, Thomas Buch-Andersen"
+    },
+    {
+     "title": "Naser",
+     "year": 2008,
+     "author": "Tanja Parker Astrup"
+    },
+    {
+     "title": "Fordi jeg var nødt til det",
+     "year": 2013,
+     "author": "Jette Meier Carlsen, Pia Kjærsgaard"
+    }
+   ]
+  },
+  {
+   "label": "Istedgade",
+   "q": "Q1674847",
+   "works": 4,
+   "novels": 1,
+   "types": [
+    "gay village",
+    "street"
+   ],
+   "city": "Copenhagen",
+   "iso": "DNK",
+   "fictional": false,
+   "examples": [
+    {
+     "title": "Last walk through the city",
+     "year": 1977,
+     "author": "Dan Turèll"
+    },
+    {
+     "title": "Koordinater",
+     "year": 2013,
+     "author": "Amalie Laulund Trudsø"
+    },
+    {
+     "title": "Naser",
+     "year": 2008,
+     "author": "Tanja Parker Astrup"
+    },
+    {
+     "title": "Q84409002",
+     "year": 1976,
+     "author": "Dan Turèll"
+    }
+   ]
+  },
+  {
+   "label": "Strahov Monastery",
+   "q": "Q969482",
+   "works": 3,
+   "novels": 2,
+   "types": [
+    "collegiate church",
+    "convent",
+    "monastery"
+   ],
+   "city": "Prague",
+   "iso": "CZE",
+   "fictional": false,
+   "examples": [
+    {
+     "title": "The Inheritance of Frequency",
+     "year": 2026,
+     "author": "Jason Carroll Holloway"
+    },
+    {
+     "title": "The Grimoire",
+     "year": 2026,
+     "author": "Jason Carroll Holloway"
+    },
+    {
+     "title": "The Kingdom",
+     "year": 2026,
+     "author": "Jason Carroll Holloway"
+    }
+   ]
+  },
+  {
+   "label": "University of Oxford",
+   "q": "Q34433",
+   "works": 3,
+   "novels": 1,
+   "types": [
+    "collegiate university",
+    "educational organization",
+    "exempt charity"
+   ],
+   "city": "University of Oxford",
+   "iso": "GBR",
+   "fictional": false,
+   "examples": [
+    {
+     "title": "Black Chalk",
+     "year": 2013,
+     "author": "Christopher J. Yates"
+    },
+    {
+     "title": "Lot No. 249",
+     "year": 1892,
+     "author": "Arthur Conan Doyle"
+    },
+    {
+     "title": "Brideshead Revisited",
+     "year": 1945,
+     "author": "Evelyn Waugh"
+    }
+   ]
+  },
+  {
+   "label": "Château du Nideck",
+   "q": "Q1519303",
+   "works": 3,
+   "novels": 0,
+   "types": [
+    "castle"
+   ],
+   "city": "Château du Nideck",
+   "iso": "FRA",
+   "fictional": false,
+   "examples": [
+    {
+     "title": "Q112126954",
+     "year": 1868,
+     "author": "Pyotr Weinberg"
+    },
+    {
+     "title": "The Giant's Toy",
+     "year": 1831,
+     "author": "Adelbert von Chamisso"
+    },
+    {
+     "title": "Q19150080",
+     "year": 1816,
+     "author": "Brothers Grimm"
+    }
+   ]
+  },
+  {
+   "label": "Aunsbjerg",
+   "q": "Q12302498",
+   "works": 3,
+   "novels": 0,
+   "types": [
+    "manor house"
+   ],
+   "city": "Aunsbjerg",
+   "iso": "DNK",
+   "fictional": false,
+   "examples": [
+    {
+     "title": "Q21711198",
+     "year": 1827,
+     "author": "Steen Steensen Blicher"
+    },
+    {
+     "title": "Drengeaar",
+     "year": 1933,
+     "author": "Henrik Pontoppidan"
+    },
+    {
+     "title": "Q55822993",
+     "year": null,
+     "author": "Steen Steensen Blicher"
+    }
+   ]
+  },
+  {
+   "label": "Green Gables",
+   "q": "Q1109932",
+   "works": 3,
+   "novels": 0,
+   "types": [
+    "house",
+    "museum"
+   ],
+   "city": "Green Gables",
+   "iso": "CAN",
+   "fictional": false,
+   "examples": [
+    {
+     "title": "Anne's House of Dreams",
+     "year": 1917,
+     "author": "Lucy Maud Montgomery"
+    },
+    {
+     "title": "Anne of Windy Poplars",
+     "year": 1936,
+     "author": "Lucy Maud Montgomery"
+    },
+    {
+     "title": "Anne of Green Gables",
+     "year": 1908,
+     "author": "Lucy Maud Montgomery"
+    }
+   ]
+  },
+  {
+   "label": "Harvard University",
+   "q": "Q13371",
+   "works": 2,
+   "novels": 2,
+   "types": [
+    "colonial colleges",
+    "private not-for-profit educational institution",
+    "private university"
+   ],
+   "city": "Boston",
+   "iso": "USA",
+   "fictional": false,
+   "examples": [
+    {
+     "title": "Call Down the Hawk",
+     "year": 2019,
+     "author": "Maggie Stiefvater"
+    },
+    {
+     "title": "Mister Impossible",
+     "year": 2021,
+     "author": "Maggie Stiefvater"
+    }
+   ]
+  },
+  {
+   "label": "Estrella",
+   "q": "Q2464797",
+   "works": 2,
+   "novels": 1,
+   "types": [
+    "metro station",
+    "underground station"
+   ],
+   "city": "Madrid",
+   "iso": "ESP",
+   "fictional": false,
+   "examples": [
+    {
+     "title": "The Death of Jesus",
+     "year": 2019,
+     "author": "J. M. Coetzee"
+    },
+    {
+     "title": "The Schooldays of Jesus",
+     "year": 2016,
+     "author": "J. M. Coetzee"
+    }
+   ]
+  }
+ ],
+ "n_buildings": 283,
+ "offworld": {
+  "pairs": 33,
+  "moon_works": 25,
+  "mars_works": 3,
+  "examples": [
+   {
+    "title": "Growing Up Weightless",
+    "place": "Moon",
+    "globe": "the Moon"
+   },
+   {
+    "title": "Have Space Suit, Will Travel",
+    "place": "Moon",
+    "globe": "the Moon"
+   },
+   {
+    "title": "The First Men in the Moon",
+    "place": "Moon",
+    "globe": "the Moon"
+   },
+   {
+    "title": "La nouvelle lune",
+    "place": "Moon",
+    "globe": "the Moon"
+   },
+   {
+    "title": "The Tranquillity Alternative",
+    "place": "Moon",
+    "globe": "the Moon"
+   },
+   {
+    "title": "Mój księżycowy pech",
+    "place": "Moon",
+    "globe": "the Moon"
+   },
+   {
+    "title": "Around the Moon",
+    "place": "Moon",
+    "globe": "the Moon"
+   },
+   {
+    "title": "The Moon Is a Harsh Mistress",
+    "place": "Mare Crisium",
+    "globe": "the Moon"
+   },
+   {
+    "title": "Lunnaya noch",
+    "place": "Moon",
+    "globe": "the Moon"
+   },
+   {
+    "title": "The Martian",
+    "place": "Arabia Terra",
+    "globe": "Mars"
+   },
+   {
+    "title": "The Martian",
+    "place": "Acidalia Planitia",
+    "globe": "Mars"
+   },
+   {
+    "title": "The Martian",
+    "place": "Schiaparelli",
+    "globe": "Mars"
+   }
+  ]
+ },
+ "fictional": [
+  {
+   "label": "Agloe",
+   "works": 1,
+   "lat": 41.97,
+   "lon": -74.91
+  },
+  {
+   "label": "Maria Theresa Reef",
+   "works": 2,
+   "lat": -37.0,
+   "lon": -151.22
+  },
+  {
+   "label": "R'lyeh",
+   "works": 1,
+   "lat": -47.15,
+   "lon": -126.72
+  },
+  {
+   "label": "Arkham",
+   "works": 1,
+   "lat": 42.61,
+   "lon": -70.82
+  },
+  {
+   "label": "Palombia",
+   "works": 1,
+   "lat": 4.61,
+   "lon": -74.08
+  },
+  {
+   "label": "221B Baker Street",
+   "works": 2,
+   "lat": 51.52,
+   "lon": -0.16
+  },
+  {
+   "label": "Brocéliande",
+   "works": 1,
+   "lat": 48.02,
+   "lon": -2.17
+  },
+  {
+   "label": "Lincoln Island",
+   "works": 1,
+   "lat": -34.95,
+   "lon": -150.5
+  },
+  {
+   "label": "Starfleet Headquarters",
+   "works": 3,
+   "lat": 37.83,
+   "lon": -122.48
+  },
+  {
+   "label": "Starfleet Academy",
+   "works": 3,
+   "lat": 37.8,
+   "lon": -122.47
+  },
+  {
+   "label": "Mount Hua",
+   "works": 1,
+   "lat": 34.48,
+   "lon": 110.08
+  },
+  {
+   "label": "Dasong",
+   "works": 1,
+   "lat": 34.79,
+   "lon": 114.34
+  },
+  {
+   "label": "Kaifeng Fu",
+   "works": 1,
+   "lat": 34.79,
+   "lon": 114.35
+  },
+  {
+   "label": "Bianliang",
+   "works": 1,
+   "lat": 34.79,
+   "lon": 114.34
+  },
+  {
+   "label": "Xixia",
+   "works": 1,
+   "lat": 38.42,
+   "lon": 106.22
+  }
+ ],
+ "years": {
+  "median_novel": 1991,
+  "since1900_pct": 91.44,
+  "since2000_pct": 38.41,
+  "oldest_novel": {
+   "title": "Yvain, the Knight of the Lion",
+   "year": 1170
+  }
+ },
+ "novels_by_decade": [
+  {
+   "dec": 1710,
+   "n": 1
+  },
+  {
+   "dec": 1720,
+   "n": 1
+  },
+  {
+   "dec": 1730,
+   "n": 1
+  },
+  {
+   "dec": 1740,
+   "n": 4
+  },
+  {
+   "dec": 1750,
+   "n": 3
+  },
+  {
+   "dec": 1760,
+   "n": 5
+  },
+  {
+   "dec": 1770,
+   "n": 8
+  },
+  {
+   "dec": 1780,
+   "n": 4
+  },
+  {
+   "dec": 1790,
+   "n": 17
+  },
+  {
+   "dec": 1800,
+   "n": 5
+  },
+  {
+   "dec": 1810,
+   "n": 21
+  },
+  {
+   "dec": 1820,
+   "n": 18
+  },
+  {
+   "dec": 1830,
+   "n": 46
+  },
+  {
+   "dec": 1840,
+   "n": 49
+  },
+  {
+   "dec": 1850,
+   "n": 41
+  },
+  {
+   "dec": 1860,
+   "n": 65
+  },
+  {
+   "dec": 1870,
+   "n": 66
+  },
+  {
+   "dec": 1880,
+   "n": 97
+  },
+  {
+   "dec": 1890,
+   "n": 122
+  },
+  {
+   "dec": 1900,
+   "n": 142
+  },
+  {
+   "dec": 1910,
+   "n": 118
+  },
+  {
+   "dec": 1920,
+   "n": 197
+  },
+  {
+   "dec": 1930,
+   "n": 314
+  },
+  {
+   "dec": 1940,
+   "n": 268
+  },
+  {
+   "dec": 1950,
+   "n": 334
+  },
+  {
+   "dec": 1960,
+   "n": 419
+  },
+  {
+   "dec": 1970,
+   "n": 428
+  },
+  {
+   "dec": 1980,
+   "n": 538
+  },
+  {
+   "dec": 1990,
+   "n": 893
+  },
+  {
+   "dec": 2000,
+   "n": 1451
+  },
+  {
+   "dec": 2010,
+   "n": 946
+  },
+  {
+   "dec": 2020,
+   "n": 247
+  }
+ ],
+ "meta": {
+  "page": "https://maps.tristanhotham.com/novel-settings/",
+  "repo": "https://github.com/Tristan-Hotham/novel-settings",
+  "doi": "10.5281/zenodo.23872997",
+  "blog": "https://blog.tristanhotham.com/2026/10/31/novel-settings/",
+  "slug": "novel-settings"
+ },
+ "dist_hist": {
+  "edges": [
+   0,
+   1,
+   2,
+   5,
+   10,
+   20,
+   50,
+   100,
+   200,
+   500,
+   1000,
+   2000,
+   5000,
+   10000,
+   20100
+  ],
+  "n": [
+   776,
+   62,
+   107,
+   100,
+   172,
+   305,
+   373,
+   470,
+   1187,
+   595,
+   605,
+   578,
+   644,
+   173
+  ]
+ },
+ "spot": {
+  "London": {
+   "n": 549,
+   "rank": 1,
+   "all": 786,
+   "pop_m": 8.6
+  },
+  "New York City": {
+   "n": 510,
+   "rank": 2,
+   "all": 813,
+   "pop_m": 19.0
+  },
+  "Paris": {
+   "n": 422,
+   "rank": 3,
+   "all": 877,
+   "pop_m": 9.9
+  },
+  "Pittsburgh": {
+   "n": 98,
+   "rank": 8,
+   "all": 103,
+   "pop_m": 1.8
+  },
+  "Chicago": {
+   "n": 65,
+   "rank": 9,
+   "all": 85,
+   "pop_m": 9.0
+  },
+  "Boston": {
+   "n": 60,
+   "rank": 10,
+   "all": 80,
+   "pop_m": 4.5
+  },
+  "Tokyo": {
+   "n": 24,
+   "rank": 24,
+   "all": 43,
+   "pop_m": 35.7
+  },
+  "Hong Kong": {
+   "n": 18,
+   "rank": 33,
+   "all": 31,
+   "pop_m": 0.0
+  },
+  "Buenos Aires": {
+   "n": 28,
+   "rank": 21,
+   "all": 43,
+   "pop_m": 12.8
+  },
+  "Cairo": {
+   "n": 12,
+   "rank": 53,
+   "all": 20,
+   "pop_m": 11.9
+  },
+  "Mumbai": {
+   "n": 4,
+   "rank": 122,
+   "all": 7,
+   "pop_m": 19.0
+  },
+  "Lagos": {
+   "n": 3,
+   "rank": 142,
+   "all": 6,
+   "pop_m": 9.5
+  },
+  "Copenhagen": {
+   "n": 33,
+   "rank": 19,
+   "all": 108,
+   "pop_m": 1.1
+  },
+  "Toulouse": {
+   "n": 39,
+   "rank": 15,
+   "all": 42,
+   "pop_m": 0.8
+  },
+  "Madrid": {
+   "n": 104,
+   "rank": 7,
+   "all": 240,
+   "pop_m": 5.6
+  },
+  "Rome": {
+   "n": 126,
+   "rank": 6,
+   "all": 212,
+   "pop_m": 3.3
+  },
+  "Los Angeles": {
+   "n": 140,
+   "rank": 4,
+   "all": 179,
+   "pop_m": 12.5
+  },
+  "San Francisco": {
+   "n": 136,
+   "rank": 5,
+   "all": 173,
+   "pop_m": 3.5
+  },
+  "Dublin": {
+   "n": 34,
+   "rank": 18,
+   "all": 50,
+   "pop_m": 1.1
+  },
+  "Kolkata": {
+   "n": 7,
+   "rank": 79,
+   "all": 9,
+   "pop_m": 4.8
+  },
+  "Jakarta": {
+   "n": 8,
+   "rank": 66,
+   "all": 11,
+   "pop_m": 9.1
+  },
+  "Beijing": {
+   "n": 7,
+   "rank": 73,
+   "all": 13,
+   "pop_m": 11.1
+  },
+  "Shanghai": {
+   "n": 4,
+   "rank": 128,
+   "all": 9,
+   "pop_m": 15.0
+  }
+ },
+ "author_facts": {
+  "Georges Simenon": {
+   "novels": 69,
+   "born": "Belgium",
+   "top_city": "Paris",
+   "top_city_n": 38,
+   "top_country": "France",
+   "top_country_n": 62
+  },
+  "Simon Scarrow": {
+   "novels": 32,
+   "born": "Nigeria",
+   "top_city": "Malta",
+   "top_city_n": 1,
+   "top_country": "Italy",
+   "top_country_n": 24
+  },
+  "Ngaio Marsh": {
+   "novels": 10,
+   "born": "New Zealand",
+   "top_city": "London",
+   "top_city_n": 7,
+   "top_country": "United Kingdom",
+   "top_country_n": 8
+  },
+  "Benito Pérez Galdós": {
+   "novels": 52,
+   "born": "Spain",
+   "top_city": "Madrid",
+   "top_city_n": 37,
+   "top_country": "Spain",
+   "top_country_n": 52
+  },
+  "Rex Stout": {
+   "novels": 46,
+   "born": "United States",
+   "top_city": "New York City",
+   "top_city_n": 43,
+   "top_country": "United States",
+   "top_country_n": 46
+  },
+  "Honoré de Balzac": {
+   "novels": 34,
+   "born": "France",
+   "top_city": "Paris",
+   "top_city_n": 25,
+   "top_country": "France",
+   "top_country_n": 32
+  },
+  "P L Travers": {
+   "novels": 7,
+   "born": "Australia",
+   "top_city": "London",
+   "top_city_n": 7,
+   "top_country": "United Kingdom",
+   "top_country_n": 7
+  }
+ }
+}

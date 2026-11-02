@@ -1,0 +1,138 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{fontspec}
+\setmainfont{TeX Gyre Pagella}
+\newfontfamily\headfont{Inter}[UprightFont=*-ExtraBold,BoldFont=*-ExtraBold,Extension=.otf,Path=/usr/share/fonts/opentype/inter/]
+\usepackage[a4paper,margin=2.3cm]{geometry}
+\usepackage{graphicx,booktabs,float,caption,array,xcolor,longtable}
+\usepackage{xurl}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage[round]{natbib}
+\usepackage{setspace}
+\setstretch{1.05}
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\bottomfraction}{0.8}
+\renewcommand{\textfraction}{0.1}
+\renewcommand{\floatpagefraction}{0.75}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.55em}
+\titleformat{\section}{\headfont\Large}{\thesection}{0.8em}{}
+\titleformat{\subsection}{\headfont\large}{\thesubsection}{0.8em}{}
+\captionsetup{font=small,labelfont=bf}
+\urlstyle{same}
+\hypersetup{pdftitle={Where Novels Are Set},pdfauthor={Tristan Hotham}}
+
+\begin{document}
+\begin{center}
+{\Large\bfseries Where Novels Are Set\par}
+\vspace{0.4em}
+{\large Mapping the real places of fiction in Wikidata:\\{{source.novels|int}} novels, {{source.works|int}} literary works and the distance from their authors' birthplaces\par}
+\vspace{1.2em}
+{\large Tristan Hotham\par}
+\vspace{0.3em}
+{\small Independent researcher\\
+ORCID: 0000-0003-4931-9349\\
+DOI: \href{https://doi.org/{{meta.doi}}}{https://doi.org/{{meta.doi}}}\par}
+\vspace{0.8em}
+2026
+\end{center}
+
+\begin{quote}
+\small
+\begin{center}\textbf{Abstract}\end{center}
+I map the narrative locations recorded in Wikidata for every literary work whose setting has coordinates: {{source.works|int}} works, of which {{source.novels|int}} are novels, set in {{source.places|int}} distinct real places. Three city areas dominate the novels: London ({{spot.London.n|int}} novels), New York ({{spot.New York City.n|int}}) and Paris ({{spot.Paris.n|int}}), which together appear in {{city_top3_pct|f1}}\% of them. Their shares have changed over two centuries: Paris is the setting of {{trio20.0.Paris_pct|int}}\% of mapped novels first published from 1830 to 1849, London leads from 1910 to 1949, New York from 1950 to 1989, and London again since 1990. For {{home.n|int}} novels with a known author birthplace and setting country, {{home.home_pct|f1}}\% are set entirely within the present-day country of the author's birth; the median distance from birthplace to setting is {{home.median_km|int}} km and {{home.within_50|f1}}\% of settings lie within 50 km of it. Europe, with {{continents.Europe.pop_pct|f1}}\% of the world's population, has {{continents.Europe.novels_pct|f1}}\% of the novels; Asia, with {{continents.Asia.pop_pct|f1}}\%, has {{continents.Asia.novels_pct|f1}}\%. Coverage is strongly shaped by contributors: Denmark, with {{bias.DNK.pop_pct|f2}}\% of the world's people, holds {{bias.DNK.places_pct|f1}}\% of all distinct setting places, more than any other country, and Serbia {{bias.SRB.places_pct|f1}}\%. The results describe what Wikidata records rather than world literature, and I quantify that difference where I can.
+
+\textbf{Keywords:} literary geography; novels; narrative location; Wikidata; distant reading; digital humanities; open data; mapping
+\end{quote}
+
+\section{Introduction}
+Literary geography asks where stories happen and why \citep{moretti1998}. Most work in the field studies a single author, city or national literature, because assembling the settings of many books by hand is slow. Wikidata, the collaboratively edited knowledge base behind Wikipedia, now records a narrative location (property P840) for thousands of works, each linked to a place item that usually has coordinates. That makes it possible to draw a world map of fictional settings at the scale of thousands of books, and to ask simple comparative questions. Which cities does fiction favour? How has that changed over time? How far do authors travel from where they were born? Which parts of the world are written about least?
+
+The same data also raise a methodological question. Wikidata is assembled by volunteers, some working through organised projects that add whole national literatures at once. A map of its narrative locations is therefore partly a map of where that effort has gone. I treat this as a finding in its own right and quantify it (Section~\ref{sec:bias}).
+
+\section{Data}
+A single query, run with the QLever SPARQL engine \citep{qlever} against Wikidata \citep{wikidata} in {{source.extract_year|raw}}, returned every item that is an instance of a subclass of literary work (Q7725634) and has a narrative location whose item has coordinates (P625), with the item's English label, publication date (P577), authors (P50), the coordinates of each author's place of birth (P19), sitelinks and language (P407): {{source.rows|int}} rows for {{source.works_all|int}} works. Further queries supplied each work's classes (P31), genres (P136), country of origin (P495), languages, form of creative work (P7937), sitelinks and English Wikipedia article, and each place's classes and country (P17). {{source.offworld_pairs|int}} work and place pairs have coordinates on the Moon or Mars; these {{source.offworld_only|int}} works set only off Earth are counted but not mapped, leaving {{source.works|int}} works with {{source.pairs|int}} settings on Earth in {{source.places|int}} places. Country outlines, populations and populated places are from Natural Earth \citep{naturalearth}.
+
+\section{Methods}
+\subsection{Novels}
+A work is a novel if its form of creative work is novel or novella, or if it is an instance of a class whose English label contains ``novel'' (for example graphic novel or unfinished novel). This gives {{source.novel_form|int}} works by form and {{source.novel_type_only|int}} more by class. I make two exceptions: Wikidata files each of the {{source.decameron|int}} tales of the Decameron as a ``novella in the Decameron'', and gives the Odyssey's form as novel. Neither is a novel in the usual sense, and both are kept among the literary works only. The result is {{source.novels|int}} novels. The other {{source.other|int}} literary works are mainly plays, short stories, operas and other narratives.
+
+\subsection{Places}
+Each place is assigned a level from its Wikidata classes: city or town ({{levels.places.city|int}} places), site or part of a city such as a street, building or neighbourhood ({{levels.places.site|int}}), wider area such as a state, county, island or region ({{levels.places.region|int}}), country, former state or civilisation ({{levels.places.country|int}}), and continent, ocean or world region ({{levels.places.large|int}}). Places in classes containing ``fictional'' or ``phantom'' ({{source.fictional_places|int}}, such as Arkham or 221B Baker Street) are flagged and excluded from claims about real places. A place's country is the present-day Natural Earth country containing its point (or the nearest within 0.3 degrees); for country-level items the matching Natural Earth country. City areas group every city or site within 25 km of a Natural Earth populated place of at least 250,000 people with that place. ``Set in'' a city, country or continent means that at least one of the work's settings is there.
+
+\subsection{Home and abroad}
+An author's home country is the present-day country of their birthplace coordinates. A novel is set at home if all its settings with a country lie in the home country of one of its authors, and abroad otherwise. Distances are great-circle distances from each point setting (city, site or area) to the nearest of the work's authors' birthplaces. Birthplace is not nationality: writers born in colonies, empires or before border changes are assigned to today's country of their birthplace.
+
+\subsection{Genres, periods and fame}
+Genres are grouped by regular expressions on Wikidata's genre labels into crime and mystery, science fiction, fantasy, historical fiction, horror and gothic, and children's and young adult fiction. The publication year is the earliest recorded publication date. The number of Wikipedia language editions with an article on a work (sitelinks) is used as a rough measure of fame.
+
+\section{Results}
+\subsection{Where novels are set}
+Figure~\ref{fig:map} maps the novels' settings. {{levels.novels_with_point|int}} novels ({{levels.novels_with_point_pct|f1}}\%) have at least one city, site or area; {{levels.novels_country_only|int}} name only a country or larger area. Table~\ref{tab:cities} lists the leading city areas. London ({{spot.London.n|int}}), New York ({{spot.New York City.n|int}}) and Paris ({{spot.Paris.n|int}}) are far ahead of Los Angeles ({{spot.Los Angeles.n|int}}), San Francisco ({{spot.San Francisco.n|int}}), Rome ({{spot.Rome.n|int}}) and Madrid ({{spot.Madrid.n|int}}). Counting all literary works, Paris leads ({{spot.Paris.all|int}}). Prolific authors shape the ranking: Pérez Galdós accounts for {{author_facts.Benito Pérez Galdós.top_city_n|int}} of Madrid's novels, Rex Stout for {{author_facts.Rex Stout.top_city_n|int}} of New York's and Simenon for {{author_facts.Georges Simenon.top_city_n|int}} of Paris's. Pittsburgh ranks eighth ({{spot.Pittsburgh.n|int}}), ahead of Chicago ({{spot.Chicago.n|int}}); Mumbai has {{spot.Mumbai.n|int}} and Lagos {{spot.Lagos.n|int}}. By country, the United States has {{country.USA.n|int}} novels and the United Kingdom {{country.GBR.n|int}}; together they appear in {{usa_gbr_pct|f1}}\% of all novels.
+
+\begin{figure}[tbp]\centering\includegraphics[width=\textwidth]{f_map.png}
+\caption{Novels' settings in Wikidata. Filled circles: city areas, towns and sites; rings: wider areas. Circle area is proportional to the number of novels. Inset: Europe at the same circle scale.}\label{fig:map}\end{figure}
+
+{{TABLE_CITIES}}
+
+\subsection{London, Paris and New York over time}
+Figure~\ref{fig:trio} shows each city's share of novels with a mapped place by twenty-year period of first publication. Paris is the setting of {{trio20.0.Paris_pct|f1}}\% of novels published from 1830 to 1849 (n = {{trio20.0.n|int}}), when London has {{trio20.0.London_pct|f1}}\% and New York {{trio20.0.New York_pct|f1}}\%. London and Paris are level from 1890 to 1909, London leads from 1910 to 1949, New York from 1950 to 1989 ({{trio20.6.New York_pct|f1}}\% from 1950 to 1969), and London again since 1990 ({{trio20.8.London_pct|f1}}\% from 1990 to 2009). Paris falls to {{trio20.8.Paris_pct|f1}}\% from 1990 to 2009. All three shares decline in the most recent period as the settings of recent novels spread over many more places.
+
+\begin{figure}[tbp]\centering\includegraphics[width=\textwidth]{f_trio.png}
+\caption{Share of novels with a mapped place set at least partly in London, Paris and New York, by period of first publication.}\label{fig:trio}\end{figure}
+
+\subsection{Home and abroad}
+Of {{home.n|int}} novels with a home country and a setting country, {{home.abroad|int}} ({{home.abroad_pct|f1}}\%) are set at least partly abroad and {{home.only_abroad|int}} ({{home.only_abroad_pct|f1}}\%) entirely abroad. Across {{home.pairs|int}} novel and point-setting pairs, the median distance from the author's birthplace is {{home.median_km|int}} km (mean {{home.mean_km|int}} km); {{home.within_50|f1}}\% lie within 50 km, {{home.within_500|f1}}\% within 500 km and {{home.over_5000|f1}}\% beyond 5,000 km (Figure~\ref{fig:home}). The share abroad ranges by period from {{home_eras.0.abroad_pct|int}}\% for novels published from 1800 to 1849 to {{home_eras.2.abroad_pct|int}}\% from 1900 to 1949 and {{home_eras.4.abroad_pct|int}}\% since 2000. Table~\ref{tab:home} gives the share by birth country. The highest shares reflect the gap between birthplace and nationality: writers born in present-day Ukraine ({{home_country.UKR.abroad_pct|int}}\%), Belgium ({{home_country.BEL.abroad_pct|int}}\%, chiefly Simenon) and Australia ({{home_country.AUS.abroad_pct|int}}\%). American-born writers set {{home_country.USA.abroad_pct|f1}}\% of their novels abroad and British-born writers {{home_country.GBR.abroad_pct|f1}}\%. The longest single journey is Ngaio Marsh's, from Christchurch to {{farthest.0.place|raw}} in {{farthest.0.title|raw}} ({{farthest.0.km|int}} km); among {{authors_far_n|int}} authors with at least three mapped novels, Marsh (median {{authors_far.0.median_km|int}} km) and P. L. Travers ({{authors_far.1.median_km|int}} km) travel furthest.
+
+\begin{figure}[tbp]\centering\includegraphics[width=\textwidth]{f_home.png}
+\caption{Left: distance from the author's birthplace to each point setting of a novel (log scale). Right: share of novels set at least partly abroad, by present-day country of the author's birthplace (at least 40 novels).}\label{fig:home}\end{figure}
+
+{{TABLE_HOME}}
+
+\subsection{Genres}
+Figure~\ref{fig:genres} gives the leading cities for each genre group. Crime and mystery ({{genres.Crime and mystery.n|int}} novels) is led by Paris ({{genres.Crime and mystery.cities.0.1|int}}), London ({{genres.Crime and mystery.cities.1.1|int}}) and New York ({{genres.Crime and mystery.cities.2.1|int}}); relative to all novels it is over-represented in {{genres.Crime and mystery.lift.0.0|raw}}, {{genres.Crime and mystery.lift.1.0|raw}}, {{genres.Crime and mystery.lift.2.0|raw}} and {{genres.Crime and mystery.lift.3.0|raw}}. Science fiction with a real setting ({{genres.Science fiction.n|int}}) goes mostly to New York and London, and is {{genres.Science fiction.lift.0.2|f1}} times as likely as the average novel to be set in San Francisco; {{genres.Science fiction.usa_pct|f1}}\% of it is set at least partly in the United States. Fantasy ({{genres.Fantasy.n|int}}) is led by London ({{genres.Fantasy.cities.0.1|int}}), and historical fiction ({{genres.Historical.n|int}}) by Paris, London and New York, with Italy ({{genres.Historical.countries.2.1|int}} novels) prominent among countries. {{offworld.moon_works|int}} works are set at least partly on the Moon and {{offworld.mars_works|int}} on Mars.
+
+\begin{figure}[tbp]\centering\includegraphics[width=\textwidth]{f_genres.png}
+\caption{Leading city areas for each genre group. A novel may belong to more than one group.}\label{fig:genres}\end{figure}
+
+\subsection{Continents and population}
+Figure~\ref{fig:conts} and Table~\ref{tab:conts} compare the share of novels set in each continent with its share of world population. Europe has {{continents.Europe.per_10m|f1}} novels per 10 million people, North America {{continents.North America.per_10m|f1}}, South America {{continents.South America.per_10m|f1}}, Africa {{continents.Africa.per_10m|f1}} and Asia {{continents.Asia.per_10m|f1}}. Among countries of 50 million people or more the least mapped are Bangladesh ({{undermapped.0.n|int}} novels), the Philippines ({{undermapped.1.n|int}}), the Democratic Republic of the Congo ({{undermapped.2.n|int}}), Myanmar ({{undermapped.3.n|int}}) and Pakistan ({{undermapped.4.n|int}}). {{countries_none_n10m|int}} countries of more than 10 million people have no mapped novel.
+
+\begin{figure}[tbp]\centering\includegraphics[width=\textwidth]{f_conts.png}
+\caption{Share of novels with a setting in each continent (a novel may count for several) against share of world population.}\label{fig:conts}\end{figure}
+
+{{TABLE_CONTS}}
+
+\subsection{Coverage and contributors}\label{sec:bias}
+Counting distinct places rather than novels exposes the effect of individual cataloguing efforts (Figure~\ref{fig:bias}). Denmark has {{bias.DNK.places|int}} distinct setting places ({{bias.DNK.places_pct|f1}}\% of all), more than the United States ({{bias.USA.places|int}}), and {{bias.dnk_vs.dnk_x_pop|int}} times its share of world population; China and India together have {{bias.dnk_vs.chn_ind_places|int}}. Works in Danish average {{bias_lang.6.per_work|f2}} settings each against {{bias_lang.0.per_work|f2}} for English; one Danish novel, {{danish.top_work|raw}}, lists {{danish.top_work_places|int}} places, and {{danish.dnk_places_from_danish_pct|f1}}\% of Denmark's places come from works in Danish. {{streets_dnk|int}} of the {{n_streets|int}} streets and squares in the data are in Denmark. Serbia has {{bias.SRB.places|int}} places ({{bias.dnk_vs.srb_x_pop|int}} times its population share), {{serbian.srb_places_from_serbian_pct|f1}}\% from works in Serbian, which average {{bias_lang.7.per_work|f2}} settings and were {{serbian.pre1930_pct|f1}}\% published before 1930. The novel counts used elsewhere are much less affected: Denmark has {{country.DNK.n|int}} mapped novels and Serbia {{country.SRB.n|int}}. Smaller clusters, such as Pittsburgh's {{spot.Pittsburgh.n|int}} novels and Toulouse's {{spot.Toulouse.n|int}}, show the same effect at city scale.
+
+\begin{figure}[tbp]\centering\includegraphics[width=\textwidth]{f_bias.png}
+\caption{Distinct setting places by country, all literary works, with each country's share of world population.}\label{fig:bias}\end{figure}
+
+\subsection{Fame and extremes}
+The best-known novel in the data by sitelinks is {{most_linked.0.title|raw}} ({{most_linked.0.links|int}} language editions), followed by {{most_linked.1.title|raw}} ({{most_linked.1.links|int}}) and {{most_linked.2.title|raw}} ({{most_linked.2.links|int}}). Table~\ref{tab:famous} lists the best-known novel set at least partly in each of the leading countries; well-travelled books win in many places (Robinson Crusoe in Venezuela, The Alchemist in Egypt). The most remote real setting, measured as distance to the nearest city of a million people, is the {{remote.0.label|raw}} ({{remote.0.km|int}} km), followed by islands of French Polynesia ({{remote.1.label|raw}}, {{remote.1.km|int}} km). The northernmost setting is the {{north.0.label|raw}}. The street with the most works is {{streets.0.label|raw}} in {{streets.0.city|raw}} ({{streets.0.works|int}}), and the single site is {{buildings.0.label|raw}} ({{buildings.0.works|int}}).
+
+{{TABLE_FAMOUS}}
+
+\section{Limitations}
+First, this is a study of Wikidata, not of literature: a work enters only if someone has recorded a narrative location with coordinates, and the records favour books with Wikipedia articles, English labels ({{source.no_english_label|int}} works have none) and active national projects. Second, settings are often partial, and their precision varies from a street to a whole country; some records use a state (New York) where the city is meant. Third, levels, genres and novel status are derived from Wikidata's classes by rules that will misclassify some items. Fourth, home countries use present-day borders and birthplaces, not nationality. Fifth, publication years are the earliest recorded, and recent decades are far better covered than earlier ones (Figure~\ref{fig:decades}).
+
+\begin{figure}[tbp]\centering\includegraphics[width=\textwidth]{f_decades.png}
+\caption{Novels in the data by decade of first publication.}\label{fig:decades}\end{figure}
+
+\section{Conclusion}
+The settings Wikidata records for {{source.novels|int}} novels describe a fiction that is metropolitan, Euro-American and close to home. Three cities account for about a fifth of the novels, their order has shifted from Paris to London to New York and back to London, and most authors set their stories within a few hundred kilometres of where they were born. The same map shows how strongly open knowledge bases reflect the work of their contributors: a dedicated Danish effort has made Denmark the most finely mapped literary landscape on Earth, while most of Asia and Africa remains thin. Both are worth knowing, and both can change as the data grow.
+
+\section*{Data and code availability}
+The interactive map is at \url{{{meta.page}}}. Data and code are at \url{{{meta.repo}}} and archived with this paper at \url{https://doi.org/{{meta.doi}}}. Derived data are released under CC BY 4.0 and code under the MIT licence. Wikidata is CC0.
+
+\section*{AI statement}
+I wrote the text, with drafting and editing assistance from Claude (Anthropic), which also helped prepare the analysis code. I reviewed and checked all text and results.
+
+\begin{thebibliography}{9}
+\bibitem[Bast and Buchhold(2017)]{qlever} Bast, H. and Buchhold, B. (2017) QLever: a query engine for efficient SPARQL+Text search. Proceedings of CIKM 2017, 647 to 656.
+\bibitem[Moretti(1998)]{moretti1998} Moretti, F. (1998) Atlas of the European Novel 1800 to 1900. London: Verso.
+\bibitem[Natural Earth(2026)]{naturalearth} Natural Earth (2026) Admin 0 countries and populated places, 1:50m and 1:10m. Public domain. \url{https://www.naturalearthdata.com/}
+\bibitem[Vrande\v{c}i\'{c} and Kr\"{o}tzsch(2014)]{wikidata} Vrande\v{c}i\'{c}, D. and Kr\"{o}tzsch, M. (2014) Wikidata: a free collaborative knowledgebase. Communications of the ACM 57(10), 78 to 85. CC0 data at \url{https://www.wikidata.org/}
+\end{thebibliography}
+\end{document}
