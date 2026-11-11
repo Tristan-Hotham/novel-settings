@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this data or code, please cite it as below."
+title: "Where Novels Are Set: Mapping the Real Places of Fiction in Wikidata"
+type: dataset
+authors:
+  - family-names: Hotham
+    given-names: Tristan
+    orcid: "https://orcid.org/0000-0003-4931-9349"
+    affiliation: "Independent researcher"
+doi: "10.5281/zenodo.23872997"
+url: "https://maps.tristanhotham.com/novel-settings/"
+repository-code: "https://github.com/Tristan-Hotham/novel-settings"
+license: CC-BY-4.0
+keywords:
+  - "literary geography"
+  - "novels"
+  - "narrative location"
+  - "fictional settings"
+  - "Wikidata"
+  - "distant reading"
+  - "digital humanities"
+  - "open data"
+  - "maps"
